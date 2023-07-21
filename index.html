@@ -5,26 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Муцуна</title>
+    <link rel="icon" href="./css/img/mutsuna-logo-round-nose.png">
     <link rel="stylesheet" href="./css/style.css" />
+
 </head>
 
 <body>
     <!-- HEADER -->
     <header class="header-section">
         <div id="header-container">
-    <!-- HEADER LOGO -->
+                 <!-- HEADER LOGO -->
             <div id="header-sidebranding">
-                <a href="">
-                    <img src="./css/img/logo-mucuna.png"  class="site-logo">
+                <a href="./index.html" class="no-dec">
+                    <img src="./css/img/mutsuna-logo-NEW.png"  class="site-logo">
                 </a>
+                <a href="./index.html" class="no-dec">
                     <div class="site-url">
                         <img class="site-url-img" src="./css/img/logo-background-image.png">
                         <span class="site-url-text fs27 tshadow">mutsuna.com</span>
                     </div>
+                </a>
+                <a href="./index.html" class="no-dec" id="a-mobile-site-logo">
+                    <img src="./css/img/mutsuna-logo-REAL.png"  class="mobile-site-logo">
+                </a>
             </div>
-    <!-- HEADER NAVIGATION -->
+
+                <!-- HEADER NAVIGATION -->
             <div id="header-navigation">
-                <ul class="menu">  
+                <ul class="menu">
                     <li class="menu-item">
                         <a href="what-for-you.html">Кое е за теб?</a>
                         <div class="menu-panel">
@@ -119,15 +127,93 @@
                     <li class="menu-item">Заболявания</li>
                 </ul>
             </div>
-            <div class="plr32">
+
+            <!-- SEARCH BOX -->
+            <div id="search-tool">
                 <form>
                     <input id="search-input" placeholder="Search">
-                    <img src="./css/img/search.png" class="button-search">
+                    <img src="./css/img/blue-search.png" class="button-search">
                 </form>
             </div>
+
+            <div class="mobile-burger">
+                <div class="burger-icon" id="burger-icon1">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <span></span>
+            </div>
+
+            <!-- <button class="menu1" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                          <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                          <path class="line line2" d="M 20,50 H 80" />
+                          <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                        </svg>
+                      </button> -->
         </div>
-        
+
+        <!-- MOBILE NAVIGATION -->
+        <div id="mobile-navigation" class="hidden">
+            <button type="button" id="buttonWhich" class="MENUBUTTON">
+                <span>Кое е за теб?</span>
+                <a class="arrow-icon--aboutus">
+                    <span class="left-bar--aboutus"></span>
+                    <span class="right-bar--aboutus"></span>
+                </a>
+            </button>
+
+            <button type="button" id="buttonCats" class="MENUBUTTON">
+                <span>За котки</span>
+                <a class="arrow-icon">
+                    <span class="left-bar"></span>
+                    <span class="right-bar"></span>
+                </a>
+            </button>
+
+            <!-- ЗА КОТКИ -->
+            <div id="mobile-navigation--cats">
+                <button class="MENUBUTTON">Приспособяване в новия дом</button>
+                <button class="MENUBUTTON">Как да се грижа за котка?</button>
+                <button class="MENUBUTTON">
+                    <a href="growth.html" class="no-dec">Растеж и развитие</a>
+                </button>
+                <button class="MENUBUTTON">Хранене</button>
+                <button class="MENUBUTTON">Медицински грижи</button>
+                <button class="MENUBUTTON">Заболявания</button>
+            </div>
+
+            <button type="button" id="buttonDogs" class="MENUBUTTON">
+                <span>За кучета</span>
+                <a class="arrow-icon--dogs">
+                    <span class="left-bar--dogs"></span>
+                    <span class="right-bar--dogs"></span>
+                </a>
+            </button>
+
+            <!-- ЗА КУЧЕТА -->
+            <div id="mobile-navigation--dogs">
+                <button class="MENUBUTTON">Приспособяване в новия дом</button>
+                <button class="MENUBUTTON">Как да се грижа за куче?</button>
+                <button class="MENUBUTTON">
+                    <a href="growth.html" class="no-dec">Растеж и развитие</a>
+                </button>
+                <button class="MENUBUTTON">Хранене</button>
+                <button class="MENUBUTTON">Медицински грижи</button>
+                <button class="MENUBUTTON">Заболявания</button>
+            </div>
+
+            <button type="button" id="buttonForUs" class="MENUBUTTON">
+                <span class="bold dark-orange fs16">За нас</span>
+            </button>
+        </div>
+                     
+    
     </header>
+
+ 
 
     <div class="content">
 
@@ -159,13 +245,17 @@
             
             <div id="footer-row">
                 <div class="footer-box">
-                    <img src="./css/img/footer-home.png" class="footer-icon">
-                    <div class="footer-icon-text">Начало</div>
+                    <a href="./index.html" class="no-dec">
+                        <img src="./css/img/footer-home.png" class="footer-icon">
+                        <div class="footer-icon-text">Начало</div>
+                    </a>
                 </div>
 
                 <div class="footer-box">
-                    <img src="./css/img/footer-information.png" class="footer-icon">
-                    <div class="footer-icon-text">За нас</div>
+                    <a href="about-us.html" class="no-dec">
+                        <img src="./css/img/footer-information.png" class="footer-icon">
+                        <div class="footer-icon-text">За нас</div>
+                    </a>
                 </div>
 
                 <div class="footer-box">
@@ -197,17 +287,11 @@
                       </div>
                 </div> -->
 
-
-
-
-
-
-
-
-
                 <div class="footer-box">
-                    <img src="./css/img/footer-facebook.png" class="footer-icon">
-                    <div class="footer-icon-text">Фейсбук</div>
+                    <a href="https://www.facebook.com/mutsunacom/" class="no-dec">
+                        <img src="./css/img/footer-facebook.png" class="footer-icon">
+                        <div class="footer-icon-text">Фейсбук</div>
+                    </a>
                 </div>
 
             </div>
@@ -221,6 +305,10 @@
             </div>
         </div>
     </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.7.0.slim.js"
+  integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c="
+  crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 </html>

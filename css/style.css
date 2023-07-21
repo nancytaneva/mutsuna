@@ -56,7 +56,9 @@
     width: 65px;
 }
 
-
+.mobile-site-logo {
+    display: none;
+}
 
 
 
@@ -145,6 +147,10 @@
     width: 80px;
     height: 24px;
     padding: 0px 6px;
+}
+
+#search-tool {
+    padding: 0px 32px 0px 32px;
 }
 
 .button-search {
@@ -345,5 +351,306 @@
 
 .no-dec {
     text-decoration: none;
-    color: #dce0e0;
+    color: inherit;
+}
+
+#mobile-navigation {
+    display: none;
+}
+
+@media (max-width: 1482px) {
+
+    * {
+        overflow-x: hidden; 
+    }
+
+    .header-section {
+        background-color: #e1dddd;
+        padding: 0px 0px;
+        margin: 0;
+    }
+
+    #header-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        border-top: 0px;
+        padding: 0.5rem;
+        background-color: #f2f2f2;
+    }
+
+    #header-sidebranding {
+        padding: 0px 15px;
+        margin: 0 auto 0 0;
+    }
+
+    .site-url {
+        display: none;
+    }
+
+    .site-logo {
+        display: none;
+    }
+
+    .mobile-site-logo {
+        display: flex;
+        max-width: 100%;
+        height: auto;
+        vertical-align: top;
+    }
+
+    #a-mobile-site-logo {
+        margin-right: auto;
+        max-width: 180px;
+    }
+
+
+
+    #search-tool {
+        padding: 0px;
+    }
+
+    #search-input {
+        display: none;
+    }
+
+    .button-search {
+        position: relative;
+        top: inherit;
+        right: inherit;
+        opacity: 1;
+        height: 30px;
+        width: 46px;
+        padding: 0px!important;
+        object-fit: contain;
+    }
+    
+
+
+    /* PROBLEM */
+/* Hide the navigation menu by default */
+/* #mobile-navigation {
+    display: block;
+} */
+
+/* Add a class to handle the hidden state */
+/* .hidden {
+    max-height: 0;
+} */
+/* 
+max-height: calc(4*3rem + 2*288px); */
+
+    
+
+    .mobile-burger {
+        width: 35px;
+        height: 30px;
+    }
+
+    .component-header-mobile .top-area .mobile-burger .burger-icon {
+        width: 38px;
+        height: 48px;
+        position: relative;
+        margin: 0 auto;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        transition: .5s ease-in-out;
+        cursor: pointer;
+    }
+
+    .component-header-mobile .top-area .mobile-burger .burger-icon span:nth-child(1) {
+        top: 10px;
+    }
+
+    .mobile-burger .burger-icon span:nth-child(2), .component-header-mobile .top-area .mobile-burger .burger-icon span:nth-child(3) {
+        top: 23px;
+    }
+
+    .mobile-burger .burger-icon span:nth-child(4) {
+        top: 36px;
+    }
+
+    .mobile-burger .burger-icon span {
+        display: block;
+        position: absolute;
+        height: 4px;
+        width: 35px;
+        background: #005f60;
+        border-radius: 9px;
+        opacity: 1;
+        right: 0.5rem;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        transition: .25s ease-in-out;
+    }
+
+    .mobile-burger span {
+        display: none;
+    } 
+
+
+
+/* NAVIGATION */
+    #header-navigation {
+        display: none;
+        transition: height 0.3s;
+    }
+
+    #mobile-navigation span {
+        font-weight: bolder;
+        color: #fd5901;
+        font-size: 18px;
+    }
+
+    #mobile-navigation--cats, #mobile-navigation--dogs {
+        display: none;
+        transition: height 0.3s;
+    }
+
+    .MENUBUTTON {
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+        font-size: 0.9rem;
+        padding: 0px 20px;
+    }
+
+
+
+/* ARROW MENU CAT */
+    .arrow-icon, .arrow-icon--dogs, .arrow-icon--aboutus {
+        background-color: transparent;
+        height: 35px;
+        width: 35px;
+        display: block;
+        position: relative;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+      
+      .left-bar, .left-bar--dogs, .left-bar--aboutus {
+        position: absolute;
+        background-color: transparent;
+        top: 15px;
+        left: 0;
+        width: 20px;
+        height: 5px;
+        display: block;
+        transform: rotate(35deg);
+        float: right;
+        border-radius: 2px;
+        overflow: visible!important
+      }
+      .left-bar:after, .left-bar--dogs:after, .left-bar--aboutus:after {
+        content: "";
+        background-color: lightcoral;
+        width: 20px;
+        height: 5px;
+        display: block;
+        float: right;
+        border-radius: 6px 10px 10px 6px;
+        transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 0.8);
+        z-index: -1;
+      }
+      
+      .right-bar, .right-bar--dogs, .right-bar--aboutus {
+        position: absolute;
+        background-color: transparent;
+        top: 15px;
+        left: 13px;
+        width: 20px;
+        height: 5px;
+        display: block;
+        transform: rotate(-35deg);
+        float: right;
+        border-radius: 2px;
+        overflow: visible!important
+      }
+      .right-bar:after, .right-bar--dogs:after, .right-bar--aboutus:after {
+        content: "";
+        background-color: lightcoral;
+        width: 20px;
+        height: 5px;
+        display: block;
+        float: right;
+        border-radius: 10px 6px 6px 10px;
+        transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 0.8);
+        z-index: -1;
+      }
+      
+      .open .left-bar:after, .open .left-bar--dogs:after, .open .left-bar--aboutus:after {
+        transform-origin: center center;
+        transform: rotate(-70deg);
+      }
+      .open .right-bar:after, .open .right-bar--dogs:after, .open .right-bar--aboutus:after {
+        transform-origin: center center;
+        transform: rotate(70deg);
+      }
+    
+    
+
+
+
+
+
+
+    /* ЗА ДЖИДЖАВИЯ БУТОН
+    .menu1 {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        padding: 0;
+      }
+      .line {
+        fill: none;
+        stroke: black;
+        stroke-width: 6;
+        transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+          stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .line1 {
+        stroke-dasharray: 60 207;
+        stroke-width: 6;
+      }
+      .line2 {
+        stroke-dasharray: 60 60;
+        stroke-width: 6;
+      }
+      .line3 {
+        stroke-dasharray: 60 207;
+        stroke-width: 6;
+      }
+      .opened .line1 {
+        stroke-dasharray: 90 207;
+        stroke-dashoffset: -134;
+        stroke-width: 6;
+      }
+      .opened .line2 {
+        stroke-dasharray: 1 60;
+        stroke-dashoffset: -30;
+        stroke-width: 6;
+      }
+      .opened .line3 {
+        stroke-dasharray: 90 207;
+        stroke-dashoffset: -134;
+        stroke-width: 6;
+      } */
+      
+
+
+
+
+#footer-mission {
+    padding: 24px;
+}
+
+#footer-row {
+    padding: 10px;
+}
+
+
 }
