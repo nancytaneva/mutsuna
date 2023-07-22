@@ -124,3 +124,60 @@ $(".arrow-icon--dogs").click(function() {
 
 
 
+
+
+
+
+// CONTENT
+// EMAIL
+function sendByEmail() {
+  const subject = "Сайт за по-добра грижа към домашните ни любимци"; 
+  const body = "Здравей, този сайт цели да подпомогне стопаните да се грижат по-добре за своите мили любимци - mustsuna.com. Посети го.";
+
+  const mailtoLink = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  window.location.href = mailtoLink;
+}
+
+// PRINT
+function printContent() {
+  window.print();
+}
+
+// FACEBOOK
+window.fbAsyncInit = function() {
+  FB.init({
+    appId: '599719842052630',
+    autoLogAppEvents: true,
+    xfbml: true,
+    version: 'v13.0'
+  });
+};
+
+document.getElementById('postFacebookBtn').addEventListener('click', function() {
+  FB.ui({
+    method: 'share',
+    href: 'https://nancytaneva.github.io/',
+  }, function(response) {
+    // Handle the response if needed
+  });
+});
+
+
+// MESSENGER
+window.fbAsyncInit = function() {
+  FB.init({
+    appId: '599719842052630',
+    autoLogAppEvents: true,
+    xfbml: true,
+    version: 'v13.0'
+  });
+};
+
+document.getElementById('shareMessengerBtn').addEventListener('click', function() {
+  FB.ui({
+    method: 'send',
+    link: 'https://nancytaneva.github.io/',
+  }, function(response) {
+    // Handle the response if needed
+  });
+});

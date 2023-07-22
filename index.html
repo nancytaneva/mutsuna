@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Муцуна</title>
-    <link rel="icon" href="./css/img/mutsuna-logo-round-nose.png">
+    <link rel="icon" href="./css/img/mutsuna-logo-round-nose-DARK.png">
     <link rel="stylesheet" href="./css/style.css" />
 
 </head>
@@ -204,9 +204,11 @@
                 <button class="MENUBUTTON">Заболявания</button>
             </div>
 
-            <button type="button" id="buttonForUs" class="MENUBUTTON">
-                <span class="bold dark-orange fs16">За нас</span>
-            </button>
+            <a href="./about-us.html" class="no-dec">
+                <button type="button" id="buttonForUs" class="MENUBUTTON">
+                    <span class="bold dark-orange fs16">За нас</span>
+                </button>
+            </a>
         </div>
                      
     
@@ -215,6 +217,36 @@
  
 
     <div class="content">
+
+        <div class="share-with-others">
+            <div class="share-with-others-text">Помогни на повече стопани да се грижат правилно за своите мили любимци:</div>
+            <div class="share-panel">
+                <div id="postFacebookBtn" class="share-box">
+                    <img src="./css/img/Facebook_f_logo.png" class="share-icon">
+                    <div class="share-text">Сподели във Фейсбук</div>
+                </div>
+                
+                <div id="shareMessengerBtn" class="share-box">
+                    <img src="./css/img/Facebook_Messenger_logo.png" class="share-icon">
+                    <div class="share-text">Сподели в Месинджър</div>
+                </div>
+
+                <div id="sendByEmail" onclick="sendByEmail()" class="share-box">
+                    <img src="./css/img/email-logo.png" class="share-icon">
+                    <div class="share-text">Изпрати по имейл</div>
+                </div>
+                
+                <div id="sendByEmail" onclick="printContent()" class="share-box">
+                    <img src="./css/img/print-logo.png" class="share-icon">
+                    <div class="share-text">Принтирай</div>
+                </div>
+
+            </div>
+        </div>
+        
+
+
+
 
 
     </div>
@@ -288,10 +320,17 @@
             </div>
         </div>
     </footer>
+
+
+
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+    
+    
     <script
-  src="https://code.jquery.com/jquery-3.7.0.slim.js"
-  integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c="
-  crossorigin="anonymous"></script>
+        src="https://code.jquery.com/jquery-3.7.0.slim.js"
+        integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c="
+        crossorigin="anonymous"></script>
+
     <script src="script.js"></script>
 </body>
 </html>

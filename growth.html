@@ -1,11 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Муцуна</title>
+    <link rel="icon" href="./css/img/mutsuna-logo-round-nose.png">
+    <link rel="stylesheet" href="./css/style.css" />
+
 </head>
+
 <body>
-    <div>Растеж и развитие</div>
+    <!-- HEADER -->
+    <header class="header-section">
+        <div id="header-container">
+                 <!-- HEADER LOGO -->
+            <div id="header-sidebranding">
+                <a href="./index.html" class="no-dec">
+                    <img src="./css/img/mutsuna-logo-NEW.png"  class="site-logo">
+                </a>
+                <a href="./index.html" class="no-dec">
+                    <div class="site-url">
+                        <img class="site-url-img" src="./css/img/logo-background-image.png">
+                        <span class="site-url-text fs27 tshadow">mutsuna.com</span>
+                    </div>
+                </a>
+                <a href="./index.html" class="no-dec" id="a-mobile-site-logo">
+                    <img src="./css/img/mutsuna-logo-REAL.png"  class="mobile-site-logo">
+                </a>
+            </div>
+
+                <!-- HEADER NAVIGATION -->
+            <div id="header-navigation">
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="what-for-you.html">Кое е за теб?</a>
+                        <div class="menu-panel">
+
+                        </div>
+                    </li>
+                    <li class="menu-item">Приспособяване в новия дом</li>
+                    <li class="menu-item">Как да се грижа?</li>
+                    <li class="menu-item">
+                        <a href="growth.html">Растеж и развитие</a>
+                        <!-- DROP DOWN MENU -->
+                        <div class="menu-panel">
+                            <div class="panel-block p12">
+                                <div class="panel-link">
+                                    <div id="panel-tag" class="orange bold">
+                                        Куче
+                                    </div>
+                                    <div class="panel-link-container pl16">
+                                        <a href="./growth/dog/phases.html">Фази на растеж</a>
+                                    </div>
+                                    <div class="panel-link-container pl16">
+                                        <a href="./growth/dog/orphan.html">Грижа за осиротели кученца</a>
+                                    </div>
+                                    <div class="panel-link-container pl16">
+                                        <a href="./growth/dog/male-or-female.html">Мъжко или женско кученце имам?</a>
+                                    </div>
+                                    <div class="panel-link-container pl16">
+                                        <a href="./growth/dog/pet-years.html">Изчисляване на възрастта в "кучешки" години</a>
+                                    </div>
+                                    <div class="panel-link-container pl16">
+                                        <a href="./growth/dog/breeding.html">Възпроизвеждане</a>
+                                    </div>
+                                    <div class="panel-link-container pl16">
+                                        <a href="./growth/dog/pregnancy.html">Бременност</a>
+                                    </div>
+                                    <div class="panel-link-container pl16">
+                                        <a href="./growth/dog/parturition.html">Раждане</a>
+                                    </div>
+                                    <div class="panel-link-container pl16">
+                                        <a href="./growth/dog/castration.html">Кастрация</a>
+                                    </div>
+                                    <div class="panel-link-container pl16">
+                                        <a href="./growth/dog/senility.html">Старост</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-block-between p12">
+                                <div class="panel-link">
+                                    <div id="panel-tag" class="orange blue">
+                                     Погрижи се за твоя любимец    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-block p12">
+                                <div class="panel-link">
+                                    <div id="panel-tag" class="orange bold">
+                                        Коте
+                                    </div>
+                                    <div class="panel-link-container pl16">
+                                        <a href="./growth/cat/phases.html">Фази на растеж</a>
+                                    </div>
+                                    <div class="panel-link-container pl16">
+                                        <a href="./growth/cat/orphan.html">Грижа за осиротели котенца</a>
+                                    </div>
+                                    <div class="panel-link-container pl16">
+                                        <a href="./growth/cat/male-or-female.html">Мъжко или женско котенце имам?</a>
+                                    </div>
+                                    <div class="panel-link-container pl16">
+                                        <a href="./growth/cat/pet-years.html">Изчисляване на възрастта в "котешки" години</a>
+                                    </div>
+                                    <div class="panel-link-container pl16">
+                                        <a href="./growth/cat/breeding.html">Възпроизвеждане</a>
+                                    </div>
+                                    <div class="panel-link-container pl16">
+                                        <a href="./growth/cat/pregnancy.html">Бременност</a>
+                                    </div>
+                                    <div class="panel-link-container pl16">
+                                        <a href="./growth/cat/parturition.html">Раждане</a>
+                                    </div>
+                                    <div class="panel-link-container pl16">
+                                        <a href="./growth/cat/castration.html">Кастрация</a>
+                                    </div>
+                                    <div class="panel-link-container pl16">
+                                        <a href="./growth/cat/senility.html">Старост</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-item">Хранене</li>
+                    <li class="menu-item">Медицински грижи</li>
+                    <li class="menu-item">Заболявания</li>
+                </ul>
+            </div>
+
+            <!-- SEARCH BOX -->
+            <div id="search-tool">
+                <form>
+                    <input id="search-input" placeholder="Search">
+                    <img src="./css/img/blue-search.png" class="button-search">
+                    <button class="search-btn">Търси</button>
+                </form>
+                
+            </div>
+
+            <div class="mobile-burger">
+                <button class="menu1" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+                    <svg width="100" height="100" style="width: 35px; height: 25px;" viewBox="15 15 75 75">
+                      <path class="line line1" 
+                        d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                      <path class="line line2" 
+                        d="M 20,50 H 80" />
+                      <path class="line line3" 
+                        d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                    </svg>
+                  </button> 
+            </div>
+
+           
+        </div>
+
+        <!-- MOBILE NAVIGATION -->
+        <div id="mobile-navigation">
+            <button type="button" id="buttonWhich" class="MENUBUTTON">
+                <span>Кое е за теб?</span>
+                <a class="arrow-icon--aboutus">
+                    <span class="left-bar--aboutus"></span>
+                    <span class="right-bar--aboutus"></span>
+                </a>
+            </button>
+
+            <button type="button" id="buttonCats" class="MENUBUTTON">
+                <span>За котки</span>
+                <a class="arrow-icon">
+                    <span class="left-bar"></span>
+                    <span class="right-bar"></span>
+                </a>
+            </button>
+
+            <!-- ЗА КОТКИ -->
+            <div id="mobile-navigation--cats">
+                <button class="MENUBUTTON">Приспособяване в новия дом</button>
+                <button class="MENUBUTTON">Как да се грижа за котка?</button>
+                <button class="MENUBUTTON">
+                    <a href="growth.html" class="no-dec">Растеж и развитие</a>
+                </button>
+                <button class="MENUBUTTON">Хранене</button>
+                <button class="MENUBUTTON">Медицински грижи</button>
+                <button class="MENUBUTTON">Заболявания</button>
+            </div>
+
+            <button type="button" id="buttonDogs" class="MENUBUTTON">
+                <span>За кучета</span>
+                <a class="arrow-icon--dogs">
+                    <span class="left-bar--dogs"></span>
+                    <span class="right-bar--dogs"></span>
+                </a>
+            </button>
+
+            <!-- ЗА КУЧЕТА -->
+            <div id="mobile-navigation--dogs">
+                <button class="MENUBUTTON">Приспособяване в новия дом</button>
+                <button class="MENUBUTTON">Как да се грижа за куче?</button>
+                <button class="MENUBUTTON">
+                    <a href="growth.html" class="no-dec">Растеж и развитие</a>
+                </button>
+                <button class="MENUBUTTON">Хранене</button>
+                <button class="MENUBUTTON">Медицински грижи</button>
+                <button class="MENUBUTTON">Заболявания</button>
+            </div>
+
+            <button type="button" id="buttonForUs" class="MENUBUTTON">
+                <span class="bold dark-orange fs16">За нас</span>
+            </button>
+        </div>
+                     
+    
+    </header>
+
+ 
+
+    <div class="content">
+
+
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            
+            <div id="footer-mission">
+                <div class="fs24 pb16">Муцуна.ком</div>
+                <div>
+                    <span class="yellow">Никой</span>
+                    <span> не си взима куче или котка с мисълта: "О, яко!</span>
+                    <span class="dark-orange"> Сега ще имам</span>
+                    <span class="yellow"> повече</span>
+                    <span class="dark-orange"> задължения</span>
+                    <span>!". Хората си осиновяват домашни любимци, за да се радват на</span>
+                    <span class="lignt-blue"> взаимно щастие и любов</span>
+                    <span>, но понякога положителните емоции са засенчени от неприятните такива, породени от незнанието</span>
+                    <span class="lignt-blue"> как да се грижим за нашия любимец</span>
+                    <span>. Този сайт е с цел да ви въведе в света на домашните любимци бързо и практично. А самото приложение – да ви облекчи в следенето на медицинските грижи на вашия четирикрак приятел.</span>
+                    
+                </div>
+            </div>
+            
+            <div id="footer-row">
+                <div class="footer-box">
+                    <a href="./index.html" class="no-dec">
+                        <img src="./css/img/footer-home.png" class="footer-icon">
+                        <div class="footer-icon-text">Начало</div>
+                    </a>
+                </div>
+
+                <div class="footer-box">
+                    <a href="about-us.html" class="no-dec">
+                        <img src="./css/img/footer-information.png" class="footer-icon">
+                        <div class="footer-icon-text">За нас</div>
+                    </a>
+                </div>
+
+                <div class="footer-box">
+                    <a href="https://forms.gle/569fgGe7XFVF1Pso6" class="no-dec">
+                        <img src="./css/img/footer-question.png" class="footer-icon">
+                        <div class="footer-icon-text">Задай въпрос</div>
+                    </a>
+                </div>
+
+                <div class="footer-box">
+                    <a href="https://www.facebook.com/mutsunacom/" class="no-dec">
+                        <img src="./css/img/footer-facebook.png" class="footer-icon">
+                        <div class="footer-icon-text">Фейсбук</div>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- <div class="subscribe">
+                <button class="subscribe-btn">Абонирай се</button>
+                <div id="emailInputContainer" style="display: none;">
+                    <input type="email" id="emailInput" placeholder="Enter your email">
+                    <button id="submitEmailButton">Submit</button> 
+                </div>
+                <div class="fs12">и стани по-информиран и по-добър стопанин</div>
+            </div> -->
+            
+            <div class="center-text fs12">
+                © Mutsuna 2023. Всички права запазени.
+            </div>
+        
+            <div class="footer-terms-of-use center-text fs12 pb24">
+                Условия за ползване
+            </div>
+        </div>
+    </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.7.0.slim.js"
+  integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c="
+  crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
