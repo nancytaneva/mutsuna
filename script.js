@@ -5,6 +5,18 @@ document.addEventListener('copy', function (event) {
 
 
 
+//Ne raboti
+  // const subscribeButton = document.getElementById("subscribeButton");
+  // const emailInputContainer = document.getElementById("emailInputContainer");
+
+  // function subscribe() {
+  //   isSubscribeInboxVisible = window.getComputedStyle(emailInputContainer).display === 'block';
+  //   emailInputContainer.style.display = isSubscribeInboxVisible ? 'none' : 'block';
+  // }
+
+
+
+
   
   // Get references to the mobile-burger and mobile-navigation elements
 const mobileBurger = document.querySelector('.mobile-burger');
@@ -108,8 +120,6 @@ buttonDogs.addEventListener('click', () => {
 $(".arrow-icon--dogs").click(function() {
   toggleArrowIconDogs();
 });
-
-
 
 
 
