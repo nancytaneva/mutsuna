@@ -223,6 +223,7 @@
 #article {
     width: 1483px;
     display: flex;
+    place-content: center;
     background-color: #fefefe;
     padding: 10px;
     /* border-top: 7px solid #249ea0; */
@@ -231,6 +232,7 @@
 #article-review {
     padding: 10px;
     width: 410px;
+    border-right: solid 0.06px #7b7b7b;
 }
 
 #article-review div {
@@ -238,15 +240,28 @@
     padding: 10px;
 }
 
-#article-review button {
-    background-color: #005f60;
+#dog-btn, #cat-btn {
+    background-color: #778383;
     border: none;
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
     padding: 10px;
-    color: #dce0e0;
+    color: #fefefe;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#dog-btn-clicked, #cat-btn-clicked {
+    background-color: #f78104;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+    padding: 10px;
+    color: #fefefe;
     font-weight: bold;
     font-size: 18px;
 }
@@ -264,6 +279,7 @@
 #articleContent {
     height: 470px;
     width: 1053px;
+    padding: 15px;
     overflow-y: auto;
     overflow-x: hidden;
 }
