@@ -123,7 +123,24 @@
     width: 34%;
 }
 
+.panel-block-between {
+    text-align-last: center;
+}
 
+.navigation-img {
+    height: 270px;
+}
+
+.panel-link-dog {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-end;
+}
+
+.panel-link-container {
+    padding: 0px 16px;
+}
 
 .panel-link-container a {
     background-image: linear-gradient(rgba(255,255,255,0) calc(100% - 1.5px),#fd5901 1.5px);
@@ -267,7 +284,8 @@
 .dark-orange     {color:#fd5901;}
 .dark-blue       {color:#005f60;}
 .lignt-orange     {color:#faab36;}
-.lignt-blue       {color:#249ea0;}
+.light-blue       {color:#249ea0;}
+.very-light-blue  {color:#009db5}
 
 .italic     {font-style: italic;}
 .bold       {font-weight: bold;}
