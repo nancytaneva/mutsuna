@@ -554,9 +554,11 @@
     }
 
     .header-section {
-        background-color: #e1dddd;
-        padding: 0px 0px;
+        position: fixed;
+        width: 100%;
         margin: 0;
+        padding: 0px 0px;
+        background-color: #e1dddd;
     }
 
     #header-container {
@@ -841,4 +843,43 @@
 
 
 
+
+
+/* GROWTH PAGE */
+#breadcrumb {
+    width: 100%;
+}
+
+#article {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#article-review {
+    width: 100%;
+}
+
+.content {
+    padding: 64px 0px 0px 0px;
+    min-height: auto;
+}
+
+.scroll-indicator-container {
+    position: fixed;
+    top: 56px;
+}
+
+#article-review {
+    padding: 0px;
+    border-left: solid 0.06px #7b7b7b;
+}
+
+#articleContent {
+    width: 100%;
+    overflow: hidden;
+    padding: 0px;
+    height: auto;
+}
 }
