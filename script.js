@@ -41,8 +41,9 @@ mobileBurger.addEventListener('click', () => {
 // Get references to the button and navigation menu
 const buttonCats = document.getElementById('buttonCats');
 const navigationCats = document.getElementById('mobile-navigation--cats');
+const arrowIcon = document.querySelector('.arrow-icon');
 
-// Function to toggle the navigation menu
+// Function to toggle the navigation menu and arrow icon
 function toggleNavigationMenu() {
   // Check the current display state of the navigation menu
   const isMenuVisible = navigationCats.style.display === 'block';
@@ -52,31 +53,26 @@ function toggleNavigationMenu() {
 
   // If showing the navigation menu, set the height to its full content height
   if (!isMenuVisible) {
-      navigationCats.style.height = navigationCats.scrollHeight + 'px';
+    navigationCats.style.height = navigationCats.scrollHeight + 'px';
   } else {
-      // If hiding the navigation menu, set the height back to 0
-      navigationCats.style.height = '0';
+    // If hiding the navigation menu, set the height back to 0
+    navigationCats.style.height = '0';
   }
-}
 
-// Function to toggle the arrow icon
-function toggleArrowIcon() {
-  $(".arrow-icon").toggleClass("open");
+  // Toggle the arrow icon animation
+  arrowIcon.classList.toggle('open');
+
+  // Log the class list for debugging
+  console.log('Arrow Icon Class List:', arrowIcon.classList);
 }
 
 // Add a click event listener to the button
 buttonCats.addEventListener('click', () => {
-  // Toggle the navigation menu
+  // Toggle the navigation menu and arrow icon
   toggleNavigationMenu();
-
-  // Toggle the arrow icon
-  toggleArrowIcon();
 });
 
-// Arrow Cat down
-$(".arrow-icon").click(function() {
-  toggleArrowIcon();
-});
+
 
 
 
@@ -84,6 +80,7 @@ $(".arrow-icon").click(function() {
 // Get references to the button and navigation menu
 const buttonDogs = document.getElementById('buttonDogs');
 const navigationDogs = document.getElementById('mobile-navigation--dogs');
+const arrowIconDogs = document.querySelector('.arrow-icon--dogs');
 
 // Function to toggle the navigation menu
 function toggleNavigationMenuDogs() {
@@ -100,11 +97,12 @@ function toggleNavigationMenuDogs() {
       // If hiding the navigation menu, set the height back to 0
       navigationDogs.style.height = '0';
   }
-}
 
-// Function to toggle the arrow icon
-function toggleArrowIconDogs() {
-  $(".arrow-icon--dogs").toggleClass("open");
+  // Toggle the arrow icon animation
+  arrowIconDogs.classList.toggle('open');
+
+  // Log the class list for debugging
+  console.log('Arrow Icon Class List:', arrowIconDogs.classList);
 }
 
 // Add a click event listener to the button
@@ -112,14 +110,8 @@ buttonDogs.addEventListener('click', () => {
   // Toggle the navigation menu
   toggleNavigationMenuDogs();
 
-  // Toggle the arrow icon
-  toggleArrowIconDogs();
 });
 
-// Arrow Cat down
-$(".arrow-icon--dogs").click(function() {
-  toggleArrowIconDogs();
-});
 
 
 
@@ -181,3 +173,61 @@ document.getElementById('shareMessengerBtn').addEventListener('click', function(
     // Handle the response if needed
   });
 });
+
+
+
+
+
+
+
+
+
+
+
+// Add this JavaScript code to your existing script or a new script
+const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+function scrollToTop() {
+  // Scroll to the top of the page smoothly
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
+
+function handleScroll() {
+  // Show or hide the button based on the user's scroll position
+  if (window.pageYOffset > 100) {
+    scrollToTopBtn.classList.add('show');
+  } else {
+    scrollToTopBtn.classList.remove('show');
+  }
+}
+
+// Add a click event listener to the button to scroll to the top when clicked
+scrollToTopBtn.addEventListener('click', scrollToTop);
+
+// Add a scroll event listener to show/hide the button as the user scrolls
+window.addEventListener('scroll', handleScroll);
+
+
+
+
+
+
+
+
+
+// Add JavaScript code to handle scrolling to the target section
+const scrollToSectionBtn = document.getElementById('scrollToSectionBtn');
+const ShareWIthOthers = document.getElementById('share-with-others');
+
+function scrollToSection() {
+  // Scroll to the target section smoothly
+  ShareWIthOthers.scrollIntoView({
+    behavior: 'smooth'
+  });
+}
+
+// Add a click event listener to the button to scroll to the target section when clicked
+scrollToSectionBtn.addEventListener('click', scrollToSection);

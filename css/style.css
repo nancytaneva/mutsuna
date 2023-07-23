@@ -336,7 +336,7 @@
     margin-top: 10px;
 } */
 
-.share-with-others {
+#share-with-others {
     padding: 25px 10px;
     text-align: center;
 }
@@ -370,6 +370,71 @@
     font-size: 12px;
     font-weight: bold;
 }
+
+
+
+
+
+
+
+.scroll-to-top-btn {
+    position: fixed;
+    bottom: 15px;
+    right: 80px;
+    background-color: #fd5901;
+    border: none;
+    border-radius: 40%;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    padding: 0;
+  }
+  
+  .scroll-to-top-img {
+    height: 57px;
+  }
+
+  .scroll-to-top-btn.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+
+
+  .scroll-to-share-btn {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: #005f60;
+    border: none;
+    border-radius: 40%;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+    padding: 0;
+  }
+  
+  .scroll-to-share-img {
+    height: 57px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1482px) {
 
@@ -613,7 +678,7 @@
 
 
 
-    /* ЗА ДЖИДЖАВИЯ БУТОН */
+    /* ЗА BURGER БУТОН */
     .menu1 {
         background-color: transparent;
         border: none;
