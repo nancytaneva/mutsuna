@@ -192,8 +192,85 @@
 
 .content {
     background-color: #dce0e0;
-    height: 1000px;
+    min-height: 500px;
+    padding: 0px 18px;
 }
+
+#breadcrumb {
+    width: 1483px;
+    display: flex;
+    align-items: center;
+    background-color: #dce0e0;
+    padding: 10px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+/* The progress container (grey background) */
+.scroll-indicator-container {
+    width: 100%;
+    height: 7px;
+    background: #ccc;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .scroll-indicator {
+    height: 7px;
+    background: #249ea0;
+    width: 0%;
+  }
+
+#article {
+    width: 1483px;
+    display: flex;
+    background-color: #fefefe;
+    padding: 10px;
+    /* border-top: 7px solid #249ea0; */
+}
+
+#article-review {
+    padding: 10px;
+    width: 410px;
+}
+
+#article-review div {
+    text-align: -webkit-center;
+    padding: 10px;
+}
+
+#article-review button {
+    background-color: #005f60;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+    padding: 10px;
+    color: #dce0e0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#article-review ol li, #article-review ol li a {
+    text-decoration: none;
+    color: #009db5;
+}
+
+
+
+
+
+
+#articleContent {
+    height: 470px;
+    width: 1053px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+
+
 
 
 

@@ -15,8 +15,6 @@ document.addEventListener('copy', function (event) {
   // }
 
 
-
-
   
   // Get references to the mobile-burger and mobile-navigation elements
 const mobileBurger = document.querySelector('.mobile-burger');
@@ -116,11 +114,35 @@ buttonDogs.addEventListener('click', () => {
 
 
 
+// SCROLL INDICATOR
+function myFunction() {
+  var articleContent = document.getElementById("articleContent");
+  var scrollTop = articleContent.scrollTop;
+  var scrollHeight = articleContent.scrollHeight - articleContent.clientHeight;
+  var scrolled = (scrollTop / scrollHeight) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+
+document.getElementById("articleContent").addEventListener("scroll", myFunction);
 
 
 
 
 // CONTENT
+
+
+
+// Smooth scrolling behavior from article content to headings
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
+
+
 // EMAIL
 function sendByEmail() {
   const subject = "Сайт за по-добра грижа към домашните ни любимци"; 
