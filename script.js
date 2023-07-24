@@ -4,33 +4,26 @@ document.addEventListener('copy', function (event) {
   });
 
 
-
-//Ne raboti
-  // const subscribeButton = document.getElementById("subscribeButton");
-  // const emailInputContainer = document.getElementById("emailInputContainer");
-
-  // function subscribe() {
-  //   isSubscribeInboxVisible = window.getComputedStyle(emailInputContainer).display === 'block';
-  //   emailInputContainer.style.display = isSubscribeInboxVisible ? 'none' : 'block';
-  // }
-
-
+  document.addEventListener('DOMContentLoaded', function () {
+    const mobileBurger = document.querySelector('.mobile-burger');
+    const mobileNavigation = document.getElementById('mobile-navigation');
+    const overlay = document.getElementById('overlay');
   
-  // Get references to the mobile-burger and mobile-navigation elements
-const mobileBurger = document.querySelector('.mobile-burger');
-const mobileNavigation = document.getElementById('mobile-navigation');
-
-// Function to toggle the mobile navigation
-function toggleMobileNavigation() {
-    const isMenuVisible = window.getComputedStyle(mobileNavigation).display === 'block';
-    mobileNavigation.style.display = isMenuVisible ? 'none' : 'block';
-}
-
-// Add a click event listener to the mobile-burger
-mobileBurger.addEventListener('click', () => {
-    // Toggle the mobile navigation
-    toggleMobileNavigation();
-});
+    console.log('mobileBurger:', mobileBurger);
+    console.log('mobileNavigation:', mobileNavigation);
+    console.log('overlay:', overlay);
+  
+    function toggleMobileNavigation() {
+      const isMenuVisible = window.getComputedStyle(mobileNavigation).display === 'block';
+      mobileNavigation.style.display = isMenuVisible ? 'none' : 'block';
+      overlay.style.display = isMenuVisible ? 'none' : 'block'; // Show/hide the overlay
+    }
+  
+    mobileBurger.addEventListener('click', () => {
+      toggleMobileNavigation();
+    });
+  });
+  
 
 
 
