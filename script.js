@@ -111,16 +111,27 @@ buttonDogs.addEventListener('click', () => {
 
 // SCROLL INDICATOR
 function myFunction() {
-  var articleContent = document.getElementById("content");
+  var articleContent = document.getElementById("articleContent");
   var scrollTop = articleContent.scrollTop;
   var scrollHeight = articleContent.scrollHeight - articleContent.clientHeight;
   var scrolled = (scrollTop / scrollHeight) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
 
-document.getElementById("content").addEventListener("scroll", myFunction);
+document.getElementById("articleContent").addEventListener("scroll", myFunction);
 
 
+
+// SCROLL INDICATOR --> MOBILE
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunctionMobile()};
+
+function myFunctionMobile() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBarMobile").style.width = scrolled + "%";
+}
 
 
 // CONTENT
