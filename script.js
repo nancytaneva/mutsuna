@@ -4,6 +4,8 @@ document.addEventListener('copy', function (event) {
   });
 
 
+
+  // OPEN MENU WITH BURGER
   document.addEventListener('DOMContentLoaded', function () {
     const mobileBurger = document.querySelector('.mobile-burger');
     const mobileNavigation = document.getElementById('mobile-navigation');
@@ -109,14 +111,14 @@ buttonDogs.addEventListener('click', () => {
 
 // SCROLL INDICATOR
 function myFunction() {
-  var articleContent = document.getElementById("articleContent");
+  var articleContent = document.getElementById("content");
   var scrollTop = articleContent.scrollTop;
   var scrollHeight = articleContent.scrollHeight - articleContent.clientHeight;
   var scrolled = (scrollTop / scrollHeight) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
 
-document.getElementById("articleContent").addEventListener("scroll", myFunction);
+document.getElementById("content").addEventListener("scroll", myFunction);
 
 
 
@@ -126,14 +128,28 @@ document.getElementById("articleContent").addEventListener("scroll", myFunction)
 
 
 // Smooth scrolling behavior from article content to headings
+const headerHeight = document.querySelector('.header-section').offsetHeight;
+
+// Smooth scrolling behavior from article content to headings
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
-    document.querySelector(this.getAttribute('href')).scrollIntoView({
+
+    // Get the current scroll position
+    const currentScrollPosition = window.scrollY;
+
+    // Calculate the target scroll position, accounting for the header height
+    const targetHeading = document.querySelector(this.getAttribute('href'));
+    const targetScrollPosition = targetHeading.getBoundingClientRect().top + currentScrollPosition - headerHeight;
+
+    // Scroll to the target heading with the adjusted scroll position
+    window.scrollTo({
+      top: targetScrollPosition,
       behavior: 'smooth'
     });
   });
 });
+
 
 
 // EMAIL
@@ -233,16 +249,26 @@ window.addEventListener('scroll', handleScroll);
 
 
 
-// Add JavaScript code to handle scrolling to the target section
 const scrollToSectionBtn = document.getElementById('scrollToSectionBtn');
 const ShareWIthOthers = document.getElementById('share-with-others');
 
-function scrollToSection() {
-  // Scroll to the target section smoothly
-  ShareWIthOthers.scrollIntoView({
+function scrollToSection(event) {
+  event.preventDefault();
+
+  // Calculate the offset for scrolling to the target section
+  const offset = -headerHeight;
+
+  // Scroll to the target section, applying the offset
+  window.scroll({
+    top: ShareWIthOthers.getBoundingClientRect().top + window.scrollY + offset,
     behavior: 'smooth'
   });
 }
 
 // Add a click event listener to the button to scroll to the target section when clicked
 scrollToSectionBtn.addEventListener('click', scrollToSection);
+
+
+
+
+
