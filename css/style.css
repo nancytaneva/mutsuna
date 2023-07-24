@@ -578,6 +578,7 @@
     * {
         overflow-x: hidden;
         font-size: 1.05rem;
+        line-height: 1.4rem;
     }
 
     .header-section {
@@ -657,7 +658,7 @@
     .mobile-burger {
         display: block;
         width: 35px;
-        height: 30px;
+        height: 31px;
     }
 
     .component-header-mobile .top-area .mobile-burger .burger-icon {
@@ -743,6 +744,17 @@
         border-bottom: 0.09rem solid #434343d1;
     }
 
+    .MENUBUTTON-text {
+        width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border: 0px;
+    border-bottom: 0.09rem solid #434343d1;
+    }
 
 
 /* ARROW MENU CAT */
