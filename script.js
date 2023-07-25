@@ -110,15 +110,15 @@ buttonDogs.addEventListener('click', () => {
 
 
 // SCROLL INDICATOR
-function myFunction() {
-  var articleContent = document.getElementById("articleContent");
-  var scrollTop = articleContent.scrollTop;
-  var scrollHeight = articleContent.scrollHeight - articleContent.clientHeight;
-  var scrolled = (scrollTop / scrollHeight) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-}
+// function myFunction() {
+//   var articleContent = document.getElementById("articleContent");
+//   var scrollTop = articleContent.scrollTop;
+//   var scrollHeight = articleContent.scrollHeight - articleContent.clientHeight;
+//   var scrolled = (scrollTop / scrollHeight) * 100;
+//   document.getElementById("myBar").style.width = scrolled + "%";
+// }
 
-document.getElementById("articleContent").addEventListener("scroll", myFunction);
+// document.getElementById("articleContent").addEventListener("scroll", myFunction);
 
 
 
@@ -135,8 +135,6 @@ function myFunctionMobile() {
 
 
 // CONTENT
-
-
 
 // Smooth scrolling behavior from article content to headings
 const headerHeight = document.querySelector('.header-section').offsetHeight;
