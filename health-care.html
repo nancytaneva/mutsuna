@@ -221,7 +221,6 @@
                   </button> 
             </div>
 
-           
         </div>
 
         <!-- MOBILE NAVIGATION -->
@@ -244,16 +243,24 @@
 
             <!-- ЗА КОТКИ -->
             <div id="mobile-navigation--cats">
-                <button class="MENUBUTTON">Приспособяване в новия дом</button>
-                <button class="MENUBUTTON">Как да се грижа за котка?</button>
+                <button class="MENUBUTTON">
+                    <a href="adjustment.html" class="no-dec MENUBUTTON-text">Приспособяване в новия дом</a>
+                </button>
+                <button class="MENUBUTTON">
+                    <a href="how-take-care.html" class="no-dec MENUBUTTON-text">Как да се грижа за котка?</a>
+                </button>
                 <button class="MENUBUTTON">
                     <a href="growth.html" class="no-dec MENUBUTTON-text">Растеж и развитие</a>
                 </button>
-                <button class="MENUBUTTON">Хранене</button>
+                <button class="MENUBUTTON">
+                    <a href="nutrition.html" class="no-dec MENUBUTTON-text">Хранене</a>
+                </button>
                 <button class="MENUBUTTON">
                     <a href="health-care.html" class="no-dec MENUBUTTON-text">Здравни грижи</a>
                 </button>
-                <button class="MENUBUTTON">Заболявания</button>
+                <button class="MENUBUTTON">
+                    <a href="diseases.html" class="no-dec MENUBUTTON-text">Заболявания</a>
+                </button>
             </div>
 
             <button type="button" id="buttonDogs" class="MENUBUTTON">
@@ -266,14 +273,24 @@
 
             <!-- ЗА КУЧЕТА -->
             <div id="mobile-navigation--dogs">
-                <button class="MENUBUTTON">Приспособяване в новия дом</button>
-                <button class="MENUBUTTON">Как да се грижа за куче?</button>
                 <button class="MENUBUTTON">
-                    <a href="growth.html" class="no-dec">Растеж и развитие</a>
+                    <a href="adjustment.html" class="no-dec MENUBUTTON-text">Приспособяване в новия дом</a>
                 </button>
-                <button class="MENUBUTTON">Хранене</button>
-                <button class="MENUBUTTON">Здравни грижи</button>
-                <button class="MENUBUTTON">Заболявания</button>
+                <button class="MENUBUTTON">
+                    <a href="how-take-care.html" class="no-dec MENUBUTTON-text">Как да се грижа за котка?</a>
+                </button>
+                <button class="MENUBUTTON">
+                    <a href="growth.html" class="no-dec MENUBUTTON-text">Растеж и развитие</a>
+                </button>
+                <button class="MENUBUTTON">
+                    <a href="nutrition.html" class="no-dec MENUBUTTON-text">Хранене</a>
+                </button>
+                <button class="MENUBUTTON">
+                    <a href="health-care.html" class="no-dec MENUBUTTON-text">Здравни грижи</a>
+                </button>
+                <button class="MENUBUTTON">
+                    <a href="diseases.html" class="no-dec MENUBUTTON-text">Заболявания</a>
+                </button>
             </div>
 
             <a href="./about-us.html" class="no-dec">
@@ -283,72 +300,82 @@
             </a>
         </div>
                      
-    
+        <div id="breadcrumb">
+            <a class="breadcrumb-link no-dec" href="../../index.html">Начало</a>
+                <span class="breadcrumb-link">  /  </span>
+            <a class="breadcrumb-link no-dec" href="../../growth.html">Здравни грижи</a>
+        </div>
+
+        <div class="scroll-indicator-container">
+            <div id="myBar" class="scroll-indicator" style="width: 99.9475%;"></div>
+        </div>
+
     </header>
 
- 
-
-    <div id="content" class="content">
-        <div id="overlay"></div>
-        <div id="article">
-            <div id="article-review">
-                <div>
-                    <a href="./health-care/dog/health-care-dog.html"><button id="dog-btn">Куче</button></a> 
-                    или 
-                    <a href="./health-care/cat/health-care-cat.html"><button id="cat-btn">Коте</button></a>
-                </div>
-                <div>Избери вид любимец</div>
-                <ol>
-                    <li>Избор на ветеринарен лекар</li>
-                    <li>Обезпаразитяване</li>
-                    <li>Ваксинации</li>
-                    <li>Чипиране</li>
-                    <li>Възпроизвеждане</li>
-                    <li>Преглед при ветеринарен лекар</li>
-                    <li>Аптечка и първа помощ</li>
-                    <li>Следоперативна грижа</li>
-                </ol>
-            </div>
-
-           
-
-        </div>
-
-
-
-        <div id="share-with-others">
-            <div class="share-with-others-text">Помогни на повече стопани да се грижат правилно за своите мили любимци:</div>
-            <div class="share-panel">
-                <div id="postFacebookBtn" class="share-box">
-                    <img src="./css/img/Facebook_f_logo.png" class="share-icon">
-                    <div class="share-text">Сподели във Фейсбук</div>
-                </div>
-                
-                <div id="shareMessengerBtn" class="share-box">
-                    <img src="./css/img/Facebook_Messenger_logo.png" class="share-icon">
-                    <div class="share-text">Сподели в Месинджър</div>
-                </div>
-
-                <div id="sendByEmail" onclick="sendByEmail()" class="share-box">
-                    <img src="./css/img/email-logo.png" class="share-icon">
-                    <div class="share-text">Изпрати по имейл</div>
-                </div>
-                
-                <div id="sendByEmail" onclick="printContent()" class="share-box">
-                    <img src="./css/img/print-logo.png" class="share-icon">
-                    <div class="share-text">Принтирай</div>
-                </div>
-
-            </div>
-            <img src="./css/img/share-baner.png" style="height: 110px;">
-        </div>
-        
-
-
-
-
-
+    <div class="scroll-indicator-container-mobile">
+        <div id="myBarMobile" class="scroll-indicator-mobile" style="width: 0%;"></div>
     </div>
+
+
+    <section id="content-section">
+
+        <section id="article-review">
+            <div>
+                <a href="./health-care/dog/health-care-dog.html"><button id="dog-btn">Куче</button></a> 
+                или 
+                <a href="./health-care/cat/health-care-cat.html"><button id="cat-btn">Коте</button></a>
+            </div>
+            <div>Избери вид любимец</div>
+            <ol>
+                <li>Избор на ветеринарен лекар</li>
+                <li>Обезпаразитяване</li>
+                <li>Ваксинации</li>
+                <li>Чипиране</li>
+                <li>Възпроизвеждане</li>
+                <li>Преглед при ветеринарен лекар</li>
+                <li>Аптечка и първа помощ</li>
+                <li>Следоперативна грижа</li>
+            </ol>
+        </section>
+        
+        <section id="main-content">
+            <div id="content" class="content">
+                <div id="overlay"></div>
+                <div id="article">
+                    
+                </div>
+
+                <div id="share-with-others">
+                    <div class="share-with-others-text">Помогни на повече стопани да се грижат правилно за своите мили любимци:</div>
+                    <div class="share-panel">
+                        <div id="postFacebookBtn" class="share-box">
+                            <img src="./css/img/Facebook_f_logo.png" class="share-icon">
+                            <div class="share-text">Сподели във Фейсбук</div>
+                        </div>
+                        
+                        <div id="shareMessengerBtn" class="share-box">
+                            <img src="./css/img/Facebook_Messenger_logo.png" class="share-icon">
+                            <div class="share-text">Сподели в Месинджър</div>
+                        </div>
+
+                        <div id="sendByEmail" onclick="sendByEmail()" class="share-box">
+                            <img src="./css/img/email-logo.png" class="share-icon">
+                            <div class="share-text">Изпрати по имейл</div>
+                        </div>
+                        
+                        <div id="sendByEmail" onclick="printContent()" class="share-box">
+                            <img src="./css/img/print-logo.png" class="share-icon">
+                            <div class="share-text">Принтирай</div>
+                        </div>
+
+                    </div>
+                    <img src="./css/img/share-baner.png" style="height: 110px;">
+                </div>
+
+            </div>
+        </section>
+    </section>
+
 
     <footer class="footer">
         <div class="footer-container">
