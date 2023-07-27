@@ -268,6 +268,12 @@
     box-shadow: inset -5px 4px 4px -3px #969696;
 }
 
+.choose-message {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
 #article-review div {
     text-align: -webkit-center;
     padding: 10px;
@@ -328,9 +334,60 @@
     font-size: 1.1rem;
 }
 
-.article-content--cats, .article-content--dogs {
-    padding: 5px;
+
+#article-content--cats, #article-content--dogs {
+    padding: 0px 30px;
 }
+
+#article-content--cats p, #article-content--dogs p,#article-content--cats table, #article-content--dogs table {
+    padding: 9px 0px;
+    text-align: justify;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 15px;
+}
+
+.gallery img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.gallery div {
+    float: initial;
+    width: 300px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.blurred-image {
+    cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+  }
+
+.clear-image {
+    display: none;
+  }
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #939393;
+    text-align: left;
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #dddddd;
+  }
 
 h1 {
     color: #fefefe;
@@ -439,13 +496,17 @@ h2 {
 .blue       {color:#008083;}
 .dark-orange     {color:#fd5901;}
 .dark-blue       {color:#005f60;}
+.royal-blue      {color:#0000CC}
 .lignt-orange     {color:#faab36;}
 .light-blue       {color:#249ea0;}
 .very-light-blue  {color:#009db5}
+.red        {color:#e60000;}
 
 .italic     {font-style: italic;}
 .bold       {font-weight: bold;}
 .tshadow    {text-shadow: 0px 0px 10px #000000;}
+.fw800      {font-weight: 800;}
+.fw900      {font-weight: 900;}
 
 .fs8        {font-size: 8px;}
 .fs12       {font-size: 12px;}
@@ -488,11 +549,16 @@ h2 {
 
 .center-text     {text-align-last: center;}
 
-
 .no-dec {
     text-decoration: none;
     color: inherit;
 }
+
+.imgh500       {height: 500px;}
+.imgw500       {width: 500px;}
+.img300x500    {width: 100%;
+                height: 300px;
+                object-fit: contain;}
 
 #mobile-navigation {
     display: none;
@@ -506,10 +572,7 @@ h2 {
 
 
 
-/* #emailInputContainer {
-    display: none;
-    margin-top: 10px;
-} */
+
 
 #share-with-others {
     padding: 25px 10px;

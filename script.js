@@ -161,6 +161,34 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 
 
+
+
+
+// JavaScript function to clear the image when clicked
+function clearImage(element) {
+  element.style.display = 'none'; // Hide the blurred image
+  var clearImage = element.nextElementSibling; // Get the clear image
+  clearImage.style.display = 'inline-block'; // Display the clear image
+}
+
+// JavaScript function to blur the image when clicked
+function blurImage(element) {
+  element.style.display = 'none'; // Hide the clear image
+  var blurredImage = element.previousElementSibling; // Get the blurred image
+  blurredImage.style.display = 'inline-block'; // Display the blurred image
+}
+
+
+
+
+
+
+
+
+
+
+
+
 // EMAIL
 function sendByEmail() {
   const subject = "Сайт за по-добра грижа към домашните ни любимци"; 
