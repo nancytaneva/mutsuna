@@ -403,6 +403,10 @@ h2 {
     padding: 27px 0px 7px 0px;
 }
 
+.pimg {
+    text-align: -webkit-center;
+}
+
 
 
 
@@ -556,7 +560,7 @@ h2 {
 
 .imgh500       {height: 500px;}
 .imgw500       {width: 500px;}
-.img300x500    {width: 100%;
+.img300x500    {max-width: 500px;
                 max-height: 300px;
                 object-fit: contain;}
 
