@@ -123,7 +123,7 @@ buttonDogs.addEventListener('click', () => {
 
 
 // SCROLL INDICATOR --> MOBILE
-// When the user scrolls the page, execute myFunction
+// When the user scrolls the page, execute myFunctionMobile
 window.onscroll = function() {myFunctionMobile()};
 
 function myFunctionMobile() {
