@@ -341,7 +341,6 @@
 
 #article-content--cats p, #article-content--dogs p,#article-content--cats table, #article-content--dogs table {
     padding: 9px 0px;
-    text-align: justify;
 }
 
 .gallery {
