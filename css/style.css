@@ -494,6 +494,8 @@ h2 {
     gap: 10px;
 }
 
+.hidden     {display: none;}
+
 .yellow     {color:#f7e904;}
 .orange     {color:#f78104;}
 .blue       {color:#008083;}
@@ -521,6 +523,7 @@ h2 {
 
 .lw24       {line-height: 24px;}
 
+.p0        {padding: 0px;}
 .p8        {padding: 8px;}
 .p12       {padding: 12px;}
 .p16       {padding: 16px;}

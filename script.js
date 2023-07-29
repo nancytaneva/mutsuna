@@ -107,23 +107,6 @@ buttonDogs.addEventListener('click', () => {
 
 
 
-
-
-// SCROLL INDICATOR
-// function myFunction() {
-//   var articleContent = document.getElementById("articleContent");
-//   var scrollTop = articleContent.scrollTop;
-//   var scrollHeight = articleContent.scrollHeight - articleContent.clientHeight;
-//   var scrolled = (scrollTop / scrollHeight) * 100;
-//   document.getElementById("myBar").style.width = scrolled + "%";
-// }
-
-// document.getElementById("articleContent").addEventListener("scroll", myFunction);
-
-
-
-// SCROLL INDICATOR --> MOBILE
-// When the user scrolls the page, execute myFunctionMobile
 window.onscroll = function() {myFunctionMobile()};
 
 function myFunctionMobile() {
@@ -161,9 +144,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 
 
-
-
-
 // JavaScript function to clear the image when clicked
 function clearImage(element) {
   element.style.display = 'none'; // Hide the blurred image
@@ -177,10 +157,6 @@ function blurImage(element) {
   var blurredImage = element.previousElementSibling; // Get the blurred image
   blurredImage.style.display = 'inline-block'; // Display the blurred image
 }
-
-
-
-
 
 
 

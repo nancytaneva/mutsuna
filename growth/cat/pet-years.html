@@ -352,35 +352,98 @@
                             Истината е че през първите години от живота си котката старее много по-бързо. 
                             След една календарна година след раждането възрастта на котката е приблизително 15 човешки години, а през втората си година – приблизително 24 човешки години. След това котката остарява с по четири котешки години за всяка календарна година.
                         </p>
-                        <div>
-                            На колко календарни години е твоето коте? 
-                        </div>
-                        <div>
-                            На  <input id="calendar-age-years" type="number" min="0"  placeholder="0">години и 
-                                <input id="calendar-age-months" type="number" min="0" max="12" placeholder="0">месеца.
-                        </div>
-                        <button id="calculateAgeBtn">Изчисли</button>
-                        <div>
-                            Твоето коте е на възраст: <span id="humanYears">?</span> човешки години.
-                        </div>
 
-                        <div id="agemeter">
-                            <div class="wrapper">
-                              <div class="indicator-wrapper">
-                                <div class="indicator-wrapper-inner">
-                                  <div id="indicator"></div>
+                        
+                        <div  id="calculateAgeBox">
+                            <div class="calculateAgeBoxText">
+                                <div>
+                                    На колко календарни години е твоето коте? 
                                 </div>
-                              </div>
-                          
-                              <!-- <div class="bar bar-1"></div>
-                              <div class="bar bar-2"></div>
-                              <div class="bar bar-3"></div>
-                              <div class="bar bar-4"></div> -->
-                          
-                              <div class="agemeter-arrow" id="agemeter-arrow"></div>
+                                <div class="inputs">
+                                    На <input id="calendar-age-years" type="number" min="0"  placeholder="0"> години
+                                    <div>
+                                        и <input id="calendar-age-months" type="number" min="0" max="12" placeholder="0"> месеца.
+                                    </div>
+                                </div>
+                                <button id="calculateAgeBtn">Изчисли</button>
+                                <div>
+                                    Твоето коте е на възраст: 
+                                    <div>
+                                        <span id="humanYears">?</span> човешки години.
+                                    </div>
+                                    
+                                </div>
+                            </div>
+    
+                            <div id="agemeter">
+                                <div class="wrapper">
+                                  <div class="indicator-wrapper">
+                                    <div class="indicator-wrapper-inner">
+                                      <div id="indicator"></div>
+                                    </div>
+                                  </div>
+                              
+                                  <!-- <div class="bar bar-1"></div>
+                                  <div class="bar bar-2"></div>
+                                  <div class="bar bar-3"></div>
+                                  <div class="bar bar-4"></div> -->
+                              
+                                  <div class="agemeter-arrow" id="agemeter-arrow"></div>
+                                </div>
                             </div>
                         </div>
-                          
+                       
+                        <div class="fs12 italic p0 center-text">
+                            Източник: <a href="https://www.aaha.org/globalassets/02-guidelines/feline-life-stage/felinelifestageguidelines.pdf">
+                                AAFP–AAHA Feline Life Stage Guidelines, cat years to human years
+                            </a>
+                        </div>
+
+
+                        <div id="stageKitten" class="stage hidden">
+                            <div class="fw800">Етап от живота: Коте (0-1 година)</div>
+                            <p>
+                                Сега е времето не само да социализирате котето си, но и да го научите на правилата вкъщи. Точно този период е критичен за поведението на вашия любимец, защото при пренебрегване на поведенчески проблеми в по-напреднала възраст изкореняването им е по-трудно.
+                                <br>
+                                Също така, за да нямате проблеми за в бъдеще, е добре да привикнете котето си да свикне с пътуването в кола и с ветеринарните прегледи. (Виж: Преглед при ветеринарен лекар). Не забравяйте и за най-жестоката борба на всички котешки стопани – хапчетата!
+                                <br>
+                                Можете да започнете да приучавате котето си към миенето на зъби. (Виж: Как да се грижа?)
+                                <br>
+                                Точно сега ще трябва и да помислите дали искате да кастрирате вашето коте. (виж: Кастрация).
+                                <br>
+                                През този етап от живота котките се обезпаразитяват и ваксинират. (Виж: Обезпаразитяване, Ваксиниране). Поради градящия се в момента имунитет, бъдете бдителни за появата на инфекциозни заболявания. *Виж: Заболявания“
+                                <br>
+                                Бъдете гъвкави, защото до достигане на зрялост се налага следене на теглото и хранене по схема, тъй като котето Ви расте.
+                            </p>
+                        </div>
+
+                        <div id="stageYoungCat" class="stage hidden">
+                            <div class="fw800">Етап от живота: Млада котка (1-6 години)</div>
+                            <p>
+                                През този етап котките са в разцвета на силите си.
+                                <br>В същото време този период се характеризира с по-ниска заинтересованост към околната среда и по-ниска активност в сравнение с периода на малко коте. Препоръчва се да следите теглото на котката си, за да избегнете затлъстяване, както и да продължите с игрите и/ или тренировките.
+                                <br>Не забравяйте за редовните прегледи при ветеринарен лекар, защото често котките умеят да прикриват началните етапи на заболяване.
+                                <br>През този етап се препоръчва да бъдете бдителни за най-честите неинфекциозни заболявания. (Виж: Upper Respiratory Infections (URIs), Dental Disease, Feline Lower Urinary Tract Disease (FLUTD), Obesity, Hyperthyroidism, Diabetes Mellitus, Allergies, Gastrointestinal Issues, Chronic Kidney Disease (CKD) ).
+                            </p>
+                        </div>
+
+                        <div id="stageMatureCat" class="stage hidden">
+                            <div class="fw800">Етап от живота: Зряла котка (7-10 години)</div>
+                            <p>
+                                <br>През този период се появяват първите признаци на стареенето като намалена активност, намалена мускулна маса и промяна в поведението.
+                                <br>Редовните прегледи при ветеринарен лекар са силно препоръчителни, за да може да бъдат диагностицирани навреме заболяванията, свързани със стареенето.
+                            </p>
+                        </div>
+
+                        <div id="stageSeniorCat" class="stage hidden">
+                            <div class="fw800">Етап от живота: Зряла котка (7-10 години)</div>
+                            <p>
+                                <br>They may experience more significant age-related changes, including decreased mobility, dental issues, and possible health conditions like kidney disease or arthritis.
+                                <br>Special attention to their health, diet, and comfort is crucial during this stage.
+                                <br>Промените, свързани със стареенето, са изразени – намалена подвижност, дентални проблеми и вероятни хронични заболявания.
+                                <br>Необходимо е специално внимание към тяхното здраве, диета и комфорт. Препоръчва се котешките вещи и играчки да са в близост до котката, за да има лесен достъп до тях.
+                            </p>
+                        </div>
                     </div>
                 </div>
 

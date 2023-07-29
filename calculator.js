@@ -3,6 +3,7 @@ const calculateAgeBtn = document.getElementById("calculateAgeBtn");
 
 
 
+
  // Get the arrow element
  const arrow = document.getElementById('agemeter-arrow');
 
@@ -27,40 +28,45 @@ function setAge(age) {
   }
 
 
+  function setStage(age) {
+    //When DIV is HIDDEN
+    const stageKitten     = document.getElementById('stageKitten');
+    const stageYoungCat   = document.getElementById('stageYoungCat'); 
+    const stageMatureCat  = document.getElementById('stageMatureCat');
+    const stageSeniorCat  = document.getElementById('stageSeniorCat');
 
-//   // Function to set the age of the arrow
-// function setAge(age) {
-//     // Calculate the rotation angle for the arrow based on the age
-//     const maxAge = 96; // Change this value to adjust the maximum age
-//     let angle;
+    if(age <= 15) {
+        toggleVisibility(stageKitten);
+        hideOtherDivs(stageKitten);
+    }
+    else if (age > 15 && age <= 40) {
+        toggleVisibility(stageYoungCat);
+        hideOtherDivs(stageYoungCat);
+    }
+    else if (age > 40 && age <= 56) {
+        toggleVisibility(stageMatureCat);
+        hideOtherDivs(stageMatureCat);
+    }
+    else {
+        toggleVisibility(stageSeniorCat);
+        hideOtherDivs(stageSeniorCat);
+    }
+  }
 
-//     if (age <= 24) {
-//       // For the first 24 numbers, give them a larger angle
-//       const maxFirst24Age = 24;
-//       angle = -90 + (age / maxFirst24Age) * 90; // Adjust the angle for the first 24 numbers
-//     }
-//      else if (age > 24 && age <= maxAge) {
-//       // For numbers after 24, use the regular range (180 degrees)
-//       angle = 0 + (age - 24) / (maxAge - 24) * 90; // Adjust the angle for numbers after 24
-//     }
-//     else {
-//         // For numbers after 24, use the regular range (180 degrees)
-//         angle = 90; // Adjust the angle for numbers after 24
-//     }
-      
-//     // Apply the rotation to the arrow with smooth animation
-//     arrow.style.transition = 'transform 0.5s ease'; // You can adjust the duration and easing here too
-//     arrow.style.transform = `rotate(${angle}deg)`;
-//   }
+  // Function to toggle visibility of an element
+    function toggleVisibility(element) {
+    element.classList.toggle('hidden');
+  }
 
-
-
-
-
-
-
-
-
+  // Function to hide other div elements
+function hideOtherDivs(currentDiv) {
+    const allDivs = document.querySelectorAll('.stage');
+    allDivs.forEach((div) => {
+      if (div !== currentDiv) {
+        div.classList.add('hidden');
+      }
+    });
+  }
 
 calculateAgeBtn.addEventListener('click', function () {
 
@@ -204,9 +210,8 @@ calculateAgeBtn.addEventListener('click', function () {
     }
 
     setAge(humanAgeYears);
-
+    setStage(humanAgeYears)
 });
-
 
 
 
