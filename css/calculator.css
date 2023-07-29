@@ -31,7 +31,7 @@
     top: 0;
     left: 0;
     z-index: 200;
-    transform: rotate(-140deg);
+    transform: rotate(-145deg);
     /* background-color: rgb(114, 114, 238); */
     background-color: green;
 }
@@ -40,7 +40,7 @@
     top: 0;
     right: 0;
     z-index: 150;
-    transform: rotate(-90deg);
+    transform: rotate(-99deg);
     /* background-color: rgb(69, 69, 204); */
     background-color: yellow;
 }
@@ -49,7 +49,7 @@
     top: 0;
     left: 0;
     z-index: 100;
-    transform: rotate(-40deg);
+    transform: rotate(-69deg);
     /* background-color: rgb(40, 40, 180); */
     background-color: purple;
 }

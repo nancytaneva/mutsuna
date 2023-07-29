@@ -3,19 +3,61 @@ const calculateAgeBtn = document.getElementById("calculateAgeBtn");
 
 
 
-// Get the arrow element
-const arrow = document.getElementById('agemeter-arrow');
+ // Get the arrow element
+ const arrow = document.getElementById('agemeter-arrow');
 
 // Function to set the age of the arrow
 function setAge(age) {
     // Calculate the rotation angle for the arrow based on the age
-    const maxAge = 116; // Change this value to adjust the maximum age
-    const angle = -90 + (age / maxAge) * 180; // Adjust the calculation here
+    const maxAge = 96; // Change this value to adjust the maximum age
+    let angle;
+   
+    if (age <=96) {
+        angle = -90 + (age / maxAge) * 180; // Adjust the calculation here
+    }
+    
+    else {
+        // For numbers after 24, use the regular range (180 degrees)
+        angle = 90; // Adjust the angle for numbers after 24
+    }
 
     // Apply the rotation to the arrow with smooth animation
     arrow.style.transition = 'transform 0.5s ease'; // You can adjust the duration and easing here too
     arrow.style.transform = `rotate(${angle}deg)`;
   }
+
+
+
+//   // Function to set the age of the arrow
+// function setAge(age) {
+//     // Calculate the rotation angle for the arrow based on the age
+//     const maxAge = 96; // Change this value to adjust the maximum age
+//     let angle;
+
+//     if (age <= 24) {
+//       // For the first 24 numbers, give them a larger angle
+//       const maxFirst24Age = 24;
+//       angle = -90 + (age / maxFirst24Age) * 90; // Adjust the angle for the first 24 numbers
+//     }
+//      else if (age > 24 && age <= maxAge) {
+//       // For numbers after 24, use the regular range (180 degrees)
+//       angle = 0 + (age - 24) / (maxAge - 24) * 90; // Adjust the angle for numbers after 24
+//     }
+//     else {
+//         // For numbers after 24, use the regular range (180 degrees)
+//         angle = 90; // Adjust the angle for numbers after 24
+//     }
+      
+//     // Apply the rotation to the arrow with smooth animation
+//     arrow.style.transition = 'transform 0.5s ease'; // You can adjust the duration and easing here too
+//     arrow.style.transform = `rotate(${angle}deg)`;
+//   }
+
+
+
+
+
+
 
 
 
@@ -114,7 +156,7 @@ calculateAgeBtn.addEventListener('click', function () {
                 humanAgeYears = humanAgeYears + 22;
                 document.getElementById("humanYears").innerHTML = [humanAgeYears];
             }
-            if(ageInMonths == 11) {
+            if(ageInMonths == 21) {
                 humanAgeYears = humanAgeYears + 22;
                 document.getElementById("humanYears").innerHTML = [humanAgeYears];
             }
