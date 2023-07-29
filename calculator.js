@@ -1,21 +1,34 @@
 const calculateAgeBtn = document.getElementById("calculateAgeBtn");
 
+
+
+
+// Get the arrow element
+const arrow = document.getElementById('agemeter-arrow');
+
+// Function to set the age of the arrow
+function setAge(age) {
+    // Calculate the rotation angle for the arrow based on the age
+    const maxAge = 116; // Change this value to adjust the maximum age
+    const angle = -90 + (age / maxAge) * 180; // Adjust the calculation here
+
+    // Apply the rotation to the arrow with smooth animation
+    arrow.style.transition = 'transform 0.5s ease'; // You can adjust the duration and easing here too
+    arrow.style.transform = `rotate(${angle}deg)`;
+  }
+
+
+
+
 calculateAgeBtn.addEventListener('click', function () {
-    
-    // console.log('calculateAgeBtn:', calculateAgeBtn);
 
-    const calendarAgeYears = document.getElementById("calendar-age-years").value  || 0;
-    // console.log(`${calendarAgeYears}`);
-
+    const calendarAgeYears  = document.getElementById("calendar-age-years").value  || 0;
     const calendarAgeMonths = document.getElementById("calendar-age-months").value || 0;
-    // console.log(`${calendarAgeMonths}`);
-
     var humanAgeYears = 0;
    
     var yearsInMonths = calendarAgeYears * 12;
     var ageInMonths = parseInt(yearsInMonths) + parseInt(calendarAgeMonths);
     console.log('ageInMonths:',  ageInMonths);
-
 
     if(ageInMonths <= 24) {
         if(ageInMonths == 1) {
@@ -123,7 +136,6 @@ calculateAgeBtn.addEventListener('click', function () {
         }
     }
 
-
     if(ageInMonths > 24) {
         // 2 кал години    = 24 кал месеца;
         // 24 чов години   = 288 чов месеца;
@@ -142,11 +154,17 @@ calculateAgeBtn.addEventListener('click', function () {
         var ageInMonthsWithoutTwoYearsHuman = ageInMonthsWithoutTwoYears * 4;
         var ageInMontsHumanMonths = ageInMonthsWithoutTwoYearsHuman + 288;
         // console.log('Human Months', ageInMontsHumanMonths);
-        var ageInHumanYears = parseInt(ageInMontsHumanMonths / 12);
+        var humanAgeYears = parseInt(ageInMontsHumanMonths / 12);
         // console.log(`Human Years`, ageInHumanYears);
 
-        document.getElementById("humanYears").innerHTML = [ageInHumanYears];
+        document.getElementById("humanYears").innerHTML = [humanAgeYears];
 
     }
 
+    setAge(humanAgeYears);
+
 });
+
+
+
+
