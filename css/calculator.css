@@ -6,6 +6,7 @@
       border-top-right-radius: 360px;
     overflow: hidden;
     position: relative;
+    background-image: url(../css/img/growth/cat-calculator.png);
 }
 
 #agemeter .wrapper .indicator-wrapper {
@@ -16,7 +17,6 @@
     height: 80%;
     border-top-left-radius: 360px;
     border-top-right-radius: 360px;
-    background-color: #ffffff;
     z-index: 400;
 }
 
