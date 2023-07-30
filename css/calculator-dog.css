@@ -1,9 +1,21 @@
+#yes-btn {
+    background-color: #fd5901;
+    border: none;
+    border-radius: 40%;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    color: #fefefe;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 #calculateAgeBox {
     background-color: #faa4069c;
       border-radius: 72px 72px 0px 0px;
       width: fit-content;
       padding: 30px 30px 0px 30px;
-      color: black;
+      color: #44281a;
       font-weight: 800;
       margin: auto;
   }
@@ -28,6 +40,11 @@
       font-size: 18px;
   }
   
+  #calculateAgeBtn[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
   #humanYears {
       color: #d40000;
       font-size: 26px;
@@ -55,7 +72,7 @@
     height: 240px;
     margin-top: 17px;
     overflow: hidden;
-    background-image: url(../css/img/growth/cat-calculator.png);
+    background-image: url(../css/img/growth/dog-calculator.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -200,17 +217,22 @@
     margin-top: 30px;
     display: flex;
     gap: 10px;
+    font-size: 15px;
+    flex-wrap: wrap;
+    overflow: visible!important;
 }
 
 .breed-big-box img {
     height: 140px;
+    width: 100px;
+    object-fit: contain;
 }
 
 .breedBox {
     flex-grow: 1;
     flex-basis: 0;
     position: relative;
-    border: 2px solid #000;
+    border: 3px solid #d4a247;
     border-radius: 5px;
     padding: 10px 7px;
     margin: 0;
@@ -221,6 +243,18 @@
     justify-content: flex-end;
     text-transform: none;
     transition: all .2s linear;
+    opacity: 0.5;
+}
+
+.breedBox:hover {
+  opacity: 1;
+  background-color: antiquewhite;
+}
+
+input:checked + label  {
+  opacity: 1;
+  background-color: rgb(0, 149, 218);
+  border: 2px solid #d40000;
 }
 
 /* .tooltip {
@@ -237,7 +271,7 @@
 } */
 
 
-.ddc-custom-radio {
+.custom-radio {
     position: relative;
     display: block;
     margin: 0 auto;
@@ -246,7 +280,7 @@
     overflow: visible;
 }
 
-.ddc-custom-radio:after {
+.custom-radio:after {
     content: "";
     display: inline-block;
     background: url(https://cdn.shopify.com/s/files/1/0535/2738/0144/files/ico-checkbox-unselected.svg?v=1649977292) no-repeat;
@@ -335,7 +369,10 @@
 
 
 
-
+.selected-element {
+  opacity: 1;
+  background-color: antiquewhite;
+}
 
 
 

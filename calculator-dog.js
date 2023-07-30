@@ -1,4 +1,10 @@
 const calculateAgeBtn = document.getElementById("calculateAgeBtn");
+const yesBtn          = document.getElementById("yes-btn");
+
+const stagePuppy      = document.getElementById('stagePuppy');
+const stageYoungDog   = document.getElementById('stageYoungDog'); 
+const stageMatureDog  = document.getElementById('stageMatureDog');
+const stageSeniorDog  = document.getElementById('stageSeniorDog');
 
 
  // Get the arrow element
@@ -7,7 +13,7 @@ const calculateAgeBtn = document.getElementById("calculateAgeBtn");
 // Function to set the age of the arrow
 function setAge(age) {
     // Calculate the rotation angle for the arrow based on the age
-    const maxAge = 78; // Change this value to adjust the maximum age
+    const maxAge = 80; // Change this value to adjust the maximum age
     let angle;
    
     if (age <=96) {
@@ -25,29 +31,22 @@ function setAge(age) {
   }
 
 
-  function setStage(age) {
-    // //When DIV is HIDDEN
-    // const stageKitten     = document.getElementById('stageKitten');
-    // const stageYoungCat   = document.getElementById('stageYoungCat'); 
-    // const stageMatureCat  = document.getElementById('stageMatureCat');
-    // const stageSeniorCat  = document.getElementById('stageSeniorCat');
 
-    // if(age <= 15) {
-    //     toggleVisibility(stageKitten);
-    //     hideOtherDivs(stageKitten);
-    // }
-    // else if (age > 15 && age <= 40) {
-    //     toggleVisibility(stageYoungCat);
-    //     hideOtherDivs(stageYoungCat);
-    // }
-    // else if (age > 40 && age <= 56) {
-    //     toggleVisibility(stageMatureCat);
-    //     hideOtherDivs(stageMatureCat);
-    // }
-    // else {
-    //     toggleVisibility(stageSeniorCat);
-    //     hideOtherDivs(stageSeniorCat);
-    // }
+  function setStage(age) {
+    //When DIV is HIDDEN
+
+    if (age > 12 && age <= 25) {
+        toggleVisibility(stageYoungDog);
+        hideOtherDivs(stageYoungDog);
+    }
+    else if (age > 25 && age <= 50) {
+        toggleVisibility(stageMatureDog);
+        hideOtherDivs(stageMatureDog);
+    }
+    else {
+        toggleVisibility(stageSeniorDog);
+        hideOtherDivs(stageSeniorDog);
+    }
   }
 
   // Function to toggle visibility of an element
@@ -65,50 +64,166 @@ function hideOtherDivs(currentDiv) {
     });
   }
 
-
+  yesBtn.addEventListener('click', function () {
+    toggleVisibility(stagePuppy);
+    hideOtherDivs(stagePuppy);
+  });
 
 calculateAgeBtn.addEventListener('click', function () {
 
-    const calendarAgeYears  = document.getElementById("calendar-age-years").value  || 0;
-    
-    var humanAgeYears       = 0;
-   
-    // var yearsInMonths   = calendarAgeYears * 12;
-    // var ageInMonths     = parseInt(yearsInMonths) + parseInt(calendarAgeMonths);
-    // console.log('ageInMonths:',  ageInMonths);
+  const calendarAgeYears    = document.getElementById("calendar-age-years").value  || 0;
+  var humanAgeYears         = 0;
+  let humanAgeYearsRounded  = 0;
+ 
+  // human_age = 16 ln(dog_age) + 31      ------- в години
 
-    // human_age = 16 ln(dog_age) + 31      ------- в години
-    // 1 wk = 0.229984 mo
-    // 1 wk = 0.019165 yr
-    // 1 mo = 4.348125 wk
-    // 1 mo = 0.083333 yr
-    // 1 yr = 52.1775 wk
-    // 1 yr = 12 mo
+  const firstYear   = 1;
+  const secondYear  = 2;
 
-// Смята календарни месеци в човешки години + месеци.
-    //var ageInYears = ageInMonths / 12;
-    // console.log('ageInYears: ', ageInYears);
+  
 
+
+    const dogSize = document.querySelector('input[name="dog-size"]:checked').value;
+  
     var ageInYearsLog = Math.log(calendarAgeYears);
     var ageInYearsLogTimes16 = 16 * ageInYearsLog;
 
-    var humanAgeYears = ageInYearsLogTimes16 + 31;
-    // console.log('humanAgeYears', humanAgeYears);
+    switch (dogSize) {
+      case "small":
+              if(calendarAgeYears <= firstYear) {
+                var humanAgeYears = ageInYearsLogTimes16 + 31;
+                humanAgeYearsRounded = parseInt(humanAgeYears);
+              }
+              
+              else if (calendarAgeYears == secondYear) {
+            
+                var humanAgeYears = ageInYearsLogTimes16 + 31;
+                // console.log('humanAgeYears', humanAgeYears);
+            
+                var humanAgeYearsLastYear = 16*(Math.log(calendarAgeYears - 1)) + 31;
+                console.log('humanAgeYearsLastYear', humanAgeYearsLastYear);
+            
+                var breedCoefficient = humanAgeYears - humanAgeYearsLastYear - 5;
+                console.log('breedCoefficient', breedCoefficient);
+            
+                humanAgeYearsRounded = parseInt(humanAgeYears - breedCoefficient);
+              }
+              
+              else if (calendarAgeYears > secondYear) {
+            
+                var humanAgeYears = ageInYearsLogTimes16 + 31;
+                // console.log('humanAgeYears', humanAgeYears);
+            
+                var humanAgeYearsLastYear = 16*(Math.log(calendarAgeYears - 1)) + 31;
+                console.log('humanAgeYearsLastYear', humanAgeYearsLastYear);
+            
+                var breedCoefficient = humanAgeYears - humanAgeYearsLastYear;
+                console.log('breedCoefficient', breedCoefficient);
+            
+                humanAgeYearsRounded = parseInt(humanAgeYears - (2 * breedCoefficient));
+              }
+        break;
+  
+      case "medium":
+                if(calendarAgeYears <= firstYear) {
+                  var humanAgeYears = ageInYearsLogTimes16 + 31;
+                  humanAgeYearsRounded = parseInt(humanAgeYears);
+                }
+                
+                else if (calendarAgeYears == secondYear) {
+                  var humanAgeYears = ageInYearsLogTimes16 + 31;
+                  // console.log('humanAgeYears', humanAgeYears);
+              
+                  var humanAgeYearsLastYear = 16*(Math.log(calendarAgeYears - 1)) + 31;
+                  console.log('humanAgeYearsLastYear', humanAgeYearsLastYear);
+              
+                  var breedCoefficient = humanAgeYears - humanAgeYearsLastYear - 5;
+                  console.log('breedCoefficient', breedCoefficient);
+              
+                  humanAgeYearsRounded = parseInt(humanAgeYears - breedCoefficient);
+                }
+                
+                else if (calendarAgeYears > secondYear) {
+                  var humanAgeYears = ageInYearsLogTimes16 + 31;
+                  // console.log('humanAgeYears', humanAgeYears);
+              
+                  var humanAgeYearsLastYear = 16*(Math.log(calendarAgeYears - 1)) + 30;
+                  console.log('humanAgeYearsLastYear', humanAgeYearsLastYear);
+              
+                  var breedCoefficient = humanAgeYears - humanAgeYearsLastYear;
+                  console.log('breedCoefficient', breedCoefficient);
+              
+                  humanAgeYearsRounded = parseInt(humanAgeYears - (breedCoefficient));
+                }
+        break;
+  
+      case "large":
+                  var humanAgeYears = ageInYearsLogTimes16 + 31;
+                  humanAgeYearsRounded = parseInt(humanAgeYears);
+        break;
+  
+      case "gigantic":
+                if(calendarAgeYears <= firstYear) {
+                  var humanAgeYears = ageInYearsLogTimes16 + 25;
+                  humanAgeYearsRounded = parseInt(humanAgeYears);
+                }
+                
+                else if (calendarAgeYears == secondYear) {
+                  var humanAgeYears = ageInYearsLogTimes16 + 31;
+                  // console.log('humanAgeYears', humanAgeYears);
+              
+                  var humanAgeYearsLastYear = 16*(Math.log(calendarAgeYears - 1)) + 27;
+                  console.log('humanAgeYearsLastYear', humanAgeYearsLastYear);
+              
+                  var breedCoefficient = humanAgeYears - humanAgeYearsLastYear - 5;
+                  console.log('breedCoefficient', breedCoefficient);
+              
+                  humanAgeYearsRounded = parseInt(humanAgeYears - breedCoefficient);
+                }
+                
+                else if (calendarAgeYears > secondYear) {
+                  var humanAgeYears = ageInYearsLogTimes16 + 31;
+                  // console.log('humanAgeYears', humanAgeYears);
+              
+                  var humanAgeYearsLastYear = 16*(Math.log(calendarAgeYears - 1)) + 31;
+                  console.log('humanAgeYearsLastYear', humanAgeYearsLastYear);
+              
+                  var breedCoefficient = humanAgeYears - humanAgeYearsLastYear;
+                  console.log('breedCoefficient', breedCoefficient);
+              
+                  humanAgeYearsRounded = parseInt(humanAgeYears + (breedCoefficient));
+                }
+        break;
+  
+      default:
+        break;
+      }
 
-    var humanAgeYearsRounded = parseInt(humanAgeYears);
+        document.getElementById("humanYears").innerHTML = humanAgeYearsRounded;
+       // return humanAgeYearsRounded;
+    
 
-    //var humanAgeMonths = humanAgeYears - parseInt(humanAgeYears);             // не работи правилно
-    // console.log('humanAgeMonths', humanAgeMonths);
-
-    //var humanAgeMonthsConverted = parseInt(humanAgeMonths*12);
-    //console.log('humanAgeMonthsConverted', humanAgeMonthsConverted);        // не работи правилно
-
-    document.getElementById("humanYears").innerHTML = [humanAgeYearsRounded];
-
-
-
-    setAge(humanAgeYearsRounded);
-    setStage(humanAgeYearsRounded)
+  
+  setAge(humanAgeYearsRounded);
+  setStage(humanAgeYearsRounded)
 });
 
 
+$(".breedBox").on('click', function() {
+  $(".breedBox").removeClass('selected-element')
+  $(this).addClass('selected-element')
+});
+
+
+const radioInputs = document.querySelectorAll('input[name="dog-size"]');
+radioInputs.forEach((input) => {
+  input.addEventListener("change", checkInputs);
+});
+
+function checkInputs() {
+  const anyInputSelected = Array.from(radioInputs).some((input) => input.checked);
+  calculateAgeBtn.disabled = !anyInputSelected;
+}
+
+// Initially check inputs to set the button state correctly
+checkInputs();

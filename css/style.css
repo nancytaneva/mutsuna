@@ -687,7 +687,7 @@ h2 {
 @media (max-width: 1482px) {
 
     * {
-        overflow-x: hidden;
+        /* overflow-x: hidden;  премахнах го заради кучешкия калкулатор за години */
     }
 
     .header-section {
