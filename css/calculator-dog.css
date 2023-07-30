@@ -1,0 +1,343 @@
+#calculateAgeBox {
+    background-color: #faa4069c;
+      border-radius: 72px 72px 0px 0px;
+      width: fit-content;
+      padding: 30px 30px 0px 30px;
+      color: black;
+      font-weight: 800;
+      margin: auto;
+  }
+  
+  .calculateAgeBoxText {
+    display: block;
+    text-align: -webkit-center;
+  }
+  
+  
+  #calculateAgeBtn {
+      background-color: #d40000;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+      transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+      padding: 10px;
+      margin: 17px;
+      color: #fefefe;
+      font-weight: bold;
+      font-size: 18px;
+  }
+  
+  #humanYears {
+      color: #d40000;
+      font-size: 26px;
+      font-weight: 900;
+  }
+  
+  input {
+    width: 70px;
+  }
+  
+  .inputs {
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+  }
+  
+  #agemeter {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #agemeter .wrapper {
+    position: relative;
+    width: 480px;
+    height: 240px;
+    margin-top: 17px;
+    overflow: hidden;
+    background-image: url(../css/img/growth/cat-calculator.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  
+  #agemeter .wrapper .indicator-wrapper {
+      position: absolute;
+      left: 10%;
+      top: 20%;
+      width: 80%;
+      height: 80%;
+      border-top-left-radius: 360px;
+      border-top-right-radius: 360px;
+      z-index: 400;
+  }
+  
+  #agemeter .wrapper .bar {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      transform-origin: bottom center;
+  }
+  
+  #agemeter .wrapper .bar-1 {
+      top: 0;
+      left: 0;
+      z-index: 200;
+      transform: rotate(-145deg);
+      /* background-color: rgb(114, 114, 238); */
+      background-color: green;
+  }
+  
+  #agemeter .wrapper .bar-2 {
+      top: 0;
+      right: 0;
+      z-index: 150;
+      transform: rotate(-99deg);
+      /* background-color: rgb(69, 69, 204); */
+      background-color: yellow;
+  }
+  
+  #agemeter .wrapper .bar-3 {
+      top: 0;
+      left: 0;
+      z-index: 100;
+      transform: rotate(-69deg);
+      /* background-color: rgb(40, 40, 180); */
+      background-color: purple;
+  }
+  
+  #agemeter .wrapper .bar-4 {
+      top: 0;
+      left: 0;
+      z-index: 0;
+      transform: rotate(30deg);
+      /* background-color: rgb(15, 15, 167); */
+      background-color: red;
+  }
+  
+  
+  /* Add this CSS for the agemeter-arrow */
+  #agemeter .wrapper .agemeter-arrow {
+      position: absolute;
+      left: 50%;
+      bottom: 6px;
+      width: 10px;
+      height: 170px;
+      border-radius: 50% 50% 50% 50% / 50% 50% 0 0;
+      background-color: #131313;
+      transform-origin: bottom center;
+      transform: translateX(-50%) rotate(-90deg);
+      z-index: 500;
+      overflow: hidden;
+    }
+  
+    #agemeter .wrapper .agemeter-arrow {
+      /* ... Your previous CSS for the agemeter-arrow ... */
+      transition: transform 0.5s ease; /* Adjust the duration and easing as desired */
+    }
+  
+      /* Add this CSS for the bar labels */
+      #speedometer .wrapper .bar {
+          /* ... Your previous CSS for the bars ... */
+          position: absolute;
+          transform-origin: bottom center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: bold;
+          color: white;
+          font-size: 14px;
+          pointer-events: none; /* This prevents the label from capturing clicks */
+        }
+      
+        /* Use ::after pseudo-elements to add the numbers inside the bars */
+        #speedometer .wrapper .bar::after {
+          content: attr(data-value); /* Use the 'data-value' attribute to set the number */
+        }
+      
+        /* Positioning and coloring for each bar's number */
+        #speedometer .wrapper .bar-1::after { top: 10px; }
+        #speedometer .wrapper .bar-2::after { top: 15px; }
+        #speedometer .wrapper .bar-3::after { top: 20px; }
+        #speedometer .wrapper .bar-4::after { top: 15px; }
+      
+        /* Other styles for the numbers, adjust as needed */
+        #speedometer .wrapper .bar::after {
+          position: absolute;
+          color: white;
+          font-weight: bold;
+        }
+  
+  
+  
+        .agemeter-arrow::before {
+          content: '';
+          height: 20px;
+          width: 20px;
+          bottom: -0.1em;
+          position: absolute;
+          display: inline-block;
+          background: #009688;
+          border-radius: 50%;
+          margin-left: -0.3em;
+          box-shadow: 0 0 0px 5px black;
+        }
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+.breed-big-box {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.breed-big-box img {
+    height: 140px;
+}
+
+.breedBox {
+    flex-grow: 1;
+    flex-basis: 0;
+    position: relative;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px 7px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    vertical-align: bottom;
+    align-items: center;
+    justify-content: flex-end;
+    text-transform: none;
+    transition: all .2s linear;
+}
+
+/* .tooltip {
+    position: absolute!important;
+    top: 9px;
+    right: 10px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(https://cdn.shopify.com/s/files/1/0535/2738/0144/files/ico-tooltip.svg?v=1649977292) no-repeat center;
+    background-size: 20px 20px;
+    margin-left: 5px;
+    cursor: pointer;
+} */
+
+
+.ddc-custom-radio {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+    overflow: visible;
+}
+
+.ddc-custom-radio:after {
+    content: "";
+    display: inline-block;
+    background: url(https://cdn.shopify.com/s/files/1/0535/2738/0144/files/ico-checkbox-unselected.svg?v=1649977292) no-repeat;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    position: relative;
+    margin-right: 20px;
+    top: -1px;
+    left: 2px;
+}
+
+
+
+
+
+  
+  
+  /* Mobile styles using media queries */
+  @media screen and (max-width: 767px) {
+  
+    #calculateAgeBox {
+      padding: 30px 0px 0px 0px;
+      border-radius: 50px 50px 0px 0px;
+    }
+  
+    #agemeter .wrapper {
+      width: 340px;
+      height: 170px;
+    }
+  
+    #agemeter .wrapper .agemeter-arrow {
+      height: 120px;
+    }
+  
+    .inputs {
+      display: block;
+    }
+  
+    .inputs-na {
+      display: inline-flex;
+      width: 23px;
+      justify-content: flex-end;
+    }
+  
+    .inputs-i {
+      display: inline-flex;
+      width: 30px;
+      justify-content: flex-end;
+    }
+  }
+  
+  
+  
+  @media screen and (max-width: 320px) {
+    #agemeter .wrapper {
+      width: 248px;
+      height: 124px;
+    }
+  
+    .inputs {
+      display: block;
+    }
+  
+    .inputs-na {
+      display: inline-flex;
+      width: 23px;
+      justify-content: flex-end;
+    }
+  
+    .inputs-i {
+      display: inline-flex;
+      width: 30px;
+      justify-content: flex-end;
+    }
+  
+    #agemeter .wrapper .agemeter-arrow {
+      height: 89px;
+      width: 8px;
+    }
+  
+  
+  }
+
+
+
+
+
+
+
+
+
+
+

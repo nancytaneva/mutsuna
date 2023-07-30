@@ -1,9 +1,6 @@
 const calculateAgeBtn = document.getElementById("calculateAgeBtn");
 
 
-
-
-
  // Get the arrow element
  const arrow = document.getElementById('agemeter-arrow');
 
@@ -212,6 +209,4 @@ calculateAgeBtn.addEventListener('click', function () {
     setAge(humanAgeYears);
     setStage(humanAgeYears)
 });
-
-
 

@@ -208,6 +208,18 @@ input {
   .inputs {
     display: block;
   }
+
+  .inputs-na {
+    display: inline-flex;
+    width: 23px;
+    justify-content: flex-end;
+  }
+
+  .inputs-i {
+    display: inline-flex;
+    width: 30px;
+    justify-content: flex-end;
+  }
 }
 
 
@@ -220,6 +232,18 @@ input {
 
   .inputs {
     display: block;
+  }
+
+  .inputs-na {
+    display: inline-flex;
+    width: 23px;
+    justify-content: flex-end;
+  }
+
+  .inputs-i {
+    display: inline-flex;
+    width: 30px;
+    justify-content: flex-end;
   }
 
   #agemeter .wrapper .agemeter-arrow {
