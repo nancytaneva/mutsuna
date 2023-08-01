@@ -568,6 +568,9 @@ h2 {
                 max-height: 300px;
                 object-fit: contain;}
 
+.flleft         {float: left;}
+.flright        {float: right;}
+
 #mobile-navigation {
     display: none;
     transition: height 0.3s;
