@@ -344,7 +344,17 @@
                 
                 <div id="articleContent">
                     <div id="article-content--dogs">
-                        
+
+                        <label for="birthdate">Въведете дата на раждане:</label>
+                        <input type="date" id="birthdate">
+                        <button id="calculate-btn">Изчисли</button>
+
+                        <p>6-та седмица след раждане: <span id="week6"></span></p>
+                        <p>9-та седмица след раждане: <span id="week9"></span></p>
+                        <p>12-та седмица след раждане: <span id="week12"></span></p>
+                        <p>16-та седмица след раждане: <span id="week16"></span></p>
+
+
                     </div>
                 </div>
 
@@ -469,6 +479,7 @@
         integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c="
         crossorigin="anonymous"></script>
 
-    <script src="../../script.js"></script>
+        <script src="./vaccination.js"></script>
+        <script src="../../script.js"></script>
 </body>
 </html>
