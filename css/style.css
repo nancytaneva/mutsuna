@@ -99,6 +99,22 @@
         opacity: 1;
 }
 
+.overlay-desktop {
+        /* за да се подредят едно до друго: */
+        visibility: hidden;
+        opacity: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 5;
+        transition: opacity 0.3s, visibility 0.3s;
+
+}
+
+
 .menu {
     display: flex;
     align-items: stretch;
@@ -124,6 +140,7 @@
     color: rgb(0, 0, 0);
     background-color: rgb(254, 254, 254);
     border-top: 7px solid rgb(36, 158, 160);
+    box-shadow: rgba(0, 0, 0, 0.381) 0px 0.125rem 0.25rem;
 }
 
 .panel-block {
@@ -165,8 +182,6 @@
 }
 
 
-
-
 #search-input {
     width: 80px;
     height: 24px;
@@ -197,8 +212,6 @@
 
 
 
-
-
 #breadcrumb {
     width: 1483px;
     display: flex;
@@ -210,23 +223,6 @@
     gap: 3px;
 }
 
-
-
-
-
-/* The progress container (grey background)
-.scroll-indicator-container {
-    width: 100%;
-    height: 7px;
-    background: #b8b8b8;
-  }
-  
-  The progress bar (scroll indicator) 
-  .scroll-indicator {
-    height: 7px;
-    background: #249ea0;
-    width: 0%;
-  } */
 
   /* The progress container (grey background) */
 .scroll-indicator-container-mobile {
@@ -317,6 +313,8 @@
     background-color: #e1dddd;
     margin-top: 126.4px;
     margin-left: 320px;
+        /* Add transition for smooth effect when the background color changes */
+        transition: background-color 0.2s ease;
 }
 
 .content {
@@ -341,6 +339,7 @@
 
 #article-content--cats p, #article-content--dogs p,#article-content--cats table, #article-content--dogs table {
     padding: 9px 0px;
+    text-indent: 50px;
 }
 
 .gallery {

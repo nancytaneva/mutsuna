@@ -27,6 +27,23 @@ document.addEventListener('copy', function (event) {
   });
   
 
+// OPEN MENU DESKTOP OVERLAY
+const headerNavigationItems = document.querySelectorAll('#header-navigation li');
+const overlayDesktop = document.querySelector('.overlay-desktop');
+
+headerNavigationItems.forEach(item => {
+  item.addEventListener('mouseenter', () => {
+    overlayDesktop.style.visibility = 'visible';
+    overlayDesktop.style.opacity = '1';
+  });
+
+  item.addEventListener('mouseleave', () => {
+    overlayDesktop.style.visibility = 'hidden';
+    overlayDesktop.style.opacity = '0';
+  });
+});
+
+
 
 
 
