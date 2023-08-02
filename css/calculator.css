@@ -28,11 +28,28 @@
     font-size: 18px;
 }
 
+
+#info-stage-button {
+  opacity: 0;
+  visibility: hidden;
+  cursor: pointer;
+  width: 25px;
+  border-radius: 50%;
+  transition: opacity 0.9s ease, visibility 0.9s ease;
+}
+
+#info-stage-button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
 #humanYears {
     color: #d40000;
     font-size: 26px;
     font-weight: 900;
-}
+    transition: .9s ease;
+  }
 
 input {
   width: 70px;

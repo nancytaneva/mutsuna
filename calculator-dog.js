@@ -35,39 +35,85 @@ function setAge(age) {
   function setStage(age) {
     //When DIV is HIDDEN
 
+    document.getElementById("info-stage-button").style.display = "visible";
+
     if (age > 12 && age <= 25) {
-        toggleVisibility(stageYoungDog);
+      toggleVisibilityWithTransition(stageYoungDog);
         hideOtherDivs(stageYoungDog);
     }
     else if (age > 25 && age <= 50) {
-        toggleVisibility(stageMatureDog);
+      toggleVisibilityWithTransition(stageMatureDog);
         hideOtherDivs(stageMatureDog);
     }
     else {
-        toggleVisibility(stageSeniorDog);
+      toggleVisibilityWithTransition(stageSeniorDog);
         hideOtherDivs(stageSeniorDog);
     }
   }
 
   // Function to toggle visibility of an element
-    function toggleVisibility(element) {
-    element.classList.toggle('hidden');
+function toggleVisibility(element) {
+  element.classList.toggle('hidden');
+}
+
+// Function to toggle visibility of an element with transition effect
+function toggleVisibilityWithTransition(element) {
+  element.classList.toggle('hidden');
+  element.classList.toggle('transition-effect');
+
+  // Show or hide the arrow icon based on the visibility of the div
+  const container = element.previousElementSibling;
+  const arrowIcon = container.querySelector('.info-stage-button'); // Use querySelector instead of getElementById
+  if (container.classList.contains('active')) {
+    arrowIcon.style.visibility = element.classList.contains('hidden') ? 'hidden' : 'visible';
   }
+}
+
 
   // Function to hide other div elements
 function hideOtherDivs(currentDiv) {
     const allDivs = document.querySelectorAll('.stage');
+    const infoStageButton = document.querySelectorAll('.info-stage-button');
     allDivs.forEach((div) => {
       if (div !== currentDiv) {
         div.classList.add('hidden');
       }
     });
+    infoStageButton.forEach((container) => {
+      container.classList.remove('active');
+    });
   }
 
   yesBtn.addEventListener('click', function () {
-    toggleVisibility(stagePuppy);
+    toggleVisibilityWithTransition(stagePuppy);
     hideOtherDivs(stagePuppy);
   });
+
+    yesBtn.addEventListener('click', function() {
+        stagePuppy.scrollIntoView({ behavior: 'smooth' });
+    });
+
+// Function to scroll to the specific div when the icon is clicked
+function scrollToDiv(divClass) {
+  const element = document.querySelector(divClass);
+  if (element) {
+    const offset = -350; // Adjust this value based on your layout and preferences
+    const elementPosition = element.getBoundingClientRect().top;
+    const offsetPosition = elementPosition + window.scrollY - offset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth',
+    });
+  }
+}
+
+// Rest of your existing functions and code...
+
+
+
+
+
 
 calculateAgeBtn.addEventListener('click', function () {
 
@@ -203,7 +249,9 @@ calculateAgeBtn.addEventListener('click', function () {
        // return humanAgeYearsRounded;
     
 
-  
+       const icon = document.getElementById('info-stage-button');
+       icon.classList.add('show');
+
   setAge(humanAgeYearsRounded);
   setStage(humanAgeYearsRounded)
 });

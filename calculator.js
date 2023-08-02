@@ -25,6 +25,7 @@ function setAge(age) {
   }
 
 
+
   function setStage(age) {
     //When DIV is HIDDEN
     const stageKitten     = document.getElementById('stageKitten');
@@ -32,38 +33,76 @@ function setAge(age) {
     const stageMatureCat  = document.getElementById('stageMatureCat');
     const stageSeniorCat  = document.getElementById('stageSeniorCat');
 
+    document.getElementById("info-stage-button").style.display = "visible";
+
     if(age <= 15) {
-        toggleVisibility(stageKitten);
+        toggleVisibilityWithTransition(stageKitten);
         hideOtherDivs(stageKitten);
     }
     else if (age > 15 && age <= 40) {
-        toggleVisibility(stageYoungCat);
+        toggleVisibilityWithTransition(stageYoungCat);
         hideOtherDivs(stageYoungCat);
     }
     else if (age > 40 && age <= 56) {
-        toggleVisibility(stageMatureCat);
+        toggleVisibilityWithTransition(stageMatureCat);
         hideOtherDivs(stageMatureCat);
     }
     else {
-        toggleVisibility(stageSeniorCat);
+        toggleVisibilityWithTransition(stageSeniorCat);
         hideOtherDivs(stageSeniorCat);
     }
   }
 
-  // Function to toggle visibility of an element
-    function toggleVisibility(element) {
-    element.classList.toggle('hidden');
-  }
 
-  // Function to hide other div elements
-function hideOtherDivs(currentDiv) {
+function toggleVisibilityWithTransition(element) {
+    element.classList.toggle('hidden');
+    element.classList.toggle('transition-effect');
+  
+    // Show or hide the arrow icon based on the container class
+    const container = element.previousElementSibling;
+    const infoStageButton = container.getElementById('info-stage-button');
+    if (container.classList.contains('active')) {
+        infoStageButton.style.visibility = element.classList.contains('hidden') ? 'hidden' : 'visible';
+    }
+  }
+  
+  
+  function hideOtherDivs(currentDiv) {
     const allDivs = document.querySelectorAll('.stage');
+    const infoStageButton = document.querySelectorAll('.info-stage-button');
     allDivs.forEach((div) => {
       if (div !== currentDiv) {
         div.classList.add('hidden');
       }
     });
+    infoStageButton.forEach((container) => {
+      container.classList.remove('active');
+    });
   }
+  
+  
+
+
+// Function to scroll to the specific div when the icon is clicked
+function scrollToDiv(divClass) {
+    const element = document.querySelector(divClass);
+    if (element) {
+      const offset = 160; // Adjust this value based on your layout and preferences
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition - offset;
+  
+      window.scrollBy({
+        top: offsetPosition,
+        behavior: 'smooth',
+      });
+    }
+  }
+  
+  
+  
+
+
+
 
 calculateAgeBtn.addEventListener('click', function () {
 
@@ -206,7 +245,13 @@ calculateAgeBtn.addEventListener('click', function () {
 
     }
 
+
+    const icon = document.getElementById('info-stage-button');
+    icon.classList.add('show');
+
+
     setAge(humanAgeYears);
-    setStage(humanAgeYears)
+    setStage(humanAgeYears);
+
 });
 
