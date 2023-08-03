@@ -356,6 +356,10 @@
     .wsava-calculator-container {
       margin: -167px 0px;
     }
+
+    .date h1 {
+      background-color: #2d898b;
+    }
   }
 
 
@@ -399,4 +403,7 @@
       text-align: start; 
     }
 
+    .date h1 {
+      background-color: #2d898b;
+    }
   }
