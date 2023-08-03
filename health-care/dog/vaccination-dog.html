@@ -7,6 +7,15 @@
     <title>Муцуна</title>
     <link rel="icon" href="../../css/img/mutsuna-logo-round-nose-DARK.png">
     <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/vaccination.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- for blurred images -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
@@ -347,6 +356,34 @@
                 <div id="articleContent">
                     <div id="article-content--dogs">
 
+
+
+                        
+
+                    <div class="calculator-calendar">
+                        <div class="calendar-container">
+                            <div class="calendar">
+                              <div class="month">
+                                <i class="fas fa-angle-left prev"></i>
+                                <div class="date">
+                                  <h1></h1>
+                                  <p></p>
+                                </div>
+                                <i class="fas fa-angle-right next"></i>
+                              </div>
+                              <div class="weekdays">
+                                <div>Нед</div>
+                                <div>Пон</div>
+                                <div>Вт</div>
+                                <div>Ср</div>
+                                <div>Четв</div>
+                                <div>Пет</div>
+                                <div>Съб</div>
+                              </div>
+                              <div class="days"></div>
+                            </div>
+                          </div>
+
                         <div id="old-calculator">
                             <h3>Стара ваксинационна схема</h3>
                         
@@ -358,14 +395,64 @@
 
                             <br>
                             
-                            <div>Първа ваксина: 6-а седмица (<span id="oldvaccine1"></span>)</div>
-                            <div>Втора ваксина: 8-а седмица (<span id="oldvaccine2"></span>) 
-                                                или 9-а седмица (<span id="oldvaccine3"></span>) </div>
-                            <div>Трета ваксина: 12-а седмица (<span id="oldvaccine4"></span>)</div>
-                            <div>Реваксинация: <div><span id="oldrevaccine"></span></div>
-    
-    
+                            <table id="old-vaccination-table">
+                                <tr>
+                                    <td class="first-td">Първа ваксина:</td>
+                                    <td>6-а седмица</td>
+                                    <td><span id="oldvaccine1"></span></td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="3" class="first-td">Втора ваксина:</td>
+                                    <td>8-а седмица</td>
+                                    <td><span id="oldvaccine2"></span></td>
+                                </tr>
+                                <tr>
+                                    <!-- <td></td> -->
+                                    <td colspan="2" class="center-text italic">или</td>
+                                </tr>
+                                <tr>
+                                    <!-- <td></td> -->
+                                    <td>9-а седмица</td>
+                                    <td><span id="oldvaccine3"></span></td>
+                                </tr>
+                                <tr>
+                                    <td class="first-td">Трета ваксина:</td>
+                                    <td>12-а седмица</td>
+                                    <td><span id="oldvaccine4"></span></td>
+                                </tr>
+                                <tr>
+                                    <td class="first-td">Реваксинация:</td>
+                                    <td>52-а седмица</td>
+                                    <td><span id="oldrevaccine"></span></td>
+                                </tr>
+                            </table>
+
                         </div>
+                    </div>
+                    
+                    <div class="calculator-calendar">
+                        <div class="wsava-calendar-container">
+                            <div class="wsava-calendar">
+                              <div class="wsava-month">
+                                <i class="fas fa-angle-left wsava-prev"></i>
+                                <div class="wsava-date">
+                                  <h1></h1>
+                                  <p></p>
+                                </div>
+                                <i class="fas fa-angle-right wsava-next"></i>
+                              </div>
+                              <div class="wsava-weekdays">
+                                <div>Нед</div>
+                                <div>Пон</div>
+                                <div>Вт</div>
+                                <div>Ср</div>
+                                <div>Четв</div>
+                                <div>Пет</div>
+                                <div>Съб</div>
+                              </div>
+                              <div class="wsava-days"></div>
+                            </div>
+                          </div>
 
                         <div id="wsava-calculator">
                             <h3>WSAVA ваксинационна схема</h3>
@@ -377,28 +464,58 @@
                             <button id="calculate-btn">Изчисли</button>
 
                             <br>
-                            <div>
-                                Ваксините ще са през (избери):
-                                <select id="every-x-weeks">
-                                    <option id="every-three-weeks" value="3">3 седмици</option>
-                                    <option id="every-four-weeks" value="4">4 седмици</option>
-                                </select>
+
+                            <div id="wsava-calculate-input">
+                                <div class="wsava-calculate-box">
+                                    <div>
+                                        Ваксините ще са през:
+                                    </div>
+                                    <div>
+                                        <select id="every-x-weeks">
+                                            <option id="every-three-weeks" value="3">3 седмици</option>
+                                            <option id="every-four-weeks" value="4">4 седмици</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="wsava-calculate-box">
+                                    <div>Първата ваксина ще е на:</div>
+                                    <div>
+                                        <select id="first-week">
+                                            <option value="6"><p>6</p></option>
+                                            <option value="7"><p>7</p></option>
+                                            <option value="8"><p>8</p></option>
+                                            <option value="9"><p>9</p></option>
+                                        </select>-а седмица след раждане:    
+                                    </div>
+                                </div>
+                                
                             </div>
-                            <div>Първата ваксина ще е на (избери):</div>
-                            <select id="first-week">
-                                <option value="6"><p>6</p></option>
-                                <option value="7"><p>7</p></option>
-                                <option value="8"><p>8</p></option>
-                                <option value="9"><p>9</p></option>
-                            </select>-а седмица след раждане:
-    
-                            <div><span id="vaccine1"></span></div>
-                            <div><span id="vaccine2"></span></div>
-                            <div><span id="vaccine3"></span></div>
-                            <div><span id="vaccine4"></span></div>
-                            <div><span id="revaccine"></span></div>
-    
+                            
+                            <table id="wsava-vaccination-table">
+                                <tr id="vaccine1">
+                                </tr>
+                                <tr id="vaccine2">
+                                </tr>
+                                <tr id="vaccine3">
+                                </tr>
+                                <tr id="vaccine4">
+                                </tr>
+                                <tr id="revaccine1">
+                                </tr>
+                                <tr id="revaccine-or">
+                                </tr>
+                                <tr id="revaccine2">
+                                </tr>
+                            </table>
+
+                            
                         </div>
+                    </div>
+                        
+
+                        
+                    
+
 
                     </div>
                 </div>

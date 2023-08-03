@@ -385,6 +385,7 @@ td, th {
     text-align: left;
     padding: 8px;
     font-size: 0.9rem;
+    text-indent: 0px!important;
   }
 
   tr:nth-child(odd) {

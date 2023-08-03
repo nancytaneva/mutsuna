@@ -11,9 +11,9 @@ document.addEventListener('copy', function (event) {
     const mobileNavigation = document.getElementById('mobile-navigation');
     const overlay = document.getElementById('overlay');
   
-    console.log('mobileBurger:', mobileBurger);
-    console.log('mobileNavigation:', mobileNavigation);
-    console.log('overlay:', overlay);
+    // console.log('mobileBurger:', mobileBurger);
+    // console.log('mobileNavigation:', mobileNavigation);
+    // console.log('overlay:', overlay);
   
     function toggleMobileNavigation() {
       const isMenuVisible = window.getComputedStyle(mobileNavigation).display === 'block';

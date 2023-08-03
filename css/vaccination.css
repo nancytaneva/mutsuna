@@ -1,0 +1,329 @@
+#article-content--dogs, #article-content--cats {
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-start; */
+}
+
+
+.calculator-calendar {
+    margin-top: 50px;
+    display: flex;
+}
+
+
+.calendar-container, .wsava-calendar-container {
+    width: 50%;
+    height: 50%;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.5);
+    margin: -147px -99px;
+  }
+  
+
+  .calendar {
+    /* position: relative; */
+    width: 33rem;
+    /* height: 44rem; */
+    box-shadow: 0 0.5rem 3rem rgb(36 158 160 / 62%);
+    border: 2px solid #249ea0;
+    }
+
+  .month {
+    width: 100%;
+    background-color: #249ea0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+  }
+  
+  .month i {
+    font-size: 2.5rem;
+    cursor: pointer;
+  }
+  
+  .month h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .month p {
+    font-size: 1.6rem;
+  }
+  
+  .weekdays {
+    width: 100%;
+    height: 5rem;
+    padding: 0 0.4rem;
+    display: flex;
+    align-items: center;
+    background-color: #dce0e0;
+  }
+  
+  .weekdays div {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    width: calc(44.2rem / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  }
+  
+  .days {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+  }
+  
+  /* 
+  .today {
+    background-color: #167e56;
+  }
+ */
+
+  .prev-date,
+  .next-date {
+    opacity: 0.5;
+  }
+
+.days div {
+    font-size: 1.7rem;
+    margin: 0.3rem;
+    width: calc(28rem / 7);
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+    transition: background-color 0.2s;
+}
+
+.days div:hover:not(.today) {
+    background-color: #249ea0a3;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.is-checked-for-vacination {
+    background: #fd5901;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+
+
+
+
+#old-vaccination-table td, th {
+    border: 3px solid #50a88b;
+    padding: 14px;
+}
+
+#old-calculator, #wsava-calculator {
+    width: 689px;
+}
+
+#old-vaccination-table .first-td {
+    background-color: #005f60;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+#old-vaccination-table tr:nth-child(odd) {
+    background-color: #09855b75;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wsava-date h1 {
+    background-color: #f7810491;
+}
+
+.wsava-calendar {
+        /* position: relative; */
+        width: 33rem;
+        /* height: 44rem; */
+        box-shadow: 0 0.5rem 3rem #f781046b;
+        border: 2px solid #f78104;
+}
+
+.wsava-month {
+    width: 100%;
+    background-color: #f78104;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+  }
+  
+.wsava-month i {
+    font-size: 2.5rem;
+    cursor: pointer;
+  }
+  
+.wsava-month h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+  }
+  
+.wsava-month p {
+    font-size: 1.6rem;
+  }
+  
+.wsava-weekdays {
+    width: 100%;
+    height: 5rem;
+    padding: 0 0.4rem;
+    display: flex;
+    align-items: center;
+    background-color: #dce0e0;
+  }
+  
+.wsava-weekdays div {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    width: calc(44.2rem / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  }
+  
+.wsava-days {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+  }
+  
+.wsava-days div {
+    font-size: 1.7rem;
+    margin: 0.3rem;
+    width: calc(28rem / 7);
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+    transition: background-color 0.2s;
+}
+
+.wsava-days div:hover:not(.today) {
+    background-color: #249ea0a3;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.is-checked-for-vacination-wsava {
+    background: #009db5;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+
+#wsava-calculator select {
+    font-size: 1rem;
+    background-color: #fff4a1;
+    border-radius: 16%;
+}
+
+#wsava-vaccination-table td, th {
+    border: 3px solid #ffb34b;
+    padding: 14px;
+}
+
+#wsava-calculator, #wsava-calculator {
+    width: 689px;
+}
+
+#wsava-vaccination-table .first-td {
+    background-color: #f78104;
+    color: #282828;
+    font-weight: bold;
+    text-shadow: 0 0 6px #ffd169;
+    font-size: 1rem;
+}
+
+#wsava-vaccination-table tr:nth-child(odd) {
+    background-color: #ffe94b85;
+  }
+
+
+
+
+
+
+
+  #old-calculate-btn, #calculate-btn {
+    width: 90px;
+    border-radius: 19px;
+    padding: 5px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, rgba(253,89,13,1) 0%, rgb(233 30 99) 100%);
+    border: 0px;
+    box-shadow: 3px 3px 8px #0d0e0f;
+    text-shadow: 0 0 5px black;
+  }
+
+
+  #old-calculate-btn {
+    background: linear-gradient(90deg, rgb(36 158 160) 0%, #E91E63 100%);
+  }
+
+  #wsava-calculate-input {
+    width: 462px;
+  }
+
+  .wsava-calculate-box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #every-x-weeks {
+    margin-right: 138px;
+  }
+
+
+
+
+
+
+
+  .calculator-calendar h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
