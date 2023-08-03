@@ -311,6 +311,8 @@
             <a class="breadcrumb-link no-dec" href="./health-care-dog.html">Обезпаразитяване</a>
         </div>
 
+        <div class="overlay-desktop"></div>
+
         <div class="scroll-indicator-container-mobile">
             <div id="myBarMobile" class="scroll-indicator-mobile"></div>
         </div>
@@ -345,15 +347,58 @@
                 <div id="articleContent">
                     <div id="article-content--dogs">
 
-                        <label for="birthdate">Въведете дата на раждане:</label>
-                        <input type="date" id="birthdate">
-                        <button id="calculate-btn">Изчисли</button>
+                        <div id="old-calculator">
+                            <h3>Стара ваксинационна схема</h3>
+                        
+                            <label for="old-birthdate">Въведете дата на раждане:</label>
+                            <input type="date" id="old-birthdate">
 
-                        <p>6-та седмица след раждане: <span id="week6"></span></p>
-                        <p>9-та седмица след раждане: <span id="week9"></span></p>
-                        <p>12-та седмица след раждане: <span id="week12"></span></p>
-                        <p>16-та седмица след раждане: <span id="week16"></span></p>
 
+                            <button id="old-calculate-btn">Изчисли</button>
+
+                            <br>
+                            
+                            <div>Първа ваксина: 6-а седмица (<span id="oldvaccine1"></span>)</div>
+                            <div>Втора ваксина: 8-а седмица (<span id="oldvaccine2"></span>) 
+                                                или 9-а седмица (<span id="oldvaccine3"></span>) </div>
+                            <div>Трета ваксина: 12-а седмица (<span id="oldvaccine4"></span>)</div>
+                            <div>Реваксинация: <div><span id="oldrevaccine"></span></div>
+    
+    
+                        </div>
+
+                        <div id="wsava-calculator">
+                            <h3>WSAVA ваксинационна схема</h3>
+                        
+                            <label for="birthdate">Въведете дата на раждане:</label>
+                            <input type="date" id="birthdate">
+
+
+                            <button id="calculate-btn">Изчисли</button>
+
+                            <br>
+                            <div>
+                                Ваксините ще са през (избери):
+                                <select id="every-x-weeks">
+                                    <option id="every-three-weeks" value="3">3 седмици</option>
+                                    <option id="every-four-weeks" value="4">4 седмици</option>
+                                </select>
+                            </div>
+                            <div>Първата ваксина ще е на (избери):</div>
+                            <select id="first-week">
+                                <option value="6"><p>6</p></option>
+                                <option value="7"><p>7</p></option>
+                                <option value="8"><p>8</p></option>
+                                <option value="9"><p>9</p></option>
+                            </select>-а седмица след раждане:
+    
+                            <div><span id="vaccine1"></span></div>
+                            <div><span id="vaccine2"></span></div>
+                            <div><span id="vaccine3"></span></div>
+                            <div><span id="vaccine4"></span></div>
+                            <div><span id="revaccine"></span></div>
+    
+                        </div>
 
                     </div>
                 </div>
