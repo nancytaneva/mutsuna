@@ -302,3 +302,23 @@ scrollToSectionBtn.addEventListener('click', scrollToSection);
 
 
 
+// DISABLE VIEW SOURSE
+
+      //   // Disable Ctrl + U
+      //   document.onkeydown = function (event) {
+      //     if (event.ctrlKey && event.keyCode === 85) { // 85 is the key code for 'U'
+      //         return false;
+      //     }
+      // };
+
+      // // Show a custom message when someone tries to right-click.
+      // document.addEventListener('contextmenu', function(event) {
+      //     event.preventDefault();
+      //     alert("Right-click is disabled.");
+      // });
+
+      //         // Show a custom message when someone tries to right-click.
+      //         document.addEventListener('contextmenu', function(event) {
+      //           event.preventDefault();
+      //           alert("Right-click is disabled.");
+      //       });
