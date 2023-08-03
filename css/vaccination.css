@@ -327,3 +327,76 @@
     font-size: 1.5rem;
     font-weight: 900;
   }
+
+  @media (max-width: 1482px)  and (min-width: 781px) {
+
+    .calendar-container, .wsava-calendar-container {
+      margin: -147px -39px;
+    }
+    
+    #wsava-calculator, #wsava-calculator {
+    width: 100%;
+    }
+
+    #wsava-calculate-input {
+      width: 100%;
+    }
+
+    #every-x-weeks {
+      margin: 0;
+    }
+
+    .wsava-calculate-box {
+      display: flex;
+      justify-content: flex-start;
+      gap: 5px;
+  }
+
+
+    .wsava-calculator-container {
+      margin: -167px 0px;
+    }
+  }
+
+
+
+  @media (max-width: 780px) {
+    .calculator-calendar {
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .calendar-container, .wsava-calendar-container {
+      margin: -153px 80px;
+    }
+
+    #old-calculator {
+      width: 100%;
+      text-align: -webkit-center;
+    }
+
+    #wsava-calculator {
+      width: 100%;
+    }
+
+    #wsava-calculate-input {
+      width: 100%;
+    }
+
+    .wsava-calculate-box {
+      gap: 5px;
+    }
+
+    #every-x-weeks {
+      margin: 0;
+    }
+
+
+    .wsava-calculate-box {
+      justify-content: start;
+      gap: 5px;
+      text-align: start; 
+    }
+
+  }
