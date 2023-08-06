@@ -627,6 +627,11 @@ h2 {
 .share-icon {
     height: 40px;
     object-fit: contain;
+    transition: transform 0.2s ease 0s;
+}
+
+.share-icon:hover {
+    transform: translateY(-10px);
 }
 
 .share-text {
@@ -699,6 +704,34 @@ h2 {
   }
 
 
+
+
+  .about-us {
+    display: flex;
+    width: 1381px;
+    justify-content: center;
+    text-align: -webkit-right;
+    flex-direction: row-reverse;
+    padding: 168px;
+    color: #cecece;
+    font-size: 1.3rem;
+    background: url(./img/about-us-background.png);
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: border-box;
+  }
+
+
+  .about-us-text {
+    padding: 80px 30px;
+    font-weight: 900;
+    line-height: 1.7rem;
+  }
+
+  .about-us img {
+    height: 500px;
+  }
 
 
 @media (max-width: 1482px) {
@@ -1117,6 +1150,34 @@ h2 {
     .img300x500 {
         width: 100%;
     }
+
+
+
+    .about-us {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    color: #cecece;
+    font-size: 1.3rem;
+    background-color: #202124;
+}
+    
+.about-us-text {
+    padding: 67px;
+}
+
+.about-us img {
+    height: auto;
+    width: 90%;
+    padding: 25px;
+}
+
+
+
+
+
 
 }
 
