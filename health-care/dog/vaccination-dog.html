@@ -378,11 +378,14 @@
                         <p>
                             През първите седмици от живота си повечето кученца са защите от майчините антитела, които са приели чрез майчиното мляко. Тези антитела намаляват, като изчезват до 8-12-седмична възраст.
                             <br>
+                        </p>
+                        <div class="print-page-break">
                             Когато майчините антитела са оскъдни, то кученцата са по-малко защитени и съответно са по-уязвими. Когато майчините антитела са в изобилите, то те са защитени за по-продължително време.
                             <br>
                             След като майчините антитела намалеят, тъй като кученцата стават уязвими, трябва да започне тяхната ваксинация, за да изградят достатъчно силна имунна система.
-                        </p>
-                        <img src="../../css/img/health-care/vaccination-chart.gif" class="img300x500">
+                        </div>
+                        <img src="../../css/img/health-care/vaccination-chart.gif" class="img300x500 no-print">
+                        <img src="../../css/img/health-care/vaccination-chart.png" class="img300x500 only-for-print">
                         <p>
                             Ваксините биват задължителни и незадължителни – първата група се поставя на всички котки и котенца, докато незадължителните – само при риск от излагане на определено заболяване.
                         </p>
@@ -401,6 +404,7 @@
                             <li>Кучешки херпесвирус – причинява херпесвирусна инфекция</li>
                             <li>Гъбички (Microsporum canis) – причинява дерматомикоза</li>
                         </ul>
+                        <div class="print-page-break"></div>
                         <p>
                             По <span class="fw800">най-разпространената ваксинационна схема</span> у нас имунизацията на кученцата започва на 6-седмична възраст, както следва:
                             <br>
@@ -438,10 +442,12 @@
                             Ако вече знаете Вашата ваксинационна схема, можете да използвате по-долния калкулатор, за да видите на кои дати трябва да посетите ветеринаря, за да ваксинира кученцето Ви.
                             Не забравяйте, че трябва да обезпаразитите любимецът си преди да бъде ваксиниран. (виж: <a href="../../health-care/dog/deworming-dog.html">Обезпаразитяване</a>)
                         </p>
+                    
+                    <div class="print-page-break"></div>
 
                     <div class="calculator-calendar">
                         <div class="calendar-container">
-                            <div class="calendar">
+                            <div class="calendar no-print">
                               <div class="month">
                                 <i class="fas fa-angle-left prev"></i>
                                 <div class="date">
@@ -470,7 +476,7 @@
                             <input type="date" id="old-birthdate">
 
 
-                            <button id="old-calculate-btn">Изчисли</button>
+                            <button id="old-calculate-btn" class="no-print">Изчисли</button>
 
                             <br>
                             
@@ -508,10 +514,13 @@
 
                         </div>
                     </div>
+                    <button id="print-chart-btn" onclick="printContent()" class="no-print">Принтирай ваксинационната схема</button>
+                    
+                    <div class="print-page-break"></div>
                     
                     <div class="calculator-calendar">
                         <div class="wsava-calendar-container">
-                            <div class="wsava-calendar">
+                            <div class="wsava-calendar no-print">
                               <div class="wsava-month">
                                 <i class="fas fa-angle-left wsava-prev"></i>
                                 <div class="wsava-date">
@@ -540,7 +549,7 @@
                             <input type="date" id="birthdate">
 
 
-                            <button id="calculate-btn">Изчисли</button>
+                            <button id="calculate-btn" class="no-print">Изчисли</button>
 
                             <br>
 
@@ -591,11 +600,10 @@
                         </div>
                     </div>
                         
+                    <button id="print-chart-btn" onclick="printContent()" class="no-print">Принтирай ваксинационната схема</button>
 
-                        
+                    <a href="microchipping-dog.html" class="no-print"><h1>Следваща глава: Чипиране</h1></a>
                     
-
-
                     </div>
                 </div>
 

@@ -375,12 +375,14 @@
                             <span class="fw800 dark-orange">Убитите ваксини</span> съдържат „убит“ вирус, който при контакт с имунната система я кара да произвежда антитела и съответно така да изгради имунитет.
                             Живите ваксини можем да ги наречем „инфекциозни“, защото макар и много рядко, този 92-годишен дядо може да прогледне и да извади отнякъде къртечницата, т. е. уж отслабения вирус да възвърне силите си и да причини заболяване.
                         </p>
+                        <div class="print-page-break"></div>
                         <p>
                             През първите седмици от живота си повечето котенца са защите от майчините антитела, които са приели чрез майчиното мляко. Тези антитела намаляват, като изчезват до 8-12-седмична възраст.
                             Когато майчините антитела са оскъдни, то котенцата са по-малко защитени и съответно са по-уязвими. Когато майчините антитела са в изобилите, то те са защитени за по-продължително време.
                             След като майчините антитела намалеят, тъй като котенцата стават уязвими, трябва да започне тяхната ваксинация, за да изградят достатъчно силна имунна система.
                         </p>
-                        <img src="../../css/img/health-care/vaccination-chart.gif" class="img300x500">
+                        <img src="../../css/img/health-care/vaccination-chart.gif" class="img300x500 no-print">
+                        <img src="../../css/img/health-care/vaccination-chart.png" class="img300x500 only-for-print">
                         <p>
                             Ваксините биват задължителни и незадължителни – първата група се поставя на всички котки и котенца, докато незадължителните – само при риск от излагане на определено заболяване.
                         </p>
@@ -395,7 +397,8 @@
                         </p>
                         <p>
                             Според <span class="fw800"><a href="https://wsava.org/wp-content/uploads/2020/01/WSAVA-Vaccination-Guidelines-2015.pdf">Ръководството за ваксиниране на кучета и котки на Световната асоциация на ветеринарните лекари за дребни животни (WSAVA)</a></span>, издадено през 2016 год., ваксините може да се провалят да индуцират имунитет поради три причини:
-                            <br>
+                        <div class="print-page-break"></div>
+                        <br>
                             1 – <span class="underline">Майчините антитела неутрализират</span> ваксината. Независимо от това, след последното поставяне на ваксина котенцето вече трябва да е изградило имунитет.
                             <br>
                             2 – <span class="underline">Ваксината не е достатъчно силна</span> заради: грешки при производството, съхранението, транспорта или инжектирането.
@@ -414,11 +417,12 @@
                         </p>
                     
 
+                    <div class="print-page-break"></div>
                     
                     
                     <div class="calculator-calendar">
                         <div class="wsava-calendar-container">
-                            <div class="wsava-calendar">
+                            <div class="wsava-calendar no-print">
                               <div class="wsava-month">
                                 <i class="fas fa-angle-left wsava-prev"></i>
                                 <div class="wsava-date">
@@ -447,7 +451,7 @@
                             <input type="date" id="birthdate">
 
 
-                            <button id="calculate-btn">Изчисли</button>
+                            <button id="calculate-btn" class="no-print">Изчисли</button>
 
                             <br>
 
@@ -497,7 +501,9 @@
                         </div>
                     </div>
                     
-                        <a href="microchipping-cat.html"><h1>Следваща глава: Чипиране</h1></a>
+                    <button id="print-chart-btn" onclick="printContent()" class="no-print">Принтирай ваксинационната схема</button>
+
+                    <a href="microchipping-cat.html" class="no-print"><h1>Следваща глава: Чипиране</h1></a>
                     
                     </div>
                 </div>

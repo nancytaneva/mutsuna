@@ -325,6 +325,3 @@ document.getElementById('every-x-weeks').addEventListener('change', function() {
 
 
 
-
-
-
