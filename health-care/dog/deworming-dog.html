@@ -7,11 +7,15 @@
     <title>Муцуна</title>
     <link rel="icon" href="../../css/img/mutsuna-logo-round-nose-DARK.png">
     <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/print.css" media="print">
     <!-- for blurred images -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
+    <div class="print-logo">
+        <span class="site-url-text fs27 tshadow">mutsuna.org</span>
+    </div>
     <!-- HEADER -->
     <header class="header-section">
         <div id="header-container">
@@ -23,7 +27,7 @@
                 <a href="../../index.html" class="no-dec">
                     <div class="site-url">
                         <img class="site-url-img" src="../../css/img/logo-background-image.png">
-                        <span class="site-url-text fs27 tshadow">mutsuna.com</span>
+                        <span class="site-url-text fs27 tshadow">mutsuna.org</span>
                     </div>
                 </a>
                 <a href="../../index.html" class="no-dec" id="a-mobile-site-logo">
@@ -200,7 +204,7 @@
             </div>
 
             <!-- SEARCH BOX -->
-            <div id="search-tool">
+            <div id="search-tool" class="no-print">
                 <form>
                     <input id="search-input" placeholder="Search">
                     <img src="../../css/img/blue-search.png" class="button-search">
@@ -209,7 +213,7 @@
                 
             </div>
 
-            <div class="mobile-burger">
+            <div class="mobile-burger no-print">
                 <button class="menu1" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
                     <svg width="100" height="100" style="width: 35px; height: 25px;" viewBox="15 15 75 75">
                       <path class="line line1" 
@@ -301,7 +305,7 @@
             </a>
         </div>
                      
-        <div id="breadcrumb">
+        <div id="breadcrumb" class="no-print">
             <a class="breadcrumb-link no-dec" href="../../index.html">Начало</a>
                 <span class="breadcrumb-link">  /  </span>
             <a class="breadcrumb-link no-dec" href="../../health-care.html">Здравни грижи</a>
@@ -313,7 +317,7 @@
 
         <div class="overlay-desktop"></div>
 
-        <div class="scroll-indicator-container-mobile">
+        <div class="scroll-indicator-container-mobile" class="no-print">
             <div id="myBarMobile" class="scroll-indicator-mobile"></div>
         </div>
 
@@ -323,7 +327,7 @@
 
     <section id="content-section">
 
-        <section id="article-review">
+        <section id="article-review" class="no-print">
             <div>
                 <a href="../../health-care/dog/health-care-dog.html"><button id="dog-btn-clicked">Куче</button></a> 
                 или 
@@ -372,7 +376,7 @@
                         
                             <img src="../../css/img/health-care/parasiti-shema.png" class="img300x500">
                         
-                        <ul><span class="fw900 royal-blue">ВЪНШНИ ПАРАЗИТИ:</span>
+                        <ul><div class="fw900 royal-blue print-page-break">ВЪНШНИ ПАРАЗИТИ:</div>
                             <li>Бълхи</li>
                             <li>Кърлежи</li>
                             <li>Въшки</li>
@@ -410,12 +414,13 @@
                                 <li>Дипилидоза и Мезоцестоидоза (Виж: Дипилидоза, Мезоцестоидоза)</li>
                                 <li>Мултицепидоза (Виж: Мултицепидоза)</li>
                                 <li>Ехинококоза (Виж: Ехинококоза)</li>
+                                <div class="print-page-break"></div>
                                 <li>Хидатигенна тениоза (Виж: Хидатигенна тениоза)</li>
                                 <li>Пизиформна тениоза (Виж: Пизиформна тениоза)</li>
                                 <li>Овисна тениоза (Виж: Овисна тениоза)</li>
                             </ul>
                             <br>
-                            <span class="fw900">Кръглите червеи</span> са дълги, тънки и кръгли червеи, приличащи на спагети. Такива са:
+                            <div><span class="fw900 ">Кръглите червеи</span> са дълги, тънки и кръгли червеи, приличащи на спагети. Такива са:</div>
                             <ul>
                                 <li>Токсокари и токсаскариди (Виж: Токсокароза, Токсаскаридоза)</li>
                                 <li>Дирофилария (Виж: Дирофилариоза)</li>
@@ -515,6 +520,7 @@
                                 За да не се стигат до сериозни здравословни проблеми, е важно да се извършват <span class="fw900">редовни прегледи</span> при ветеринарния лекар, който според индивидуалните характеристики на животното да предприеме специфична профилактика спрямо паразитите.
                             </p>
                             <br>
+                            <div class="print-page-break"></div>
                             <p>
                                 <span class="fw900">Обезпаразитяването на кученцата</span> трябва да започне още през втората седмица след раждането, защото точно тогава те са възприемчиви към паразити, които се предават чрез плацентата и чрез млякото. (Виж: Токсокароза, Токсаскаридоза, Анкилостомоза, Трихуроза по кучетата). Също така, няколко дни до седмица преди ваксинация кученцата трябва да бъдат обезпаразитени, за да бъдат здрави. (Виж: Ваксинация).
                             </p>
@@ -534,6 +540,7 @@
                             <p>
                                 Продуктите, които можете да изберете, се продават в търговската мрежа в различни форми, размери и разфасовки, но те най-общо се класифицират спрямо начина им на приложение. В таблицата са описани техните характеристики:
                             </p>
+                            <div class="print-page-break"></div>
                             <table>
                                 <tr>
                                     <td>Тип препарат</td>
@@ -579,6 +586,7 @@
                                     <li><a href="#heading3dogs">Срещу вътрешни паразити</a></li>
                                 </ol>
                             </p>
+                            <div class="print-page-break"></div>
                             <h2 id="heading1dogs">Срещу външни паразити:</h2>
                             <p class="pimg">
                                 <img src="../../css/img/health-care/deworming-med/Simparica_family_pack.png" class="img300x500">
@@ -588,7 +596,7 @@
                                 <div  class="italic"><span class="bold italic">Описание</span>: Ветеринарномедицинският продукт има незабавен ефект и продължителна способност да убива бълхите и кърлежите за период от поне 5 седмици. Паразитите трябва да започнат да се хранят от гостоприемника, за да бъдат изложени на действието на sarolaner, поради това предаването на векторни заболявания не може да се изключи.</div>
                                 <div  class="italic"><span class="bold italic">Линк за повече информация</span>: <a href="https://www.ema.europa.eu/en/documents/product-information/simparica-epar-product-information_bg.pdf">тук</a> и <a href="https://www.sigmaprovadia.com/product/simparica-40-mg-%d1%81%d0%b8%d0%bc%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%b0-40-%d0%bc%d0%b3-%d1%82%d0%b0%d0%b1%d0%bb%d0%b5%d1%82%d0%ba%d0%b8-%d0%b7%d0%b0-%d0%b4%d1%8a%d0%b2%d1%87%d0%b5%d0%bd%d0%b5-%d0%b7/">тук</a> </div>
                             </p>
-
+                            <div class="print-page-break"></div>
                             <p class="pimg">
                                 <img src="../../css/img/health-care/deworming-med/bravecto-dogs.png" class="img300x500">
                                 <div class="fw800">Bravecto дъвчащи таблетки за кучета</div>
@@ -646,7 +654,7 @@
                                 <div class="italic"><span class="bold italic">Описание</span>: След поставяне, каишката запазва ефективността си срещу кърлежи и бълхи, най-малко в продължение на 7 месеца.</div>
                                 <div class="italic"><span class="bold italic">Линк за повече информация</span>: <a href="https://www.sigmaprovadia.com/wp-content/uploads/2018/08/Vectra-3D-listovka.pdf">тук</a></div>
                             </p class="pimg">
-
+                            <div class="print-page-break"></div>    
                             <h2 id="heading2dogs">Срещу външни и вътрешни паразити:</h2>
                             <p class="pimg">
                                 <img src="../../css/img/health-care/deworming-med/simparica-trio-dogs.png" class="img300x500">
@@ -673,7 +681,7 @@
                                 <div class="italic"><span class="bold italic">Действие</span>: срещу външни паразити (бълхи и кърлежи, крастни кърлежи) и вътрешни паразити (телазия, белодробни паразити, дирофилария, токсокара, анкилостома)</div>
                                 <div class="italic"><span class="bold italic">Линк за повече информация</span>: <a href="https://drbopetstore.com/produkt/bayer-advocate-dog-za-kucheta-ot-10-do-25-kg-kombiniran-preparat-sresthu-vatreshni-i-vanshni-paraziti/">тук</a></div>
                             </p>
-
+                            <div class="print-page-break"></div>
                             <h2 id="heading3dogs">Срещу вътрешни паразити:</h2>
                             <p class="pimg">
                                 <img src="../../css/img/health-care/deworming-med/drontal-puppy.png" class="img300x500">
@@ -728,12 +736,12 @@
                                 <div class="italic"><span class="bold italic">Линк за повече информация</span>: <a href="https://www.sigmaprovadia.com/wp-content/uploads/2018/08/Biheldon_tabl.pdf">тук</a></div>
                             </p>
 
-                            <a href="./vaccination-dog.html"><h1>Следваща глава: Ваксинации</h1></a>
+                            <a href="./vaccination-dog.html" class="no-print"><h1>Следваща глава: Ваксинации</h1></a>
                         </div>
                     </div>
                 </div>
 
-                <div id="share-with-others">
+                <div id="share-with-others" class="no-print">
                     <div class="share-with-others-text">Помогни на повече стопани да се грижат правилно за своите мили любимци:</div>
                     <div class="share-panel">
                         <div id="postFacebookBtn" class="share-box">
@@ -766,11 +774,11 @@
     </section>
 
 
-    <footer class="footer">
+    <footer class="footer no-print">
         <div class="footer-container">
             
             <div id="footer-mission">
-                <div class="fs24 pb16">Муцуна.ком</div>
+                <div class="fs24 pb16">Муцуна.орг</div>
                 <div>
                     <span class="yellow">Никой</span>
                     <span> не си взима куче или котка с мисълта: "О, яко!</span>
@@ -781,8 +789,8 @@
                     <span class="very-light-blue"> взаимно щастие и любов</span>
                     <span>, но понякога положителните емоции са засенчени от неприятните такива, породени от незнанието</span>
                     <span class="very-light-blue"> как да се грижим за нашия любимец</span>
-                    <span>. Този сайт е с цел да ви въведе в света на домашните любимци бързо и практично. А самото приложение – да ви облекчи в следенето на медицинските грижи на вашия четирикрак приятел.</span>
-                    
+                    <span>. Този сайт е с цел да ви въведе в света на домашните любимци бързо и практично.</span>
+                    <!-- <span> А самото приложение – да ви облекчи в следенето на медицинските грижи на вашия четирикрак приятел.</span> -->
                 </div>
             </div>
             
@@ -809,7 +817,7 @@
                 </div>
 
                 <div class="footer-box">
-                    <a href="https://www.facebook.com/mutsunacom/" class="no-dec">
+                    <a href="https://www.facebook.com/mutsuna.org/" class="no-dec">
                         <img src="../../css/img/footer-facebook.png" class="footer-icon">
                         <div class="footer-icon-text">Фейсбук</div>
                     </a>
@@ -838,11 +846,11 @@
 
 
 
-    <button id="scrollToTopBtn" class="scroll-to-top-btn" title="Scroll to Top">
+    <button id="scrollToTopBtn" class="scroll-to-top-btn no-print" title="Scroll to Top">
         <img src="../../css/img/scroll-to-top-btn.png" alt="Scroll to Top" class="scroll-to-top-img">
     </button>
 
-    <button id="scrollToSectionBtn" class="scroll-to-share-btn" title="Scroll to Section">
+    <button id="scrollToSectionBtn" class="scroll-to-share-btn  no-print" title="Scroll to Section">
         <img src="../../css/img/share-btn.png" alt="Scroll to Top" class="scroll-to-share-img">
     </button>
 

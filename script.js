@@ -196,6 +196,19 @@ function printContent() {
   window.print();
 }
 
+function addPrintPageBreaks() {
+  const elements = document.getElementsByClassName('print-page-break');
+  for (const element of elements) {
+    const wrapper = document.createElement('div');
+    wrapper.classList.add('print-page-break-wrapper');
+    element.parentNode.insertBefore(wrapper, element);
+    wrapper.appendChild(element);
+  }
+}
+
+window.addEventListener('load', addPrintPageBreaks);
+
+
 // FACEBOOK
 window.fbAsyncInit = function() {
   FB.init({
