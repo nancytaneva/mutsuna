@@ -621,6 +621,7 @@ h2 {
     flex-direction: column;
     width: 132px;
     padding: 5px;
+    cursor: pointer;
 }
 
 .share-icon {

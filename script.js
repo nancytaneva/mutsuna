@@ -1,6 +1,6 @@
 document.addEventListener('copy', function (event) {
     event.preventDefault();
-    alert('При ИЗПОЛЗВАНЕ на текст от този сайт трябва да се спомене ИЗТОЧНИКА, в този случай: MUTSUNA.com ( Виж: "Политика на поверителност").');
+    alert('При ИЗПОЛЗВАНЕ на текст от този сайт трябва да се спомене ИЗТОЧНИКА, в този случай: MUTSUNA.org ( Виж: "Политика на поверителност").');
   });
 
 
@@ -185,7 +185,7 @@ function blurImage(element) {
 // EMAIL
 function sendByEmail() {
   const subject = "Сайт за по-добра грижа към домашните ни любимци"; 
-  const body = "Здравей, този сайт цели да подпомогне стопаните да се грижат по-добре за своите мили любимци - mustsuna.com. Посети го.";
+  const body = "Здравей, този сайт цели да подпомогне стопаните да се грижат по-добре за своите мили любимци - mutsunaa.org. Посети го!";
 
   const mailtoLink = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   window.location.href = mailtoLink;
@@ -222,12 +222,23 @@ window.fbAsyncInit = function() {
 document.getElementById('postFacebookBtn').addEventListener('click', function() {
   FB.ui({
     method: 'share',
-    href: 'https://nancytaneva.github.io/',
+    href: 'https://nancytaneva.github.io',
   }, function(response) {
     // Handle the response if needed
   });
 });
 
+
+// document.getElementById('postFacebookBtn').addEventListener('click', function() {
+//   if(navigator.share) {
+//     navigator.share{(
+//       title:`${title}`,
+//       url: `${url}`
+//     )}.then(() => {
+
+//     })
+//   }
+// });
 
 // MESSENGER
 window.fbAsyncInit = function() {
@@ -242,7 +253,7 @@ window.fbAsyncInit = function() {
 document.getElementById('shareMessengerBtn').addEventListener('click', function() {
   FB.ui({
     method: 'send',
-    link: 'https://nancytaneva.github.io/',
+    link: 'https://mutsuna.org/',
   }, function(response) {
     // Handle the response if needed
   });
