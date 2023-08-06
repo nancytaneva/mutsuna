@@ -222,23 +222,12 @@ window.fbAsyncInit = function() {
 document.getElementById('postFacebookBtn').addEventListener('click', function() {
   FB.ui({
     method: 'share',
-    href: 'https://nancytaneva.github.io',
+    href: window.location.href,
   }, function(response) {
     // Handle the response if needed
   });
 });
 
-
-// document.getElementById('postFacebookBtn').addEventListener('click', function() {
-//   if(navigator.share) {
-//     navigator.share{(
-//       title:`${title}`,
-//       url: `${url}`
-//     )}.then(() => {
-
-//     })
-//   }
-// });
 
 // MESSENGER
 window.fbAsyncInit = function() {
@@ -253,7 +242,7 @@ window.fbAsyncInit = function() {
 document.getElementById('shareMessengerBtn').addEventListener('click', function() {
   FB.ui({
     method: 'send',
-    link: 'https://mutsuna.org/',
+    link: window.location.href,
   }, function(response) {
     // Handle the response if needed
   });
