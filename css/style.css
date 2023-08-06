@@ -736,7 +736,7 @@ h2 {
 
 
 .particles {
-    position:relative;
+    position: relative;
     display: flex;
     z-index: 50;
     padding: 0 20px;
@@ -745,41 +745,66 @@ h2 {
 
 .particles span {
     position: relative;
-    bottom: 30px;
-    width: 30px;
-    height: 30px;
+    bottom: 5px;
+    width: 5px;
+    height: 5px;
     background: #4fc3dc;
-    box-shadow: 0 0 0 10px #4fc3dc44,
-    0 0 50px #4fc3dc,
-    -100px 0 #4fc3dc99,
-    100px 0 #ff2d7599;
-    margin: 0 4px;
+    box-shadow: 0 0 16px 7px #d3dc4f2a, 0 0 30px #4fc3dc;
+    margin: 0 80px;
     border-radius: 50%;
-    animation: animate 15s ease infinite;
-    animation-duration: calc(125s / var(--i));
+    animation: animate 55s linear infinite;
+    animation-duration: calc(800s / var(--i));
 }
 
-.particles span:nth-child(even) {
-    background-color: #ff2d75;
-    box-sizing: 0 0 0 10px #ff2d7544,
-    0 0 50px#ff2d75,
-    -100px 0 #4fc3dc90,
-    100px 0 #4fc3dc99;
+.particles span:nth-child(2) {
+    background-color: #fd5901;
+    box-shadow: 0 0 7px 5px #fff52d17, 0 0 50px #ff692d;
+}
+
+.particles span:nth-child(3) {
+    background-color: #db01fd;
+    box-shadow: 0 0 7px 5px #df2dff17, 0 0 30px #ff2ded;
 }
 
 
 @keyframes animate {
     0%
     {
-        transform: translateY(120vh) scale(0) rotate(0deg);
+        transform: translate(100px, -15px) scale(0);
     }
-    20%
-    {
-        transform: translateY(100vh) scale(1) rotate(0deg);
+    15% {
+        transform: translate(50px, -75px) scale(0.5);
+    }
+
+    18% {
+        transform: translate(50px, -100px) scale(0.5);
+    }
+
+    25% {
+        transform: translate(-125px, -125px) scale(1.2);
+    }
+
+    32% {
+        transform: translate(-125px, -175px) scale(1.2);
+    }
+
+    40% {
+        transform: translate(50px, -200px) scale(1);
+    }
+    50% {
+        transform: translate(-250px, -250px) scale(1);
+    }
+
+    62% {
+        transform: translate(-775px, -300px) scale(0.7);
+    }
+
+    75% {
+        transform: translate(-775px, -375px) scale(1);
     }
     100%
     {
-        transform: translateY(-50vh) scale(0.5) rotate(360deg);
+        transform: translate(350px, -500px) scale(0);
     }
 }
 
