@@ -210,6 +210,7 @@
   }
   
 .wsava-weekdays div {
+    color: var(--text-color-calendar);
     font-size: 1.5rem;
     font-weight: 400;
     letter-spacing: 0.1rem;
@@ -254,6 +255,7 @@
 
 
 #wsava-calculator select {
+    color: var(--text-color-calendar);
     font-size: 1rem;
     background-color: #fff4a1;
     border-radius: 16%;
