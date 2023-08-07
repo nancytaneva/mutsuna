@@ -18,10 +18,6 @@
     -webkit-user-select: none; */
 }
 
-/* .print-logo {
-    display: none;
-
-  } */
 
 .header-section {
     position: fixed;
@@ -294,6 +290,13 @@
     color: #fefefe;
     font-weight: bold;
     font-size: 18px;
+}
+
+#dog-btn:hover, #cat-btn:hover, #dog-btn-clicked:hover, #cat-btn-clicked:hover {
+    background-color: #249ea0;
+    scale: 1.1;
+    transition: all 0.3s;
+    cursor: pointer;
 }
 
 #dog-btn-clicked, #cat-btn-clicked {
@@ -708,10 +711,10 @@ h2 {
 
   .about-us {
     display: flex;
-    width: 1381px;
     justify-content: center;
     text-align: -webkit-right;
     flex-direction: row-reverse;
+    width: 1381px;
     padding: 168px;
     color: #cecece;
     font-size: 1.3rem;
@@ -727,89 +730,15 @@ h2 {
     padding: 80px 30px;
     font-weight: 900;
     line-height: 1.7rem;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
   }
 
   .about-us img {
     height: 500px;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
   }
-
-
-
-.particles {
-    position: relative;
-    display: flex;
-    z-index: 50;
-    padding: 0 20px;
-}
-
-
-.particles span {
-    position: relative;
-    bottom: 5px;
-    width: 5px;
-    height: 5px;
-    background: #4fc3dc;
-    box-shadow: 0 0 16px 7px #d3dc4f2a, 0 0 30px #4fc3dc;
-    margin: 0 80px;
-    border-radius: 50%;
-    animation: animate 55s linear infinite;
-    animation-duration: calc(800s / var(--i));
-}
-
-.particles span:nth-child(2) {
-    background-color: #fd5901;
-    box-shadow: 0 0 7px 5px #fff52d17, 0 0 50px #ff692d;
-}
-
-.particles span:nth-child(3) {
-    background-color: #db01fd;
-    box-shadow: 0 0 7px 5px #df2dff17, 0 0 30px #ff2ded;
-}
-
-
-@keyframes animate {
-    0%
-    {
-        transform: translate(100px, -15px) scale(0);
-    }
-    15% {
-        transform: translate(50px, -75px) scale(0.5);
-    }
-
-    18% {
-        transform: translate(50px, -100px) scale(0.5);
-    }
-
-    25% {
-        transform: translate(-125px, -125px) scale(1.2);
-    }
-
-    32% {
-        transform: translate(-125px, -175px) scale(1.2);
-    }
-
-    40% {
-        transform: translate(50px, -200px) scale(1);
-    }
-    50% {
-        transform: translate(-250px, -250px) scale(1);
-    }
-
-    62% {
-        transform: translate(-775px, -300px) scale(0.7);
-    }
-
-    75% {
-        transform: translate(-775px, -375px) scale(1);
-    }
-    100%
-    {
-        transform: translate(350px, -500px) scale(0);
-    }
-}
-
-
-
 
 
 
@@ -1260,59 +1189,13 @@ h2 {
 }
     
 .about-us-text {
-    padding: 67px;
+    padding: 13px;
 }
 
 .about-us img {
     height: auto;
     width: 90%;
     padding: 25px;
-}
-
-
-.particles span {
-    margin: 0 20px;
-}
-
-@keyframes animate {
-    0%
-    {
-        transform: translate(100px, -175px) scale(0);
-    }
-    15% {
-        transform: translate(50px, -185px) scale(0.5);
-    }
-
-    18% {
-        transform: translate(50px, -200px) scale(0.5);
-    }
-
-    25% {
-        transform: translate(-125px, -220px) scale(1.2);
-    }
-
-    32% {
-        transform: translate(-125px, -280px) scale(1.2);
-    }
-
-    40% {
-        transform: translate(50px, -300px) scale(1);
-    }
-    50% {
-        transform: translate(-250px, -350px) scale(1);
-    }
-
-    62% {
-        transform: translate(-775px, -400px) scale(0.7);
-    }
-
-    75% {
-        transform: translate(-775px, -575px) scale(1);
-    }
-    100%
-    {
-        transform: translate(350px, -700px) scale(0);
-    }
 }
 
 

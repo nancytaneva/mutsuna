@@ -1,0 +1,221 @@
+
+
+.particles {
+    position: relative;
+    display: flex;
+    z-index: 50;
+    padding: 0 20px;
+}
+
+
+.particles span {
+    position: relative;
+    bottom: 5px;
+    width: 5px;
+    height: 5px;
+    background: #4fc3dc;
+    box-shadow: 0 0 16px 7px #d3dc4f2a, 0 0 30px #4fc3dc;
+    margin: 0 80px;
+    border-radius: 50%;
+    animation: animateParticles 55s linear infinite;
+    animation-duration: calc(800s / var(--i));
+}
+
+.particles span:nth-child(2) {
+    background-color: #fd5901;
+    box-shadow: 0 0 7px 5px #fff52d17, 0 0 50px #ff692d;
+}
+
+.particles span:nth-child(3) {
+    background-color: #db01fd;
+    box-shadow: 0 0 7px 5px #df2dff17, 0 0 30px #ff2ded;
+}
+
+
+@keyframes animateParticles {
+    0%
+    {
+        transform: translate(100px, -15px) scale(0);
+    }
+    15% {
+        transform: translate(50px, -75px) scale(0.5);
+    }
+
+    18% {
+        transform: translate(50px, -100px) scale(0.5);
+    }
+
+    25% {
+        transform: translate(-125px, -125px) scale(1.2);
+    }
+
+    32% {
+        transform: translate(-125px, -175px) scale(1.2);
+    }
+
+    40% {
+        transform: translate(50px, -200px) scale(1);
+    }
+    50% {
+        transform: translate(-250px, -250px) scale(1);
+    }
+
+    62% {
+        transform: translate(-775px, -300px) scale(0.7);
+    }
+
+    75% {
+        transform: translate(-775px, -375px) scale(1);
+    }
+    100%
+    {
+        transform: translate(350px, -500px) scale(0);
+    }
+}
+
+
+@keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+}
+
+
+.widen-nose {
+    position: absolute;
+    display: flex;
+    z-index: 50;
+    padding: 0px 19px;
+    margin-bottom: 25.8px;
+}
+
+.widen-nose .right {
+    position: relative;
+    width: 7px;
+    height: 10px;
+    background: #0f6962;
+    box-shadow: 0 0 16px 7px #d3dc4f2a, 0 0 30px #4fc3dc;
+    margin: 0 3px;
+    border-radius: 95% 4%;
+    transform: rotate(4deg);
+    transform: scale(0);
+    animation: widenNoseRight 5s linear infinite;
+    animation-duration: 300s;
+}
+
+.widen-nose .left {
+    position: relative;
+    width: 7px;
+    height: 10px;
+    background: #198d80;
+    box-shadow: 0 0 16px 7px #d3dc4f2a, 0 0 30px #4fc3dc;
+    margin: 0 3px;
+    border-radius: 4% 95%;
+    /* transform: rotate(4deg); */
+    transform: scale(0);
+    animation: widenNoseLeft 5s linear infinite;
+    animation-duration: 300s;
+}
+
+@keyframes widenNoseLeft {
+0% {
+    transform: skew(27deg, 30deg) scale(0.1) translate(13px, -8px);
+}
+0.25% {
+    transform: scale(1) translate(0px, 0px);
+}
+0.5% {
+    transform: skew(27deg, 30deg) scale(0.1) translate(13px, -8px);
+}
+100% {
+    transform: skew(27deg, 30deg) scale(0.1) translate(13px, -8px);
+}
+}
+
+
+@keyframes widenNoseRight {
+    0% {
+        transform: skew(333deg, 330deg) scale(0.1) translate(-8px, -8px);
+    }
+    0.25% {
+        transform: scale(1) translate(0px, 0px);
+    }
+    0.5% {
+        transform: skew(333deg, 330deg) scale(0.1) translate(-8px, -8px);
+    }
+    100% {
+        transform: skew(333deg, 330deg) scale(0.1) translate(-8px, -8px);
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1482px) {
+
+
+    .particles span {
+        margin: 0 20px;
+    }
+    
+    @keyframes animate {
+        0%
+        {
+            transform: translate(100px, -175px) scale(0);
+        }
+        15% {
+            transform: translate(50px, -185px) scale(0.5);
+        }
+    
+        18% {
+            transform: translate(50px, -200px) scale(0.5);
+        }
+    
+        25% {
+            transform: translate(-125px, -220px) scale(1.2);
+        }
+    
+        32% {
+            transform: translate(-125px, -280px) scale(1.2);
+        }
+    
+        40% {
+            transform: translate(50px, -300px) scale(1);
+        }
+        50% {
+            transform: translate(-250px, -350px) scale(1);
+        }
+    
+        62% {
+            transform: translate(-775px, -400px) scale(0.7);
+        }
+    
+        75% {
+            transform: translate(-775px, -575px) scale(1);
+        }
+        100%
+        {
+            transform: translate(350px, -700px) scale(0);
+        }
+    }
+
+
+    .widen-nose {
+        padding: 0px 12.5px;
+        margin-bottom: 15px;
+    }
+
+    .widen-nose .right, .widen-nose .left {
+        margin: 0 2px;
+    }
+}
