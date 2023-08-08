@@ -93,13 +93,13 @@
     --background-color-content-mobile: #212127;  */
    
     --background-color-header-section-mobile: #202124;
-    --background-color-mobile-navigation: var(--background-color);
+    --background-color-mobile-navigation: #1c1c21;
 
     --background-color-footer: #141416;
 
     --background-color-button: #994f00;
     --background-color-gray: #444c4c;
-    --background-color-scroll-indicator: #41434e;
+    --background-color-scroll-indicator: #050505;
 
     --shadow-color-article: #161616;
 
