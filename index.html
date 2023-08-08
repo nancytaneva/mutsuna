@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Муцуна</title>
     <link rel="icon" href="./css/img/mutsuna-logo-round-nose-DARK.png">
+    <link rel="stylesheet" href="./css/animations.css" />
     <link rel="stylesheet" href="./css/style.css" />
      <!-- ICONS CDN FONTAWESOME -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -27,7 +28,7 @@
                 </div>
                 <a href="./index.html" class="no-dec">
                     <div class="site-url">
-                        <img class="site-url-img" src="./css/img/logo-background-image.png">
+                        <img id="site-url-img" class="site-url-img" src="./css/img/logo-background-image-round.png">
                         <span class="site-url-text fs27 tshadow">mutsuna.org</span>
                     </div>
                 </a>
@@ -35,21 +36,6 @@
                     <img src="./css/img/mutsuna-logo-REAL.png"  class="mobile-site-logo">
                 </a>
             </div>
-
-
-
-
-<!-- 
-            <div>
-                <span class="trapezoid"></span>
-            </div> -->
-
-
-            <div>
-                <span class="square"></span>
-            </div>
-
-
 
                 <!-- HEADER NAVIGATION -->
             <div id="header-navigation">
@@ -229,6 +215,14 @@
                 
             </div>
 
+            <div id="dark-mode-toggle" class="dark-mode-btn">
+                <div class="dark-mode--indicator">
+                  <div class="dark-mode--icon-container">
+                    <i class="dark-mode--icon fa-solid"></i>
+                  </div>
+                </div>
+            </div>
+
             <div class="mobile-burger">
                 <button class="menu1" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
                     <svg width="100" height="100" style="width: 35px; height: 25px;" viewBox="15 15 75 75">
@@ -336,13 +330,7 @@
     
     </header>
 
-    <div id="dark-mode-toggle" class="dark-mode-btn">
-        <div class="dark-mode--indicator">
-          <div class="dark-mode--icon-container">
-            <i class="dark-mode--icon fa-solid"></i>
-          </div>
-        </div>
-    </div>
+
 
     <section id="main-content" style="
                     margin-left: 0;

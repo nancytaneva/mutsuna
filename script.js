@@ -8,8 +8,11 @@ document.addEventListener('copy', function (event) {
 
 
   // DARK MODE
- let darkMode = localStorage.getItem("darkMode");
+ let darkMode         = localStorage.getItem("darkMode");
+ let darkenLogo       = localStorage.getItem("darkenLogo");
  const darkModeToggle = document.querySelector("#dark-mode-toggle");
+ let siteUrlImg       = document.querySelector("#site-url-img");
+ 
 // проверяваме дали ДаркМоде е вкл
 // ако е вкл -> изключваме
 // ако е изкл -> включваме
@@ -21,6 +24,16 @@ const enableDarkMode = () => {
   localStorage.setItem("darkMode", "enabled");
 }
 
+const enableDarkenLogo = () => {
+  siteUrlImg.classList.add("darkenLogo");
+  localStorage.setItem("darkenLogo", "enabled");
+}
+
+const disableDarkenLogo = () => {
+  siteUrlImg.classList.remove("darkenLogo");
+  localStorage.setItem("darkenLogo", null);
+}
+
 const disableDarkMode = () => {
   // 1. add the class DarkMode to the body
   document.body.classList.remove("darkMode");
@@ -30,17 +43,21 @@ const disableDarkMode = () => {
 
 if (darkMode === "enabled") {
   enableDarkMode();
+  enableDarkenLogo();
 }
 
  darkModeToggle.addEventListener("click", () => {
     darkMode = localStorage.getItem("darkMode");
+    darkenLogo = localStorage.getItem("darkenLogo");
 
     if (darkMode!== "enabled") {
       enableDarkMode();
+      enableDarkenLogo();
       console.log(darkMode);
     }
     else {
       disableDarkMode();
+      disableDarkenLogo();
       console.log(darkMode);
     }
  });

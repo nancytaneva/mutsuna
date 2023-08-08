@@ -94,7 +94,7 @@
     width: 7px;
     height: 10px;
     background: #0f6962;
-    box-shadow: 0 0 16px 7px #d3dc4f2a, 0 0 30px #4fc3dc;
+    /* box-shadow: 0 0 16px 7px #d3dc4f2a, 0 0 30px #4fc3dc; */
     margin: 0 3px;
     border-radius: 95% 4%;
     transform: rotate(4deg);
@@ -108,7 +108,7 @@
     width: 7px;
     height: 10px;
     background: #198d80;
-    box-shadow: 0 0 16px 7px #d3dc4f2a, 0 0 30px #4fc3dc;
+    /* box-shadow: 0 0 16px 7px #d3dc4f2a, 0 0 30px #4fc3dc; */
     margin: 0 3px;
     border-radius: 4% 95%;
     /* transform: rotate(4deg); */
@@ -153,9 +153,17 @@
 
 
 
+@keyframes widenBackgroundLogo {
+
+    to    {transform: scale(1) translate(0px, 0px);
+            height: 65px;}
+}
 
 
-
+@keyframes slideInDown {
+    from    {transform: translateY(-278px) scale(0);}
+    to      {transform: translateY(0) scale(1);}
+}
 
 
 
