@@ -99,7 +99,7 @@
     border-radius: 95% 4%;
     transform: rotate(4deg);
     transform: scale(0);
-    animation: widenNoseRight 5s linear infinite;
+    animation: widenNoseRight 5s linear 3s infinite;
     animation-duration: 300s;
 }
 
@@ -113,7 +113,7 @@
     border-radius: 4% 95%;
     /* transform: rotate(4deg); */
     transform: scale(0);
-    animation: widenNoseLeft 5s linear infinite;
+    animation: widenNoseLeft 5s linear 3s infinite;
     animation-duration: 300s;
 }
 

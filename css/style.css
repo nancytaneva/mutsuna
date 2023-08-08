@@ -35,6 +35,7 @@
     --background-color-header-mobile: #ffffff;
     --background-color-content-mobile: #ffffff;
     --background-color-header-section-mobile: #e1dddd;
+    --background-color-mobile-navigation: #efefef;
 
     --background-color-button: #f78104;
     --background-color-gray: #778383;
@@ -68,10 +69,16 @@
     --text-color-light-orange:#faab36;
     --text-color-light-blue:#249ea0;
     --text-color-very-light-blue: #009db5;
+
+
+    --box-shadow-wsava-calendar: #f781046b;
+    --box-shadow-calendar: #249ea09e;
+    --background-color-tr-odd: #ffe94b85;
 }
 
 .darkMode {
-    --background-color: #19191d;
+    /* --background-color: #19191d; */
+    --background-color: #1c1c21;
     --background-color-breadcrumb: var(--background-color);
     --background-color-breadcrumb-mobile: var(--background-color);
     --background-color-h1: #005f60;
@@ -80,26 +87,31 @@
     --text-color-h2:#d33501;
     --border-bottom-h2: #494949;
 
-    --background-color-header-mobile: #1a1b1d;
-    --background-color-content-mobile: #1a1b1d;
+    --background-color-header-mobile: #27282f;
+    --background-color-content-mobile: #27282f;
+    /* --background-color-header-mobile: #212127;
+    --background-color-content-mobile: #212127;  */
+   
     --background-color-header-section-mobile: #202124;
+    --background-color-mobile-navigation: var(--background-color);
 
     --background-color-footer: #141416;
 
     --background-color-button: #994f00;
     --background-color-gray: #444c4c;
-    --background-color-scroll-indicator: #17181b;
+    --background-color-scroll-indicator: #41434e;
 
     --shadow-color-article: #161616;
 
-    --header-color: #212127;
+    --header-color: #27282f;
+    /* --header-color: #212127; */
     --header-border-color: #005f60;
     --text-color: #bdbdbd;
     --td-table-color:#1a1a1a;
 
 
 
-    --text-color-red: #ce0b0b;
+    --text-color-red: #c62e2e;
     --text-color-yellow: #beb300;
     --text-color-orange: #b55d00;
     --text-color-blue: #008083;
@@ -111,6 +123,9 @@
     --text-color-light-blue:#249ea0;
     --text-color-very-light-blue: #005f60;
 
+    --box-shadow-wsava-calendar: #0000006b;
+    --box-shadow-calendar: #0808089e;
+    --background-color-tr-odd: #11111185;
 }
 
 
@@ -492,7 +507,7 @@
     height: 620px;
     width: 320px;
     border-radius: 0;
-    margin-top: 126.4px;
+    margin-top: 95.6px;
     background-color: var(--background-color);
     border-right: solid 0.6px var(--shadow-color-article);
     box-shadow: inset -5px 4px 4px -3px var(--shadow-color-article);
@@ -551,7 +566,7 @@
 #main-content {
     width: calc(100% - 320px);
     float: right;
-    margin-top: 126.4px;
+    margin-top: 95.6px;
     margin-left: 320px;
         /* Add transition for smooth effect when the background color changes */
         transition: background-color 0.2s ease;
@@ -753,7 +768,7 @@ h2 {
 .royal-blue       {color: var(--text-color-royal-blue)!important;}
 .lignt-orange     {color: var(--text-color-lignt-orange)!important;}
 .light-blue       {color: var(--text-color-light-blue)!important;}
-.very-light-blue  {color: var(--text-color-red)!important;}
+.very-light-blue  {color: var(--text-color-very-light-blue)!important;}
 .red              {color: var(--text-color-red)!important;}
 
 .italic                 {font-style: italic;}
@@ -956,6 +971,7 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
     background-origin: border-box;
+    filter: brightness(1.3);
   }
 
 
@@ -977,8 +993,6 @@ h2 {
     opacity: 0;
     animation: fadeIn 1s ease-in-out forwards;
   }
-
-
 
 
 
@@ -1171,6 +1185,7 @@ h2 {
     #mobile-navigation--cats, #mobile-navigation--dogs {
         display: none;
         transition: height 0.3s;
+        color: var()
     }
 
     .MENUBUTTON {
@@ -1184,6 +1199,7 @@ h2 {
         padding: 0px 20px;
         border: 0px;
         border-bottom: 0.09rem solid #434343d1;
+        background-color: var(--background-color-mobile-navigation);
     }
 
     .MENUBUTTON-text {
@@ -1196,6 +1212,7 @@ h2 {
         font-weight: bold;
         font-size: 0.9rem;
         border: 0px;
+        color: var(--text-color-blue);
     }
 
 

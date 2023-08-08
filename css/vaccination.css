@@ -27,7 +27,7 @@
     /* position: relative; */
     width: 33rem;
     /* height: 44rem; */
-    box-shadow: 0 0.5rem 3rem rgb(36 158 160 / 62%);
+    box-shadow: 0 0.5rem 3rem var(--box-shadow-calendar);
     border: 2px solid #249ea0;
     }
 
@@ -167,7 +167,7 @@
         /* position: relative; */
         width: 33rem;
         /* height: 44rem; */
-        box-shadow: 0 0.5rem 3rem #f781046b;
+        box-shadow: 0 0.5rem 3rem var(--box-shadow-wsava-calendar);
         border: 2px solid #f78104;
 }
 
@@ -279,7 +279,7 @@
 }
 
 #wsava-vaccination-table tr:nth-child(odd) {
-    background-color: #ffe94b85;
+    background-color: var(--background-color-tr-odd);
   }
 
 
