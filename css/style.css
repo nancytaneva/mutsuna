@@ -683,29 +683,30 @@ h2 {
 
 /* HOME home-MENU */
 .home-cat {
-    width: 329px;
+    width: 343px;
     height: 446px;
     padding: 89px 0px 0px 167px;
-    margin-top: 191px;
     margin-bottom: 50px;
     background-image: url(./img/home/cat-play.png);
     background-repeat: no-repeat;
+    padding-top: 204px;
+    padding-left: 4px;
+    background-position: right;
+    margin-top: 40px;
 }
 
 .home-menu {
     position: relative;
-    width: 280px;
-    height: 280px;
+    width: 60px;
+    height: 60px;
     padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
     transform: rotate(90deg);
 }
 
 .home-menu li {
     position: absolute;
-    left: 0px;
+    left: -110px;
     list-style: none;
     transition: 0.5s;
     transition-delay: calc(0.1s * var(--i));
@@ -779,8 +780,8 @@ h2 {
     opacity: 0;
     transition: opacity 0.3s, visibility 0.3s;
     rotate: calc((180deg / -7 * var(--i)) - 90deg);
-    transform: translate(-100px, -3px);
-    margin: -55px -36px;
+    transform: translate(68px, -4px);
+    margin: -55px -69px;
 }
 
 .home-menu li:hover .tooltip {
