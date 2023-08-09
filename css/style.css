@@ -729,6 +729,7 @@ h2 {
     font-size: 1.5em;
     transform: rotate(calc((180deg / -7 * var(--i)) - 90deg));
     transition: 1s;
+    background: var(--background-color-footer);
 }
 
 .home-menu li a ion-icon {
