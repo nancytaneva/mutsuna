@@ -1568,6 +1568,24 @@ h2 {
     }
 
 
+
+    .home-menu.active .tooltip {
+        visibility: visible;
+        opacity: 1;
+        transition: all 2s;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
     .footer {
             background-color: var(--background-color-content-mobile);
     }
