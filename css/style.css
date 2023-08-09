@@ -509,7 +509,7 @@
     height: 620px;
     width: 320px;
     border-radius: 0;
-    margin-top: 95.6px;
+    margin-top: 126.4px;
     background-color: var(--background-color);
     border-right: solid 0.6px var(--shadow-color-article);
     box-shadow: inset -5px 4px 4px -3px var(--shadow-color-article);
@@ -568,7 +568,7 @@
 #main-content {
     width: calc(100% - 320px);
     float: right;
-    margin-top: 95.6px;
+    margin-top: 126.4px;
     margin-left: 320px;
         /* Add transition for smooth effect when the background color changes */
         transition: background-color 0.2s ease;
@@ -663,6 +663,108 @@ h2 {
 .pimg {
     text-align: -webkit-center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOME home-MENU */
+.home-cat {
+    margin-top: 191px;
+    margin-bottom: 50px;
+}
+
+.home-menu {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(90deg);
+}
+
+.home-menu li {
+    position: absolute;
+    left: 0px;
+    list-style: none;
+    transition: 0.5s;
+    transition-delay: calc(0.1s * var(--i));
+    transform-origin: 140px;
+    transform: rotate(90deg) translate(110px);
+}
+
+.home-menu.active li {
+    transform: rotate(calc(180deg / 7 * var(--i))) translateX(-45px);
+}
+.home-menu li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    color:var(--clr);
+    border: 2px solid var(--clr);
+    border-radius: 50%;
+    font-size: 1.5em;
+    transform: rotate(calc((180deg / -7 * var(--i)) - 90deg));
+    transition: 1s;
+}
+
+.home-menu li a:hover {
+    transition: 0s;
+    background: var(--clr);
+    color: #333;
+    box-shadow: 0 0 10px var(--clr),
+    0 0 30px var(--clr),
+    0 0 50px var(--clr);
+}
+
+.home-menu .home-toggle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #005f60;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 10000;
+    font-size: 2em;
+    transition: transform 1.25s;
+}
+
+.home-menu.active .home-toggle {
+    transform: rotate(315deg);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

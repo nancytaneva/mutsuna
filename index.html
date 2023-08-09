@@ -339,9 +339,33 @@
         <div id="content" class="content">
             <div id="overlay"></div>
 
-            
-            
-
+            <div class="home-cat">
+                <ul class="home-menu">
+                    <div class="home-toggle"><ion-icon name="add-outline"></ion-icon></div>
+                    <li style="--i:0;--clr:#9b5fe0;">
+                        <a href="what-for-you.html"><ion-icon name="paw-outline"></ion-icon></a>
+                    </li>
+                    <li style="--i:1;--clr:#16a4d8;">
+                        <a href="adjustment.html"><ion-icon name="home-outline"></ion-icon></a>
+                    </li>
+                    <li style="--i:2;--clr:#60dbe8;">
+                        <a href="./how-take-care.html"><ion-icon name="hand-right-outline"></ion-icon></a>
+                    </li>
+                    <li style="--i:3;--clr:#8bd346;">
+                        <a href="./growth.html"><ion-icon name="trending-up-outline"></ion-icon></a>
+                    </li>
+                    <li style="--i:4;--clr:#efdf48;">
+                        <a href="./nutrition.html"><ion-icon name="restaurant-outline"></ion-icon></a>
+                    </li>
+                    <li style="--i:5;--clr:#f9a52c;">
+                        <a href="./health-care.html"><ion-icon name="bandage-outline"></ion-icon></a>
+                    </li>
+                    <li style="--i:6;--clr:#d64e12;">
+                        <a href="./diseases.html"><ion-icon name="fitness-outline"></ion-icon></a>
+                    </li>
+                </ul>
+            </div>
+          
 
 
 
@@ -459,7 +483,18 @@
 
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
     
-    
+    <!-- script for home home-menu -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        let homeToggle = document.querySelector('.home-toggle');
+        let homeMenu = document.querySelector('.home-menu');
+        homeToggle.onclick = function () {
+            homeMenu.classList.toggle('active')
+        };
+
+    </script>
+
     <script
         src="https://code.jquery.com/jquery-3.7.0.slim.js"
         integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c="
