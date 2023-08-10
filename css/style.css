@@ -74,6 +74,8 @@
     --box-shadow-wsava-calendar: #f781046b;
     --box-shadow-calendar: #249ea09e;
     --background-color-tr-odd: #ffe94b85;
+
+    --background-color-home-menu:#dce0e0;
 }
 
 .darkMode {
@@ -120,12 +122,13 @@
     --text-color-royal-blue: #009db5;
 
     --text-color-light-orange:#faab36;
-    --text-color-light-blue:#249ea0;
     --text-color-very-light-blue: #005f60;
 
     --box-shadow-wsava-calendar: #0000006b;
     --box-shadow-calendar: #0808089e;
     --background-color-tr-odd: #11111185;
+
+    --background-color-home-menu:#333;
 }
 
 

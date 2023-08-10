@@ -274,12 +274,11 @@
     padding-top: 204px;
     padding-left: 4px;
     background-position: right;
-    margin-top: 40px;
     opacity: 0;
     animation: fadeIn 1s ease-in-out forwards;
 }
 
-.home--cat::after {
+/* .home--cat::after {
     position: absolute;
     content: "коте";
     font-size: 74px;
@@ -288,7 +287,7 @@
     right: 60px;
     color: #bdbdbd7a;
     z-index: 1;
-}
+} */
 
 .home-menu {
     position: relative;
@@ -319,13 +318,13 @@
     align-items: center;
     width: 60px;
     height: 60px;
-    color:var(--clr);
+    /* color: var(--clr); */
     border: 4px solid var(--clr);
     border-radius: 50%;
     font-size: 1.5em;
     transform: rotate(calc((180deg / -7 * var(--i)) - 90deg));
     transition: 1s;
-    background: var(--background-color-footer);
+    background: var(--background-color);
 }
 
 .home-menu li a ion-icon {
@@ -345,7 +344,7 @@
     position: absolute;
     width: 60px;
     height: 60px;
-    background: #249ea0;
+    background: var(--header-border-color);
     border: 4px solid #036c6d;
     border-radius: 50%;
     color: #fff;
@@ -368,10 +367,10 @@
     visibility: hidden;
     width: 132px;
     height: 46px;
-    background-color: #333;
-    color: #fff;
+    background-color: var(--background-color-home-menu);
+    color: var(--text-color);
     text-align: center;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     padding: 5px;
     position: absolute;
     z-index: 1;
@@ -380,11 +379,12 @@
     rotate: calc((180deg / -7 * var(--i)) - 90deg);
     transform: translate(68px, -4px);
     margin: -55px -69px;
+    border: 2px solid #444;
 }
 
 .home-menu li:hover .tooltip {
-    visibility: visible; /* Show the tooltip on hover */
-    opacity: 1; /* Fade in the tooltip */
+    visibility: visible;
+    opacity: 1;
 }
 
 
@@ -401,11 +401,10 @@
     padding-top: 207px;
     padding-left: 166px;
     background-position: left;
-    margin-top: 40px;
     opacity: 0;
     animation: fadeIn 1s ease-in-out forwards;
 }
-
+/* 
 .home--dog::after {
     position: absolute;
     content: "куче";
@@ -414,7 +413,7 @@
     rotate: -69deg;
     left: 19px;
     color: #bdbdbd7a;
-}
+} */
 
 .home-menu--dog {
     position: relative;
@@ -445,13 +444,13 @@
     align-items: center;
     width: 60px;
     height: 60px;
-    color:var(--clr);
+    /* color: var(--clr); */
     border: 4px solid var(--clr);
     border-radius: 50%;
     font-size: 1.5em;
     transform: rotate(calc((180deg / -7 * var(--i)) - 280deg));
     transition: 1s;
-    background: var(--background-color-footer);
+    background: var(--background-color);
 }
 
 .home-menu--dog li a ion-icon {
@@ -471,7 +470,7 @@
     position: absolute;
     width: 60px;
     height: 60px;
-    background: #fd2b01;
+    background: var(--text-color-red);
     border: 4px solid #be290b;
     border-radius: 50%;
     color: #fff;
@@ -494,10 +493,10 @@
     visibility: hidden;
     width: 104px;
     height: 38px;
-    background-color: #333;
-    color: #fff;
+    background-color: var(--background-color-home-menu);
+    color: var(--text-color);
     text-align: center;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     padding: 8px 0px;
     position: absolute;
     z-index: 1;
@@ -507,11 +506,12 @@
     transform: translate(77px, -4px);
     margin: -47px -14px;
     font-size: 13px;
+    border: 2px solid #444;
 }
 
 .home-menu--dog li:hover .tooltip--dog {
-    visibility: visible; /* Show the tooltip on hover */
-    opacity: 1; /* Fade in the tooltip */
+    visibility: visible;
+    opacity: 1;
 }
 
 
@@ -552,7 +552,7 @@
     content: '';
     position: absolute;
     inset: 2px;
-    background-color: #27282c;
+    background-color:  var(--background-color);
 }
 
 
@@ -574,7 +574,7 @@
     transform: translate(50%);
     width: 10px;
     height: 10px;
-    background-color: #27282c;
+    background-color:  var(--background-color);
     border: 2px solid var(--clr);
     transition: 0.5s;
 }
@@ -593,7 +593,7 @@
     transform: translate(50%);
     width: 10px;
     height: 10px;
-    background-color: #27282c;
+    background-color: var(--background-color);
     border: 2px solid var(--clr);
     transition: 0.5s;
 }
