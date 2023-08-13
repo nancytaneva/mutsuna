@@ -441,6 +441,15 @@
     gap: 3px;
 }
 
+.scroll-indicator-container-mobile-background {
+    background-color: var(--background-color);
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 7px;
+    left: 0;
+    z-index: -10;
+}
 
   /* The progress container (grey background) */
 .scroll-indicator-container-mobile {
@@ -449,6 +458,7 @@
     width: 1483.2px;
     height: 7px;
     background: var(--background-color-scroll-indicator);
+    margin-left: 18px;
   }
   
   /* The progress bar (scroll indicator) */  
@@ -630,27 +640,6 @@ h2 {
 .pimg {
     text-align: -webkit-center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
