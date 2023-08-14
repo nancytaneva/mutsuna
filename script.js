@@ -308,7 +308,7 @@ function blurImage(element) {
 // EMAIL
 function sendByEmail() {
   const subject = "Сайт за по-добра грижа към домашните ни любимци"; 
-  const body = "Здравей, този сайт цели да подпомогне стопаните да се грижат по-добре за своите мили любимци - mutsunaa.org. Посети го!";
+  const body = "Здравей, този сайт цели да помогне на стопаните да се грижат по-добре за своите мили любимци - mutsuna.org. Посети го!";
 
   const mailtoLink = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   window.location.href = mailtoLink;
@@ -380,7 +380,7 @@ document.getElementById('shareMessengerBtn').addEventListener('click', function(
 
 
 
-// Add this JavaScript code to your existing script or a new script
+// SCROLL TO TOP
 const scrollToTopBtn = document.getElementById('scrollToTopBtn');
 
 function scrollToTop() {
@@ -409,11 +409,7 @@ window.addEventListener('scroll', handleScroll);
 
 
 
-
-
-
-
-
+// SCROLL TO SECTION
 const scrollToSectionBtn = document.getElementById('scrollToSectionBtn');
 const ShareWIthOthers = document.getElementById('share-with-others');
 

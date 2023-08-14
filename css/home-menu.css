@@ -3,6 +3,7 @@
 .choose-pet-buttons {
     display: block;
     margin-top: 36px;
+    padding-top: 87px;
     text-align: -webkit-center;
 }
 
@@ -23,6 +24,7 @@
     transition: 0.5s;
     width: 200px;
     margin: 20px;
+    cursor: pointer;
 }
 
 #home--cat-button:hover, #home--dog-button:hover {

@@ -1,3 +1,8 @@
+const homeCatButton     = document.getElementById("home--cat-button");
+const homeDogButton     = document.getElementById("home--dog-button");
+const homeCatSection    = document.getElementById("home--cat-section");
+const homeDogSection    = document.getElementById("home--dog-section");
+
 // HOME MENU
 // CAT
 let homeToggle = document.querySelector('.home-toggle');
@@ -14,20 +19,72 @@ homeToggleDog.onclick = function () {
 };
 
 
+
+
+
+
+
+
+function scrollToHomeCatSection() {
+    const screenWidth = window.innerWidth;
+    let headerHeight;
+
+    if (screenWidth <= 768) {
+        // Mobile version
+        headerHeight = 350;
+    } else {
+        // Desktop version
+        headerHeight = 450;
+    }
+
+    const offset = homeCatSection.offsetTop - headerHeight;
+  
+    // Scroll to the target section, applying the offset
+    window.scroll({
+      top: homeCatSection.getBoundingClientRect().top + window.scrollY + offset,
+      behavior: 'smooth'
+    });
+  }
+
+
+  function scrollToHomeDogSection() {
+    const screenWidth = window.innerWidth;
+    let headerHeight;
+
+    if (screenWidth <= 768) {
+        // Mobile version
+        headerHeight = 350;
+    } else {
+        // Desktop version
+        headerHeight = 450;
+    }
+
+    const offset = homeDogSection.offsetTop - headerHeight;
+    
+      // Scroll to the target section, applying the offset
+      window.scroll({
+        top: homeDogSection.getBoundingClientRect().top + window.scrollY + offset,
+        behavior: 'smooth'
+      });
+    }
+
+
+
 // HOME MENU SHOW UP
 document.addEventListener("DOMContentLoaded", function () {
-    const catButton = document.getElementById("home--cat-button");
-    const dogButton = document.getElementById("home--dog-button");
-    const catSection = document.getElementById("home--cat-section");
-    const dogSection = document.getElementById("home--dog-section");
 
-    catButton.addEventListener("click", function () {
-        catSection.style.display = "block";
-        dogSection.style.display = "none";
+
+    homeCatButton.addEventListener("click", function () {
+        homeCatSection.style.display = "block";
+        homeDogSection.style.display = "none";
+        // Add a time delay of 2 seconds before scrolling
+        setTimeout(scrollToHomeCatSection, 500);
     });
 
-    dogButton.addEventListener("click", function () {
-        catSection.style.display = "none";
-        dogSection.style.display = "block";
+    homeDogButton.addEventListener("click", function () {
+        homeCatSection.style.display = "none";
+        homeDogSection.style.display = "block";
+        // Add a time delay of 2 seconds before scrolling
+        setTimeout(scrollToHomeDogSection, 500);
     });
 });
