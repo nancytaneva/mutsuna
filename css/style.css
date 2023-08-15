@@ -117,6 +117,8 @@
     --text-color-yellow: #beb300;
     --text-color-orange: #b55d00;
     --text-color-blue: #008083;
+    
+    /* --text-color-dark-orange:#ab4b17; */
     --text-color-dark-orange:#d34c03;
     --text-color-dark-blue: #005f60;
     --text-color-royal-blue: #009db5;
@@ -1167,7 +1169,6 @@ h2 {
     #mobile-navigation--cats, #mobile-navigation--dogs {
         display: none;
         transition: height 0.3s;
-        color: var()
     }
 
     .MENUBUTTON {
