@@ -1,0 +1,62 @@
+.swiper {
+    max-width: 600px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .breed-overview-box {
+    text-align: -webkit-center;
+  }
+
+.breed-overview {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 600px;
+    border: 3px solid rgb(196 196 196 / 15%);
+    padding: 30px;
+    background-color: #f781045c;
+    box-shadow: 0 5px 14px rgb(255 152 0 / 34%);
+}
+
+.card {
+    flex: 0 0 100%;
+}
+
+.card-title {
+    width: 113px;
+    padding-right: 24px;
+    float: left;
+    text-align: -webkit-left;
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: #252525;
+}
+
+.card-text {
+    width: calc(100% - 113px);
+    padding-bottom: 10px;
+    text-align: -webkit-left;
+    font-size: 1.2rem;
+    color: #252525;
+}
+
+.card-text span {
+    padding: 0px 20px 0 0;
+    white-space: nowrap;
+}
+
+
+@media (max-width: 483px) {
+    .card-title {
+        width: 93px;
+    }
+    
+    .card-span {
+        text-align: end;
+    }    
+}
