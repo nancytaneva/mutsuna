@@ -60,3 +60,71 @@
         text-align: end;
     }    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.breed-back-outer-box {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto!important;
+    padding: 50px;
+    font-size: 1.2rem;
+    font-weight: 800;
+
+    background: no-repeat url(../css/img/dog-breeds/1151.png),
+                                    linear-gradient(to right, rgb(255, 0, 0, 0.5) 0%, rgb(255, 0, 0, 0.5) 50%,
+                                                              rgb(0, 157, 255, 0.5) 50%, rgb(0, 157, 255, 0.5) 100%),
+                                    linear-gradient(to right, rgba(234, 255, 0, 0.5) 0%, rgb(234, 255, 0, 0.5) 50%,
+                                                              rgba(9, 255, 0, 0.5) 50%, rgba(9, 255, 0, 0.5) 100%); 
+
+    /* ЯКО:
+    background: no-repeat url(../css/img/dog-breeds/1151.png),
+    linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(238, 255, 0, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+background-position:
+    center,
+    left,
+    right;
+background-size: auto; */
+                                                              
+    background-position:
+                center,
+                left,
+                right;
+    background-size: auto, 100% 50%;
+    background-position: center, top left, bottom left;
+    background-repeat: no-repeat;
+    border-top-left-radius: 21% 53%;
+    border-top-right-radius: 21% 53%;
+    border-bottom-left-radius: 21% 53%;
+    border-bottom-right-radius: 21% 53%;
+}
+
+.breed-back-box {
+    width: 50%;
+    height: 250px;
+    padding: 50px;
+}
+
+.breed-family, .breed-social {
+    color: #343434d9;
+}
+.breed-physical, .breed-personality {
+    text-align: end;
+    color: #343434d9;
+}

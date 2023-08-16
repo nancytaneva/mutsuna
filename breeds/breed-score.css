@@ -1,0 +1,48 @@
+.breedTrait {
+    width: 100%;
+    padding: 0 12px 24px;
+    border-bottom: 1px solid #dce0e0;
+    margin-bottom: 16px;
+}
+
+.breed-trait__name {
+    color: #003594;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.breed-trait-score__score-wrap {
+    display: flex;
+}
+
+.breed-trait-score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.breed-trait-score__score-label {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.breed-trait-score__score-unit {
+    background-color: #ccc;
+    border-radius: 22px;
+    height: 8px;
+    width: 100%;
+}
+
+.breed-trait-score__score-unit--filled {
+    background-color: #ffcc00;
+}
+
+
+
+
+.breed-trait-score__score-unit:not(:last-child) {
+    margin-right: 3px;
+}
