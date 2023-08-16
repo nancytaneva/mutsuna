@@ -109,16 +109,16 @@ background-size: auto; */
     background-size: auto, 100% 50%;
     background-position: center, top left, bottom left;
     background-repeat: no-repeat;
-    border-top-left-radius: 21% 53%;
-    border-top-right-radius: 21% 53%;
-    border-bottom-left-radius: 21% 53%;
-    border-bottom-right-radius: 21% 53%;
+    border-top-left-radius: 21% 29%;
+    border-top-right-radius: 21% 29%;
+    border-bottom-left-radius: 21% 29%;
+    border-bottom-right-radius: 21% 29%;
 }
 
 .breed-back-box {
     width: 50%;
-    height: 250px;
-    padding: 50px;
+    height: 350px;
+    padding: 0px 50px;
 }
 
 .breed-family, .breed-social {

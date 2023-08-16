@@ -1,27 +1,7 @@
-// const swiper = new Swiper('.swiper', {
-//     // Optional parameters
-//     direction: 'horizontal',
-//     loop: true,
-  
-//     // If we need pagination
-//     pagination: {
-//       el: '.swiper-pagination',
-//     },
-  
-//     // Navigation arrows
-//     navigation: {
-//       nextEl: '.swiper-button-next',
-//       prevEl: '.swiper-button-prev',
-//     },
-  
-//   });
-
-
-
-
-  // Define an array of dog breed objects
-const dogBreeds = [
+// Define an array of dog breed objects
+const breedCollection = [
   {
+    id: 'немска овчарка',
     name: "Немска овчарка",
     nameEn: "German Shepherd Dog",
     code: "1151",
@@ -41,46 +21,32 @@ const dogBreeds = [
     },
     history: "Добави историята тук.",
     health: "Добави имената на наследствените заболявания тук.",
-    breedTraits: {
-      family: {
+    
         affectionateWithFamily: 5,
         goodWithYoungChildren: 5,
         goodWithOtherDogs: 3
-      }
-    }
-
-
-
-
+    
 
   },
   // Add more dog breeds here...
 
 
-
-
-
-
-
-
 ];
 
-// Function to display dog breed information
-// function displayBreedInfo(breed) {
-//   const breedInfo = dogBreeds.find(item => item.name === breed);
 
-//   if (breedInfo) {
-//     console.log("Breed Name:", breedInfo.name);
-//     console.log("general:", breedInfo.general);
-//     console.log("Physical Traits:", breedInfo.physicalTraits);
-//   } else {
-//     console.log("Breed not found.");
-//   }
-// }
 
-// // Example usage
-// const selectedBreed = "Немска овчарка";
-// displayBreedInfo(selectedBreed);
+const translateDictionary = {
+  country:                "Произход",
+  lifeLength:             "Живот",
+  height:                 "Височина",
+  weight:                 "Тегло",
+  history:                "История",
+  health:                 "Здраве",
+  affectionateWithFamily: "Привързаност към семейството",
+  goodWithYoungChildren:  "Разбира се с деца",
+  goodWithOtherDogs:      "Разбира се с други кучета"
+
+}
 
 
 
@@ -92,7 +58,7 @@ const dogBreeds = [
 function populateDropdown() {
   const breedDropdown = document.getElementById("breedDropdown");
 
-  dogBreeds.forEach(breed => {
+  breedCollection.forEach(breed => {
     const option = document.createElement("option");
     option.value = breed.name;
     option.textContent = breed.name;
@@ -103,18 +69,12 @@ function populateDropdown() {
 
 
 
-
-
-
-
-
-
 // Function to display breed information in the 'breedInfo' div
 function displayBreedInfoInDiv(breed) {
   const breedInfoDiv = document.getElementById("breedInfo");
   breedInfoDiv.innerHTML = ""; // Clear previous content
 
-  const breedInfo = dogBreeds.find(item => item.name === breed);
+  const breedInfo = breedCollection.find(item => item.name === breed);
 
   if (breedInfo) {
     
@@ -192,7 +152,7 @@ function displayBreedImgDiv(breed) {
     const breedSwiperDiv = document.getElementById("breedSwiper");
     breedSwiperDiv.innerHTML = "";
   
-    const breedSwiper = dogBreeds.find(item => item.name === breed);
+    const breedSwiper = breedCollection.find(item => item.name === breed);
   
     if (breedSwiper) {
       const breedSwiperWrapperDiv = document.createElement("div");
@@ -212,102 +172,65 @@ function displayBreedImgDiv(breed) {
 
 
 
-// function displayBreedImgDiv(breed) {
-//   const breedSwiperDiv = document.getElementById("breedSwiper");
-//   breedSwiperDiv.innerHTML = "";
-
-//   const breedSwiper = dogBreeds.find(item => item.name === breed);
-
-//   if (breedSwiper) {
-//     const breedSwiperWrapperDiv = document.createElement("div");
-//     breedSwiperWrapperDiv.classList.add("swiper-wrapper");
-//     breedSwiperWrapperDiv.innerHTML = `
-//       <div class="swiper-slide">
-//       <img src="../css/img/dog-breeds/${breedSwiper.code}-1.avif">
-//       </div>
-//       <div class="swiper-slide">
-//           <img src="../css/img/dog-breeds/${breedSwiper.code}-2.avif">
-//       </div>
-//       <div class="swiper-slide">
-//           <img src="../css/img/dog-breeds/${breedSwiper.code}-3.avif">
-//       </div>
-//       `;
-
-//       const swiperPaginationDiv = document.createElement("div");
-//       swiperPaginationDiv.classList.add("swiper-pagination");
-//       swiperPaginationDiv.innerHTML = ``;
-
-//       const swiperBtnPrevDiv = document.createElement("div");
-//       swiperBtnPrevDiv.classList.add("swiper-button-prev");
-//       swiperBtnPrevDiv.innerHTML = ``;
-
-//       const swiperBtnNextDiv = document.createElement("div");
-//       swiperBtnNextDiv.classList.add("swiper-button-next");
-//       swiperBtnNextDiv.innerHTML = ``;
-
-//       breedSwiperDiv.appendChild(breedSwiperWrapperDiv);
-//       breedSwiperDiv.appendChild(swiperPaginationDiv);
-//       breedSwiperDiv.appendChild(swiperBtnPrevDiv);
-//       breedSwiperDiv.appendChild(swiperBtnNextDiv);
-//   } else {
-//     breedInfoDiv.textContent = "Породата не е намерена.";
-//   }
-
-// }
-
-
-
-
-
-
-
-
-// function breedTraitScore {
-
-//   const breedTraitsDiv = document.getElementById("breedTraits");
-//   breedTraitsDiv.innerHTML = "";
-
-//   const breedTraits = dogBreeds.find(item => item.name === breed);
-
-//   if (breedTraits) {
-//     const affectionateWithFamilyName = document.createElement("div");
-//     affectionateWithFamilyName.classList.add("breed-trait__name");
-//     affectionateWithFamilyName.innerHTML = `
-//     Привързаност към семейството
-//     `;
-
-//     const affectionateWithFamily = document.createElement("div");
-//     affectionateWithFamily.classList.add("breed-trait-score__score-wrap");
-//     affectionateWithFamily.innerHTML = `
-    
-//     `;
-
-
-
-//     breedTraitsDiv.appendChild(affectionateWithFamilyName);
-//     breedTraitsDiv.appendChild(affectionateWithFamily);
-
-//   } else {
-//     breedTraitsDiv.textContent = "Породата не е намерена.";
-//   }
-// }
-
-
-
-
-
-
-
-
-
-
 
 // Event listener for the 'Display Breed Info' button
 document.getElementById("displayButton").addEventListener("click", function() {
   const selectedBreed = document.getElementById("breedDropdown").value;
   displayBreedInfoInDiv(selectedBreed);
   displayBreedImgDiv(selectedBreed);
+
+
+  //От МИШО
+const lookup = breedCollection.find((element) => {
+  return element.id == 'немска овчарка'
+})
+
+const generateBar = (name, number) => {
+
+  const template = [];
+  for(let i = 1; i <= 5; i++) {
+      const classId = (i <= number) ? 'breed-trait-score__score-unit--filled' : '';
+      template.push(`<div class=breed-trait-score__score-unit ${classId}></div>`);
+  }
+
+  const barDiv = template.join('');
+
+  return `
+  <div class="breedTrait">
+      <div class="breed-trait__name">${name}</div>
+      <div class="breed-trait-score__score-wrap">
+        ${barDiv}
+      </div>
+  </div>       
+  `
+}
+
+const barTemplate = [];
+for(let key in lookup) {
+
+  const keyTranslate  = translateDictionary[key];
+  const barDiv        = generateBar(keyTranslate, lookup[key]);
+  barTemplate.push(barDiv); 
+}
+
+document.getElementById("breedTraitJava").innerHTML = barTemplate.join(''); 
+
 });
+
+
 
 // Populate the breed dropdown when the page loads
 window.addEventListener("load", populateDropdown);
+
+
+
+
+
+
+
+
+
+
+
+
+

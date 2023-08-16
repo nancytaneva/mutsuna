@@ -1,8 +1,9 @@
 .breedTrait {
     width: 100%;
-    padding: 0 12px 24px;
-    border-bottom: 1px solid #dce0e0;
-    margin-bottom: 16px;
+    padding: 12px 12px 12px;
+    /* border-bottom: 1px solid #dce0e0;
+    margin-bottom: 16px; */
+    transform: translateX(-76px);
 }
 
 .breed-trait__name {
@@ -34,6 +35,14 @@
     border-radius: 22px;
     height: 8px;
     width: 100%;
+}
+
+.purple {
+    background-color: #d900ff;
+}
+
+.grey {
+    background-color: #4b4b4b;
 }
 
 .breed-trait-score__score-unit--filled {
