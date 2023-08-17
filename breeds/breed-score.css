@@ -66,11 +66,11 @@
 @media (max-width: 1482px) {
 
     .breed-back-box {
-        width: 100%;
+        width: 100%!important;
     }
 
     .breedTrait {
-        margin-left: 0!important;
+        margin: 0!important;
         border-radius: 0!important;
         width: 100%;
     }

@@ -109,4 +109,8 @@
     .breed-back-outer-box {
         display: block;
     }
+
+    .breed-physical, .breed-personality {
+        text-align: start;
+    }
 }
