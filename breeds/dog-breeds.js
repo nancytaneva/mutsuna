@@ -1,37 +1,131 @@
 // Define an array of dog breed objects
 const breedCollection = [
   {
-    id: 'немска овчарка',
-    name: "Немска овчарка",
-    nameEn: "German Shepherd Dog",
-    code: "1151",
-    general: {
-      country: "Германия",
-      lifeLength: "9-13 г."
+    id      : 'немска овчарка',
+    name    : "Немска овчарка",
+    nameEn  : "German Shepherd Dog",
+    code    : "1151",
+    general : {
+      country     : "Германия",
+      lifeLength  : "9-13 г."
     },
     physicalTraits: {
-      height: {
-        female: "55-60 см",
-        male: "60-65 см"
+      height    : {
+        female    : "55-60 см",
+        male      : "60-65 см"
       },
-      weight: {
-        female: "22-32 кг",
-        male: "30-40 кг"
+      weight      : {
+        female    : "22-32 кг",
+        male      : "30-40 кг"
       },
     },
-    history: "Добави историята тук.",
-    health: "Добави имената на наследствените заболявания тук.",
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
     
-        affectionateWithFamily: 5,
-        goodWithYoungChildren: 5,
-        goodWithOtherDogs: 3
-    
-
-  },
-  // Add more dog breeds here...
-
-
+    score: {
+      family : {
+        affectionateWithFamily  : 5,
+        goodWithYoungChildren   : 5,
+        goodWithOtherDogs       : 3
+      },
+      physical: {
+        shedding                : 4,
+        grooming                : 2,
+        drooling                : 2,
+        coatLength              : 2,
+      },
+      social : {
+        opennesToStrgangers     : 3,
+        playfulness             : 4,
+        protectiveNature        : 5,
+        adaptability            : 5
+      },
+      character : {
+        trainability            : 5,
+        energy                  : 5,
+        barking                 : 3,
+        mentalStimulationNeeds  : 5
+      }
+    }
+  }
 ];
+
+function* generateMirroredMarginClass() {
+
+  for(const element of [120, 80, 40, 0]) {
+    yield `ml${element} breedTraitMirrored`;
+  }
+}
+
+function* generateProgressiveMarginClass() {
+
+  for(const element of [0, 40, 80, 120]) {
+    yield `ml${element}`;
+  }
+}
+
+let mirrorMarginClassGenerator      = generateMirroredMarginClass();
+let progressiveMarginClassGenerator = generateProgressiveMarginClass();
+
+const resetGenerator = () => {
+
+  mirrorMarginClassGenerator      = generateMirroredMarginClass();
+  progressiveMarginClassGenerator = generateProgressiveMarginClass();
+}
+
+const getMarginClass = (isMirrored) => {
+ 
+  return (isMirrored) 
+    ? mirrorMarginClassGenerator.next().value 
+    : progressiveMarginClassGenerator.next().value;
+}
+
+const generateBar = (name, number, marginClass) => {
+
+  const template = [];
+  for(let i = 1; i <= 5; i++) {
+      const classId = (i <= number) ? 'breed-trait-score__score-unit--filled' : 'breed-trait-score__score-unit';
+      template.push(`<div class="${classId}"></div>`);
+  }
+
+  const barDiv = template.join(' ');
+
+  return `
+    <div class="breedTrait ${marginClass}">
+      <div class="breed-trait__name">${name}</div>
+        <div class="breed-trait-score__score-wrap">
+        ${barDiv}
+      </div>
+    </div>`;
+}
+
+// get breed object
+// TODO
+const breedObject = breedCollection[0];
+
+const scorePlaceholderCollection = document.querySelectorAll('[data-score]');
+
+for(let index = 0; index < scorePlaceholderCollection.length; index++) {
+
+  const placeholder     = scorePlaceholderCollection[index];
+  const placeholderKey  = placeholder.getAttribute('data-score');
+  const isMirrored      = placeholder.getAttribute('data-mirror') === 'true'; 
+  resetGenerator();
+
+  const getScoreObject  = breedObject.score[placeholderKey];
+
+  const barTemplate = [];
+  for(let key in getScoreObject) {
+    
+    const marginClass   = getMarginClass(isMirrored) 
+    const keyTranslate  = key;
+    const barDiv        = generateBar(keyTranslate, getScoreObject[key], marginClass);
+    barTemplate.push(barDiv); 
+  }
+  
+  placeholder.innerHTML = barTemplate.join('');
+}
+
 
 
 
@@ -193,7 +287,7 @@ const generateBar = (name, number) => {
       template.push(`<div class=breed-trait-score__score-unit ${classId}></div>`);
   }
 
-  const barDiv = template.join('');
+  const barDiv = template.join(' ');
 
   return `
   <div class="breedTrait">

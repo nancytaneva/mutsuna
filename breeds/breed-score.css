@@ -1,12 +1,12 @@
 .breed-trait-header {
     padding-bottom: 10px;
-    color: #000000b3;
+    color: #ffffff99;
 }
 
 .breedTrait {
     width: 330px;
     padding: 12px 26px 12px 26px;
-    background-color: #cee9ea;
+    background-color: #cee9ea1a;
     border-top-right-radius: 16% 85%;
     border-bottom-left-radius: 16% 85%;
     margin: -9px 0px;
@@ -19,18 +19,8 @@
     border-bottom-right-radius: 16% 85%;    
 }
 
-/* .breedTrait::before {
-    content:"";
-    background-color: #d900ff;
-    width: 0;
-	height: 0;
-	border-left: 25px solid transparent;
-	border-right: 25px solid transparent;
-	border-bottom: 50px solid #555;
-} */
-
 .breed-trait__name {
-    color: #000000b3;
+    color: #ffffffd6;
     font-size: 1rem;
     margin-bottom: 10px;
 }
@@ -54,26 +44,34 @@
 
 .breed-trait-score__score-unit {
     background-color: #ccc;
+    margin-right: 3px;
     border-radius: 22px;
     height: 8px;
     width: 100%;
 }
 
-.purple {
-    background-color: #d900ff;
-}
-
-.grey {
-    background-color: #4b4b4b;
-}
-
 .breed-trait-score__score-unit--filled {
-    background-color: #f78104c7;
+    background-color: #f78104;
+    margin-right: 3px;
+    border-radius: 22px;
+    height: 8px;
+    width: 100%;
 }
 
-
-
-
-.breed-trait-score__score-unit:not(:last-child) {
+/* .breed-trait-score__score-unit:not(:last-child) {
     margin-right: 3px;
+} */
+
+
+@media (max-width: 1482px) {
+
+    .breed-back-box {
+        width: 100%;
+    }
+
+    .breedTrait {
+        margin-left: 0!important;
+        border-radius: 0!important;
+        width: 100%;
+    }
 }
