@@ -78,18 +78,17 @@
 .breed-back-outer-box {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1000px;
+    max-width: 980px;
     margin: auto!important;
-    padding: 50px;
     font-size: 1.2rem;
     font-weight: 800;
-
-    background: no-repeat url(../css/img/dog-breeds/1151.png),
-                                    linear-gradient(to right, rgb(255, 0, 0, 0.5) 0%, rgb(255, 0, 0, 0.5) 50%,
-                                                              rgb(0, 157, 255, 0.5) 50%, rgb(0, 157, 255, 0.5) 100%),
-                                    linear-gradient(to right, rgba(234, 255, 0, 0.5) 0%, rgb(234, 255, 0, 0.5) 50%,
-                                                              rgba(9, 255, 0, 0.5) 50%, rgba(9, 255, 0, 0.5) 100%); 
-
+    background: no-repeat url(../css/img/dog-breeds/1151.png), 
+                linear-gradient(to right, rgb(36 158 160 / 54%) 0%, rgb(36 158 160 / 54%) 50%, rgb(36 158 160 / 80%) 50%, rgb(36 158 160 / 80%) 100%), 
+                linear-gradient(to right, rgba(36 158 160 / 80%) 0%, rgb(36 158 160 / 80%) 50%, rgba(36 158 160 / 54%) 50%, rgba(36 158 160 / 54%) 100%);
+    background-size: 30%, 100% 50%, 100% 50%;
+    background-position: center, top left, bottom left;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 20px 20px #005f6024;
     /* ЯКО:
     background: no-repeat url(../css/img/dog-breeds/1151.png),
     linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
@@ -101,24 +100,12 @@ background-position:
     left,
     right;
 background-size: auto; */
-                                                              
-    background-position:
-                center,
-                left,
-                right;
-    background-size: auto, 100% 50%;
-    background-position: center, top left, bottom left;
-    background-repeat: no-repeat;
-    border-top-left-radius: 21% 29%;
-    border-top-right-radius: 21% 29%;
-    border-bottom-left-radius: 21% 29%;
-    border-bottom-right-radius: 21% 29%;
 }
 
 .breed-back-box {
     width: 50%;
-    height: 350px;
-    padding: 0px 50px;
+    /* height: 350px; */
+    padding: 20px 20px;
 }
 
 .breed-family, .breed-social {
@@ -128,3 +115,4 @@ background-size: auto; */
     text-align: end;
     color: #343434d9;
 }
+

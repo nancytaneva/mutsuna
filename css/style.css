@@ -803,6 +803,15 @@ h2 {
 .plr16      {padding: 0px 16px;}
 .plr32      {padding: 0px 32px;}
 
+.ml0        {margin-left: 0px;}
+.ml40       {margin-left: 40px;}
+.ml80       {margin-left: 80px;}
+.ml120      {margin-left: 120px;}
+.mr0        {margin-right: 0px;}
+.mr40       {margin-right: 40px;}
+.mr80       {margin-right: 80px;}
+.mr120      {margin-right: 120px;}
+
 .center-text     {text-align-last: center;}
 
 .no-dec {
