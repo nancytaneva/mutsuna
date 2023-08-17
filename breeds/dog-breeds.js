@@ -47,6 +47,30 @@ const breedCollection = [
         mentalStimulationNeeds  : 5
       }
     }
+  },
+  {
+    id      : 'пудел',
+    name    : "Пудел",
+    nameEn  : "Пудел",
+    code    : "1152",
+  },
+  {
+    id      : 'френски пудел',
+    name    : "Френски Пудел",
+    nameEn  : "Пудел",
+    code    : "1162",
+  },
+  {
+    id      : 'български пудел',
+    name    : "Български Пудел",
+    nameEn  : "Български Пудел",
+    code    : "1152",
+  },
+  {
+    id      : 'дакел',
+    name    : "Дакел",
+    nameEn  : "Дакел",
+    code    : "1153",
   }
 ];
 
@@ -126,9 +150,6 @@ for(let index = 0; index < scorePlaceholderCollection.length; index++) {
   placeholder.innerHTML = barTemplate.join('');
 }
 
-
-
-
 const translateDictionary = {
   country:                "Произход",
   lifeLength:             "Живот",
@@ -143,24 +164,55 @@ const translateDictionary = {
 }
 
 
-
-
-
-
-
 // Function to populate the breed dropdown list
-function populateDropdown() {
-  const breedDropdown = document.getElementById("breedDropdown");
+function populateDropdown(result) {
 
-  breedCollection.forEach(breed => {
-    const option = document.createElement("option");
-    option.value = breed.name;
-    option.textContent = breed.name;
-    breedDropdown.appendChild(option);
-  });
+  
+  const searchBreedInput  = document.getElementById("searchBreed");
+  const breedDropdown     = document.getElementById("breedSelector--dropdown");
+
+  const searchBreadValue  = searchBreedInput?.value?.toLowerCase();
+  
+  console.log("DDDDDDDDDDDDDDD");
+  console.log(searchBreadValue.length);
+  console.log("======================");
+
+  
+  if(searchBreadValue.length < 3) {
+
+    breedDropdown.innerHTML = "";
+    return;
+  }
+
+  const menuCollection = breedCollection.filter((element) => {
+    return element.id.includes(searchBreadValue);
+  })
+
+  const collection = [];
+  for(const menuItem of menuCollection) {
+    collection.push(`<div>${menuItem.name}</div>`);
+  }
+
+  console.log("@@@@@@@@@@@@@@@@@")
+  console.log(menuCollection)
+  console.log(collection)
+
+
+  breedDropdown.innerHTML = collection.join('');
+
+  // const breedDropdown = document.getElementById("breedDropdown");
+
+  // breedCollection.forEach(breed => {
+  //   const option = document.createElement("option");
+  //   option.value = breed.name;
+  //   option.textContent = breed.name;
+  //   breedDropdown.appendChild(option);
+  // });
 }
 
-
+document.getElementById("searchBreed").addEventListener('keydown', () => {
+  populateDropdown();
+})
 
 
 // Function to display breed information in the 'breedInfo' div
@@ -182,18 +234,18 @@ function displayBreedInfoInDiv(breed) {
     const heightDiv = document.createElement("div");
     heightDiv.classList.add("card");
     heightDiv.innerHTML = `
-                                    <p class="card-title">Височина:</p>
-                                    <p class="card-text card-span">
-                                        <span>
-                                            <i class="fa-solid fa-venus"></i>
-                                            ${breedInfo.physicalTraits.height.female}
-                                        </span>
-                                        <span>
-                                            <i class="fa-solid fa-mars"></i>
-                                            ${breedInfo.physicalTraits.height.male}
-                                        </span>
-                                    </p>
-                              </div>
+            <p class="card-title">Височина:</p>
+            <p class="card-text card-span">
+                <span>
+                    <i class="fa-solid fa-venus"></i>
+                    ${breedInfo.physicalTraits.height.female}
+                </span>
+                <span>
+                    <i class="fa-solid fa-mars"></i>
+                    ${breedInfo.physicalTraits.height.male}
+                </span>
+            </p>
+      </div>
     `;
 
     const weigthDiv = document.createElement("div");
@@ -310,21 +362,3 @@ for(let key in lookup) {
 document.getElementById("breedTraitJava").innerHTML = barTemplate.join(''); 
 
 });
-
-
-
-// Populate the breed dropdown when the page loads
-window.addEventListener("load", populateDropdown);
-
-
-
-
-
-
-
-
-
-
-
-
-

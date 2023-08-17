@@ -1,12 +1,66 @@
+#breedSelector {
+    /* display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px; */
+    background: #249ea0;
+}
+
+#breedSelector input {
+    height: 50px;
+    width: 100%;
+    font-size: 1.2rem;
+    border: 2px solid #1db9bc7d;
+}
+
+#breedDropdown {
+    height: 50px;
+    width: 500px;
+    font-size: 1.2rem;
+    border: 2px solid #1db9bc7d;
+    cursor: pointer;
+}
+
+#displayButton {
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(rgb(255 255 255 / 25%), rgb(255 255 255 / 25%)), url(../css/img/blue-search.png), #fefefe;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #1db9bc7d;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#displayButton:hover, #displayButton:focus {
+    scale: 1.2;
+    transition: .3s;
+  }
+
+
+
+
+
 .swiper {
     max-width: 600px;
     height: 300px;
-  }
+}
 
-  .swiper-slide img {
+.swiper-slide img {
     width: 100%;
     object-fit: contain;
-  }
+}
+
+/* .swiper::before {
+    content: "";
+    position: absolute;
+    width: 596px;
+    height: 296px;
+    border: 2px solid #00ff00;
+    background-color: #00ffff21;
+    left: -10px;
+    top: -10px;
+} */
 
 .breed-overview-box {
    text-align: -webkit-center;
@@ -17,10 +71,13 @@
     flex-wrap: wrap;
     position: relative;
     max-width: 600px;
-    border: 3px solid rgb(196 196 196 / 15%);
     padding: 30px;
-    background-color: #f781045c;
+    /* background-color: #f781045c;
     box-shadow: 0 5px 14px rgb(255 152 0 / 34%);
+    border: 3px solid rgb(196 196 196 / 15%); */
+    background: radial-gradient(#249ea0 -129%, #022627 95%);
+    box-shadow: 0 0 black;
+    border: 0;
 }
 
 .card {
@@ -34,7 +91,8 @@
     text-align: -webkit-left;
     font-weight: 800;
     font-size: 1.2rem;
-    color: #252525;
+    /* color: #252525; */
+    color: #e7e7e7;
 }
 
 .card-text {
@@ -42,14 +100,19 @@
     padding-bottom: 10px;
     text-align: -webkit-left;
     font-size: 1.2rem;
-    color: #252525;
+    /* color: #252525; */
+    color: #ffffffb3;
 }
 
 .card-text span {
     padding: 0px 20px 0 0;
     white-space: nowrap;
+    color: #ffffffb3;
 }
 
+.fa-solid, .fas {
+    color: #ff9e37;
+}
 
 @media (max-width: 483px) {
     .card-title {
