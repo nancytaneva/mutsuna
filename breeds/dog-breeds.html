@@ -354,141 +354,71 @@
 
                     <div id="breedSelector">
                         <div style="display: flex; justify-content: center; gap: 10px; padding: 16px; background: var(--header-border-color);">
-                            <input type="text" placeholder="Потърси порода..." id="searchBreed">
+                            <input type="search" placeholder="Потърси порода..." id="searchBreed">
                             <button id="displayButton"></button>
                         </div>
                         <div style="position: relative;">
                             <div style="position: absolute;" id="breedSelector--dropdown"></div>
                         </div>
-                        
-                      </div>
+                    </div>
 
                     <!-- Slider main container -->
-                    <div id="breedSwiper" class="swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="../css/img/dog-breeds/1151-1.avif">
+                    <div id="breed-wrapper" style="display: none;">
+                        <div id="breedSwiper" class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="../css/img/dog-breeds/1151-1.avif">
+                                </div>
                             </div>
+
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="../css/img/dog-breeds/1151-1.avif">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="../css/img/dog-breeds/1151-2.avif">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="../css/img/dog-breeds/1151-3.avif">
+                                </div>
+                            </div>
+
+                            <div id="swiper-pagination" class="swiper-pagination"></div>
+                        
+                            <div id="swiper-button-prev" class="swiper-button-prev"></div>
+                            <div id="swiper-button-next" class="swiper-button-next"></div>
                         </div>
 
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="../css/img/dog-breeds/1151-1.avif">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="../css/img/dog-breeds/1151-2.avif">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="../css/img/dog-breeds/1151-3.avif">
-                            </div>
+                        <div class="breed-overview-box">
+                            <div id="breedInfo" class="breed-overview"></div>
+                        </div>
+                        
+                        <div class="heading">
+                            Характеристики на породата
                         </div>
 
-                        <div id="swiper-pagination" class="swiper-pagination"></div>
-                    
-                        <div id="swiper-button-prev" class="swiper-button-prev"></div>
-                        <div id="swiper-button-next" class="swiper-button-next"></div>
-                    
-                    </div>
-
-                    
-                    <div class="breed-overview-box">
-                        <div id="breedInfo" class="breed-overview">
+                        <div>
+                            <div class="breed-back-outer-box">
+                                <div><img src="../css/img/dog-breeds/1151.png" class="breed-box-img"></div>
+                                <div class="breed-back-box breed-family">
+                                    <div class="breed-trait-header">Семейство:</div>
+                                    <div data-score="family" data-mirror="true"></div>
+                                </div>
                                 
-                                <div class="card">
-                                    <p class="card-title">Порода:</p>
-                                    <p class="card-text">Немска овчарка</p>
-                                </div>
-                                <div class="card">
-                                    <p class="card-title">Височина:</p>
-                                    <p class="card-text card-span">
-                                        <span>
-                                            <i class="fa-solid fa-venus"></i>
-                                            55-60 см
-                                        </span>
-                                        <span>
-                                            <i class="fa-solid fa-mars"></i>
-                                            60-65 см
-                                        </span>
-                                    </p>
-                                </div>
-                                <div class="card">
-                                    <p class="card-title">Тегло:</p>
-                                    <p class="card-text card-span">
-                                        <span>
-                                            <i class="fa-solid fa-venus"></i>
-                                            22-32 кг
-                                        </span>
-                                        <span>
-                                            <i class="fa-solid fa-mars"></i>
-                                            30-40 кг
-                                        </span>
-                                    </p>
-                                </div>
-                                <div class="card">
-                                    <p class="card-title">Живот:</p>
-                                    <p class="card-text">9-13 г.</p>
-                                </div>
-                                <div class="card">
-                                    <p class="card-title">Произход:</p>
-                                    <p class="card-text">Германия</p>
+                                <div class="breed-back-box breed-physical">
+                                    <div class="breed-trait-header">Физически:</div>
+                                    <div data-score="physical" data-mirror="false"></div>
                                 </div>
 
-                        </div>
-                    </div>
-                    
-                    <!-- <div class="breedTraits">
-
-                        <div class="breedTrait">
-                            <div class="breed-trait__name">Привързаност към семейството</div>
-                                <div class="breed-trait-score__score-wrap">
-                                    <div class="
-                                        breed-trait-score__score-unit
-                                        breed-trait-score__score-unit--filled"></div>
-                                    <div class="
-                                        breed-trait-score__score-unit
-                                        breed-trait-score__score-unit--filled"></div>
-                                    <div class="
-                                        breed-trait-score__score-unit
-                                        breed-trait-score__score-unit--filled"></div>
-                                    <div class="
-                                        breed-trait-score__score-unit
-                                        breed-trait-score__score-unit--filled"></div>
-                                    <div class="
-                                        breed-trait-score__score-unit
-                                        breed-trait-score__score-unit--filled"></div>
+                                <div class="breed-back-box breed-social">
+                                    <div class="breed-trait-header">Социални:</div>
+                                    <div data-score="social" data-mirror="false"></div>
+                        
                                 </div>
-                        </div>
-
-                        <div id="breedTraitJava">
-
-                        </div>
-
-                    </div> -->
-
-
-                    <div class="heading">Характеристики на породата</div class="heading">
-
-                    <div>
-                        <div class="breed-back-outer-box">
-                            <div><img src="../css/img/dog-breeds/1151.png" class="breed-box-img"></div>
-                            <div class="breed-back-box breed-family">
-                                <div class="breed-trait-header">Семейство:</div>
-                                <div data-score="family" data-mirror="true"></div>
-                            </div>
-                            
-                            <div class="breed-back-box breed-physical">
-                                <div class="breed-trait-header">Физически:</div>
-                                <div data-score="physical" data-mirror="false"></div>
-                            </div>
-
-                            <div class="breed-back-box breed-social">
-                                <div class="breed-trait-header">Социални:</div>
-                                <div data-score="social" data-mirror="false"></div>
-                    
-                            </div>
-                            <div class="breed-back-box breed-personality">
-                                <div class="breed-trait-header">Характер:</div>
-                                <div data-score="character" data-mirror="true" ></div>            
+                                <div class="breed-back-box breed-personality">
+                                    <div class="breed-trait-header">Характер:</div>
+                                    <div data-score="character" data-mirror="true" ></div>            
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -997,14 +927,20 @@
 
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
     
-    
     <script
         src="https://code.jquery.com/jquery-3.7.0.slim.js"
         integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c="
         crossorigin="anonymous"></script>
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-        <script src="./dog-breeds.js"></script>
+
+        <script src="./scripts/breed.collection.js"></script>
+        <script src="./scripts/breed.translate.js"></script>
+        <script src="./scripts/score.component.js"></script>
+        <script src="./scripts/searchbar.component.js"></script>
+        <script src="./scripts/@action.js"></script>
+
+        <!-- <script src="./scripts/dog-breeds.js"></script> -->
         <script src="../script.js"></script>
 </body>
 </html>
