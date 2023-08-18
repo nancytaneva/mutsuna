@@ -62,13 +62,12 @@
     margin-right: 3px;
 } */
 
-heading {
+.heading {
+    margin: 20px 0px!important;
+    border-bottom: 4px solid var(--text-color-dark-orange);
     font-size: 1.7rem;
     font-weight: 700;
-    padding: 15px!important;
-    border-bottom: 2px solid #f78104;
-    color: var(--background-color-h2);
-    margin: auto!important;
+    color: var(--text-color-dark-orange);
 }
 
 @media (max-width: 1482px) {

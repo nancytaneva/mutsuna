@@ -813,6 +813,10 @@ h2 {
 .mr120      {margin-right: 120px;}
 
 .center-text     {text-align-last: center;}
+.center-content  {
+                    width: fit-content;
+                    margin: auto;
+                 }
 
 .no-dec {
     text-decoration: none;

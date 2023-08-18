@@ -1,0 +1,108 @@
+.dog-breed-selector {
+    background: var(--header-border-color);
+    height: 470px;
+    overflow: hidden;
+}
+
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1244px;
+    margin: 0 auto;
+}
+
+.landing-img {
+    filter: brightness(0);
+    opacity: 0.6;
+}
+
+.landing-text {
+    max-width: 500px;
+}
+
+.landing-text div {
+    color: white;
+    font-size: 2.8rem;
+    padding: 10px 0px;
+    font-weight: 900;
+}
+
+.landing-text p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000000;
+    letter-spacing: 0.03rem;
+}
+
+.landing-text button {
+    font-size: 1.3rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px;
+    margin-top: 20px;
+    background-color: white;
+    color: #0e3f40;
+    transition: .2s;
+}
+
+.landing-text button:hover {
+    background-color: #0e3f40;
+    color: white;
+    transition: .2s;
+}
+
+
+
+
+
+
+.tool-progress {
+    display: none;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    margin: 4em auto 4em auto;
+    opacity: 0;
+    max-width: 1244px;
+}
+
+.tool-progress ul {
+    border-radius: 5px;
+    margin: 0 auto;
+    height: 10px;
+    background: var(--background-color-scroll-indicator);
+    position: relative;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+.tool-progress ul li.active {
+    background: var(--header-border-color);
+    left: 0;
+    transition: all 500ms ease;
+}
+
+.tool-progress ul li {
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    top: -7px;
+    background: var(--background-color-scroll-indicator);
+    z-index: 1;
+}
+
+.main .articleContent ul li {
+    color: #191919;
+    list-style: circle;
+}
+
+.articleContent li {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+}
