@@ -173,11 +173,6 @@ function populateDropdown(result) {
 
   const searchBreadValue  = searchBreedInput?.value?.toLowerCase();
   
-  console.log("DDDDDDDDDDDDDDD");
-  console.log(searchBreadValue.length);
-  console.log("======================");
-
-  
   if(searchBreadValue.length < 3) {
 
     breedDropdown.innerHTML = "";
@@ -190,24 +185,10 @@ function populateDropdown(result) {
 
   const collection = [];
   for(const menuItem of menuCollection) {
-    collection.push(`<div>${menuItem.name}</div>`);
+    collection.push(`<div>${menuItem.name}</div>`);п
   }
 
-  console.log("@@@@@@@@@@@@@@@@@")
-  console.log(menuCollection)
-  console.log(collection)
-
-
   breedDropdown.innerHTML = collection.join('');
-
-  // const breedDropdown = document.getElementById("breedDropdown");
-
-  // breedCollection.forEach(breed => {
-  //   const option = document.createElement("option");
-  //   option.value = breed.name;
-  //   option.textContent = breed.name;
-  //   breedDropdown.appendChild(option);
-  // });
 }
 
 document.getElementById("searchBreed").addEventListener('keydown', () => {
@@ -217,6 +198,7 @@ document.getElementById("searchBreed").addEventListener('keydown', () => {
 
 // Function to display breed information in the 'breedInfo' div
 function displayBreedInfoInDiv(breed) {
+
   const breedInfoDiv = document.getElementById("breedInfo");
   breedInfoDiv.innerHTML = ""; // Clear previous content
 
