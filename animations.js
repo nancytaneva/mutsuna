@@ -31,10 +31,10 @@ function scrollToHomeCatSection() {
 
     if (screenWidth <= 768) {
         // Mobile version
-        headerHeight = 350;
+        headerHeight = 400;
     } else {
         // Desktop version
-        headerHeight = 450;
+        headerHeight = 500;
     }
 
     const offset = homeCatSection.offsetTop - headerHeight;
@@ -56,7 +56,7 @@ function scrollToHomeCatSection() {
         headerHeight = 350;
     } else {
         // Desktop version
-        headerHeight = 450;
+        headerHeight = 470;
     }
 
     const offset = homeDogSection.offsetTop - headerHeight;
