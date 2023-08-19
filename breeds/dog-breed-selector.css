@@ -333,3 +333,79 @@
 .steps-container .step .step-inner .text .filters label.checkbox-container input:checked ~ .checkmark:after {
     display: block;
 }
+
+
+
+
+.qualities-order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qualities-order h4 {
+    font-size: 1.6em;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: var(--text-color-dark-blue);
+    filter: brightness(0.5);
+}
+
+.quality {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: calc(30% - 10px);
+    padding: 5px;
+    border-radius: 40px;
+    place-content: start;
+    background: #ffffff;
+    margin: 5px;
+    transition: 0.2s;
+}
+
+.quality:hover {
+    background: #ffffffc4;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    transition: 0.2s;
+}
+
+.quality-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #249ea09c;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.quality-name {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.show-result {
+    text-align: center;
+}
+
+.show-result-btn {
+    display: inline-block;
+    height: 48px;
+    width: calc(30% - 10px);
+    margin-top: 20px;
+    margin-bottom: 65px;
+    padding: 10px 34px;
+    border-radius: 40px;
+    border: 2px solid #ffffff;
+    background: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+}

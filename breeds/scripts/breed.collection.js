@@ -45,6 +45,12 @@ const breedCollection = [
         barking                 : 3,
         mentalStimulationNeeds  : 5
     }
+    },
+    selector: {
+        size            : "medium",
+        coatLengthWord  : "medium",
+        walkTime        : 3,
+        ownerExperience : 3
     }
 },
 {
