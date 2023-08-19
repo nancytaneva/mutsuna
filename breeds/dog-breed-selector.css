@@ -1,7 +1,16 @@
+/* 
+@font-face {
+    font-family: "icomoon";
+    src: url(../css/fonts/IcoMoon-Free.ttf);
+} */
+
 .dog-breed-selector {
     background: var(--header-border-color);
-    height: 470px;
-    overflow: hidden;
+    /* height: 470px;
+    overflow: hidden; */
+    min-height: 490px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .landing {
@@ -62,7 +71,7 @@
     flex-wrap: wrap;
     position: relative;
     width: 100%;
-    margin: 4em auto 4em auto;
+    margin: 3em auto 3em auto;
     opacity: 0;
     max-width: 1244px;
 }
@@ -71,16 +80,16 @@
     border-radius: 5px;
     margin: 0 auto;
     height: 10px;
-    background: var(--background-color-scroll-indicator);
+    background: var(--text-color-blue);
     position: relative;
     padding: 0;
     margin: 0;
-    max-width: 100%;
-    width: 100%;
+    max-width: 98%;
+    margin-left: 1%;
 }
 
 .tool-progress ul li.active {
-    background: var(--header-border-color);
+    background: var(--header-color-logo);
     left: 0;
     transition: all 500ms ease;
 }
@@ -92,11 +101,11 @@
     height: 25px;
     border-radius: 50%;
     top: -7px;
-    background: var(--background-color-scroll-indicator);
+    background: var(--text-color-blue);
     z-index: 1;
 }
 
-.main .articleContent ul li {
+.articleContent ul li {
     color: #191919;
     list-style: circle;
 }
@@ -105,4 +114,222 @@
     font-size: 17px;
     line-height: 24px;
     font-weight: 500;
+}
+
+
+
+
+
+
+
+
+.steps-container {
+    display: none;
+    max-width: 1244px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.steps-container .step {
+    display: none;
+    opacity: 0;
+}
+
+.steps-container .step.active {
+    display: block;
+    opacity: 1;
+}
+
+.steps-container .step .step-inner {
+    display: flex;
+}
+
+.steps-container .step .step-inner .image {
+    width: 40%;
+    padding: 0 50px;
+}
+
+#articleContent img {
+    width: auto;
+}
+
+.steps-container .step .step-inner .text {
+    width: 60%;
+}
+
+.steps-container .step .step-inner .text h4 {
+    font-size: 2.25em;
+    margin-bottom: 1em;
+    font-weight: 700;
+    color: var(--text-color-dark-blue);
+    filter: brightness(0.5);
+}
+
+.steps-container .step .step-inner .text .filters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.steps-container .step .step-inner .text .filters button {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    color: #191919;
+    cursor: pointer;
+    height: 90px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    width: calc(49% - 10px);
+    text-align: left;
+}
+
+.steps-container .step .step-inner .text .filters button p {
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.steps-container .step .step-inner .text .filters button p span {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.steps-container .step .step-inner .text .filters button:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    margin-top: -14px;
+    margin-left: 280px;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    text-indent: -9999px;
+    border-top: 3.5px solid var(--header-border-color);
+    border-left: 3.5px solid var(--header-border-color);
+    transform: rotate(135deg);
+}
+
+.step:hover button {
+    border: 5px solid #fefefe;
+}
+
+.steps-container .step .step-inner .navigation {
+    display: flex;
+    padding-right: 20px;
+}
+
+.steps-container .step .step-inner .navigation .nav-item {
+    flex: 1;
+}
+
+.steps-container .step .step-inner .navigation .nav-item a {
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    background: transparent;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 34px;
+    margin-top: 20px;
+    min-width: 130px;
+    text-decoration: none;
+}
+
+.steps-container .step .step-inner .navigation .nav-item.next {
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+.steps-container .step .step-inner .text .filters label.checkbox-container p {
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 20px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.steps-container .step .step-inner .text .filters label.checkbox-container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #191919;
+    cursor: pointer;
+    height: 90px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    width: calc(49% - 10px);
+    text-align: left;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    align-items: center;
+    display: flex;
+}
+
+.steps-container .step .step-inner .text .filters label.checkbox-container input {
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #191919;
+    cursor: pointer;
+    height: 90px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    width: calc(49% - 10px);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.steps-container .step .step-inner .text .filters label.checkbox-container input:checked ~ .checkmark {
+    background-color: #fff;
+}
+
+.steps-container .step .step-inner .text .filters label.checkbox-container .checkmark {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12px;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #ccc;
+}
+
+.steps-container .step .step-inner .text .filters label.checkbox-container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 7px;
+    top: 2px;
+    width: 9px;
+    height: 15px;
+    border: solid var(--header-border-color);
+    border-width: 0 4px 4px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.steps-container .step .step-inner .text .filters label.checkbox-container input:checked ~ .checkmark:after {
+    display: block;
 }

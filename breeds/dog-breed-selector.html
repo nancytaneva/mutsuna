@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Муцуна</title>
+    <title>Какво куче да си взема? | Селектор на породи кучета на Муцуна.орг </title>
     <link rel="icon" href="../css/img/mutsuna-logo-round-nose-DARK.png">
     <link rel="stylesheet" href="../css/animations.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="../css/style.css" />
      <!-- ICONS CDN FONTAWESOME -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- ION MOON ICONS IN SELECTOR -->
+     <link rel="stylesheet" id="ionicons-css-css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css?ver=4.9.8" type="text/css" media="all">
 </head>
 
 <body>
@@ -321,9 +323,9 @@
         <div id="breadcrumb">
             <a class="breadcrumb-link no-dec" href="../index.html">Начало</a>
                 <span class="breadcrumb-link">  /  </span>
-            <a class="breadcrumb-link no-dec" href="../growth.html">Растеж и развитие</a>
+            <a class="breadcrumb-link no-dec" href="../what-for-you.html">Кое е за теб?</a>
                 <span class="breadcrumb-link">  /  </span>
-            <a class="breadcrumb-link no-dec" href="./growth-cat.html">Котка</a>
+            <a class="breadcrumb-link no-dec" href="./dog-breed-selector.html">Какво куче да си взема? | Селектор на породи кучета</a>
         </div>
 
         <div class="overlay-desktop"></div>
@@ -354,41 +356,228 @@
 
                     <div class="dog-breed-selector">
 
-                        <div class="landing">
+                        <div class="landing" style="display: none;">
                             <div class="landing-img">
                                 <img src="../css/img/home/dog-sit.png">
                             </div>
-                            <div class="landing-text" style="display: none;">
+                            <div class="landing-text">
                                 <div>Какво куче да си взема?</div>
                                 <p>Мечтаеш за куче в твоя дом, но не можеш да решиш кое е подходящо за теб? Отговори на този Селектор за породи кучета и разбери кое ще пасне на твоя начин на живот. Започни сега и разбери кой е твоят бъдещ другар.</p>
                                 <button>Започни сега</button>
                             </div>
                         </div>
 
+                        <div class="tool-progress" style="opacity: 1; display: block;">
+                            <ul style="width: 100%;">
+                                <li data-step="0" data-increment="0" style="left: 0%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
+                                <li data-step="1" data-increment="11" style="left: 11%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
+                                <li data-step="2" data-increment="22" style="left: 22%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
+                                <li data-step="3" data-increment="33" style="left: 33%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
+                                <li data-step="4" data-increment="44" style="left: 44%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
+                                <li data-step="5" data-increment="56" style="left: 56%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
+                                <li data-step="6" data-increment="67" style="left: 67%; transform: scale(1); opacity: 1;"><span></span></li>
+                                <li data-step="7" data-increment="78" style="left: 78%; transform: scale(1); opacity: 1;"><span></span></li>
+                                <li data-step="8" data-increment="89" style="left: 89%; transform: scale(1); opacity: 1;"><span></span></li>
+                                <li class="tool-current-step active" style="left: 56%; transform: scale(1); opacity: 1;"><span></span></li>
+                            </ul>
+                            <div class="tool-progress-bar" style="width: 56%;"></div>
+                        </div>
+
+
+                        <div class="steps-container" style="display: block;">
+
+                            <!-- <div class="step active" data-step="0" data-step-type="checkbox">
+                            <div class="step-inner">
+                                <div class="image" style="transform: translateY(0px); opacity: 1;">
+                                    <img src="../css/img/home/dog-sit.png">
+                                </div>
+                                <div class="text">
+                                    <h4 style="transform: translateY(0px); opacity: 1;">Колко голямо искаш да е твоето куче?</h4>
+                                    <div class="description"></div>
+                                    <div class="filters">
+                                                        <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>малка или средно по размер (до 25 кг)<span></span></p>
+                                                            <input type="checkbox" name="step-0" value="small/medium">
+                                                            <span class="checkmark"></span>
+                                                        </label>
+                                                        <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>голямо (25-45 кг)<span></span></p>
+                                                            <input type="checkbox" name="step-0" value="large">
+                                                            <span class="checkmark"></span>
+                                                        </label>
+                                                        <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>гигантска порода (над 45 кг)<span></span></p>
+                                                            <input type="checkbox" name="step-0" value="giant">
+                                                            <span class="checkmark"></span>
+                                                        </label>
+                                                        <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>Нямам предпочитания<span></span></p>
+                                                            <input type="checkbox" name="step-0" value="N/A">
+                                                            <span class="checkmark"></span>
+                                                        </label>
+                                    </div>
+                                    <div class="navigation">
+                                        <div class="next nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Нямам предпочитания</a>
+                                        </div>
+                                        <div class="next nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Следващ въпрос</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                            <!-- <div class="step active" data-step="1" data-step-type="radio">
+                                <div class="step-inner">
+                                    <div class="image" style="transform: translateY(0px); opacity: 1;">
+                                        <img src="../css/img/home/dog-sit.png">
+                                    </div>
+                                        <div class="text">
+                                            <h4 style="transform: translateY(0px); opacity: 1;">Ще ти пречат ли лигите на кучето?</h4>
+                                            <div class="description"></div>
+                                            <div class="filters">
+                                                            <button class="filter" data-filter="2" style="transform: translateY(0px); opacity: 1;">
+                                                            <p>Не, нямам проблем с тях<span></span></p>
+                                                            </button>
+                                                            <button class="filter" data-filter="1" style="transform: translateY(0px); opacity: 1;">
+                                                            <p>Да, предпочитам куче с малко лиги<span></span></p>
+                                                            </button>
+                                            </div>
+                                            <div class="navigation">
+                                                <div class="previous nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен въпрос</a></div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div> -->
+
+                            <!-- <div class="step active" data-step="2" data-step-type="radio">
+                                <div class="step-inner">
+                                    <div class="image" style="transform: translateY(0px); opacity: 1;">
+                                        <img src="../css/img/home/dog-sit.png">
+                                    </div>
+                                        <div class="text">
+                                            <h4 style="transform: translateY(0px); opacity: 1;">Колко време можеш да отделиш за ресане и къпане на кучето?</h4>
+                                            <div class="description"></div>
+                                            <div class="filters">
+                                                <button class="filter" data-filter="5" style="transform: translateY(0px); opacity: 1;">
+                                                <p>Няма значение за мен<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="4" style="transform: translateY(0px); opacity: 1;">
+                                                <p>Веднъж дневно<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="3" style="transform: translateY(0px); opacity: 1;">
+                                                <p>Не повече от 2-3 пъти седмично<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="2" style="transform: translateY(0px); opacity: 1;">
+                                                <p>Не повече от веднъж седмично<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="1" style="transform: translateY(0px); opacity: 1;">
+                                                <p>От време на време<span></span></p>
+                                                </button>
+                                            </div>
+                                            <div class="navigation">
+                                                <div class="previous nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен въпрос</a></div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div> -->
+
+                            <!-- <div class="step active" data-step="3" data-step-type="radio">
+                                <div class="step-inner">
+                                    <div class="image" style="transform: translateY(0px); opacity: 1;">
+                                        <img src="../css/img/home/dog-sit.png">
+                                    </div>
+                                        <div class="text">
+                                            <h4 style="transform: translateY(0px); opacity: 1;">До какво количество паднала козина ще се чувстваш комфортно?</h4>
+                                            <div class="description"></div>
+                                            <div class="filters">
+                                                <button class="filter" data-filter="3" style="transform: translateY(0px); opacity: 1;">
+                                                <p>Няма значение за мен<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="2" style="transform: translateY(0px); opacity: 1;">
+                                                <p>Искам куче, от което не пада козина<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="1" style="transform: translateY(0px); opacity: 1;">
+                                                <p>От време на време е напълно приемливо<span></span></p>
+                                                </button>
+                                            </div>
+                                            <div class="navigation">
+                                                <div class="previous nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен въпрос</a></div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div> -->
+
+                            <!-- <div class="step active" data-step="4" data-step-type="checkbox">
+                                <div class="step-inner">
+                                    <div class="image" style="transform: translateY(0px); opacity: 1;">
+                                        <img src="../css/img/home/dog-sit.png">
+                                    </div>
+                                    <div class="text">
+                                        <h4 style="transform: translateY(0px); opacity: 1;">Колко енергично искаш да е твоето куче?</h4>
+                                        <div class="description"></div>
+                                        <div class="filters">
+                                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>Много енергично (над 1 час дневни упражнения)<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="veryEnergetic">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>Енергично (30 мин – 1 час)<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="energetic">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>Спокойно (20-30 мин дневни упражнения)<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="calm">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>Нямам предпочитания<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="N/A">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                        </div>
+                                        <div class="navigation">
+                                            <div class="previous nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен въпрос</a></div>
+                                            <div class="next nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Следващ въпрос</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            
+                            <div class="step active" data-step="5" data-step-type="checkbox">
+                                <div class="step-inner">
+                                    <div class="image" style="transform: translateY(0px); opacity: 1;">
+                                        <img src="../css/img/home/dog-sit.png">
+                                    </div>
+                                    <div class="text">
+                                        <h4 style="transform: translateY(0px); opacity: 1;">Колко време на ден би искал да отделиш за разходка с кучето си?</h4>
+                                        <div class="description"></div>
+                                        <div class="filters">
+                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>До един час на ден<span></span></p>
+                                                <input type="checkbox" name="step-0" value="veryEnergetic">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>Един-два часа на ден<span></span></p>
+                                                <input type="checkbox" name="step-0" value="energetic">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>Повече от два часа на ден<span></span></p>
+                                                <input type="checkbox" name="step-0" value="calm">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>Нямам предпочитания<span></span></p>
+                                                <input type="checkbox" name="step-0" value="N/A">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="navigation">
+                                            <div class="previous nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен въпрос</a></div>
+                                            <div class="next nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Следващ въпрос</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
                     </div>
-
-
-                    <div class="tool-progress" style="opacity: 1; display: block;">
-                        <ul style="width: 100%;">
-                            <li data-step="0" data-increment="0" style="left: 0%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
-                            <li data-step="1" data-increment="11" style="left: 11%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
-                            <li data-step="2" data-increment="22" style="left: 22%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
-                            <li data-step="3" data-increment="33" style="left: 33%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
-                            <li data-step="4" data-increment="44" style="left: 44%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
-                            <li data-step="5" data-increment="56" style="left: 56%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
-                            <li data-step="6" data-increment="67" style="left: 67%; transform: scale(1); opacity: 1;"><span></span></li>
-                            <li data-step="7" data-increment="78" style="left: 78%; transform: scale(1); opacity: 1;"><span></span></li>
-                            <li data-step="8" data-increment="89" style="left: 89%; transform: scale(1); opacity: 1;"><span></span></li>
-                            <li class="tool-current-step active" style="left: 56%; transform: scale(1); opacity: 1;"><span></span></li>
-                        </ul>
-                        <div class="tool-progress-bar" style="width: 56%;"></div>
-                    </div>
-
-
-
-
-
-
                 </div>
 
 
