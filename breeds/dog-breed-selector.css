@@ -33,7 +33,7 @@
 }
 
 .landing-text div {
-    color: white;
+    color:var(--background-color-header-mobile);
     font-size: 2.8rem;
     padding: 10px 0px;
     font-weight: 900;
@@ -91,7 +91,7 @@
 }
 
 .tool-progress ul li.active {
-    background: var(--header-color-logo);
+    background: var(--background-color-header-mobile);
     left: 0;
     transition: all 500ms ease;
 }
@@ -174,7 +174,7 @@
 }
 
 .steps-container .step .step-inner .text .filters button {
-    background-color: #ffffff;
+    background-color: var(--background-color-header-mobile);
     border: none;
     border-radius: 5px;
     color: #191919;
@@ -230,9 +230,9 @@
 
 .steps-container .step .step-inner .navigation .nav-item a {
     border-radius: 20px;
-    border: 2px solid #ffffff;
+    border: 2px solid var(--background-color-header-mobile);
     background: transparent;
-    color: #fff;
+    color: var(--background-color-header-mobile);
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 65px;
@@ -266,7 +266,7 @@
 }
 
 .steps-container .step .step-inner .text .filters label.checkbox-container {
-    background-color: #ffffff;
+    background-color: var(--background-color-header-mobile);
     border-radius: 5px;
     color: #191919;
     cursor: pointer;
@@ -285,7 +285,7 @@
 }
 
 .steps-container .step .step-inner .text .filters label.checkbox-container input {
-    background-color: #ffffff;
+    background-color: var(--background-color-header-mobile);
     border-radius: 5px;
     color: #191919;
     cursor: pointer;
@@ -304,7 +304,7 @@
 }
 
 .steps-container .step .step-inner .text .filters label.checkbox-container input:checked ~ .checkmark {
-    background-color: #fff;
+    background-color: var(--background-color-header-mobile);
 }
 
 .steps-container .step .step-inner .text .filters label.checkbox-container .checkmark {
@@ -361,14 +361,14 @@
     padding: 5px;
     border-radius: 40px;
     place-content: start;
-    background: #ffffff;
+    background: var(--background-color-header-mobile);
     margin: 5px;
     transition: 0.2s;
     cursor: pointer;
 }
 
 .quality:hover {
-    background: #ffffffc4;
+    opacity: 0.6;
     font-weight: 500;
     letter-spacing: 1.3px;
     transition: 0.2s;
@@ -403,11 +403,11 @@
     margin-bottom: 65px;
     padding: 10px 34px;
     border-radius: 40px;
-    border: 2px solid #ffffff;
+    border: 2px solid var(--background-color-header-mobile);
     background: transparent;
     text-align: center;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--background-color-header-mobile);
     font-size: 1rem;
     font-weight: 700;
     text-decoration: none;

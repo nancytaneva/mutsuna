@@ -1090,7 +1090,9 @@ h2 {
         background-color: var(--background-color-breadcrumb-mobile);
     }
 
-    
+    .scroll-indicator-container-mobile-background {
+        display: none;
+    }
 
 
     .dark-mode-btn {
