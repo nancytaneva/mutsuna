@@ -3,7 +3,9 @@
     font-family: "icomoon";
     src: url(../css/fonts/IcoMoon-Free.ttf);
 } */
-
+#article-review {
+    display: none;
+}
 .dog-breed-selector {
     background: var(--header-border-color);
     /* height: 470px;
@@ -362,6 +364,7 @@
     background: #ffffff;
     margin: 5px;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 .quality:hover {
@@ -408,4 +411,123 @@
     font-size: 1rem;
     font-weight: 700;
     text-decoration: none;
+    cursor: pointer;
+}
+
+
+@media (max-width: 900px) {
+
+    #dog-breed-selector {
+        padding: 10px;
+    }
+
+    #content-section {
+        padding: 0;
+    }
+
+    .step-inner .image img, .landing-img img {
+        max-width: 200px;
+    }
+
+    .landing {
+        width: 100%;
+        flex-direction: column-reverse;
+        padding: 0 10px;
+        margin-top: 117.4px;
+    }
+
+    .tool-progress {
+        margin-bottom: 2em;
+        padding: 0 10px;
+    }
+
+    .tool-progress ul {
+        height: 6px;
+    }
+
+    .articleContent ul {
+        padding-left: 10px;
+    }
+
+    .articleContent li {
+        font-size: 14px;
+    }
+
+    .tool-progress ul li {
+        width: 16px;
+        height: 16px;
+        top: -5px;
+    }
+
+
+
+    .steps-container .step .step-inner .text {
+        width: 100%;
+        order: 1;
+    }
+
+    .steps-container .step .step-inner {
+        flex-direction: column-reverse;
+    }
+
+    .steps-container .step .step-inner .text h4 {
+        font-size: 1.5em;
+    }
+
+    .steps-container .step .step-inner .text .filters button:nth-child(2n + 2) {
+        margin-right: 0;
+    }
+
+    .steps-container .step .step-inner .text .filters button {
+        width: calc(50% - 5px);
+        height: 80px;
+    }
+
+    .steps-container .step .step-inner .text .filters button p {
+        padding-left: 5px;
+        line-height: 19px;
+        font-size: 13px;
+    }
+
+    /* .steps-container .step .step-inner .navigation {
+        flex-direction: column;
+    } */
+
+    .step .step-inner .navigation .nav-item a, .steps-container .step .step-inner .navigation .nav-item {
+        min-width: 50px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .steps-container .step .step-inner .navigation .nav-item a {
+        margin-bottom: 20px;
+        padding: 7px 6px;
+    }
+
+
+
+
+    .steps-container .step .step-inner .text .filters label.checkbox-container p {
+        padding-left: 45px;
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .steps-container .step .step-inner .text .filters label.checkbox-container {
+        height: 80px;
+    }
+
+
+
+
+
+
+
+    .quality {
+        width: calc(80% - 10px);
+    }
+
+    .show-result-btn {
+        width: calc(80% - 10px);
+    }
 }
