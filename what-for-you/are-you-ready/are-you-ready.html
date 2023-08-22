@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Муцуна | Подробен въпросник: Готов ли си за куче?</title>
+    <link rel="icon" href="../../css/img/mutsuna-logo-round-nose-DARK.png">
+    <link rel="stylesheet" href="../../css/animations.css" />
+    <link rel="stylesheet" href="./are-you-ready.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+     <!-- ICONS CDN FONTAWESOME -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+
+     <section id="content-section">
+        <section id="article-review">
+            <div>
+                <a href="dog/growth-dog.html"><button id="dog-btn-clicked">Куче</button></a> 
+                или 
+                <a href="../growth-cat.html"><button id="cat-btn">Коте</button></a>
+            </div>
+        </section> 
+    
+        <section id="main-content">
+            <div id="content" class="content">
+                <div id="overlay"></div>
+
+                <div id="articleContent">
+                    <div class="dog-breed-selector">
+
+                        <div id="landing">
+                            <div class="landing-img">
+                                <img src="../../css/img/home/dog-sit.png">
+                            </div>
+                            <div class="landing-text">
+                                <div>Подробен въпросник: Готов ли си за куче?</div>
+                                <p>Мечтаеш за куче в твоя дом, но дали си готов за такава отговорност? Отговори на този подробен въпросник и разбери дали ще си добър собственик на куче.</p>
+                                <button id="start-btn">Започни сега</button>
+                            </div>
+                        </div>
+
+                        <div class="tool-progress">
+                            <ul style="width: 100%;">
+                                <li data-step="0" data-increment="0" style="left: 0%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
+                                <li data-step="1" data-increment="11" style="left: 11%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
+                                <li data-step="2" data-increment="22" style="left: 22%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
+                                <li data-step="3" data-increment="33" style="left: 33%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
+                                <li data-step="4" data-increment="44" style="left: 44%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
+                                <li data-step="5" data-increment="56" style="left: 56%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
+                                <li data-step="6" data-increment="67" style="left: 67%; transform: scale(1); opacity: 1;"><span></span></li>
+                                <li data-step="7" data-increment="78" style="left: 78%; transform: scale(1); opacity: 1;"><span></span></li>
+                                <li data-step="8" data-increment="89" style="left: 89%; transform: scale(1); opacity: 1;"><span></span></li>
+                                <li class="tool-current-step active" style="left: 56%; transform: scale(1); opacity: 1;"><span></span></li>
+                            </ul>
+                            <div class="tool-progress-bar" style="width: 56%;"></div>
+                        </div>
+
+
+                        <div class="steps-container">
+
+                            <div class="step" data-step="0" data-step-type="radio">
+                                <div class="step-inner">
+                                    <div class="image">
+                                        <img src="../../css/img/home/dog-sit.png">
+                                    </div>
+                                        <div class="text">
+                                            <h4>Преди да донесеш кучето си вкъщи, подготвил ли си всичко нужно?</h4>
+                                            <div class="description"></div>
+                                            <div class="filters">
+                                                            <button class="filter" data-filter="3">
+                                                            <p>Вече съм изготвил списък с необходимите неща и ще ги закупя преди да донеса кученцето у дома.<span></span></p>
+                                                            </button><button class="filter" data-filter="2">
+                                                            <p>Да, купил съм легло, купичка и храна.<span></span></p>
+                                                            </button>
+                                                            <button class="filter" data-filter="1">
+                                                            <p>Ще купя всичко, когато взема кучето вкъщи.<span></span></p>
+                                                            </button>
+                                            </div>
+                                        </div>
+                                        <div class="answer" style="display: none;">
+                                            <h4>Отговор: Вече съм изготвил списък с необходимите неща и ще ги закупя преди да донеса кученцето у дома.</h4>
+                                            <p>От голяма важност е още преди да си вземеш куче, да се снабдиш с всичко необходимо, за да не изпаднеш в ситуация, при която нещо ти трябва, но липсва.
+                                            <br>(Виж: <a href="#">Приспособяване в новия дом: Подготовка на дома</a>)
+                                            </p>
+                                            <div class="answer-navigation">
+                                                <div class="next nav-item"><a>Следващ въпрос</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="step" data-step="1" data-step-type="radio">
+                                <div class="step-inner">
+                                    <div class="image">
+                                        <img src="../../css/img/home/dog-sit.png">
+                                    </div>
+                                        <div class="text" style="display: none;">
+                                            <h4>Когато вземеш кучето вкъщи, какво ще направиш?</h4>
+                                            <div class="description"></div>
+                                            <div class="filters">
+                                                            <button class="filter" data-filter="2">
+                                                            <p>Ще наблюдавам кучето 2-3 дни и постепенно ще запознавам кучето с новите му среда и семейство.<span></span></p>
+                                                            </button>
+                                                            <button class="filter" data-filter="1">
+                                                            <p>Няма нужда да наблюдавам кучето първите дни.<span></span></p>
+                                                            </button>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <h4>Отговор: Ще наблюдавам кучето 2-3 дни и постепенно ще запознавам кучето с новите му среда и семейство.</h4>
+                                            <p>В началото твоето куче ще се приспособява към новия си дом и трябва да се увериш, че всичко ще мине гладко.
+                                            <br> (Виж: <a href="#">Приспособяване в новия дом: Първи дни на твоя любимец</a>)
+                                            </p>
+                                            <div class="answer-navigation">
+                                                <div class="next nav-item"><a>Следващ въпрос</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="step" data-step="2" data-step-type="radio">
+                                <div class="step-inner">
+                                    <div class="image">
+                                        <img src="../../css/img/home/dog-sit.png">
+                                    </div>
+                                        <div class="text" style="display: none;">
+                                            <h4>Обезопаси ли твоя дом за кучето?</h4>
+                                            <div class="description"></div>
+                                            <div class="filters">
+                                                <button class="filter" data-filter="2">
+                                                <p>Да<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="1">
+                                                <p>Не<span></span></p>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <h4>Отговор: Да.</h4>
+                                            <p>Важно е да обезопасиш дома си, защото покрай любопитството му твоето куче може да пострада от отровни растения и храни, опасни лекарства и вещества, дъвченето и гълтането на кабели и предмети, както и отворените врати, през които то може да избяга на улицата.
+                                            <br> (Виж: <a href="#">Приспособяване в новия дом: Подготовка на дома</a>)
+                                            </p>
+                                            <div class="answer-navigation">
+                                                <div class="next nav-item"><a>Следващ въпрос</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="step" data-step="3" data-step-type="radio">
+                                <div class="step-inner">
+                                    <div class="image">
+                                        <img src="../../css/img/home/dog-sit.png">
+                                    </div>
+                                        <div class="text" style="display: none;">
+                                            <h4>Избра ли име на бъдещото си куче?</h4>
+                                            <div class="description"></div>
+                                            <div class="filters">
+                                                <button class="filter" data-filter="2">
+                                                <p>Да, искам кучето да знае името си от първия ден у дома.<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="1">
+                                                <p>Не, ще избера след като го взема.<span></span></p>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <h4>Отговор: Да.</h4>
+                                            <p>Препоръчително е кучето да научи своето име, колкото е възможно по-рано, в идеалния случай – още от първия ден. Това е важна стъпка в общуването с любимеца ти, защото основният начин, по който ще привличаш вниманието му и ще го обучаваш, е чрез неговото име.           
+                                            <br> (Виж: <a href="#">Приспособяване в новия дом: Избор на име</a>)
+                                            </p>
+                                            <div class="answer-navigation">
+                                                <div class="next nav-item"><a>Следващ въпрос</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="step" data-step="4" data-step-type="radio">
+                                <div class="step-inner">
+                                    <div class="image">
+                                        <img src="../../css/img/home/dog-sit.png">
+                                    </div>
+                                        <div class="text" style="display: none;">
+                                            <h4>Колко време на седмица можеш да отделяш за обучение на твоето куче?</h4>
+                                            <div class="description"></div>
+                                            <div class="filters">
+                                                <button class="filter" data-filter="3">
+                                                <p>1-2 часа.<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="2">
+                                                <p>Колкото е необходимо.<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="1">
+                                                <p>Николко.<span></span></p>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <h4>Отговор: Колкото е необходимо.</h4>
+                                            <p>Независимо каква порода е, всяко куче е различно по един или друг начин. Ключът към добре възпитано и безпроблемно куче е търпението към нужното време за обучение и постоянството.                                                
+                                            <br> (Виж: <a href="#">Как да се грижа: Обучение</a>)
+                                            </p>
+                                            <div class="answer-navigation">
+                                                <div class="next nav-item"><a>Следващ въпрос</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="step" data-step="5" data-step-type="radio">
+                                <div class="step-inner">
+                                    <div class="image">
+                                        <img src="../../css/img/home/dog-sit.png">
+                                    </div>
+                                        <div class="text" style="display: none;">
+                                            <h4>Колко време можеш да отделиш за игри с твоето куче?</h4>
+                                            <div class="description"></div>
+                                            <div class="filters">
+                                                <button class="filter" data-filter="3">
+                                                <p>Имам поне 1 час на ден, за да се грижа за моето куче.<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="2">
+                                                <p>Зает/а съм, имам най-много 20-30 минути на ден.<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="1">
+                                                <p>Аз съм много зает/а и нямам време за игри всеки ден.<span></span></p>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <h4>Отговор: Имам поне 1 час на ден, за да се грижа за моето куче.</h4>
+                                            <p>Нивото на енергия е различно при различните породи, като при повечето кучета то е минимум час на ден за разходки, игри и обучение. При неизразходване на енергията, може да се появят нежелани повеченчески или здравословни проблеми.
+                                            </p>
+                                            <div class="answer-navigation">
+                                                <div class="next nav-item"><a>Следващ въпрос</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="step" data-step="6" data-step-type="checkbox">
+                                <div class="step-inner">
+                                    <div class="image">
+                                        <img src="../../css/img/home/dog-sit.png">
+                                    </div>
+                                    <div class="text" style="display: none;">
+                                        <h4>Кои от по-долу изброените сигнали са знаци на агресия при кучетата?</h4>
+                                        <div class="description"></div>
+                                        <div class="filters">
+                                                            <label class="checkbox-container"><p>Настръхване на козината на гърба.<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="veryEnergetic">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container"><p>Ръмжене.<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="energetic">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container"><p>Оголване на зъбите.<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="calm">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container"><p>Не съм сигурен/а.<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="N/A">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                        </div>
+                                        <div class="navigation">
+                                            <div class="show-ans nav-item"><a>Покажи отговора</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="answer">
+                                        <h4>Отговор: Лаене. Ръмжене. Настръхване на козината на гърба. Оголване на зъбите.</h4>
+                                        <p>Лаенето и ръмженето са вербални сигнали, а настръхването на козината на гърба и оголването на зъбите са невербални сигнали на агресивност при кучетата.
+                                        <br>(Виж: <a href="#">Как да се грижа?</a>)
+                                        </p>
+                                        <div class="answer-navigation">
+                                            <div class="next nav-item"><a>Следващ въпрос</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="step" data-step="7" data-step-type="radio">
+                                <div class="step-inner">
+                                    <div class="image">
+                                        <img src="../../css/img/home/dog-sit.png">
+                                    </div>
+                                        <div class="text" style="display: none;">
+                                            <h4>Намери ли сигурни източници за поведението и обучението на кучетата?</h4>
+                                            <div class="description"></div>
+                                            <div class="filters">
+                                                <button class="filter" data-filter="2">
+                                                <p>Да<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="1">
+                                                <p>Не<span></span></p>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <h4>Отговор: Да</h4>
+                                            <p>Обучението на кучето ти е жизненоважно, защото без него появата на поведенчески проблеми е много вероятна.
+                                            </p>
+                                            <div class="answer-navigation">
+                                                <div class="next nav-item"><a>Следващ въпрос</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="step" data-step="8" data-step-type="radio">
+                                <div class="step-inner">
+                                    <div class="image">
+                                        <img src="../../css/img/home/dog-sit.png">
+                                    </div>
+                                        <div class="text" style="display: none;">
+                                            <h4>Когато се сдобиеш с куче, какво ще е първото нещо, което ще правиш всяка сутрин?</h4>
+                                            <div class="description"></div>
+                                            <div class="filters">
+                                                <button class="filter" data-filter="3">
+                                                <p>Да си направя кафе.<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="2">
+                                                <p>Да изведа кучето на разходка<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="1">
+                                                <p>Да гледам новините<span></span></p>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <h4>Отговор: Да изведа кучето на разходка.</h4>
+                                            <p>Както човек има нужда да мине през банята всяка сутрин след сън, така и кучето има нужда от разходка, за да се освободи от ненужните течности.
+                                            <br>(Виж: <a href="#">Как да се грижа: Обучение</a>)
+                                            </p>
+                                            <div class="answer-navigation">
+                                                <div class="next nav-item"><a>Следващ въпрос</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            
+                            <div class="step" data-step="9" data-step-type="checkbox">
+                                <div class="step-inner">
+                                    <div class="image">
+                                        <img src="../../css/img/home/dog-sit.png">
+                                    </div>
+                                    <div class="text" style="display: none;">
+                                        <h4>Какви дейности виждаш себе си и бъдещото си куче да правите заедно?</h4>
+                                        <div class="description"></div>
+                                        <div class="filters">
+                                                            <label class="checkbox-container"><p>Мързелуване в леглото.<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="veryEnergetic">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container"><p>Дълги разходки.<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="energetic">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container"><p>Участване в кучешки състезания.<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="calm">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container"><p>Учене на нови номера.<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="N/A">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container"><p>Гушкане на дивана и гледане на телевизия.<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="N/A">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container"><p>Къмпинги и разходки в планините.<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="N/A">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                        </div>
+                                        <div class="navigation">
+                                            <div class="show-ans nav-item"><a>Покажи отговора</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="answer">
+                                        <h4>Отговор: Всички са верни.</h4>
+                                        <p>Прекарване на време с любимеца ти независимо колко енергична дейност ще избереш, е време, през което връзката между теб и кучето ти ще стане по-силна. Кучетата са социални същества и разчитат на своята глутница, която си ти.
+                                        </p>
+                                        <div class="answer-navigation">
+                                            <div class="next nav-item"><a>Следващ въпрос</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="step" data-step="10" data-step-type="radio">
+                                <div class="step-inner">
+                                    <div class="image">
+                                        <img src="../../css/img/home/dog-sit.png">
+                                    </div>
+                                        <div class="text" style="display: none;">
+                                            <h4>Всички храни за консумация от хората са безвредни и за кучетата. Следователно е безопасно да давам храна на кучето си от моя обяд.</h4>
+                                            <div class="description"></div>
+                                            <div class="filters">
+                                                <button class="filter" data-filter="2">
+                                                <p>Вярно<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="1">
+                                                <p>Невярно<span></span></p>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <h4>Отговор: Невярно</h4>
+                                            <p>Не всяка храна, която е годна за човешка консумация, е безвредна за кучетата. Преди да даваш храна на любимеца си, потърси информация и се увери, че тя е безопасна за него!
+                                            </p>
+                                            <div class="answer-navigation">
+                                                <div class="next nav-item"><a>Следващ въпрос</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="step" data-step="11" data-step-type="radio">
+                                <div class="step-inner">
+                                    <div class="image">
+                                        <img src="../../css/img/home/dog-sit.png">
+                                    </div>
+                                        <div class="text" style="display: none;">
+                                            <h4>Наясно ли си, че придобиването на и грижата за куче върви ръка за ръка с много разходи?</h4>
+                                            <div class="description"></div>
+                                            <div class="filters">
+                                                <button class="filter" data-filter="3">
+                                                <p>Вече съм изчислил/а всички разходи за основните нужди като храна, играчки, легло, каишка, поддръжка, ветеринарни прегледи и профилактични медикаменти.<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="1">
+                                                <p>Не, мисля, че мога да покрия всички разходи, свързани с кучето ми.<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="2">
+                                                <p>Не, не е от голямо значение дори ако не мога да осигуря всичко нужно на моето куче.<span></span></p>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <h4>Отговор: Вече съм изчислил/а всички разходи за основните нужди като храна, играчки, легло, каишка, поддръжка, ветеринарни прегледи и профилактични медикаменти.</h4>
+                                            <p>Колкото и да е голяма твоята любов към кучетата, тя не може да ги нахрани, нито да покрие сметката ти във ветеринарната клиника. Липсата на достатъчно храна или медицински грижи се счита за жестокост към животните.
+                                            </p>
+                                            <div class="answer-navigation">
+                                                <div class="next nav-item"><a>Следващ въпрос</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="step" data-step="12" data-step-type="radio">
+                                <div class="step-inner">
+                                    <div class="image">
+                                        <img src="../../css/img/home/dog-sit.png">
+                                    </div>
+                                    <div class="text" style="display: none;">
+                                        <h4>Няма нужда да слагам каишка и повод на кучето ми.</h4>
+                                        <div class="description"></div>
+                                        <div class="filters">
+                                            <button class="filter" data-filter="2">
+                                            <p>Вярно.<span></span></p>
+                                            </button>
+                                            <button class="filter" data-filter="1">
+                                            <p>Невярно.<span></span></p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="answer">
+                                        <h4>Отговор: Невярно.</h4>
+                                        <p>Воденето на повод предпазва не само околните от евентуални проблеми, но и предпазва твоя любимец, като по този начин винаги можеш да дръпнеш кучето си, ако някое друго животно го нападне.
+                                        </p>
+                                        <div class="answer-navigation">
+                                            <div class="next nav-item"><a>Следващ въпрос</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="step" data-step="13" data-step-type="checkbox">
+                                <div class="step-inner">
+                                    <div class="image">
+                                        <img src="../../css/img/home/dog-sit.png">
+                                    </div>
+                                    <div class="text" style="display: none;">
+                                        <h4>Кой ще покрива разходите на кучето ти?</h4>
+                                        <div class="description"></div>
+                                        <div class="filters">
+                                                            <label class="checkbox-container"><p>Аз<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="veryEnergetic">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container"><p>Родителите ми<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="energetic">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container"><p>Моят брачен партньор/ гадже<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="calm">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container"><p>Друг<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="N/A">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container"><p>Не съм помислил/а над това<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="N/A">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                        </div>
+                                        <div class="navigation">
+                                            <div class="show-ans nav-item"><a>Покажи отговора</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="answer">
+                                        <h4>Отговор: Всички са верни освен: Не съм помислил/а над това.</h4>
+                                        <p>Покриването на разходите са важна част от грижата за кучето ти. Без финансови средства няма как да се купят основни неща като храна, играчки и др.
+                                        </p>
+                                        <div class="answer-navigation">
+                                            <div class="next nav-item"><a>Следващ въпрос</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="step" data-step="13" data-step-type="radio">
+                                <div class="step-inner">
+                                    <div class="image">
+                                        <img src="../../css/img/home/dog-sit.png">
+                                    </div>
+                                        <div class="text" style="display: none;">
+                                            <h4>Кой ще покрива разходите на кучето ти?</h4>
+                                            <div class="description"></div>
+                                            <div class="filters">
+                                                <button class="filter" data-filter="5">
+                                                <p>Аз<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="4">
+                                                <p>Родителите ми<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="3">
+                                                <p>Моят брачен партньор/ гадже.<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="2">
+                                                <p>Друг<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="1">
+                                                <p>Не съм помислил/а над това.<span></span></p>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <h4>Отговор: Всички са верни освен: Не съм помислил/а над това.</h4>
+                                            <p>Покриването на разходите са важна част от грижата за кучето ти. Без финансови средства няма как да се купят основни неща като храна, играчки и др.
+                                            </p>
+                                            <div class="answer-navigation">
+                                                <div class="next nav-item"><a>Следващ въпрос</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="step" data-step="14" data-step-type="radio">
+                                <div class="step-inner">
+                                    <div class="image">
+                                        <img src="../../css/img/home/dog-sit.png">
+                                    </div>
+                                        <div class="text" style="display: none;">
+                                            <h4>Социализацията на кучето ми с други кучета НЕ е толкова важна.</h4>
+                                            <div class="description"></div>
+                                            <div class="filters">
+                                                <button class="filter" data-filter="2">
+                                                <p>Вярно<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="1">
+                                                <p>Невярно<span></span></p>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <h4>Отговор: Невярно</h4>
+                                            <p>Социализацията на кучето ти е от изключителна важност и не трябва да бъде пренебрегвана!
+                                            <br>(Виж: <a href="#">Разтеж и развитие: Фази на растеж</a>)
+                                            </p>
+                                            <div class="answer-navigation">
+                                                <div class="next nav-item"><a>Следващ въпрос</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="step" data-step="15" data-step-type="checkbox">
+                                <div class="step-inner">
+                                    <div class="image">
+                                        <img src="../../css/img/home/dog-sit.png">
+                                    </div>
+                                    <div class="text" style="display: none;">
+                                        <h4>Знаеш ли какви здравни грижи трябва да полагаш за твоя любимец?</h4>
+                                        <div class="description"></div>
+                                        <div class="filters">
+                                                            <label class="checkbox-container"><p>Да, ежемесечно обезпаразитяване.<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="veryEnergetic">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container"><p>Да, ваксинации.<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="energetic">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container"><p>Да, ежегодни прегледи при ветеринарния лекар.<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="calm">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container"><p>Да, еднократна ваксинация, когато го взема. Имунната му система ще свърши другото.<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="N/A">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container"><p>Не, не съм запознат/а.<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="N/A">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                        </div>
+                                        <div class="navigation">
+                                            <div class="show-ans nav-item"><a>Покажи отговора</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="answer">
+                                        <h4>Отговор: Ежемесечно обезпаразитяване, ваксинации и ежегодни прегледи.</h4>
+                                        <p>Обезпаразитяването, ваксинациите и ежегодните прегледи са важна стъпка към здравето на любимеца ти. Те не са еднократни, но през определен период от време и назначени от ветеринарен лекар.
+                                        <br>(Виж: <a href="#">Здравни грижи</a>)
+                                        </p>
+                                        <div class="answer-navigation">
+                                            <div class="next nav-item"><a>Следващ въпрос</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="step" data-step="16" data-step-type="checkbox">
+                                <div class="step-inner">
+                                    <div class="image">
+                                        <img src="../../css/img/home/dog-sit.png">
+                                    </div>
+                                    <div class="text" style="display: none;">
+                                        <h4>Избра ли ветеринарен лекар за твоето бъдещо куче?</h4>
+                                        <div class="description"></div>
+                                        <div class="filters">
+                                                            <label class="checkbox-container"><p>Да.<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="veryEnergetic">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container"><p>Не.<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="energetic">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container"><p>Потърсих и избрах няколко ветеринарни кабинета/ клиники.<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="calm">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                        </div>
+                                        <div class="navigation">
+                                            <div class="show-ans nav-item"><a>Покажи отговора</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="answer">
+                                        <h4>Отговор: Да. / Потърсих и избрах няколко ветеринарни кабинета/ клиники.</h4>
+                                        <p>Ветеринарният лекар ще се грижи за здравето на твоя любимец и още от малко кученце. Важно е да намериш добър ветеринарен лекар, на който можеш да се довериш.
+                                        <br>(Виж: <a href="#">Здравни грижи: Избор на ветеринарен лекар</a>)
+                                        </p>
+                                        <div class="answer-navigation">
+                                            <div class="next nav-item"><a>Следващ въпрос</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="step" data-step="17" data-step-type="checkbox">
+                                <div class="step-inner">
+                                    <div class="image">
+                                        <img src="../../css/img/home/dog-sit.png">
+                                    </div>
+                                    <div class="text" style="display: none;">
+                                        <h4>Имаш ли план, ако след време вече нямаш финансовата възможност или нямаш възможност да се грижиш за твоето куче?</h4>
+                                        <div class="description"></div>
+                                        <div class="filters">
+                                                            <label class="checkbox-container"><p>Да, говорил/а съм с човек, който ще се грижи за моето куче, ако нещо се случи с мен.<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="veryEnergetic">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container"><p>Не, кучето знае как да оцелява и без мен.<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="energetic">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <label class="checkbox-container"><p>Намерих организации/ приюти, които ще ми помогнат при необходимост.<span></span></p>
+                                                                <input type="checkbox" name="step-0" value="calm">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                        </div>
+                                        <div class="navigation">
+                                            <div class="show-ans nav-item"><a>Покажи отговора</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="answer">
+                                        <h4>Отговор: Да, говорил/а съм с човек, който ще се грижи за моето куче, ако нещо се случи с мен. / Намерих организации/ приюти, които ще ми помогнат при необходимост.</h4>
+                                        <p>Не винаги човек знае какво го очаква в бъдещето, затова е добре винаги да има план „Б“ за твоя любимец.
+                                        </p>
+                                        <div class="answer-navigation">
+                                            <div class="next nav-item"><a>Следващ въпрос</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="step" data-step="18" data-step-type="radio">
+                                <div class="step-inner">
+                                    <div class="image">
+                                        <img src="../../css/img/home/dog-sit.png">
+                                    </div>
+                                        <div class="text" style="display: none;">
+                                            <h4>Кучетата живеят много по-малко от хората. Мислел/а ли си за момента, когато трябва да се сбогуваш?</h4>
+                                            <div class="description"></div>
+                                            <div class="filters">
+                                                <button class="filter" data-filter="2">
+                                                <p>Да, наясно съм, че този тежък момент ще дойде и съм готов/а.<span></span></p>
+                                                </button>
+                                                <button class="filter" data-filter="1">
+                                                <p>Не, няма нужда да мисля над бъдещето.<span></span></p>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <h4>Отговор: Да, наясно съм, че този тежък момент ще дойде и съм готов/а.</h4>
+                                            <p>Докато може да бъде неприятна тема за разсъждаване, разбирането за по-краткия живот на кучето и евентуалните решения, свързани с прекратяването на живота, са важни неща, върху които трябва да се помисли. Важен аспект от живота на всеки собственик е справянето със скръбта от загубата на домашен любимец.
+                                            </p>
+                                            <div class="answer-navigation">
+                                                <div class="next nav-item"><a>Следващ въпрос</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="step" data-step="19" data-step-type="radio">
+                                <div class="step-inner">
+                                    <div class="image">
+                                        <img src="../../css/img/home/dog-sit.png">
+                                    </div>
+                                    <div class="text" style="display: none;">
+                                        <h4>Имаш ли на кого да оставиш кучето си, ако се наложи да пътуваш някъде?</h4>
+                                        <div class="description"></div>
+                                        <div class="filters">
+                                            <button class="filter" data-filter="3">
+                                            <p>Да, намерих хотели за кучета/ човек, който ще се погрижи за него.<span></span></p>
+                                            </button>
+                                            <button class="filter" data-filter="4">
+                                            <p>Не.<span></span></p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="answer">
+                                        <h4>Отговор: Да, намерих хотели за кучета/ човек, който ще се погрижи за него.</h4>
+                                        <div class="show-result">
+                                            <div class="show-result-btn">Покажи резултата</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+    
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            
+            <div id="footer-mission">
+                <div class="fs24 pb16">Муцуна.орг</div>
+                <div>
+                    <span class="yellow">Никой</span>
+                    <span> не си взима куче или котка с мисълта: "О, яко!</span>
+                    <span class="dark-orange"> Сега ще имам</span>
+                    <span class="yellow"> повече</span>
+                    <span class="dark-orange"> задължения</span>
+                    <span>!". Хората си осиновяват домашни любимци, за да се радват на</span>
+                    <span class="very-light-blue"> взаимно щастие и любов</span>
+                    <span>, но понякога положителните емоции са засенчени от неприятните такива, породени от незнанието</span>
+                    <span class="very-light-blue"> как да се грижим за нашия любимец</span>
+                    <span>. Този сайт е с цел да ви въведе в света на домашните любимци бързо и практично. А самото приложение – да ви облекчи в следенето на медицинските грижи на вашия четирикрак приятел.</span>
+                    
+                </div>
+            </div>
+            
+            <div id="footer-row">
+                <div class="footer-box">
+                    <a href="../../index.html" class="no-dec">
+                        <img src="../../css/img/footer-home.png" class="footer-icon">
+                        <div class="footer-icon-text">Начало</div>
+                    </a>
+                </div>
+
+                <div class="footer-box">
+                    <a href="../../about-us.html" class="no-dec">
+                        <img src="../../css/img/footer-information.png" class="footer-icon">
+                        <div class="footer-icon-text">За нас</div>
+                    </a>
+                </div>
+
+                <div class="footer-box">
+                    <a href="https://forms.gle/569fgGe7XFVF1Pso6" class="no-dec">
+                        <img src="../../css/img/footer-question.png" class="footer-icon">
+                        <div class="footer-icon-text">Задай въпрос</div>
+                    </a>
+                </div>
+
+                <div class="footer-box">
+                    <a href="https://www.facebook.com/mutsuna.org/" class="no-dec">
+                        <img src="../../css/img/footer-facebook.png" class="footer-icon">
+                        <div class="footer-icon-text">Фейсбук</div>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- <div class="subscribe">
+                <button class="subscribe-btn">Абонирай се</button>
+                <div id="emailInputContainer">
+                    <input type="email" id="emailInput" placeholder="Enter your email">
+                    <button id="submitEmailButton">Submit</button> 
+                </div>
+                <div class="fs12">и стани по-информиран и по-добър стопанин</div>
+            </div> -->
+            
+            <div class="center-text fs12">
+                © Mutsuna 2023. Всички права запазени.
+            </div>
+        
+            <div class="footer-terms-of-use center-text fs12 pb24">
+                Условия за ползване
+            </div>
+        </div>
+    </footer>
+
+
+
+    <button id="scrollToTopBtn" class="scroll-to-top-btn" title="Scroll to Top">
+        <img src="../../css/img/scroll-to-top-btn.png" alt="Scroll to Top" class="scroll-to-top-img">
+    </button>
+
+    <button id="scrollToSectionBtn" class="scroll-to-share-btn" title="Scroll to Section">
+        <img src="../../css/img/share-btn.png" alt="Scroll to Top" class="scroll-to-share-img">
+    </button>
+
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+    
+    <script
+        src="https://code.jquery.com/jquery-3.7.0.slim.js"
+        integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c="
+        crossorigin="anonymous"></script>
+
+        <script src="./are-you-ready.js"></script>
+        <script src="../../script.js"></script>
+</body>
+</html>
