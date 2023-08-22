@@ -3,9 +3,32 @@ const landing           = document.getElementById("landing");
 const toolProgress      = document.querySelector(".tool-progress");
 const stepsContainer    = document.querySelector(".steps-container");
 const steps             = document.querySelectorAll(".step");
-var numberStep          = 0;
 
-const checkboxes        = document.querySelectorAll(".checkbox-container");
+
+const toolProgressUl = document.querySelector(".tool-progress ul");
+const progressBar = document.querySelector(".tool-progress-bar");
+const numQuestions = 20;
+
+// Generate the li elements
+for (let i = 0; i < numQuestions; i++) {
+    const li = document.createElement("li");
+    li.setAttribute("data-step", i);
+    li.setAttribute("data-increment", (i * (94 / (numQuestions - 1))).toFixed(2));
+    li.style.left = `${(i * (94 / (numQuestions - 1))).toFixed(2)}%`;
+    li.style.transform = "scale(1)";
+    li.style.opacity = "1";
+    toolProgressUl.appendChild(li);
+}
+
+// Update the progress bar width
+const currentStep = 0; // Change this to the current step (0-based index)
+
+// Activate the current step li element
+const liElements = toolProgressUl.querySelectorAll("li");
+liElements[currentStep].classList.add("active");
+
+
+
 
 startBtn.addEventListener('click', startQuiz)
 
@@ -84,50 +107,15 @@ function startQuiz() {
                             })
                     }
 
+                    const increment = (nextStepNumber * (94 / (numQuestions - 1))).toFixed(2);
+                    progressBar.style.width = `${increment}%`;
 
-        
-                // 
-                
+                    liElements[nextStepNumber].classList.add("active");
             } else {
 
             }
         }
 
 
-// function showNextQuestion(currentIndex) {
 
-//     const currentStep       = steps[currentIndex];
-//     const nextStep          = steps[currentIndex + 1];
-//     const currentStepNumber = Number(nextStep.getAttribute("data-step"));
-
-//     const answerDiv         = currentStep.querySelector(".answer");
-//     const textDiv           = currentStep.querySelector(".text");
-//     answerDiv.style.display = 'none';
-//     textDiv.style.display   = 'none';
-//     currentStep.classList.remove("active");
-
-//     if (nextStep) {
-
-//         const nextTextDiv            = nextStep.querySelector(".text");
-//         const nextAnswerDiv          = nextStep.querySelector(".answer");
-//         const nextShowAnsBtn         = nextStep.querySelector(".show-ans");
-
-//         nextTextDiv.style.display    = 'block';
-//         nextAnswerDiv.style.display  = 'none';
-//         nextShowAnsBtn.style.display = 'none';
-//         nextStep.classList.add("active");
-
-//         const filtersCheckbox = nextStep.querySelectorAll(".checkbox-container");
-//         filtersCheckbox.forEach (filtersCheckbox => {
-//             filtersCheckbox.addEventListener('click', () => { 
-//                 nextShowAnsBtn.style.display = 'block'
-           
-//                 nextShowAnsBtn.addEventListener('click', () => {
-//                     showAnswer(currentStep, currentIndex);
-//                     console.log("ShowAns Button - Clicked")
-//                     console.log(`${currentStepNumber}`)
-//                 });
-//             });
-//         });
-//     }
-// }
+        
