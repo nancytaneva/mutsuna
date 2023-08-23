@@ -22,29 +22,29 @@ const breedCollection = [
     health        : "Добави имената на наследствените заболявания тук.",
     
     score: {
-    family : {
-        affectionateWithFamily  : 5,
-        goodWithYoungChildren   : 5,
-        goodWithOtherDogs       : 3
-    },
-    physical: {
-        shedding                : 4,
-        grooming                : 2,
-        drooling                : 2,
-        coatLength              : 2,
-    },
-    social : {
-        opennesToStrgangers     : 3,
-        playfulness             : 4,
-        protectiveNature        : 5,
-        adaptability            : 5
-    },
-    character : {
-        trainability            : 5,
-        energy                  : 5,
-        barking                 : 3,
-        mentalStimulationNeeds  : 5
-    }
+        family : {
+            affectionateWithFamily  : 5,
+            goodWithYoungChildren   : 5,
+            goodWithOtherDogs       : 3
+        },
+        physical: {
+            shedding                : 4,
+            grooming                : 2,
+            drooling                : 2,
+            coatLength              : 2,
+        },
+        social : {
+            opennesToStrgangers     : 3,
+            playfulness             : 4,
+            protectiveNature        : 5,
+            adaptability            : 5
+        },
+        character : {
+            trainability            : 5,
+            energy                  : 5,
+            barking                 : 3,
+            mentalStimulationNeeds  : 5
+        }
     },
     selector: {
         size            : "medium",
@@ -53,6 +53,8 @@ const breedCollection = [
         ownerExperience : 3
     }
 },
+
+
 
 {
     id      : 'Белгийска овчарка - Грюнендал',
