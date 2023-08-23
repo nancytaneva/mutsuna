@@ -593,3 +593,26 @@
         width: calc(80% - 10px);
     }
 }
+
+
+
+
+
+
+
+
+
+#your-result {
+    display: none;
+    max-width: 1244px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.correct {
+    background-color: #11ff0081;
+}
+
+.wrong {
+    background-color: #ff000088;
+}
