@@ -94,6 +94,8 @@
     margin: 0;
     max-width: 94%;
     margin: 0% 2%;
+    width: 0;
+    transition: width 1.5s;
 }
 
 .tool-progress ul li.active {
@@ -111,6 +113,7 @@
     top: -7px;
     background: var(--text-color-blue);
     z-index: 1;
+    opacity: 0;
 }
 
 .tool-progress .tool-progress-bar {
@@ -341,6 +344,7 @@
     user-select: none;
     align-items: center;
     display: flex;
+    opacity: 0;
 }
 
 .steps-container .step .step-inner .text .filters label.checkbox-container input {

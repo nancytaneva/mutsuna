@@ -18,9 +18,16 @@ for (let i = 0; i < numQuestions; i++) {
     li.setAttribute("data-increment", (i * (94 / (numQuestions - 1))).toFixed(2));
     li.style.left = `${(i * (94 / (numQuestions - 1))).toFixed(2)}%`;
     li.style.transform = "scale(1)";
-    li.style.opacity = "1";
+    li.style.opacity = "0"; // Initial opacity is set to 0
+    li.style.transition = "opacity 1.5s"; // Add transition for opacity
     toolProgressUl.appendChild(li);
+
+
 }
+
+setTimeout(() => {
+    toolProgressUl.style.width = "94%";
+}, 100 * (numQuestions - 1)); // Adjust the delay based on the number of questions
 
 // Update the progress bar width
 const currentStep = 0; // Change this to the current step (0-based index)
@@ -73,19 +80,31 @@ function startQuiz() {
     
         const firstStepHeading = steps[0].querySelector(".step h4");
 
+        liElements.forEach((li) => {
+            let i = 0;
+            // Use a timeout to change opacity after a slight delay
+            setTimeout(() => {
+                li.style.opacity = "1";
+            }, 100 * i);
+            i++
+        });
+
         steps.forEach((step, index) => {
             const filters = step.querySelectorAll(".filter");
             filters.forEach(filter => {
                 filter.addEventListener('click', () => showAnswer(step, index));
             });
 
-            filters.forEach((filter) => {
-                animateEffect(filter, 0, 0, -10, 0.5, 200, animationDelay); // Start translateY(0), opacity(0); End translateY(-10), opacity(0.5)
-                setTimeout(() => {
-                    animateEffect(filter, -10, 0.5, 0, 1, 200); // Start translateY(-10), opacity(0.5); End translateY(0), opacity(1)
-                }, 200 + animationDelay); // Wait 300ms after the first animation before starting the second animation
-                animationDelay += 200; // Add a delay of 100ms between each element
-            });
+            
+        });
+
+        const filtersFirstQuestion = steps[0].querySelectorAll(".filter");
+        filtersFirstQuestion.forEach((filter) => {
+            animateEffect(filter, 0, 0, -10, 0.5, 200, animationDelay); // Start translateY(0), opacity(0); End translateY(-10), opacity(0.5)
+            setTimeout(() => {
+                animateEffect(filter, -10, 0.5, 0, 1, 200); // Start translateY(-10), opacity(0.5); End translateY(0), opacity(1)
+            }, 200 + animationDelay); // Wait 300ms after the first animation before starting the second animation
+            animationDelay += 200; // Add a delay of 100ms between each element
         });
 
         animateEffect(firstStepHeading, 0, 0, -10, 0.5, 200);
@@ -97,10 +116,10 @@ function startQuiz() {
 
     function showAnswer(step, index) {
 
-            const textDiv   = step.querySelector(".text");
-            const answerDiv = step.querySelector(".answer");
-            const nextBtn   = step.querySelector(".next");
-            const answerHeading = steps[0].querySelector(".answer h4");
+            const textDiv       = step.querySelector(".text");
+            const answerDiv     = step.querySelector(".answer");
+            const nextBtn       = step.querySelector(".next");
+            const answerHeading = answerDiv.querySelector("h4");
         
             textDiv.style.display   = 'none';
             answerDiv.style.display = 'block';
@@ -136,9 +155,23 @@ function startQuiz() {
                 const nextTextDiv            = nextStep.querySelector(".text");
                 const nextAnswerDiv          = nextStep.querySelector(".answer");
                 const nextShowAnsBtn         = nextStep.querySelector(".show-ans");
-        
+                const stepHeading            = nextStep.querySelector(".step h4");
+                let animationDelayNextStep = 0;
+
                 nextTextDiv.style.display    = 'block';
                 nextAnswerDiv.style.display  = 'none';
+
+                animateOnlyOneElement(stepHeading);
+                
+                const filtersNextStep = nextStep.querySelectorAll(".filter");
+                filtersNextStep.forEach((filter) => {
+
+                    animateEffect(filter, 0, 0, -10, 0.5, 200, animationDelayNextStep); // Start translateY(0), opacity(0); End translateY(-10), opacity(0.5)
+                    setTimeout(() => {
+                        animateEffect(filter, -10, 0.5, 0, 1, 200); // Start translateY(-10), opacity(0.5); End translateY(0), opacity(1)
+                    }, 200 + animationDelayNextStep); // Wait 300ms after the first animation before starting the second animation
+                    animationDelayNextStep += 200; // Add a delay of 100ms between each element
+                });
                 
                 nextStep.classList.add("active");
 
@@ -146,10 +179,11 @@ function startQuiz() {
                         nextShowAnsBtn.style.display = 'none';
 
                         const checkboxes = nextStep.querySelectorAll(".checkbox-container");
+                        let animationDelayCheckboxes = 0;
+
                         checkboxes.forEach (checkbox => {
                             checkbox.addEventListener('click', () => { 
                                 nextShowAnsBtn.style.display = 'block';
-                            
                                 });
                             });
                         
@@ -157,6 +191,15 @@ function startQuiz() {
                             console.log("ShowAns Button - Clicked"),
                             showAnswer(nextStep, nextStepNumber)
                             })
+
+                        const checkboxesNextStep = nextStep.querySelectorAll(".checkbox-container");
+                        checkboxesNextStep.forEach((checkbox) => {
+                        animateEffect(checkbox, 0, 0, -10, 0.5, 200, animationDelayNextStep); // Start translateY(0), opacity(0); End translateY(-10), opacity(0.5)
+                        setTimeout(() => {
+                            animateEffect(checkbox, -10, 0.5, 0, 1, 200); // Start translateY(-10), opacity(0.5); End translateY(0), opacity(1)
+                        }, 200 + animationDelayNextStep); // Wait 300ms after the first animation before starting the second animation
+                        animationDelayNextStep += 200; // Add a delay of 100ms between each element
+                });
                     }
 
                     const increment = (nextStepNumber * (94 / (numQuestions - 1))).toFixed(2);
