@@ -192,6 +192,7 @@
     font-weight: 700;
     color: var(--text-color-dark-blue);
     filter: brightness(0.5);
+    opacity: 0;
 }
 
 .steps-container .step .step-inner .text .filters {
@@ -251,6 +252,7 @@
     padding: 15px;
     align-self: center;
     margin: 15px 15px 15px 0px;
+    opacity: 0;
 }
 
 .step-inner .answer h4 {
@@ -259,6 +261,7 @@
     font-weight: 700;
     color: var(--text-color-dark-blue);
     filter: brightness(0.5);
+    opacity: 0;
 }
 
 .answer p {

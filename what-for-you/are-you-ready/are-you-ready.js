@@ -8,6 +8,9 @@ const toolProgressUl = document.querySelector(".tool-progress ul");
 const progressBar = document.querySelector(".tool-progress-bar");
 const numQuestions = 20;
 
+let animationDelay = 0;
+
+
 // Generate the li elements
 for (let i = 0; i < numQuestions; i++) {
     const li = document.createElement("li");
@@ -51,6 +54,14 @@ function animateEffect(element, startTranslateY, startOpacity, endTranslateY, en
 }
 
 
+function animateOnlyOneElement(element) {
+    animateEffect(element, 0, 0, -10, 0.5, 200);
+    setTimeout(() => {
+        animateEffect(element, -10, 0.5, 0, 1, 200); 
+    }, 200); 
+    // animationDelay += 200;
+}
+
 startBtn.addEventListener('click', startQuiz)
 
 function startQuiz() {
@@ -60,24 +71,27 @@ function startQuiz() {
         stepsContainer.style.display    = 'block';
         steps[0].classList.add("active");
     
+        const firstStepHeading = steps[0].querySelector(".step h4");
+
         steps.forEach((step, index) => {
             const filters = step.querySelectorAll(".filter");
             filters.forEach(filter => {
                 filter.addEventListener('click', () => showAnswer(step, index));
             });
 
-            let animationDelay = 0;
             filters.forEach((filter) => {
-                animateEffect(filter, 0, 0, -10, 0.5, 300, animationDelay); // Start translateY(0), opacity(0); End translateY(-10), opacity(0.5)
+                animateEffect(filter, 0, 0, -10, 0.5, 200, animationDelay); // Start translateY(0), opacity(0); End translateY(-10), opacity(0.5)
                 setTimeout(() => {
-                    animateEffect(filter, -10, 0.5, 0, 1, 300); // Start translateY(-10), opacity(0.5); End translateY(0), opacity(1)
-                }, 300 + animationDelay); // Wait 300ms after the first animation before starting the second animation
-                animationDelay += 150; // Add a delay of 100ms between each element
+                    animateEffect(filter, -10, 0.5, 0, 1, 200); // Start translateY(-10), opacity(0.5); End translateY(0), opacity(1)
+                }, 200 + animationDelay); // Wait 300ms after the first animation before starting the second animation
+                animationDelay += 200; // Add a delay of 100ms between each element
             });
-
-
-
         });
+
+        animateEffect(firstStepHeading, 0, 0, -10, 0.5, 200);
+        setTimeout(() => {
+            animateEffect(firstStepHeading, -10, 0.5, 0, 1, 200); 
+        }); 
     }
 
 
@@ -86,6 +100,7 @@ function startQuiz() {
             const textDiv   = step.querySelector(".text");
             const answerDiv = step.querySelector(".answer");
             const nextBtn   = step.querySelector(".next");
+            const answerHeading = steps[0].querySelector(".answer h4");
         
             textDiv.style.display   = 'none';
             answerDiv.style.display = 'block';
@@ -96,6 +111,10 @@ function startQuiz() {
             });
         
             nextBtn.addEventListener('click', () => showNextQuestion(step, index));
+
+            animateOnlyOneElement(answerDiv);
+            animateOnlyOneElement(nextBtn);
+            animateOnlyOneElement(answerHeading);
         }
 
 
