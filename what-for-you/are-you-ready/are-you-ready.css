@@ -211,6 +211,7 @@
     margin: 0 10px 10px 0;
     width: calc(49% - 10px);
     text-align: left;
+    opacity: 0;
 }
 
 .steps-container .step .step-inner .text .filters button p {

@@ -4,7 +4,6 @@ const toolProgress      = document.querySelector(".tool-progress");
 const stepsContainer    = document.querySelector(".steps-container");
 const steps             = document.querySelectorAll(".step");
 
-
 const toolProgressUl = document.querySelector(".tool-progress ul");
 const progressBar = document.querySelector(".tool-progress-bar");
 const numQuestions = 20;
@@ -28,6 +27,28 @@ const liElements = toolProgressUl.querySelectorAll("li");
 liElements[currentStep].classList.add("active");
 
 
+function animateEffect(element, startTranslateY, startOpacity, endTranslateY, endOpacity, duration, delay) {
+    const startTime = performance.now();
+
+    function updateAnimation(timestamp) {
+        const elapsedTime = timestamp - startTime;
+        const progress = Math.min(elapsedTime / duration, 1);
+
+        const translateY = startTranslateY + (endTranslateY - startTranslateY) * progress;
+        const opacity = startOpacity + (endOpacity - startOpacity) * progress;
+
+        element.style.transform = `translateY(${translateY}px)`;
+        element.style.opacity = opacity;
+
+        if (progress < 1) {
+            requestAnimationFrame(updateAnimation);
+        }
+    }
+
+    setTimeout(() => {
+        requestAnimationFrame(updateAnimation);
+    }, delay);
+}
 
 
 startBtn.addEventListener('click', startQuiz)
@@ -44,6 +65,18 @@ function startQuiz() {
             filters.forEach(filter => {
                 filter.addEventListener('click', () => showAnswer(step, index));
             });
+
+            let animationDelay = 0;
+            filters.forEach((filter) => {
+                animateEffect(filter, 0, 0, -10, 0.5, 300, animationDelay); // Start translateY(0), opacity(0); End translateY(-10), opacity(0.5)
+                setTimeout(() => {
+                    animateEffect(filter, -10, 0.5, 0, 1, 300); // Start translateY(-10), opacity(0.5); End translateY(0), opacity(1)
+                }, 300 + animationDelay); // Wait 300ms after the first animation before starting the second animation
+                animationDelay += 150; // Add a delay of 100ms between each element
+            });
+
+
+
         });
     }
 
