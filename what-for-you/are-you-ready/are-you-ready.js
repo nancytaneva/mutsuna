@@ -21,7 +21,6 @@ const questionsCollection = [
     'Имаш ли на кого да оставиш кучето си, ако се наложи да пътуваш някъде?'
 ];
 
-
 const answerSheetCollection = [
     'От голяма важност е още преди да си вземеш куче, да се снабдиш с всичко необходимо, за да не изпаднеш в ситуация, при която нещо ти трябва, но липсва. Виж: Приспособяване в новия дом: Подготовка на дома.',
     'В началото твоето куче ще се приспособява към новия си дом и трябва да се увериш, че всичко ще мине гладко. Виж: Приспособяване в новия дом: Първи дни на твоя любимец',
@@ -41,23 +40,25 @@ const answerSheetCollection = [
     'безпаразитяването, ваксинациите и ежегодните прегледи са важна стъпка към здравето на любимеца ти. Те не са еднократни, но през определен период от време и назначени от ветеринарен лекар. Виж: Здравни грижи.',
     'Ветеринарният лекар ще се грижи за здравето на твоя любимец и още от малко кученце. Важно е да намериш добър ветеринарен лекар, на който можеш да се довериш. Виж: Здравни грижи: Избор на ветеринарен лекар',
     'Не винаги човек знае какво го очаква в бъдещето, затова е добре винаги да има план „Б“ за твоя любимец.',
-    'Докато може да бъде неприятна тема за разсъждаване, разбирането за по-краткия живот на кучето и евентуалните решения, свързани с прекратяването на живота, са важни неща, върху които трябва да се помисли. Важен аспект от живота на всеки собственик е справянето със скръбта от загубата на домашен любимец.'
+    'Докато може да бъде неприятна тема за разсъждаване, разбирането за по-краткия живот на кучето и евентуалните решения, свързани с прекратяването на живота, са важни неща, върху които трябва да се помисли. Важен аспект от живота на всеки собственик е справянето със скръбта от загубата на домашен любимец.',
+    'Ако искаш да пътуваш някъде без да взимаш кучето си, то плановете ти може да пропаднат, ако няма на кого да се довериш да се грижи за твоя любимец.'
 ]
 
-const startBtn          = document.getElementById("start-btn");
-const landing           = document.getElementById("landing");
-const toolProgress      = document.querySelector(".tool-progress");
-const stepsContainer    = document.querySelector(".steps-container");
-const steps             = document.querySelectorAll(".step");
+const startBtn           = document.getElementById("start-btn");
+const landing            = document.getElementById("landing");
+const toolProgress       = document.querySelector(".tool-progress");
+const stepsContainer     = document.querySelector(".steps-container");
+const steps              = document.querySelectorAll(".step");
 
-const toolProgressUl = document.querySelector(".tool-progress ul");
-const progressBar = document.querySelector(".tool-progress-bar");
-const numQuestions = 20;
-const yourResult = document.getElementById("your-result");
+const toolProgressUl     = document.querySelector(".tool-progress ul");
+const progressBar        = document.querySelector(".tool-progress-bar");
+const numQuestions       = 20;
+const yourResult         = document.getElementById("your-result");
 const correctAnswerCount = document.getElementById("correctAnswerCount");
+const yourResultText     = document.getElementById("your-result-text");
 
-let animationDelay = 0;
-let correctCount = 0;
+let animationDelay  = 0;
+let correctCount    = 0;
 
 // Generate the li elements
 for (let i = 0; i < numQuestions; i++) {
@@ -69,8 +70,6 @@ for (let i = 0; i < numQuestions; i++) {
     li.style.opacity = "0"; // Initial opacity is set to 0
     li.style.transition = "opacity 1.5s"; // Add transition for opacity
     toolProgressUl.appendChild(li);
-
-
 }
 
 setTimeout(() => {
@@ -84,6 +83,39 @@ const currentStep = 0; // Change this to the current step (0-based index)
 const liElements = toolProgressUl.querySelectorAll("li");
 liElements[currentStep].classList.add("active");
 
+function calculateCorrectAnswers(answerCheckboxCollection) {
+    return answerCheckboxCollection.every(answerState => answerState === 'Y') ? 1 : 0;
+}
+
+function calculateTestResult(answerState) {
+        if (answerState === 'Y') {
+            correctCount++;
+        }
+
+
+        if(correctCount == 20) {
+            yourResultText.innerHTML = `
+            <div>Готов си за куче</div>
+            <p>Браво! Нямаш грешки в отговорите си! Ако все още не си избрал порода, може да използваш <a href="../breeds/dog-breed-selector.html">Селектора на кучешки проди</a>.</p>
+                                `;
+        }
+
+        if(correctCount >= 10) {
+            yourResultText.innerHTML = `
+            <div>Почти си там</div>
+            <p>Преди да си вземеш куче, има няколко неща, които трябва да направиш. Виж по-долните линкове от националния зоопортал (mutsuna.org), за да може да осигуриш оптимални грижи на твоя бъдещ любимец.</p>
+                                `;
+        }
+
+        if(correctCount < 10) {
+            yourResultText.innerHTML = `
+            <div>Имаш още работа преди да си вземеш куче</div>
+            <p>Повечето от въпросите не са верни, но затова е и създаден този национален зоопортал (mutsuna.org) – за да може собствениците на животни да осигурят оптимални грижи на техните любимци.</p>
+                                `;
+        }
+    
+    return correctCount;
+}
 
 function animateEffect(element, startTranslateY, startOpacity, endTranslateY, endOpacity, duration, delay) {
     const startTime = performance.now();
@@ -140,7 +172,10 @@ function startQuiz() {
         steps.forEach((step, index) => {
             const filters = step.querySelectorAll(".filter");
             filters.forEach(filter => {
-                filter.addEventListener('click', () => showAnswer(step, index));
+                filter.addEventListener('click', () => {
+                    showAnswer(step, index);
+                }
+                );
             });
 
             
@@ -155,8 +190,9 @@ function startQuiz() {
             }, 200 + animationDelay); // Wait 300ms after the first animation before starting the second animation
             animationDelay += 200; // Add a delay of 100ms between each element
             
-            filter.addEventListener("click", (e) => {
-                const answerState = (e.target).getAttribute('truthfulness');
+            filter.addEventListener('click', () => {
+                
+                const answerState = filter.getAttribute('truthfulness');
                 answerSheetCollection.push(answerState);
                 const classId = answerState === 'Y' ? 'correct' : 'wrong';
 
@@ -164,17 +200,18 @@ function startQuiz() {
 
                 questionDiv.innerHTML = `<div data-question-number="0" class="result-question-box">
                 <div class="${classId}">${questionsCollection[0]}</div><div class="answer-result-box">${answerSheetCollection[0]}</div>
-            </div>`;
-            yourResult.appendChild(questionDiv);
-
-            // Call the calculateResult function to get the number of correct answers
-            const numCorrectAnswers = calculateTestResult();
-            // Display the number of correct answers wherever you want in your HTML
-            correctAnswerCount.textContent = `Брой правилни: ${numCorrectAnswers} / 20 въпроса`;
-
-            });
-            
+                </div>`;
+                yourResult.appendChild(questionDiv);
+    
+                // Call the calculateResult function to get the number of correct answers
+                const numCorrectAnswers = calculateTestResult(answerState);
+                // Display the number of correct answers wherever you want in your HTML
+                correctAnswerCount.textContent = `Брой правилни: ${numCorrectAnswers} / 20 въпроса`;
+            })
         });
+
+
+        
 
         animateEffect(firstStepHeading, 0, 0, -10, 0.5, 200);
         setTimeout(() => {
@@ -250,8 +287,8 @@ function showNextQuestion(step, index) {
                 }, 200 + animationDelayNextStep); // Wait 300ms after the first animation before starting the second animation
                 animationDelayNextStep += 200; // Add a delay of 100ms between each element
 
-                filter.addEventListener("click", (e) => {
-                    const answerState = (e.target).getAttribute('truthfulness');
+                filter.addEventListener("click", () => {
+                    const answerState = filter.getAttribute('truthfulness');
                     answerSheetCollection.push(answerState);
                     const classId = answerState === 'Y' ? 'correct' : 'wrong';
                     const questionDiv = document.createElement("div");
@@ -263,7 +300,7 @@ function showNextQuestion(step, index) {
                     yourResult.appendChild(questionDiv);
 
                     // Call the calculateResult function to get the number of correct answers
-                    const numCorrectAnswers = calculateTestResult();
+                    const numCorrectAnswers = calculateTestResult(answerState);
                     // Display the number of correct answers wherever you want in your HTML
                     correctAnswerCount.textContent = `Брой правилни: ${numCorrectAnswers} / 20 въпроса`;
 
@@ -286,39 +323,42 @@ function showNextQuestion(step, index) {
                         });
                     
                     nextShowAnsBtn.addEventListener('click', () => {
-                        showAnswer(nextStep, nextStepNumber)
-                        })
+                        showAnswer(nextStep, nextStepNumber);
+
+                        const checkboxes = nextStep.querySelectorAll(".checkbox-container");
+                        const checkedCheckboxes = Array.from(checkboxes).filter(checkbox => checkbox.querySelector("input").checked);
+                        const answerCheckboxCollection = checkedCheckboxes.map(checkbox => checkbox.getAttribute('truthfulness'));
+                        
+                        const numCorrectAnswersCheckbox = calculateCorrectAnswers(answerCheckboxCollection);
+                        const classId = numCorrectAnswersCheckbox === 1 ? 'correct' : 'wrong';
+                    
+                        const questionDiv = document.createElement("div");
+                        questionDiv.classList.add("result-question-box");
+                    
+                        questionDiv.innerHTML = `
+                            <div class="${classId}">${questionsCollection[index + 1]}</div>
+                            <div class="answer-result-box">${answerSheetCollection[index + 1]}</div>
+                        `;
+                        yourResult.appendChild(questionDiv);
+                    
+                        if(numCorrectAnswersCheckbox == 1) {
+                            answerState = 'Y';
+                            // Call the calculateResult function to get the number of correct answers
+                            numCorrectAnswers = calculateTestResult(answerState);
+                            // Display the number of correct answers wherever you want in your HTML
+                            correctAnswerCount.textContent = `Брой правилни: ${numCorrectAnswers} / 20 въпроса`;
+                            
+                        }
+                    });
 
                     const checkboxesNextStep = nextStep.querySelectorAll(".checkbox-container");
                     checkboxesNextStep.forEach((checkbox) => {
-                    
-                        checkbox.addEventListener("click", (e) => {
-                            const answerState = (e.target).getAttribute('truthfulness');
-                            answerSheetCollection.push(answerState);
-                            const classId = answerState === 'Y' ? 'correct' : 'wrong';
-
-
-                            const questionDiv = document.createElement("div");
-                            questionDiv.classList.add("result-question-box");
-
-                            questionDiv.innerHTML = `
-                            <div class="${classId}">${questionsCollection[index + 1]}</div><div class="answer-result-box">${answerSheetCollection[index + 1]}</div>
-                            `;
-                            yourResult.appendChild(questionDiv);
-
-                            // Call the calculateResult function to get the number of correct answers
-                            const numCorrectAnswers = calculateTestResult();
-                            // Display the number of correct answers wherever you want in your HTML
-                            correctAnswerCount.textContent = `Брой правилни: ${numCorrectAnswers} / 20 въпроса`;
-
-                        });
-                        
-                    animateEffect(checkbox, 0, 0, -10, 0.5, 200, animationDelayCheckboxes); // Start translateY(0), opacity(0); End translateY(-10), opacity(0.5)
-                    setTimeout(() => {
-                        animateEffect(checkbox, -10, 0.5, 0, 1, 200); // Start translateY(-10), opacity(0.5); End translateY(0), opacity(1)
-                    }, 200 + animationDelayCheckboxes); // Wait 300ms after the first animation before starting the second animation
-                    animationDelayCheckboxes += 200; // Add a delay of 100ms between each element
-            });
+                        animateEffect(checkbox, 0, 0, -10, 0.5, 200, animationDelayCheckboxes); // Start translateY(0), opacity(0); End translateY(-10), opacity(0.5)
+                        setTimeout(() => {
+                            animateEffect(checkbox, -10, 0.5, 0, 1, 200); // Start translateY(-10), opacity(0.5); End translateY(0), opacity(1)
+                        }, 200 + animationDelayCheckboxes); // Wait 300ms after the first animation before starting the second animation
+                        animationDelayCheckboxes += 200; // Add a delay of 100ms between each element
+                    });
                 }
 
                 const increment = (nextStepNumber * (94 / (numQuestions - 1))).toFixed(2);
@@ -329,17 +369,3 @@ function showNextQuestion(step, index) {
 
         }
     }
-
-
-
-function calculateTestResult() {
-    
-    // Iterate through the answerSheetCollection array
-    for (const answerState of answerSheetCollection) {
-        if (answerState === 'Y') {
-            correctCount++;
-        }
-    }
-
-    return correctCount;
-}
