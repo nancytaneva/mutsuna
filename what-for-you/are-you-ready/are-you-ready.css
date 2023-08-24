@@ -598,21 +598,46 @@
 
 
 
-
-
-
-
 #your-result {
-    display: none;
+    /* display: none; */
     max-width: 1244px;
-    margin: 0 auto;
+    margin: auto;
     width: 100%;
+}
+
+#correctAnswerCount {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.result-question-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 1.2rem;
 }
 
 .correct {
     background-color: #11ff0081;
+    color: var(--background-color-header-mobile);
+    padding: 7px;
+    height: inherit;
+    width: 100%;
 }
 
 .wrong {
     background-color: #ff000088;
+    color: var(--background-color-header-mobile);
+    padding: 7px;
+    height: inherit;
+    width: 100%;
+}
+
+.answer-result-box {
+    padding: 10px;
+    background: white;
 }
