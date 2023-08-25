@@ -475,6 +475,90 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#your-result {
+    display: none;
+    max-width: 1244px;
+    margin: auto;
+    width: 100%;
+}
+
+#correctAnswerCount {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+#your-result-text div {
+    margin: 10px;
+    padding: 0;
+    border-bottom: 1px solid;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#your-result-text p {
+    margin: 10px;
+    padding: 10px 50px;
+    background: var(--background-color-header-mobile);
+}
+
+.result-question-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.correct {
+    background-color: #009d0080;
+    color: var(--background-color-header-mobile);
+    padding: 7px;
+    height: inherit;
+    width: 100%;
+    font-weight: 800;
+}
+
+.wrong {
+    background-color: #ff000080;
+    color: var(--background-color-header-mobile);
+    padding: 7px;
+    height: inherit;
+    width: 100%;
+    font-weight: 800;
+}
+
+.answer-result-box {
+    padding: 10px;
+    background: var(--background-color-header-mobile);
+}
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 900px) {
 
     #dog-breed-selector {
@@ -532,6 +616,8 @@
 
     .steps-container .step .step-inner {
         flex-direction: column-reverse;
+        justify-content: space-between;
+        min-height: 680px;
     }
 
     .steps-container .step .step-inner .text h4 {
@@ -552,7 +638,8 @@
     .steps-container .step .step-inner .text .filters button p {
         padding-left: 5px;
         line-height: 19px;
-        font-size: 15px;
+        font-weight: 500;
+        font-size: 13px;
     }
 
     .steps-container .step .step-inner .text .filters button:after {
@@ -579,12 +666,13 @@
 
     .steps-container .step .step-inner .text .filters label.checkbox-container p {
         padding-left: 45px;
-        font-size: 15px;
+        font-weight: 500;
+        font-size: 13px;
         line-height: 19px;
     }
 
     .steps-container .step .step-inner .text .filters label.checkbox-container {
-        height: 100px;
+        height: 120px;
     }
 
 
@@ -614,66 +702,4 @@
 
 
 
-
-
-#your-result {
-    display: none;
-    max-width: 1244px;
-    margin: auto;
-    width: 100%;
-}
-
-#correctAnswerCount {
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-    padding: 50px;
-}
-
-#your-result-text div {
-    font-size: 1.5rem;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    border-bottom: 1px solid;
-    margin: 10px 300px;
-}
-
-#your-result-text p {
-    margin: 10px;
-    padding: 10px 50px;
-    background: var(--background-color-header-mobile);
-}
-
-.result-question-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 10px;
-    font-size: 1.2rem;
-}
-
-.correct {
-    background-color: #009d0080;
-    color: var(--background-color-header-mobile);
-    padding: 7px;
-    height: inherit;
-    width: 100%;
-    font-weight: 800;
-}
-
-.wrong {
-    background-color: #ff000080;
-    color: var(--background-color-header-mobile);
-    padding: 7px;
-    height: inherit;
-    width: 100%;
-    font-weight: 800;
-}
-
-.answer-result-box {
-    padding: 10px;
-    background: var(--background-color-header-mobile);
-}
 
