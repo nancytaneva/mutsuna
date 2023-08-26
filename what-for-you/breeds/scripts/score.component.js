@@ -85,7 +85,7 @@ window.$scoreComponent = (function () {
     
     
     /**
-     * @author Nansy Taneva
+     * @author Nancy Taneva
      * @param {*} breed 
      */
     function renderBreedInfo(breedInfo) {
@@ -107,11 +107,11 @@ window.$scoreComponent = (function () {
                 <p class="card-text card-span">
                     <span>
                         <i class="fa-solid fa-venus"></i>
-                        ${breedInfo.physicalTraits.height.female}
+                        ${breedInfo.size.height.height_female_min}-${breedInfo.size.height.height_female_max} см
                     </span>
                     <span>
                         <i class="fa-solid fa-mars"></i>
-                        ${breedInfo.physicalTraits.height.male}
+                        ${breedInfo.size.height.height_male_min}-${breedInfo.size.height.height_male_max} см
                     </span>
                 </p>
             </div>
@@ -120,15 +120,15 @@ window.$scoreComponent = (function () {
         const weigthDiv = document.createElement("div");
         weigthDiv.classList.add("card");
         weigthDiv.innerHTML = `
-                <p class="card-title">Височина:</p>
+                <p class="card-title">Тегло:</p>
                 <p class="card-text card-span">
                     <span>
                         <i class="fa-solid fa-venus"></i>
-                        ${breedInfo.physicalTraits.weight.female}
+                        ${breedInfo.size.weight.weight_female_min}-${breedInfo.size.weight.weight_female_max} кг
                     </span>
                     <span>
                         <i class="fa-solid fa-mars"></i>
-                        ${breedInfo.physicalTraits.weight.male}
+                        ${breedInfo.size.weight.weight_male_min}-${breedInfo.size.weight.weight_male_max} кг
                     </span>
                 </p>
             </div>
@@ -138,7 +138,7 @@ window.$scoreComponent = (function () {
         lifeLengthDiv.classList.add("card");
         lifeLengthDiv.innerHTML = `
                 <p class="card-title">Живот:</p>
-                <p class="card-text">${breedInfo.general.lifeLength}</p>
+                <p class="card-text">${breedInfo.general.life_length_max}-${breedInfo.general.life_length_min} г.</p>
             </div>
         `;
     
