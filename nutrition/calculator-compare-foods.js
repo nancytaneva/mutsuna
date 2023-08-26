@@ -23,8 +23,8 @@ compareBtn.addEventListener('click', () => {
     foodResult.innerHTML = `
     <p>Резултат:</p>
     <div style="display: flex;">
-        <div class="food-one">"${food_two_name}"</div>
-        <div class="food-two">"${food_one_name}"</div>
+        <div class="food-one">"${food_one_name}"</div>
+        <div class="food-two">"${food_two_name}"</div>
     </div>
     <p>Цена на нужното количество на ден:</p>
     <div>
