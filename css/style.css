@@ -48,6 +48,7 @@
     --header-border-color: #249ea0;
 
     --text-color: #000000;
+    --text-color-invert: #ffffff;
     --text-color-light: #cecece;
     --text-color-footer: #dce0e0;
     --text-color-calendar: #000000;
@@ -109,6 +110,7 @@
     /* --header-color: #212127; */
     --header-border-color: #005f60;
     --text-color: #bdbdbd;
+    --text-color-invert: #000000;
     --td-table-color:#1a1a1a;
 
 
