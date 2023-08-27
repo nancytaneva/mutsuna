@@ -24,6 +24,10 @@
     flex-direction: column;
     padding: 10px;
 }
+.food-box-input input {
+    border: 0;
+    background-color: var(--header-color);
+}
 
 .food-box-input-option {
     width: 230px;
@@ -40,6 +44,12 @@
 
 .food-box-input-option input, .food-box-input-option select {
     width: 50%;
+    background-color: var(--header-color);
+    border: 0;
+}
+
+.food-box-input-option select {
+    border-left: 0.1px solid hsl(0deg 0% 50% / 50%);
 }
 
 input {
@@ -84,4 +94,20 @@ input {
     font-size: 16px;
     font-weight: 700;
     margin-top: 5px;
+}
+
+
+@media (max-width: 1482px) {
+    #calculator-compare {
+        flex-direction: column;
+        text-align: -webkit-center;
+    }
+
+    #compareBtn {
+        width: 100%;
+    }
+
+    #food-result p {
+        width: 100%;
+    }
 }

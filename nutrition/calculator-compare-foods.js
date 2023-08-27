@@ -2,19 +2,49 @@ const foodResult = document.getElementById("food-result");
 const compareBtn = document.getElementById("compareBtn");
 
 compareBtn.addEventListener('click', () => {
-    const food_one_name     = document.querySelector("input[name='food-one-name']").value;
-    const food_one_price    = document.querySelector("input[name='food-one-price']").value;
-    const food_one_weight   = document.querySelector("input[name='food-one-weight']").value;
-    const food_one_needed   = document.querySelector("input[name='food-one-needed']").value;   
+    const food_one_name         = document.querySelector("input[name='food-one-name']").value;
+    const food_one_price        = document.querySelector("input[name='food-one-price']").value;
+    let food_one_weight         = parseFloat(document.querySelector("input[name='food-one-weight']").value);
+    const food_one_weight_unit  = document.getElementById("food-one-weight-unit").value;
+    let food_one_needed         = parseFloat(document.querySelector("input[name='food-one-needed']").value);
+    const food_one_needed_unit  = document.getElementById("food-one-needed-unit").value;   
 
+    // Convert weight to grams
+    if (food_one_weight_unit === "kilogram") {
+        food_one_weight *= 1000;
+    }
+
+    // Convert needed amount to grams
+    if (food_one_needed_unit === "kilogram") {
+        food_one_needed *= 1000;
+    }
+
+    console.log(`food_one_weight: ${food_one_weight}`);    
+    console.log(`food_one_needed: ${food_one_needed}`);   
+    
     const cost_of_gram_one          = food_one_price / food_one_weight;
     const cost_of_single_meal_one   = (cost_of_gram_one * food_one_needed).toFixed(2);
     const days_with_food_one        = Math.floor(food_one_weight / food_one_needed);
 
-    const food_two_name     = document.querySelector("input[name='food-two-name']").value;
-    const food_two_price    = document.querySelector("input[name='food-two-price']").value;
-    const food_two_weight   = document.querySelector("input[name='food-two-weight']").value;
-    const food_two_needed   = document.querySelector("input[name='food-two-needed']").value;
+    const food_two_name         = document.querySelector("input[name='food-two-name']").value;
+    const food_two_price        = document.querySelector("input[name='food-two-price']").value;
+    let food_two_weight         = parseFloat(document.querySelector("input[name='food-two-weight']").value);
+    const food_two_weight_unit  = document.getElementById("food-two-weight-unit").value;
+    let food_two_needed         = parseFloat(document.querySelector("input[name='food-two-needed']").value);
+    const food_two_needed_unit  = document.getElementById("food-two-needed-unit").value;   
+
+    // Convert weight to grams
+    if (food_two_weight_unit === "kilogram") {
+        food_two_weight *= 1000;
+    }
+
+    // Convert needed amount to grams
+    if (food_two_needed_unit === "kilogram") {
+        food_two_needed *= 1000;
+    }
+
+    console.log(`food_two_weight: ${food_two_weight}`);    
+    console.log(`food_two_needed: ${food_two_needed}`);   
 
     const cost_of_gram_two          = food_two_price / food_two_weight;
     const cost_of_single_meal_two   = (cost_of_gram_two * food_two_needed).toFixed(2);
