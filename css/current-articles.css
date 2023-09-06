@@ -187,7 +187,7 @@
   100%  {border-radius: 70% 40% 30% 60% /30% 60% 50% 60% ;}
 }
 
-.todays-breed-name {
+.todays-breed-name-dog, .todays-breed-name-cat {
     font-size: 24px;
     color: #dedede;
     padding: 29px;
