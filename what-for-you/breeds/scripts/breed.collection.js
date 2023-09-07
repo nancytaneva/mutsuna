@@ -5474,68 +5474,73 @@ const breedCollection = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
-    id        : 'афганска хрътка',
-    name      : "Афганска хрътка",
-    nameEn    : "Afghan Hound",
-    code      : "10111",
-    image_link: "https://api-ninjas.com/images/dogs/afghan_hound.jpg",
+    id        : 'самоед',
+    name      : "Самоед",
+    nameEn    : "Samoyed",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/samoyed.jpg",
     general   : {
-        country           : "Афганистан",
+        country           : "Русия",
         life_length_min   : 12,
-        life_length_max   : 18,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 21,
+        height_female_max   : 23.5,
+        height_male_min     : 21,
+        height_male_max     : 23.5,
+    },
+    weight    : {
+        weight_female_min   : 35,
+        weight_female_max   : 50,
+        weight_male_min     : 45,
+        weight_male_max     : 65,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 3,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 5,
+        playfulness             : 5,
+        protectiveness          : 4,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 5,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'аляски маламут',
+    name      : "Аляски маламут",
+    nameEn    : "Alaskan Malamute",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/alaskan_malamute.jpg",
+    general   : {
+        country           : "САЩ",
+        life_length_min   : 10,
+        life_length_max   : 14,
         coat_length_word  : 0,
         walk_time         : 0,
         owner_experience  : 0
@@ -5544,15 +5549,15 @@ const breedCollection = [
     size      : "medium",
     height    : {
         height_female_min   : 25,
-        height_female_max   : 27,
+        height_female_max   : 25,
         height_male_min     : 25,
-        height_male_max     : 27,
+        height_male_max     : 25,
     },
     weight    : {
-        weight_female_min   : 50,
-        weight_female_max   : 60,
-        weight_male_min     : 50,
-        weight_male_max     : 60,
+        weight_female_min   : 75,
+        weight_female_max   : 75,
+        weight_male_min     : 85,
+        weight_male_max     : 85,
     }
     },
     history       : "Добави историята тук.",
@@ -5564,8 +5569,236 @@ const breedCollection = [
         good_with_other_dogs     : 3,
     },
     physical : {
-        shedding                : 1,
-        grooming                : 4,
+        shedding                : 3,
+        grooming                : 3,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 4,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'сибирско хъски',
+    name      : "Сибирско хъски",
+    nameEn    : "Siberian Husky",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/siberian_husky.jpg",
+    general   : {
+        country           : "САЩ",
+        life_length_min   : 12,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 21,
+        height_female_max   : 23.5,
+        height_male_min     : 21,
+        height_male_max     : 23.5,
+    },
+    weight    : {
+        weight_female_min   : 35,
+        weight_female_max   : 50,
+        weight_male_min     : 45,
+        weight_male_max     : 60,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 4,
+        grooming                : 2,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 5,
+        playfulness             : 5,
+        protectiveness          : 1,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 5,
+        barking                 : 5,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'финландски шпиц',
+    name      : "Финландски шпиц",
+    nameEn    : "Finnish Spitz",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/finnish_spitz.jpg",
+    general   : {
+        country           : "Финландия",
+        life_length_min   : 13,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 17.5,
+        height_female_max   : 20,
+        height_male_min     : 17.5,
+        height_male_max     : 20,
+    },
+    weight    : {
+        weight_female_min   : 20,
+        weight_female_max   : 28,
+        weight_male_min     : 25,
+        weight_male_max     : 33,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 5,
+        barking                 : 5,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'норвежки черен елкхунд',
+    name      : "Норвежки черен елкхунд",
+    nameEn    : "Norwegian Elkhound",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/norwegian_elkhound.jpg",
+    general   : {
+        country           : "0",
+        life_length_min   : 12,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 20.5,
+        height_female_max   : 20.5,
+        height_male_min     : 20.5,
+        height_male_max     : 20.5,
+    },
+    weight    : {
+        weight_female_min   : 48,
+        weight_female_max   : 48,
+        weight_male_min     : 55,
+        weight_male_max     : 55,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 4,
+        protectiveness          : 5,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 4,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'норвежки лундехунд',
+    name      : "Норвежки лундехунд",
+    nameEn    : "Norwegian Lundehund",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/norwegian_lundehund.jpg",
+    general   : {
+        country           : "Норвегия",
+        life_length_min   : 12,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 13,
+        height_female_max   : 15,
+        height_male_min     : 13,
+        height_male_max     : 15,
+    },
+    weight    : {
+        weight_female_min   : 20,
+        weight_female_max   : 30,
+        weight_male_min     : 20,
+        weight_male_max     : 30,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
         drooling                : 1,
         coat_length             : 1,
     },
@@ -5576,8 +5809,578 @@ const breedCollection = [
         adaptability            : 0
     },
     character: {
-        trainability            : 1,
+        trainability            : 3,
+        energy                  : 3,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'норботенспетс',
+    name      : "Норботенспетс",
+    nameEn    : "Norrbottenspets",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/norrbottenspets.jpg",
+    general   : {
+        country           : "Швеция",
+        life_length_min   : 14,
+        life_length_max   : 17,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 16.5,
+        height_female_max   : 18,
+        height_male_min     : 16.5,
+        height_male_max     : 18,
+    },
+    weight    : {
+        weight_female_min   : 20,
+        weight_female_max   : 30,
+        weight_male_min     : 20,
+        weight_male_max     : 30,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
         energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'финландски лапхунд',
+    name      : "Финландски лапхунд",
+    nameEn    : "Finnish Lapphund",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/finnish_lapphund.jpg",
+    general   : {
+        country           : "Финландия",
+        life_length_min   : 12,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 18,
+        height_female_max   : 21,
+        height_male_min     : 18,
+        height_male_max     : 21,
+    },
+    weight    : {
+        weight_female_min   : 33,
+        weight_female_max   : 53,
+        weight_male_min     : 33,
+        weight_male_max     : 53,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 4,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 4,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 5,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'лапландско пастирско куче',
+    name      : "Лапландско пастирско куче",
+    nameEn    : "Lapponian Herder",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/lapponian_herder.jpg",
+    general   : {
+        country           : "Финландия",
+        life_length_min   : 10,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 18,
+        height_female_max   : 20,
+        height_male_min     : 18,
+        height_male_max     : 20,
+    },
+    weight    : {
+        weight_female_min   : 70,
+        weight_female_max   : 70,
+        weight_male_min     : 70,
+        weight_male_max     : 70,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 4,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 4,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'исландска овчарка',
+    name      : "Исландска овчарка",
+    nameEn    : "Icelandic Sheepdog",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/icelandic_sheepdog.jpg",
+    general   : {
+        country           : "0",
+        life_length_min   : 12,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 18,
+        height_female_max   : 18,
+        height_male_min     : 18,
+        height_male_max     : 18,
+    },
+    weight    : {
+        weight_female_min   : 25,
+        weight_female_max   : 25,
+        weight_male_min     : 30,
+        weight_male_max     : 30,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 4,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 4,
+        barking                 : 4,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'норвежки бухунд',
+    name      : "Норвежки бухунд",
+    nameEn    : "Norwegian Buhund",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/norwegian_buhund.jpg",
+    general   : {
+        country           : "Норвегия",
+        life_length_min   : 12,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 17,
+        height_female_max   : 18.5,
+        height_male_min     : 17,
+        height_male_max     : 18.5,
+    },
+    weight    : {
+        weight_female_min   : 26,
+        weight_female_max   : 35,
+        weight_male_min     : 31,
+        weight_male_max     : 40,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 4,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 4,
+        barking                 : 4,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'шведски лапхунд',
+    name      : "Шведски лапхунд",
+    nameEn    : "Swedish Lapphund",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/swedish_lapphund.jpg",
+    general   : {
+        country           : "Швеция",
+        life_length_min   : 12,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 16,
+        height_female_max   : 20,
+        height_male_min     : 16,
+        height_male_max     : 20,
+    },
+    weight    : {
+        weight_female_min   : 30,
+        weight_female_max   : 45,
+        weight_male_min     : 30,
+        weight_male_max     : 45,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 4,
+        protectiveness          : 4,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 4,
+        barking                 : 4,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'немски шпиц',
+    name      : "Немски шпиц",
+    nameEn    : "German Spitz",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/german_spitz.jpg",
+    general   : {
+        country           : "Германия",
+        life_length_min   : 13,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 12,
+        height_female_max   : 15,
+        height_male_min     : 12,
+        height_male_max     : 15,
+    },
+    weight    : {
+        weight_female_min   : 24,
+        weight_female_max   : 26,
+        weight_male_min     : 24,
+        weight_male_max     : 26,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 3,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 3,
+        barking                 : 5,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'волпино италиано',
+    name      : "Волпино италиано",
+    nameEn    : "Volpino Italiano",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/volpino_italiano.jpg",
+    general   : {
+        country          : "Италия",
+        life_length_min  : 10,
+        life_length_max  : 16,
+        coat_length_word : "0",
+        walk_time        : 0,
+        owner_experience : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min    : 10.5,
+        height_female_max    : 12,
+        height_male_min      : 10.5,
+        height_male_max      : 12
+    },
+    weight    : {
+        weight_female_min    : 8,
+        weight_female_max    : 12,
+        weight_male_min      : 16,
+        weight_male_max      : 10
+    },
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 0,
+        drooling                : 0,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 0,
+        playfulness             : 0,
+        protectiveness          : 0,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 4,
+        barking                 : 2,
+        mental_stimulation_needs: 0
+    }
+    }
+},
+{
+    id        : 'чау-чау',
+    name      : "Чау-чау",
+    nameEn    : "Chow Chow",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/chow_chow.jpg",
+    general   : {
+        country           : "Китай",
+        life_length_min   : 8,
+        life_length_max   : 12,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 17,
+        height_female_max   : 20,
+        height_male_min     : 17,
+        height_male_max     : 20,
+    },
+    weight    : {
+        weight_female_min   : 45,
+        weight_female_max   : 70,
+        weight_male_min     : 45,
+        weight_male_max     : 70,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 2,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 3,
+        drooling                : 3,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 2,
+        playfulness             : 3,
+        protectiveness          : 5,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 3,
+        barking                 : 1,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'евразиер',
+    name      : "Евразиер",
+    nameEn    : "Eurasier",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/eurasier.jpg",
+    general   : {
+        country           : "Германия",
+        life_length_min   : 12,
+        life_length_max   : 16,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 19,
+        height_female_max   : 24,
+        height_male_min     : 19,
+        height_male_max     : 24,
+    },
+    weight    : {
+        weight_female_min   : 40,
+        weight_female_max   : 70,
+        weight_male_min     : 40,
+        weight_male_max     : 70,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 4,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 3,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 2,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
         barking                 : 3,
         mental_stimulation_needs: 0
     }
@@ -5641,14 +6444,71 @@ const breedCollection = [
     }    
 },
 {
-    id        : 'аляски маламут',
-    name      : "Аляски маламут",
-    nameEn    : "Alaskan Malamute",
+    id        : 'айну',
+    name      : "Айну",
+    nameEn    : "Hokkaido",
     code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/alaskan_malamute.jpg",
+    image_link: "https://api-ninjas.com/images/dogs/hokkaido.jpg",
     general   : {
-        country           : "САЩ",
-        life_length_min   : 10,
+        country           : "Япония",
+        life_length_min   : 12,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 18,
+        height_female_max   : 20,
+        height_male_min     : 18,
+        height_male_max     : 20,
+    },
+    weight    : {
+        weight_female_min   : 44,
+        weight_female_max   : 66,
+        weight_male_min     : 44,
+        weight_male_max     : 66,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 5,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'японски шпиц',
+    name      : "Японски шпиц",
+    nameEn    : "Japanese Spitz",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/japanese_spitz.jpg",
+    general   : {
+        country           : "Япония",
+        life_length_min   : 12,
         life_length_max   : 14,
         coat_length_word  : 0,
         walk_time         : 0,
@@ -5657,16 +6517,244 @@ const breedCollection = [
     size      : {
     size      : "medium",
     height    : {
-        height_female_min   : 25,
-        height_female_max   : 25,
-        height_male_min     : 25,
-        height_male_max     : 25,
+        height_female_min   : 12,
+        height_female_max   : 15,
+        height_male_min     : 12,
+        height_male_max     : 15,
     },
     weight    : {
-        weight_female_min   : 75,
-        weight_female_max   : 75,
-        weight_male_min     : 85,
-        weight_male_max     : 85,
+        weight_female_min   : 10,
+        weight_female_max   : 25,
+        weight_male_min     : 10,
+        weight_male_max     : 25,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 3,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 3,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'кай кен',
+    name      : "Кай Кен",
+    nameEn    : "Kai Ken",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/kai_ken.jpg",
+    general   : {
+        country           : "Япония",
+        life_length_min   : 12,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 15.5,
+        height_female_max   : 19.5,
+        height_male_min     : 15.5,
+        height_male_max     : 19.5,
+    },
+    weight    : {
+        weight_female_min   : 20,
+        weight_female_max   : 40,
+        weight_male_min     : 20,
+        weight_male_max     : 40,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 5,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'кюшу',
+    name      : "Кюшу",
+    nameEn    : "Kishu",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/kishu_ken.jpg",
+    general   : {
+        country           : "0",
+        life_length_min   : 12,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 17,
+        height_female_max   : 22,
+        height_male_min     : 17,
+        height_male_max     : 22,
+    },
+    weight    : {
+        weight_female_min   : 30,
+        weight_female_max   : 60,
+        weight_male_min     : 30,
+        weight_male_max     : 60,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 1,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 5,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 3,
+        barking                 : 1,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'шиба',
+    name      : "шиба",
+    nameEn    : "Shiba",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/shiba_inu.jpg",
+    general   : {
+        country           : "Япония",
+        life_length_min   : 13,
+        life_length_max   : 16,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 14.5,
+        height_female_max   : 16.5,
+        height_male_min     : 14.5,
+        height_male_max     : 16.5,
+    },
+    weight    : {
+        weight_female_min   : 17,
+        weight_female_max   : 17,
+        weight_male_min     : 23,
+        weight_male_max     : 23,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 5,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 2,
+        energy                  : 3,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'шикоку',
+    name      : "Шикоку",
+    nameEn    : "Shikoku",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/shikoku.jpg",
+    general   : {
+        country           : "Япония",
+        life_length_min   : 10,
+        life_length_max   : 12,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 17,
+        height_female_max   : 22,
+        height_male_min     : 17,
+        height_male_max     : 22,
+    },
+    weight    : {
+        weight_female_min   : 35,
+        weight_female_max   : 55,
+        weight_male_min     : 35,
+        weight_male_max     : 55,
     }
     },
     history       : "Добави историята тук.",
@@ -5686,6 +6774,2970 @@ const breedCollection = [
     social   : {
         openness_to_strangers   : 3,
         playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 3,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'корейско джиндо',
+    name      : "Корейско джиндо",
+    nameEn    : "Jindo",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/jindo.jpg",
+    general   : {
+        country           : "Корея",
+        life_length_min   : 14,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 18,
+        height_female_max   : 22,
+        height_male_min     : 18,
+        height_male_max     : 22,
+    },
+    weight    : {
+        weight_female_min   : 30,
+        weight_female_max   : 50,
+        weight_male_min     : 30,
+        weight_male_max     : 50,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 5,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'Басенджи',
+    name      : "Басенджи",
+    nameEn    : "Basenji",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/basenji.jpg",
+    general   : {
+        country           : "Централна Африка",
+        life_length_min   : 13,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 17,
+        height_female_max   : 17,
+        height_male_min     : 17,
+        height_male_max     : 17,
+    },
+    weight    : {
+        weight_female_min   : 22,
+        weight_female_max   : 22,
+        weight_male_min     : 24,
+        weight_male_max     : 24,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 1,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 2,
+        energy                  : 4,
+        barking                 : 1,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'ханаанско куче',
+    name      : "Ханаанско куче",
+    nameEn    : "Canaan Dog",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/canaan_dog.jpg",
+    general   : {
+        country           : "Израел",
+        life_length_min   : 12,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 20,
+        height_female_max   : 24,
+        height_male_min     : 20,
+        height_male_max     : 24,
+    },
+    weight    : {
+        weight_female_min   : 35,
+        weight_female_max   : 45,
+        weight_male_min     : 45,
+        weight_male_max     : 55,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 4,
+        grooming                : 2,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 4,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 5,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'фараоново куче',
+    name      : "Фараоново куче",
+    nameEn    : "Pharaoh Hound",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/pharaoh_hound.jpg",
+    general   : {
+        country           : "Малта",
+        life_length_min   : 12,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 23,
+        height_female_max   : 25,
+        height_male_min     : 23,
+        height_male_max     : 25,
+    },
+    weight    : {
+        weight_female_min   : 45,
+        weight_female_max   : 55,
+        weight_male_min     : 45,
+        weight_male_max     : 55,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'мексиканско голо куче',
+    name      : "Мексиканско голо куче",
+    nameEn    : "Xoloitzcuintli",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/xoloitzcuintli.jpg",
+    general   : {
+        country           : "Мексико",
+        life_length_min   : 13,
+        life_length_max   : 18,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 19,
+        height_female_max   : 25,
+        height_male_min     : 19,
+        height_male_max     : 25,
+    },
+    weight    : {
+        weight_female_min   : 28,
+        weight_female_max   : 60,
+        weight_male_min     : 28,
+        weight_male_max     : 60,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 1,
+        grooming                : 1,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'перуанско безкосместо куче',
+    name      : "Перуанско безкосместо куче",
+    nameEn    : "Peruvian Inca Orchid",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/peruvian_inca_orchid.jpg",
+    general   : {
+        country           : "Перу",
+        life_length_min   : 12,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 20,
+        height_female_max   : 26,
+        height_male_min     : 20,
+        height_male_max     : 26,
+    },
+    weight    : {
+        weight_female_min   : 26,
+        weight_female_max   : 55,
+        weight_male_min     : 26,
+        weight_male_max     : 55,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 1,
+        grooming                : 1,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'сицилианска хрътка',
+    name      : "Сицилианска хрътка",
+    nameEn    : "Cirneco dell’Etna",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/cirneco_dell’etna.jpg",
+    general   : {
+        country           : "Италия",
+        life_length_min   : 12,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 18,
+        height_female_max   : 19.5,
+        height_male_min     : 18,
+        height_male_max     : 19.5,
+    },
+    weight    : {
+        weight_female_min   : 17,
+        weight_female_max   : 22,
+        weight_male_min     : 22,
+        weight_male_max     : 26,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 1,
+        grooming                : 1,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 2,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'португалско поденго',
+    name      : "Португалско поденго",
+    nameEn    : "Portuguese Podengo",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/portuguese_podengo.jpg",
+    general   : {
+        country           : "Португалия",
+        life_length_min   : 10,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 22,
+        height_female_max   : 28,
+        height_male_min     : 22,
+        height_male_max     : 28,
+    },
+    weight    : {
+        weight_female_min   : 44,
+        weight_female_max   : 66,
+        weight_male_min     : 44,
+        weight_male_max     : 66,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'хрътка от ибиса',
+    name      : "Хрътка от Ибиса",
+    nameEn    : "Ibizan Hound",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/ibizan_hound.jpg",
+    general   : {
+        country           : "Испания",
+        life_length_min   : 11,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 23.5,
+        height_female_max   : 27.5,
+        height_male_min     : 23.5,
+        height_male_max     : 27.5,
+    },
+    weight    : {
+        weight_female_min   : 45,
+        weight_female_max   : 45,
+        weight_male_min     : 50,
+        weight_male_max     : 50,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 1,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 5,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : '0',
+    name      : "0",
+    nameEn    : "Taiwan Dog",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/taiwan_dog.jpg",
+    general   : {
+        country           : "0",
+        life_length_min   : 9,
+        life_length_max   : 13,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 17,
+        height_female_max   : 20,
+        height_male_min     : 17,
+        height_male_max     : 20,
+    },
+    weight    : {
+        weight_female_min   : 26,
+        weight_female_max   : 40,
+        weight_male_min     : 26,
+        weight_male_max     : 40,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 5,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 5,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'тайландски риджбек',
+    name      : "Тайландски риджбек",
+    nameEn    : "Thai Ridgeback",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/thai_ridgeback.jpg",
+    general   : {
+        country           : "Тайланд",
+        life_length_min   : 12,
+        life_length_max   : 13,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 20,
+        height_female_max   : 24,
+        height_male_min     : 20,
+        height_male_max     : 24,
+    },
+    weight    : {
+        weight_female_min   : 35,
+        weight_female_max   : 75,
+        weight_male_min     : 35,
+        weight_male_max     : 75,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 1,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 4,
+        protectiveness          : 5,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'блъдхаунд',
+    name      : "Блъдхаунд",
+    nameEn    : "Bloodhound",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/bloodhound.jpg",
+    general   : {
+        country           : "Белгия",
+        life_length_min   : 10,
+        life_length_max   : 12,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 25,
+        height_female_max   : 27,
+        height_male_min     : 25,
+        height_male_max     : 27,
+    },
+    weight    : {
+        weight_female_min   : 80,
+        weight_female_max   : 100,
+        weight_male_min     : 90,
+        weight_male_max     : 110,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 5,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 2,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 5,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'английски фоксхаунд',
+    name      : "Английски фоксхаунд",
+    nameEn    : "English Foxhound",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/english_foxhound.jpg",
+    general   : {
+        country           : "Великобритания",
+        life_length_min   : 10,
+        life_length_max   : 13,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 24,
+        height_female_max   : 24,
+        height_male_min     : 24,
+        height_male_max     : 24,
+    },
+    weight    : {
+        weight_female_min   : 60,
+        weight_female_max   : 75,
+        weight_male_min     : 60,
+        weight_male_max     : 75,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 1,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 5,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'отерхунд',
+    name      : "Отерхунд",
+    nameEn    : "Otterhound",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/otterhound.jpg",
+    general   : {
+        country           : "Великобритания",
+        life_length_min   : 10,
+        life_length_max   : 13,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 27,
+        height_female_max   : 27,
+        height_male_min     : 27,
+        height_male_max     : 27,
+    },
+    weight    : {
+        weight_female_min   : 80,
+        weight_female_max   : 80,
+        weight_male_min     : 115,
+        weight_male_max     : 115,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 2,
+        drooling                : 3,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 5,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'американски фоксхаунд',
+    name      : "Американски фоксхаунд",
+    nameEn    : "American Foxhound",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/american_foxhound.jpg",
+    general   : {
+        country           : "САЩ",
+        life_length_min   : 11,
+        life_length_max   : 13,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 22,
+        height_female_max   : 25,
+        height_male_min     : 22,
+        height_male_max     : 25,
+    },
+    weight    : {
+        weight_female_min   : 60,
+        weight_female_max   : 65,
+        weight_male_min     : 65,
+        weight_male_max     : 70,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 1,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 4,
+        barking                 : 5,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'черно-кафяв кунхаунд',
+    name      : "Черно-кафяв кунхаунд",
+    nameEn    : "Black and Tan Coonhound",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/black_and_tan_coonhound.jpg",
+    general   : {
+        country           : "САЩ",
+        life_length_min   : 10,
+        life_length_max   : 12,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 25,
+        height_female_max   : 27,
+        height_male_min     : 25,
+        height_male_max     : 27,
+    },
+    weight    : {
+        weight_female_min   : 65,
+        weight_female_max   : 110,
+        weight_male_min     : 65,
+        weight_male_max     : 110,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 3,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 2,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 3,
+        barking                 : 4,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'унгарска хрътка',
+    name      : "Унгарска хрътка",
+    nameEn    : "Transylvanian Hound",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/transylvanian_hound.jpg",
+    general   : {
+        country           : "Унгария",
+        life_length_min   : 10,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 22,
+        height_female_max   : 26,
+        height_male_min     : 22,
+        height_male_max     : 26,
+    },
+    weight    : {
+        weight_female_min   : 66,
+        weight_female_max   : 77,
+        weight_male_min     : 66,
+        weight_male_max     : 77,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 3,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 5,
+        protectiveness          : 5,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 5,
+        barking                 : 4,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'словашки копов',
+    name      : "Словашки копов",
+    nameEn    : "Slovensky Kopov",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/slovensky_kopov.jpg",
+    general   : {
+        country           : "Словакия",
+        life_length_min   : 12,
+        life_length_max   : 13,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 16,
+        height_female_max   : 20,
+        height_male_min     : 16,
+        height_male_max     : 20,
+    },
+    weight    : {
+        weight_female_min   : 33,
+        weight_female_max   : 44,
+        weight_male_min     : 33,
+        weight_male_max     : 44,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 1,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'хамилтоново гонче',
+    name      : "Хамилтоново гонче",
+    nameEn    : "Hamiltonstovare",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/hamiltonstovare.jpg",
+    general   : {
+        country           : "Швеция",
+        life_length_min   : 14,
+        life_length_max   : 17,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 19,
+        height_female_max   : 24,
+        height_male_min     : 19,
+        height_male_max     : 24,
+    },
+    weight    : {
+        weight_female_min   : 40,
+        weight_female_max   : 75,
+        weight_male_min     : 40,
+        weight_male_max     : 75,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 5,
+        playfulness             : 4,
+        protectiveness          : 4,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'бретански басет',
+    name      : "Бретански басет",
+    nameEn    : "Basset Fauve de Bretagne",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/basset_fauve_de_bretagne.jpg",
+    general   : {
+        country           : "Франция",
+        life_length_min   : 12,
+        life_length_max   : 12,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 12.5,
+        height_female_max   : 15.5,
+        height_male_min     : 12.5,
+        height_male_max     : 15.5,
+    },
+    weight    : {
+        weight_female_min   : 27,
+        weight_female_max   : 35,
+        weight_male_min     : 27,
+        weight_male_max     : 35,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 4,
+        barking                 : 4,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'голям вендейски басетгрифон',
+    name      : "Голям вендейски басетгрифон",
+    nameEn    : "Grand Basset Griffon Vendéen",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/grand_basset_griffon_vendéen.jpg",
+    general   : {
+        country           : "Франция",
+        life_length_min   : 13,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 15.5,
+        height_female_max   : 18,
+        height_male_min     : 15.5,
+        height_male_max     : 18,
+    },
+    weight    : {
+        weight_female_min   : 40,
+        weight_female_max   : 45,
+        weight_male_min     : 40,
+        weight_male_max     : 45,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 5,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 5,
+        barking                 : 4,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'малък вендейски басетгрифон',
+    name      : "Малък вендейски басетгрифон",
+    nameEn    : "Petit Basset Griffon Vendéen",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/petit_basset_griffon_vendéen.jpg",
+    general   : {
+        country           : "Франция",
+        life_length_min   : 14,
+        life_length_max   : 16,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 13,
+        height_female_max   : 15,
+        height_male_min     : 13,
+        height_male_max     : 15,
+    },
+    weight    : {
+        weight_female_min   : 25,
+        weight_female_max   : 40,
+        weight_male_min     : 25,
+        weight_male_max     : 40,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 4,
+        protectiveness          : 4,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 4,
+        barking                 : 5,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'басет',
+    name      : "Басет",
+    nameEn    : "Basset Hound",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/basset_hound.jpg",
+    general   : {
+        country           : "Великобритания",
+        life_length_min   : 12,
+        life_length_max   : 13,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 11,
+        height_female_max   : 14,
+        height_male_min     : 12,
+        height_male_max     : 15,
+    },
+    weight    : {
+        weight_female_min   : 40,
+        weight_female_max   : 65,
+        weight_male_min     : 40,
+        weight_male_max     : 65,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 3,
+        drooling                : 4,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 2,
+        barking                 : 4,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'бигъл',
+    name      : "Бигъл",
+    nameEn    : "Beagle",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/beagle.jpg",
+    general   : {
+        country           : "Великобритания",
+        life_length_min   : 10,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 13,
+        height_female_max   : 15,
+        height_male_min     : 14,
+        height_male_max     : 16,
+    },
+    weight    : {
+        weight_female_min   : 20,
+        weight_female_max   : 30,
+        weight_male_min     : 15,
+        weight_male_max     : 20,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 4,
+        protectiveness          : 2,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 4,
+        barking                 : 4,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'древер',
+    name      : "Древер",
+    nameEn    : "Drever",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/drever.jpg",
+    general   : {
+        country           : "Швеция",
+        life_length_min   : 15,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 12,
+        height_female_max   : 15,
+        height_male_min     : 12,
+        height_male_max     : 15,
+    },
+    weight    : {
+        weight_female_min   : 35,
+        weight_female_max   : 40,
+        weight_male_min     : 35,
+        weight_male_max     : 40,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 1,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 4,
+        barking                 : 4,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'баварска планинска хрътка',
+    name      : "Баварска планинска хрътка",
+    nameEn    : "Bavarian Mountain Hound",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/bavarian_mountain_scent_hound.jpg",
+    general   : {
+        country           : "Германия",
+        life_length_min   : 12,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 17,
+        height_female_max   : 20.5,
+        height_male_min     : 17,
+        height_male_max     : 20.5,
+    },
+    weight    : {
+        weight_female_min   : 37,
+        weight_female_max   : 66,
+        weight_male_min     : 37,
+        weight_male_max     : 66,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 2,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'хановерски кръвоследник',
+    name      : "Хановерски кръвоследник",
+    nameEn    : "Hanoverian Scenthound",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/hanoverian_scenthound.jpg",
+    general   : {
+        country           : "Германия",
+        life_length_min   : 10,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 19,
+        height_female_max   : 21,
+        height_male_min     : 19,
+        height_male_max     : 21,
+    },
+    weight    : {
+        weight_female_min   : 79,
+        weight_female_max   : 99,
+        weight_male_min     : 79,
+        weight_male_max     : 99,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 2,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 4,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'далматинец',
+    name      : "Далматинец",
+    nameEn    : "Dalmatian",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/dalmatian.jpg",
+    general   : {
+        country           : "Хърватска",
+        life_length_min   : 11,
+        life_length_max   : 13,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 19,
+        height_female_max   : 24,
+        height_male_min     : 19,
+        height_male_max     : 24,
+    },
+    weight    : {
+        weight_female_min   : 45,
+        weight_female_max   : 70,
+        weight_male_min     : 45,
+        weight_male_max     : 70,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 4,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 4,
+        protectiveness          : 4,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'родезийски риджбек',
+    name      : "Родезийски риджбек",
+    nameEn    : "Rhodesian Ridgeback",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/rhodesian_ridgeback.jpg",
+    general   : {
+        country           : "Южна Африка",
+        life_length_min   : 10,
+        life_length_max   : 12,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 25,
+        height_female_max   : 27,
+        height_male_min     : 25,
+        height_male_max     : 27,
+    },
+    weight    : {
+        weight_female_min   : 70,
+        weight_female_max   : 70,
+        weight_male_min     : 85,
+        weight_male_max     : 85,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 5,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 2,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'курцхаар',
+    name      : "Курцхаар",
+    nameEn    : "German Shorthaired Pointer",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/german_shorthaired_pointer.jpg",
+    general   : {
+        country           : "Германия",
+        life_length_min   : 10,
+        life_length_max   : 12,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 23,
+        height_female_max   : 25,
+        height_male_min     : 23,
+        height_male_max     : 25,
+    },
+    weight    : {
+        weight_female_min   : 45,
+        weight_female_max   : 60,
+        weight_male_min     : 55,
+        weight_male_max     : 70,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 4,
+        protectiveness          : 4,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 5,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'дратхаар',
+    name      : "Дратхаар",
+    nameEn    : "German Wirehaired Pointer",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/german_wirehaired_pointer.jpg",
+    general   : {
+        country           : "Германия",
+        life_length_min   : 14,
+        life_length_max   : 16,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 24,
+        height_female_max   : 26,
+        height_male_min     : 24,
+        height_male_max     : 26,
+    },
+    weight    : {
+        weight_female_min   : 50,
+        weight_female_max   : 70,
+        weight_male_min     : 50,
+        weight_male_max     : 70,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 5,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'пуделпойнтер',
+    name      : "Пуделпойнтер",
+    nameEn    : "Pudelpointer",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/pudelpointer.jpg",
+    general   : {
+        country           : "Германия",
+        life_length_min   : 14,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 22,
+        height_female_max   : 26,
+        height_male_min     : 22,
+        height_male_max     : 26,
+    },
+    weight    : {
+        weight_female_min   : 45,
+        weight_female_max   : 70,
+        weight_male_min     : 45,
+        weight_male_max     : 70,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 1,
+        drooling                : 3,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'ваймаранер',
+    name      : "Ваймаранер",
+    nameEn    : "Weimaraner",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/weimaraner.jpg",
+    general   : {
+        country           : "Германия",
+        life_length_min   : 10,
+        life_length_max   : 13,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 25,
+        height_female_max   : 27,
+        height_male_min     : 25,
+        height_male_max     : 27,
+    },
+    weight    : {
+        weight_female_min   : 55,
+        weight_female_max   : 75,
+        weight_male_min     : 70,
+        weight_male_max     : 90,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 5,
+        protectiveness          : 5,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 5,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'унгарска визла',
+    name      : "Унгарска визла",
+    nameEn    : "Vizsla",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/vizsla.jpg",
+    general   : {
+        country           : "Унгария",
+        life_length_min   : 12,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 22,
+        height_female_max   : 24,
+        height_male_min     : 22,
+        height_male_max     : 24,
+    },
+    weight    : {
+        weight_female_min   : 44,
+        weight_female_max   : 55,
+        weight_male_min     : 55,
+        weight_male_max     : 60,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 5,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 5,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'твърдокосместа визла',
+    name      : "Твърдокосместа визла",
+    nameEn    : "Wirehaired Vizsla",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/wirehaired_vizsla.jpg",
+    general   : {
+        country           : "Унгария",
+        life_length_min   : 12,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 23,
+        height_female_max   : 25,
+        height_male_min     : 23,
+        height_male_max     : 25,
+    },
+    weight    : {
+        weight_female_min   : 45,
+        weight_female_max   : 55,
+        weight_male_min     : 55,
+        weight_male_max     : 65,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 1,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 5,
+        playfulness             : 5,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 5,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'италиански брак',
+    name      : "Италиански брак",
+    nameEn    : "Bracco Italiano",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/bracco_italiano.jpg",
+    general   : {
+        country           : "Италия",
+        life_length_min   : 10,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 21,
+        height_female_max   : 27,
+        height_male_min     : 21,
+        height_male_max     : 27,
+    },
+    weight    : {
+        weight_female_min   : 55,
+        weight_female_max   : 90,
+        weight_male_min     : 55,
+        weight_male_max     : 90,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 4,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 1,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 4,
+        barking                 : 2,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'португалски пойнтер',
+    name      : "Португалски пойнтер",
+    nameEn    : "Portuguese Pointer",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/portuguese_pointer.jpg",
+    general   : {
+        country           : "Португалия",
+        life_length_min   : 14,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 20.5,
+        height_female_max   : 22,
+        height_male_min     : 20.5,
+        height_male_max     : 22,
+    },
+    weight    : {
+        weight_female_min   : 35,
+        weight_female_max   : 59,
+        weight_male_min     : 35,
+        weight_male_max     : 59,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 1,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 5,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'немски дългокосмест пойнтер',
+    name      : "Немски дългокосмест пойнтер",
+    nameEn    : "German Longhaired Pointer",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/german_longhaired_pointer.jpg",
+    general   : {
+        country           : "Германия",
+        life_length_min   : 12,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 22,
+        height_female_max   : 28,
+        height_male_min     : 22,
+        height_male_max     : 28,
+    },
+    weight    : {
+        weight_female_min   : 55,
+        weight_female_max   : 80,
+        weight_male_min     : 55,
+        weight_male_max     : 80,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 1,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'малък мюнстерлендер',
+    name      : "Малък мюнстерлендер",
+    nameEn    : "Small Munsterlander",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/small_munsterlander.jpg",
+    general   : {
+        country           : "Германия",
+        life_length_min   : 1214,
+        life_length_max   : 1214,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 20.5,
+        height_female_max   : 21,
+        height_male_min     : 20.5,
+        height_male_max     : 21,
+    },
+    weight    : {
+        weight_female_min   : 40,
+        weight_female_max   : 60,
+        weight_male_min     : 40,
+        weight_male_max     : 60,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 4,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 1,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 4,
+        barking                 : 1,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'холандски птичар',
+    name      : "Холандски птичар",
+    nameEn    : "Drentsche Patrijshond",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/drentsche_patrijshond.jpg",
+    general   : {
+        country           : "Холандия",
+        life_length_min   : 11,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 21,
+        height_female_max   : 25,
+        height_male_min     : 21,
+        height_male_max     : 25,
+    },
+    weight    : {
+        weight_female_min   : 48,
+        weight_female_max   : 73,
+        weight_male_min     : 48,
+        weight_male_max     : 73,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 5,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'стабихоун',
+    name      : "Стабихоун",
+    nameEn    : "Stabyhoun",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/stabyhoun.jpg",
+    general   : {
+        country           : "Холандия",
+        life_length_min   : 13,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 19,
+        height_female_max   : 21,
+        height_male_min     : 19,
+        height_male_max     : 21,
+    },
+    weight    : {
+        weight_female_min   : 40,
+        weight_female_max   : 60,
+        weight_male_min     : 40,
+        weight_male_max     : 60,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 1,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'спиноне италиано',
+    name      : "Спиноне италиано",
+    nameEn    : "Spinone Italiano",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/spinone_italiano.jpg",
+    general   : {
+        country           : "Италия",
+        life_length_min   : 10,
+        life_length_max   : 12,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 23,
+        height_female_max   : 27,
+        height_male_min     : 23,
+        height_male_max     : 27,
+    },
+    weight    : {
+        weight_female_min   : 64,
+        weight_female_max   : 75,
+        weight_male_min     : 75,
+        weight_male_max     : 86,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 3,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 2,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'английски сетер',
+    name      : "Английски сетер",
+    nameEn    : "English Setter",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/english_setter.jpg",
+    general   : {
+        country           : "Великобритания",
+        life_length_min   : 12,
+        life_length_max   : 12,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 25,
+        height_female_max   : 27,
+        height_male_min     : 25,
+        height_male_max     : 27,
+    },
+    weight    : {
+        weight_female_min   : 45,
+        weight_female_max   : 55,
+        weight_male_min     : 65,
+        weight_male_max     : 80,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 4,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 3,
+        drooling                : 3,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'шотландски сетер',
+    name      : "Шотландски сетер",
+    nameEn    : "Gordon Setter",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/gordon_setter.jpg",
+    general   : {
+        country           : "Великобритания",
+        life_length_min   : 12,
+        life_length_max   : 13,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 24,
+        height_female_max   : 27,
+        height_male_min     : 24,
+        height_male_max     : 27,
+    },
+    weight    : {
+        weight_female_min   : 45,
+        weight_female_max   : 70,
+        weight_male_min     : 55,
+        weight_male_max     : 80,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 4,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 4,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 5,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'ирландски червено-бял сетер',
+    name      : "Ирландски червено-бял сетер",
+    nameEn    : "Irish Red and White Setter",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/irish_red_and_white_setter.jpg",
+    general   : {
+        country           : "Ирландия",
+        life_length_min   : 11,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 24.5,
+        height_female_max   : 26,
+        height_male_min     : 24.5,
+        height_male_max     : 26,
+    },
+    weight    : {
+        weight_female_min   : 35,
+        weight_female_max   : 50,
+        weight_male_min     : 42,
+        weight_male_max     : 60,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 5,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 5,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'ирландски сетер',
+    name      : "Ирландски сетер",
+    nameEn    : "Irish Setter",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/irish_setter.jpg",
+    general   : {
+        country           : "Ирландия",
+        life_length_min   : 12,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 27,
+        height_female_max   : 27,
+        height_male_min     : 27,
+        height_male_max     : 27,
+    },
+    weight    : {
+        weight_female_min   : 60,
+        weight_female_max   : 60,
+        weight_male_min     : 70,
+        weight_male_max     : 70,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 3,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 5,
+        playfulness             : 5,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 5,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'новошотландски ретривър',
+    name      : "Новошотландски ретривър",
+    nameEn    : "Nova Scotia Duck Tolling Retriever",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/nova_scotia_duck_tolling_retriever.jpg",
+    general   : {
+        country           : "Канада",
+        life_length_min   : 12,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 18,
+        height_female_max   : 21,
+        height_male_min     : 18,
+        height_male_max     : 21,
+    },
+    weight    : {
+        weight_female_min   : 35,
+        weight_female_max   : 50,
+        weight_male_min     : 35,
+        weight_male_max     : 50,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 5,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 5,
+        barking                 : 2,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'къдравокосмест ретривър',
+    name      : "Къдравокосмест ретривър",
+    nameEn    : "Curly-Coated Retriever",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/curly-coated_retriever.jpg",
+    general   : {
+        country           : "Великобритания",
+        life_length_min   : 10,
+        life_length_max   : 12,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 25,
+        height_female_max   : 27,
+        height_male_min     : 25,
+        height_male_max     : 27,
+    },
+    weight    : {
+        weight_female_min   : 60,
+        weight_female_max   : 95,
+        weight_male_min     : 60,
+        weight_male_max     : 95,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 1,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 4,
+        protectiveness          : 4,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'гладкокосмест ретривър',
+    name      : "Гладкокосмест ретривър",
+    nameEn    : "Flat-Coated Retriever",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/flat-coated_retriever.jpg",
+    general   : {
+        country           : "Великобритания",
+        life_length_min   : 8,
+        life_length_max   : 10,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 23,
+        height_female_max   : 24.5,
+        height_male_min     : 23,
+        height_male_max     : 24.5,
+    },
+    weight    : {
+        weight_female_min   : 60,
+        weight_female_max   : 70,
+        weight_male_min     : 60,
+        weight_male_max     : 70,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 5,
+        playfulness             : 5,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 5,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'голдън ретрийвър',
+    name      : "Голдън ретрийвър",
+    nameEn    : "Golden Retriever",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/golden_retriever.jpg",
+    general   : {
+        country           : "Великобритания",
+        life_length_min   : 10,
+        life_length_max   : 12,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 23,
+        height_female_max   : 24,
+        height_male_min     : 23,
+        height_male_max     : 24,
+    },
+    weight    : {
+        weight_female_min   : 55,
+        weight_female_max   : 65,
+        weight_male_min     : 65,
+        weight_male_max     : 75,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 4,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 5,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 3,
+        barking                 : 1,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'лабрадор ретривър',
+    name      : "Лабрадор ретривър",
+    nameEn    : "Labrador Retriever",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/labrador_retriever.jpg",
+    general   : {
+        country           : "Великобритания",
+        life_length_min   : 10,
+        life_length_max   : 12,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 22.5,
+        height_female_max   : 24.5,
+        height_male_min     : 22.5,
+        height_male_max     : 24.5,
+    },
+    weight    : {
+        weight_female_min   : 55,
+        weight_female_max   : 70,
+        weight_male_min     : 65,
+        weight_male_max     : 80,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 4,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 5,
+        playfulness             : 5,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 5,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'чесапийк бей ретривър',
+    name      : "Чесапийк бей ретривър",
+    nameEn    : "Chesapeake Bay Retriever",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/chesapeake_bay_retriever.jpg",
+    general   : {
+        country           : "САЩ",
+        life_length_min   : 10,
+        life_length_max   : 13,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 23,
+        height_female_max   : 26,
+        height_male_min     : 23,
+        height_male_max     : 26,
+    },
+    weight    : {
+        weight_female_min   : 55,
+        weight_female_max   : 70,
+        weight_male_min     : 65,
+        weight_male_max     : 80,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 3,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
         protectiveness          : 4,
         adaptability            : 0
     },
@@ -5697,6 +9749,2697 @@ const breedCollection = [
     }
     }    
 },
+{
+    id        : 'кламбър шпаньол',
+    name      : "Кламбър шпаньол",
+    nameEn    : "Clumber Spaniel",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/clumber_spaniel.jpg",
+    general   : {
+        country           : "Великобритания",
+        life_length_min   : 10,
+        life_length_max   : 12,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 18,
+        height_female_max   : 20,
+        height_male_min     : 18,
+        height_male_max     : 20,
+    },
+    weight    : {
+        weight_female_min   : 55,
+        weight_female_max   : 70,
+        weight_male_min     : 70,
+        weight_male_max     : 85,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 4,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 1,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'английски кокер шпаньол',
+    name      : "Английски кокер шпаньол",
+    nameEn    : "English Cocker Spaniel",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/english_cocker_spaniel.jpg",
+    general   : {
+        country           : "Великобритания",
+        life_length_min   : 12,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 16,
+        height_female_max   : 17,
+        height_male_min     : 16,
+        height_male_max     : 17,
+    },
+    weight    : {
+        weight_female_min   : 26,
+        weight_female_max   : 32,
+        weight_male_min     : 28,
+        weight_male_max     : 34,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 3,
+        drooling                : 2,
+        coat_length             : 2,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'английски спрингер шпаньол',
+    name      : "Английски спрингер шпаньол",
+    nameEn    : "English Springer Spaniel",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/english_springer_spaniel.jpg",
+    general   : {
+        country           : "0",
+        life_length_min   : 12,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 20,
+        height_female_max   : 20,
+        height_male_min     : 20,
+        height_male_max     : 20,
+    },
+    weight    : {
+        weight_female_min   : 40,
+        weight_female_max   : 40,
+        weight_male_min     : 50,
+        weight_male_max     : 50,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 3,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'фийлд спаньол',
+    name      : "Фийлд спаньол",
+    nameEn    : "Field Spaniel",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/field_spaniel.jpg",
+    general   : {
+        country           : "Великобритания",
+        life_length_min   : 12,
+        life_length_max   : 13,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 18,
+        height_female_max   : 18,
+        height_male_min     : 18,
+        height_male_max     : 18,
+    },
+    weight    : {
+        weight_female_min   : 35,
+        weight_female_max   : 50,
+        weight_male_min     : 35,
+        weight_male_max     : 50,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 3,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'съсекс шпаньол',
+    name      : "Съсекс шпаньол",
+    nameEn    : "Sussex Spaniel",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/sussex_spaniel.jpg",
+    general   : {
+        country           : "0",
+        life_length_min   : 13,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 13,
+        height_female_max   : 15,
+        height_male_min     : 13,
+        height_male_max     : 15,
+    },
+    weight    : {
+        weight_female_min   : 35,
+        weight_female_max   : 45,
+        weight_male_min     : 35,
+        weight_male_max     : 45,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 3,
+        drooling                : 3,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'уелски спрингерспаниел',
+    name      : "Уелски спрингерспаниел",
+    nameEn    : "Welsh Springer Spaniel",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/welsh_springer_spaniel.jpg",
+    general   : {
+        country           : "Великобритания",
+        life_length_min   : 12,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 18,
+        height_female_max   : 19,
+        height_male_min     : 18,
+        height_male_max     : 19,
+    },
+    weight    : {
+        weight_female_min   : 35,
+        weight_female_max   : 50,
+        weight_male_min     : 40,
+        weight_male_max     : 55,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 1,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'койкер',
+    name      : "Койкер",
+    nameEn    : "Nederlandse Kooikerhondje",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/nederlandse_kooikerhondje.jpg",
+    general   : {
+        country           : "Холандия",
+        life_length_min   : 12,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 25,
+        height_female_max   : 25,
+        height_male_min     : 26,
+        height_male_max     : 26,
+    },
+    weight    : {
+        weight_female_min   : 20,
+        weight_female_max   : 30,
+        weight_male_min     : 20,
+        weight_male_max     : 30,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'американски кокер шпаньол',
+    name      : "Американски кокер шпаньол",
+    nameEn    : "Cocker Spaniel",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/cocker_spaniel.jpg",
+    general   : {
+        country           : "САЩ",
+        life_length_min   : 10,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 14.5,
+        height_female_max   : 15.5,
+        height_male_min     : 14.5,
+        height_male_max     : 15.5,
+    },
+    weight    : {
+        weight_female_min   : 20,
+        weight_female_max   : 25,
+        weight_male_min     : 25,
+        weight_male_max     : 30,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 4,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'барбет',
+    name      : "Барбет",
+    nameEn    : "Barbet",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/barbet.jpg",
+    general   : {
+        country           : "Франция",
+        life_length_min   : 12,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 19,
+        height_female_max   : 24.5,
+        height_male_min     : 19,
+        height_male_max     : 24.5,
+    },
+    weight    : {
+        weight_female_min   : 35,
+        weight_female_max   : 65,
+        weight_male_min     : 35,
+        weight_male_max     : 65,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 1,
+        grooming                : 3,
+        drooling                : 1,
+        coat_length             : 2,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'ирландски воден шпаньол',
+    name      : "Ирландски воден шпаньол",
+    nameEn    : "Irish Water Spaniel",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/irish_water_spaniel.jpg",
+    general   : {
+        country           : "Ирландия",
+        life_length_min   : 12,
+        life_length_max   : 13,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 22,
+        height_female_max   : 24,
+        height_male_min     : 22,
+        height_male_max     : 24,
+    },
+    weight    : {
+        weight_female_min   : 45,
+        weight_female_max   : 58,
+        weight_male_min     : 55,
+        weight_male_max     : 68,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 1,
+        grooming                : 3,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 5,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 3,
+        barking                 : 1,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'лагото романьоло',
+    name      : "Лагото романьоло",
+    nameEn    : "Lagotto Romagnolo",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/lagotto_romagnolo.jpg",
+    general   : {
+        country           : "Италия",
+        life_length_min   : 15,
+        life_length_max   : 17,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 17,
+        height_female_max   : 19,
+        height_male_min     : 17,
+        height_male_max     : 19,
+    },
+    weight    : {
+        weight_female_min   : 24,
+        weight_female_max   : 31,
+        weight_male_min     : 28.5,
+        weight_male_max     : 35,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 1,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 2,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'португалско водно куче',
+    name      : "Португалско водно куче",
+    nameEn    : "Portuguese Water Dog",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/portuguese_water_dog.jpg",
+    general   : {
+        country           : "0",
+        life_length_min   : 11,
+        life_length_max   : 13,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 20,
+        height_female_max   : 23,
+        height_male_min     : 20,
+        height_male_max     : 23,
+    },
+    weight    : {
+        weight_female_min   : 35,
+        weight_female_max   : 50,
+        weight_male_min     : 42,
+        weight_male_max     : 60,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 4,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 5,
+        protectiveness          : 4,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 5,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'испанско водно куче',
+    name      : "Испанско водно куче",
+    nameEn    : "Spanish Water Dog",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/spanish_water_dog.jpg",
+    general   : {
+        country           : "Испания",
+        life_length_min   : 12,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 17.5,
+        height_female_max   : 19.75,
+        height_male_min     : 17.5,
+        height_male_max     : 19.75,
+    },
+    weight    : {
+        weight_female_min   : 31,
+        weight_female_max   : 40,
+        weight_male_min     : 40,
+        weight_male_max     : 49,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 4,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 1,
+        grooming                : 4,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'американски воден шпаньол',
+    name      : "Американски воден шпаньол",
+    nameEn    : "American Water Spaniel",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/american_water_spaniel.jpg",
+    general   : {
+        country           : "САЩ",
+        life_length_min   : 10,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 15,
+        height_female_max   : 18,
+        height_male_min     : 15,
+        height_male_max     : 18,
+    },
+    weight    : {
+        weight_female_min   : 25,
+        weight_female_max   : 40,
+        weight_male_min     : 30,
+        weight_male_max     : 45,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 1,
+        grooming                : 3,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 3,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'френска болонка',
+    name      : "Френска болонка",
+    nameEn    : "Bichon Frise",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/bichon_frise.jpg",
+    general   : {
+        country           : "Франция",
+        life_length_min   : 14,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 9.5,
+        height_female_max   : 11.5,
+        height_male_min     : 9.5,
+        height_male_max     : 11.5,
+    },
+    weight    : {
+        weight_female_min   : 12,
+        weight_female_max   : 18,
+        weight_male_min     : 12,
+        weight_male_max     : 18,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 1,
+        grooming                : 5,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 5,
+        playfulness             : 4,
+        protectiveness          : 2,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'малтийска болонка',
+    name      : "Малтийска болонка",
+    nameEn    : "Maltese",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/maltese.jpg",
+    general   : {
+        country           : "Средиземноморските страни",
+        life_length_min   : 12,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 7,
+        height_female_max   : 9,
+        height_male_min     : 7,
+        height_male_max     : 9,
+    },
+    weight    : {
+        weight_female_min   : 6.6,
+        weight_female_max   : 8.8,
+        weight_male_min     : 6.6,
+        weight_male_max     : 8.8,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 1,
+        grooming                : 4,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 4,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 3,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'хаванска болонка',
+    name      : "Хаванска болонка",
+    nameEn    : "Havanese",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/havanese.jpg",
+    general   : {
+        country           : "Куба",
+        life_length_min   : 14,
+        life_length_max   : 16,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 8.5,
+        height_female_max   : 11.5,
+        height_male_min     : 8.5,
+        height_male_max     : 11.5,
+    },
+    weight    : {
+        weight_female_min   : 7,
+        weight_female_max   : 13,
+        weight_male_min     : 7,
+        weight_male_max     : 13,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 3,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 5,
+        playfulness             : 5,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 4,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'болонка',
+    name      : "Болонка",
+    nameEn    : "Bolognese",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/bolognese.jpg",
+    general   : {
+        country           : "Италия",
+        life_length_min   : 12,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 10,
+        height_female_max   : 12,
+        height_male_min     : 10,
+        height_male_max     : 12,
+    },
+    weight    : {
+        weight_female_min   : 5.5,
+        weight_female_max   : 9,
+        weight_male_min     : 5.5,
+        weight_male_max     : 9,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 1,
+        grooming                : 3,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 4,
+        protectiveness          : 2,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},{
+    id        : 'котон де тулеар',
+    name      : "Котон де Тулеар",
+    nameEn    : "Coton de Tulear",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/coton_de_tulear.jpg",
+    general   : {
+        country           : "Мадагаскар",
+        life_length_min   : 15,
+        life_length_max   : 19,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 10,
+        height_female_max   : 11,
+        height_male_min     : 10,
+        height_male_max     : 11,
+    },
+    weight    : {
+        weight_female_min   : 8,
+        weight_female_max   : 13,
+        weight_male_min     : 9,
+        weight_male_max     : 15,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 4,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 5,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 1,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'лъвско куче',
+    name      : "Лъвско куче",
+    nameEn    : "Löwchen",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/löwchen.jpg",
+    general   : {
+        country           : "Франция",
+        life_length_min   : 13,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 12,
+        height_female_max   : 14,
+        height_male_min     : 12,
+        height_male_max     : 14,
+    },
+    weight    : {
+        weight_female_min   : 15,
+        weight_female_max   : 15,
+        weight_male_min     : 15,
+        weight_male_max     : 15,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 2,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 4,
+        protectiveness          : 4,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'Пудел - стандартен',
+    name      : "Пудел - стандартен",
+    nameEn    : "Poodle (Standard)",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/poodle_(standard).jpg",
+    general   : {
+        country           : "Франция",
+        life_length_min   : 10,
+        life_length_max   : 18,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 15,
+        height_female_max   : 17,
+        height_male_min     : 15,
+        height_male_max     : 17,
+    },
+    weight    : {
+        weight_female_min   : 40,
+        weight_female_max   : 50,
+        weight_male_min     : 60,
+        weight_male_max     : 70,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 1,
+        grooming                : 4,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 5,
+        playfulness             : 5,
+        protectiveness          : 5,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 4,
+        barking                 : 4,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'Пудел - миниатюрен',
+    name      : "Пудел - миниатюрен",
+    nameEn    : "Poodle (Miniature)",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/poodle_(miniature).jpg",
+    general   : {
+        country           : "Франция",
+        life_length_min   : 10,
+        life_length_max   : 18,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 10,
+        height_female_max   : 15,
+        height_male_min     : 10,
+        height_male_max     : 15,
+    },
+    weight    : {
+        weight_female_min   : 10,
+        weight_female_max   : 15,
+        weight_male_min     : 10,
+        weight_male_max     : 15,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 1,
+        grooming                : 4,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 5,
+        playfulness             : 5,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 4,
+        barking                 : 4,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'Пудел - играчка',
+    name      : "Пудел - играчка",
+    nameEn    : "Poodle (Toy)",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/poodle_(toy).jpg",
+    general   : {
+        country           : "Франция",
+        life_length_min   : 10,
+        life_length_max   : 18,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 8,
+        height_female_max   : 10,
+        height_male_min     : 8,
+        height_male_max     : 10,
+    },
+    weight    : {
+        weight_female_min   : 4,
+        weight_female_max   : 6,
+        weight_male_min     : 4,
+        weight_male_max     : 6,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 1,
+        grooming                : 4,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 5,
+        playfulness             : 5,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 4,
+        barking                 : 4,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'китайско голо качулато куче',
+    name      : "Китайско голо качулато куче",
+    nameEn    : "Chinese Crested",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/chinese_crested.jpg",
+    general   : {
+        country           : "Китай",
+        life_length_min   : 13,
+        life_length_max   : 18,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 11,
+        height_female_max   : 13,
+        height_male_min     : 11,
+        height_male_max     : 13,
+    },
+    weight    : {
+        weight_female_min   : 8,
+        weight_female_max   : 12,
+        weight_male_min     : 8,
+        weight_male_max     : 12,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 1,
+        grooming                : 2,
+        drooling                : 1,
+        coat_length             : 2,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'лхаса апсо',
+    name      : "Лхаса апсо",
+    nameEn    : "Lhasa Apso",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/lhasa_apso.jpg",
+    general   : {
+        country           : "Тибет",
+        life_length_min   : 12,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 10,
+        height_female_max   : 11,
+        height_male_min     : 10,
+        height_male_max     : 11,
+    },
+    weight    : {
+        weight_female_min   : 12,
+        weight_female_max   : 18,
+        weight_male_min     : 12,
+        weight_male_max     : 18,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 1,
+        grooming                : 3,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 5,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 3,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'ши цу',
+    name      : "Ши цу",
+    nameEn    : "Shih Tzu",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/shih_tzu.jpg",
+    general   : {
+        country           : "Тибет",
+        life_length_min   : 10,
+        life_length_max   : 18,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 9,
+        height_female_max   : 10.5,
+        height_male_min     : 9,
+        height_male_max     : 10.5,
+    },
+    weight    : {
+        weight_female_min   : 9,
+        weight_female_max   : 16,
+        weight_male_min     : 9,
+        weight_male_max     : 16,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 1,
+        grooming                : 4,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'тибетски шпаньол',
+    name      : "Тибетски шпаньол",
+    nameEn    : "Tibetan Spaniel",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/tibetan_spaniel.jpg",
+    general   : {
+        country           : "Тибет",
+        life_length_min   : 12,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 10,
+        height_female_max   : 10,
+        height_male_min     : 10,
+        height_male_max     : 10,
+    },
+    weight    : {
+        weight_female_min   : 9,
+        weight_female_max   : 15,
+        weight_male_min     : 9,
+        weight_male_max     : 15,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 4,
+        protectiveness          : 4,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 3,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'тибетски териер',
+    name      : "Тибетски териер",
+    nameEn    : "Tibetan Terrier",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/tibetan_terrier.jpg",
+    general   : {
+        country           : "Тибет",
+        life_length_min   : 15,
+        life_length_max   : 16,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 14,
+        height_female_max   : 17,
+        height_male_min     : 14,
+        height_male_max     : 17,
+    },
+    weight    : {
+        weight_female_min   : 18,
+        weight_female_max   : 31,
+        weight_male_min     : 18,
+        weight_male_max     : 31,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 3,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 4,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'чихуахуа',
+    name      : "Чихуахуа",
+    nameEn    : "Chihuahua",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/chihuahua.jpg",
+    general   : {
+        country           : "Мексико",
+        life_length_min   : 14,
+        life_length_max   : 16,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 5,
+        height_female_max   : 8,
+        height_male_min     : 5,
+        height_male_max     : 8,
+    },
+    weight    : {
+        weight_female_min   : 4,
+        weight_female_max   : 6,
+        weight_male_min     : 4,
+        weight_male_max     : 6,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 1,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 1,
+        drooling                : 1,
+        coat_length             : 2,
+    },
+    social   : {
+        openness_to_strangers   : 2,
+        playfulness             : 4,
+        protectiveness          : 4,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 4,
+        barking                 : 5,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'кавалер кинг чарлз шпаньол',
+    name      : "Кавалер Кинг Чарлз шпаньол",
+    nameEn    : "Cavalier King Charles Spaniel",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/cavalier_king_charles_spaniel.jpg",
+    general   : {
+        country           : "Великобритания",
+        life_length_min   : 12,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 12,
+        height_female_max   : 13,
+        height_male_min     : 12,
+        height_male_max     : 13,
+    },
+    weight    : {
+        weight_female_min   : 13,
+        weight_female_max   : 18,
+        weight_male_min     : 13,
+        weight_male_max     : 18,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'пекинез',
+    name      : "Пекинез",
+    nameEn    : "Pekingese",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/pekingese.jpg",
+    general   : {
+        country           : "Китай",
+        life_length_min   : 12,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 6,
+        height_female_max   : 9,
+        height_male_min     : 6,
+        height_male_max     : 9,
+    },
+    weight    : {
+        weight_female_min   : 7,
+        weight_female_max   : 14,
+        weight_male_min     : 7,
+        weight_male_max     : 14,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 3,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 4,
+        protectiveness          : 4,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 3,
+        barking                 : 1,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'японски хин',
+    name      : "Японски хин",
+    nameEn    : "Japanese Chin",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/japanese_chin.jpg",
+    general   : {
+        country           : "Япония",
+        life_length_min   : 10,
+        life_length_max   : 12,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 8,
+        height_female_max   : 11,
+        height_male_min     : 8,
+        height_male_max     : 11,
+    },
+    weight    : {
+        weight_female_min   : 7,
+        weight_female_max   : 11,
+        weight_male_min     : 7,
+        weight_male_max     : 11,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 3,
+        barking                 : 2,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'руски той териер',
+    name      : "Руски той териер",
+    nameEn    : "Russian Toy",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/russian_toy.jpg",
+    general   : {
+        country           : "Русия",
+        life_length_min   : 12,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 8,
+        height_female_max   : 11,
+        height_male_min     : 8,
+        height_male_max     : 11,
+    },
+    weight    : {
+        weight_female_min   : 3.3,
+        weight_female_max   : 6.6,
+        weight_male_min     : 3.3,
+        weight_male_max     : 6.6,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 4,
+        protectiveness          : 4,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 4,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'кромфорлендер',
+    name      : "Кромфорлендер",
+    nameEn    : "Kromfohrlander",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/kromfohrlander.jpg",
+    general   : {
+        country           : "Германия",
+        life_length_min   : 13,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 15,
+        height_female_max   : 18,
+        height_male_min     : 15,
+        height_male_max     : 18,
+    },
+    weight    : {
+        weight_female_min   : 20,
+        weight_female_max   : 35,
+        weight_male_min     : 20,
+        weight_male_max     : 35,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 4,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 1,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'мопс',
+    name      : "Мопс",
+    nameEn    : "Pug",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/pug.jpg",
+    general   : {
+        country           : "Китай",
+        life_length_min   : 13,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 10,
+        height_female_max   : 13,
+        height_male_min     : 10,
+        height_male_max     : 13,
+    },
+    weight    : {
+        weight_female_min   : 14,
+        weight_female_max   : 18,
+        weight_male_min     : 14,
+        weight_male_max     : 18,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 4,
+        grooming                : 2,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 5,
+        playfulness             : 5,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 1,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'френски булдог',
+    name      : "Френски булдог",
+    nameEn    : "French Bulldog",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/french_bulldog.jpg",
+    general   : {
+        country           : "Франция",
+        life_length_min   : 10,
+        life_length_max   : 12,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 11,
+        height_female_max   : 13,
+        height_male_min     : 11,
+        height_male_max     : 13,
+    },
+    weight    : {
+        weight_female_min   : 18,
+        weight_female_max   : 26,
+        weight_male_min     : 20,
+        weight_male_max     : 28,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 1,
+        drooling                : 3,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 5,
+        playfulness             : 5,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 1,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'бостън териер',
+    name      : "Бостън териер",
+    nameEn    : "Boston Terrier",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/boston_terrier.jpg",
+    general   : {
+        country           : "САЩ",
+        life_length_min   : 11,
+        life_length_max   : 13,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 15,
+        height_female_max   : 17,
+        height_male_min     : 15,
+        height_male_max     : 17,
+    },
+    weight    : {
+        weight_female_min   : 12,
+        weight_female_max   : 25,
+        weight_male_min     : 12,
+        weight_male_max     : 25,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 2,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 5,
+        playfulness             : 5,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 2,
+        mental_stimulation_needs: 0
+    }
+    }    
+},{
+    id        : 'афганска хрътка',
+    name      : "Афганска хрътка",
+    nameEn    : "Afghan Hound",
+    code      : "10111",
+    image_link: "https://api-ninjas.com/images/dogs/afghan_hound.jpg",
+    general   : {
+        country           : "Афганистан",
+        life_length_min   : 12,
+        life_length_max   : 18,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 25,
+        height_female_max   : 27,
+        height_male_min     : 25,
+        height_male_max     : 27,
+    },
+    weight    : {
+        weight_female_min   : 50,
+        weight_female_max   : 60,
+        weight_male_min     : 50,
+        weight_male_max     : 60,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 1,
+        grooming                : 4,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 1,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'салуки',
+    name      : "Салуки",
+    nameEn    : "Saluki",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/saluki.jpg",
+    general   : {
+        country           : "Среден Изток",
+        life_length_min   : 10,
+        life_length_max   : 17,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 23,
+        height_female_max   : 28,
+        height_male_min     : 23,
+        height_male_max     : 28,
+    },
+    weight    : {
+        weight_female_min   : 40,
+        weight_female_max   : 65,
+        weight_male_min     : 40,
+        weight_male_max     : 65,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 1,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 1,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'борзая',
+    name      : "Борзая",
+    nameEn    : "Borzoi",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/borzoi.jpg",
+    general   : {
+        country           : "Русия",
+        life_length_min   : 9,
+        life_length_max   : 14,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 27,
+        height_female_max   : 31,
+        height_male_min     : 30,
+        height_male_max     : 33,
+    },
+    weight    : {
+        weight_female_min   : 60,
+        weight_female_max   : 85,
+        weight_male_min     : 75,
+        weight_male_max     : 105,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 2,
+        energy                  : 4,
+        barking                 : 2,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'шотландска еленова хрътка',
+    name      : "Шотландска еленова хрътка",
+    nameEn    : "Scottish Deerhound",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/scottish_deerhound.jpg",
+    general   : {
+        country           : "Великобритания",
+        life_length_min   : 8,
+        life_length_max   : 11,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 30,
+        height_female_max   : 32,
+        height_male_min     : 30,
+        height_male_max     : 32,
+    },
+    weight    : {
+        weight_female_min   : 75,
+        weight_female_max   : 95,
+        weight_male_min     : 85,
+        weight_male_max     : 110,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 1,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 3,
+        barking                 : 1,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'ирландски вълкодав',
+    name      : "Ирландски вълкодав",
+    nameEn    : "Irish Wolfhound",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/irish_wolfhound.jpg",
+    general   : {
+        country           : "Ирландия",
+        life_length_min   : 6,
+        life_length_max   : 8,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 32,
+        height_female_max   : 34,
+        height_male_min     : 32,
+        height_male_max     : 34,
+    },
+    weight    : {
+        weight_female_min   : 105,
+        weight_female_max   : 105,
+        weight_male_min     : 120,
+        weight_male_max     : 120,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 5,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 3,
+        barking                 : 1,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'грейхаунд',
+    name      : "Грейхаунд",
+    nameEn    : "Greyhound",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/greyhound.jpg",
+    general   : {
+        country           : "Великобритания",
+        life_length_min   : 10,
+        life_length_max   : 13,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 28,
+        height_female_max   : 30,
+        height_male_min     : 28,
+        height_male_max     : 30,
+    },
+    weight    : {
+        weight_female_min   : 60,
+        weight_female_max   : 65,
+        weight_male_min     : 65,
+        weight_male_max     : 70,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 4,
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 1,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 4,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'уипет',
+    name      : "Уипет",
+    nameEn    : "Whippet",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/whippet.jpg",
+    general   : {
+        country           : "Великобритания",
+        life_length_min   : 12,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 19,
+        height_female_max   : 22,
+        height_male_min     : 19,
+        height_male_max     : 22,
+    },
+    weight    : {
+        weight_female_min   : 25,
+        weight_female_max   : 40,
+        weight_male_min     : 25,
+        weight_male_max     : 40,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 1,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 3,
+        energy                  : 4,
+        barking                 : 1,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'италиански грейхаунд',
+    name      : "Италиански грейхаунд",
+    nameEn    : "Italian Greyhound",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/italian_greyhound.jpg",
+    general   : {
+        country           : "Италия",
+        life_length_min   : 14,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 13,
+        height_female_max   : 15,
+        height_male_min     : 13,
+        height_male_max     : 15,
+    },
+    weight    : {
+        weight_female_min   : 7,
+        weight_female_max   : 14,
+        weight_male_min     : 7,
+        weight_male_max     : 14,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 1,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 5,
+        playfulness             : 4,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 3,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'азавак',
+    name      : "Азавак",
+    nameEn    : "Azawakh",
+    code      : "0",
+    image_link: "https://api-ninjas.com/images/dogs/azawakh.jpg",
+    general   : {
+        country           : "Мали",
+        life_length_min   : 12,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 25,
+        height_female_max   : 29,
+        height_male_min     : 25,
+        height_male_max     : 29,
+    },
+    weight    : {
+        weight_female_min   : 33,
+        weight_female_max   : 44,
+        weight_male_min     : 44,
+        weight_male_max     : 55,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 2,
+        grooming                : 2,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 1,
+        playfulness             : 3,
+        protectiveness          : 3,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 2,
+        energy                  : 3,
+        barking                 : 1,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
     id        : 'немска овчарка',
     name      : "Немска овчарка",
@@ -5814,63 +12557,6 @@ const breedCollection = [
 {
     id        : 'немска овчарка',
     name      : "Немска овчарка",
-    nameEn    : "American Foxhound",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/american_foxhound.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 11,
-        life_length_max   : 13,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 22,
-        height_female_max   : 25,
-        height_male_min     : 22,
-        height_male_max     : 25,
-    },
-    weight    : {
-        weight_female_min   : 60,
-        weight_female_max   : 65,
-        weight_male_min     : 65,
-        weight_male_max     : 70,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 1,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 4,
-        barking                 : 5,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
     nameEn    : "American Hairless Terrier",
     code      : "0",
     image_link: "https://api-ninjas.com/images/dogs/american_hairless_terrier.jpg",
@@ -5977,63 +12663,6 @@ const breedCollection = [
     character: {
         trainability            : 3,
         energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "American Water Spaniel",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/american_water_spaniel.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 15,
-        height_female_max   : 18,
-        height_male_min     : 15,
-        height_male_max     : 18,
-    },
-    weight    : {
-        weight_female_min   : 25,
-        weight_female_max   : 40,
-        weight_male_min     : 30,
-        weight_male_max     : 45,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 1,
-        grooming                : 3,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 3,
         barking                 : 3,
         mental_stimulation_needs: 0
     }
@@ -6156,462 +12785,6 @@ const breedCollection = [
 {
     id        : 'немска овчарка',
     name      : "Немска овчарка",
-    nameEn    : "Azawakh",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/azawakh.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 25,
-        height_female_max   : 29,
-        height_male_min     : 25,
-        height_male_max     : 29,
-    },
-    weight    : {
-        weight_female_min   : 33,
-        weight_female_max   : 44,
-        weight_male_min     : 44,
-        weight_male_max     : 55,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 2,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 1,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 2,
-        energy                  : 3,
-        barking                 : 1,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Barbet",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/barbet.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 19,
-        height_female_max   : 24.5,
-        height_male_min     : 19,
-        height_male_max     : 24.5,
-    },
-    weight    : {
-        weight_female_min   : 35,
-        weight_female_max   : 65,
-        weight_male_min     : 35,
-        weight_male_max     : 65,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 1,
-        grooming                : 3,
-        drooling                : 1,
-        coat_length             : 2,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Basenji",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/basenji.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 13,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 17,
-        height_female_max   : 17,
-        height_male_min     : 17,
-        height_male_max     : 17,
-    },
-    weight    : {
-        weight_female_min   : 22,
-        weight_female_max   : 22,
-        weight_male_min     : 24,
-        weight_male_max     : 24,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 1,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 2,
-        energy                  : 4,
-        barking                 : 1,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Basset Fauve de Bretagne",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/basset_fauve_de_bretagne.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 12,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 12.5,
-        height_female_max   : 15.5,
-        height_male_min     : 12.5,
-        height_male_max     : 15.5,
-    },
-    weight    : {
-        weight_female_min   : 27,
-        weight_female_max   : 35,
-        weight_male_min     : 27,
-        weight_male_max     : 35,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 4,
-        barking                 : 4,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Basset Hound",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/basset_hound.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 13,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 11,
-        height_female_max   : 14,
-        height_male_min     : 12,
-        height_male_max     : 15,
-    },
-    weight    : {
-        weight_female_min   : 40,
-        weight_female_max   : 65,
-        weight_male_min     : 40,
-        weight_male_max     : 65,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 3,
-        drooling                : 4,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 2,
-        barking                 : 4,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Bavarian Mountain Scent Hound",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/bavarian_mountain_scent_hound.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 17,
-        height_female_max   : 20.5,
-        height_male_min     : 17,
-        height_male_max     : 20.5,
-    },
-    weight    : {
-        weight_female_min   : 37,
-        weight_female_max   : 66,
-        weight_male_min     : 37,
-        weight_male_max     : 66,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 4,
-        barking                 : 2,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Beagle",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/beagle.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 13,
-        height_female_max   : 15,
-        height_male_min     : 14,
-        height_male_max     : 16,
-    },
-    weight    : {
-        weight_female_min   : 20,
-        weight_female_max   : 30,
-        weight_male_min     : 15,
-        weight_male_max     : 20,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 4,
-        protectiveness          : 2,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 4,
-        barking                 : 4,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Bichon Frise",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/bichon_frise.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 14,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 9.5,
-        height_female_max   : 11.5,
-        height_male_min     : 9.5,
-        height_male_max     : 11.5,
-    },
-    weight    : {
-        weight_female_min   : 12,
-        weight_female_max   : 18,
-        weight_male_min     : 12,
-        weight_male_max     : 18,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 1,
-        grooming                : 5,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 4,
-        protectiveness          : 2,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
     nameEn    : "Biewer Terrier",
     code      : "0",
     image_link: "https://api-ninjas.com/images/dogs/biewer_terrier.jpg",
@@ -6662,120 +12835,6 @@ const breedCollection = [
         trainability            : 3,
         energy                  : 3,
         barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Black and Tan Coonhound",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/black_and_tan_coonhound.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 12,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 25,
-        height_female_max   : 27,
-        height_male_min     : 25,
-        height_male_max     : 27,
-    },
-    weight    : {
-        weight_female_min   : 65,
-        weight_female_max   : 110,
-        weight_male_min     : 65,
-        weight_male_max     : 110,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 3,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 2,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 3,
-        barking                 : 4,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Bloodhound",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/bloodhound.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 12,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 25,
-        height_female_max   : 27,
-        height_male_min     : 25,
-        height_male_max     : 27,
-    },
-    weight    : {
-        weight_female_min   : 80,
-        weight_female_max   : 100,
-        weight_male_min     : 90,
-        weight_male_max     : 110,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 5,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 2,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 5,
         mental_stimulation_needs: 0
     }
     }    
@@ -6954,177 +13013,6 @@ const breedCollection = [
 {
     id        : 'немска овчарка',
     name      : "Немска овчарка",
-    nameEn    : "Bolognese",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/bolognese.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 10,
-        height_female_max   : 12,
-        height_male_min     : 10,
-        height_male_max     : 12,
-    },
-    weight    : {
-        weight_female_min   : 5.5,
-        weight_female_max   : 9,
-        weight_male_min     : 5.5,
-        weight_male_max     : 9,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 1,
-        grooming                : 3,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 4,
-        protectiveness          : 2,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Borzoi",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/borzoi.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 9,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 27,
-        height_female_max   : 31,
-        height_male_min     : 30,
-        height_male_max     : 33,
-    },
-    weight    : {
-        weight_female_min   : 60,
-        weight_female_max   : 85,
-        weight_male_min     : 75,
-        weight_male_max     : 105,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 2,
-        energy                  : 4,
-        barking                 : 2,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Boston Terrier",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/boston_terrier.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 11,
-        life_length_max   : 13,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 15,
-        height_female_max   : 17,
-        height_male_min     : 15,
-        height_male_max     : 17,
-    },
-    weight    : {
-        weight_female_min   : 12,
-        weight_female_max   : 25,
-        weight_male_min     : 12,
-        weight_male_max     : 25,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 2,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 5,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 4,
-        barking                 : 2,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
     nameEn    : "Boykin Spaniel",
     code      : "0",
     image_link: "https://api-ninjas.com/images/dogs/boykin_spaniel.jpg",
@@ -7175,63 +13063,6 @@ const breedCollection = [
         trainability            : 4,
         energy                  : 4,
         barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Bracco Italiano",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/bracco_italiano.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 21,
-        height_female_max   : 27,
-        height_male_min     : 21,
-        height_male_max     : 27,
-    },
-    weight    : {
-        weight_female_min   : 55,
-        weight_female_max   : 90,
-        weight_male_min     : 55,
-        weight_male_max     : 90,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 4,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 1,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 4,
-        barking                 : 2,
         mental_stimulation_needs: 0
     }
     }    
@@ -7581,120 +13412,6 @@ const breedCollection = [
 {
     id        : 'немска овчарка',
     name      : "Немска овчарка",
-    nameEn    : "French Bulldog",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/french_bulldog.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 12,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 11,
-        height_female_max   : 13,
-        height_male_min     : 11,
-        height_male_max     : 13,
-    },
-    weight    : {
-        weight_female_min   : 18,
-        weight_female_max   : 26,
-        weight_male_min     : 20,
-        weight_male_max     : 28,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 1,
-        drooling                : 3,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 5,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 1,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Canaan Dog",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/canaan_dog.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 20,
-        height_female_max   : 24,
-        height_male_min     : 20,
-        height_male_max     : 24,
-    },
-    weight    : {
-        weight_female_min   : 35,
-        weight_female_max   : 45,
-        weight_male_min     : 45,
-        weight_male_max     : 55,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 4,
-        grooming                : 2,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 4,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 5,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
     nameEn    : "Carolina Dog",
     code      : "0",
     image_link: "https://api-ninjas.com/images/dogs/carolina_dog.jpg",
@@ -7809,234 +13526,6 @@ const breedCollection = [
 {
     id        : 'немска овчарка',
     name      : "Немска овчарка",
-    nameEn    : "Cavalier King Charles Spaniel",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/cavalier_king_charles_spaniel.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 12,
-        height_female_max   : 13,
-        height_male_min     : 12,
-        height_male_max     : 13,
-    },
-    weight    : {
-        weight_female_min   : 13,
-        weight_female_max   : 18,
-        weight_male_min     : 13,
-        weight_male_max     : 18,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Chesapeake Bay Retriever",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/chesapeake_bay_retriever.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 13,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 23,
-        height_female_max   : 26,
-        height_male_min     : 23,
-        height_male_max     : 26,
-    },
-    weight    : {
-        weight_female_min   : 55,
-        weight_female_max   : 70,
-        weight_male_min     : 65,
-        weight_male_max     : 80,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 3,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 4,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Chihuahua",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/chihuahua.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 14,
-        life_length_max   : 16,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 5,
-        height_female_max   : 8,
-        height_male_min     : 5,
-        height_male_max     : 8,
-    },
-    weight    : {
-        weight_female_min   : 4,
-        weight_female_max   : 6,
-        weight_male_min     : 4,
-        weight_male_max     : 6,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 1,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 1,
-        drooling                : 1,
-        coat_length             : 2,
-    },
-    social   : {
-        openness_to_strangers   : 2,
-        playfulness             : 4,
-        protectiveness          : 4,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 4,
-        barking                 : 5,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Chinese Crested",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/chinese_crested.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 13,
-        life_length_max   : 18,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 11,
-        height_female_max   : 13,
-        height_male_min     : 11,
-        height_male_max     : 13,
-    },
-    weight    : {
-        weight_female_min   : 8,
-        weight_female_max   : 12,
-        weight_male_min     : 8,
-        weight_male_max     : 12,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 1,
-        grooming                : 2,
-        drooling                : 1,
-        coat_length             : 2,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
     nameEn    : "Chinook",
     code      : "0",
     image_link: "https://api-ninjas.com/images/dogs/chinook.jpg",
@@ -8087,291 +13576,6 @@ const breedCollection = [
         trainability            : 4,
         energy                  : 3,
         barking                 : 5,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Chow Chow",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/chow_chow.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 8,
-        life_length_max   : 12,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 17,
-        height_female_max   : 20,
-        height_male_min     : 17,
-        height_male_max     : 20,
-    },
-    weight    : {
-        weight_female_min   : 45,
-        weight_female_max   : 70,
-        weight_male_min     : 45,
-        weight_male_max     : 70,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 2,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 3,
-        drooling                : 3,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 2,
-        playfulness             : 3,
-        protectiveness          : 5,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 3,
-        barking                 : 1,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Cirneco dell’Etna",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/cirneco_dell’etna.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 18,
-        height_female_max   : 19.5,
-        height_male_min     : 18,
-        height_male_max     : 19.5,
-    },
-    weight    : {
-        weight_female_min   : 17,
-        weight_female_max   : 22,
-        weight_male_min     : 22,
-        weight_male_max     : 26,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 1,
-        grooming                : 1,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 2,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Clumber Spaniel",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/clumber_spaniel.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 12,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 18,
-        height_female_max   : 20,
-        height_male_min     : 18,
-        height_male_max     : 20,
-    },
-    weight    : {
-        weight_female_min   : 55,
-        weight_female_max   : 70,
-        weight_male_min     : 70,
-        weight_male_max     : 85,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 4,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 1,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Cocker Spaniel",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/cocker_spaniel.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 14.5,
-        height_female_max   : 15.5,
-        height_male_min     : 14.5,
-        height_male_max     : 15.5,
-    },
-    weight    : {
-        weight_female_min   : 20,
-        weight_female_max   : 25,
-        weight_male_min     : 25,
-        weight_male_max     : 30,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 4,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "English Cocker Spaniel",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/english_cocker_spaniel.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 16,
-        height_female_max   : 17,
-        height_male_min     : 16,
-        height_male_max     : 17,
-    },
-    weight    : {
-        weight_female_min   : 26,
-        weight_female_max   : 32,
-        weight_male_min     : 28,
-        weight_male_max     : 34,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 3,
-        drooling                : 2,
-        coat_length             : 2,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 3,
         mental_stimulation_needs: 0
     }
     }    
@@ -8433,187 +13637,16 @@ const breedCollection = [
     }
     }    
 },
-// {
-//     id        : 'немска овчарка',
-//     name      : "Немска овчарка",
-//     nameEn    : "Border Collie",
-//     code      : "0",
-//     image_link: "https://api-ninjas.com/images/dogs/border_collie.jpg",
-//     general   : {
-//         country           : "0",
-//         life_length_min   : 12,
-//         life_length_max   : 15,
-//         coat_length_word  : 0,
-//         walk_time         : 0,
-//         owner_experience  : 0
-//     },
-//     size      : {
-//     size      : "medium",
-//     height    : {
-//         height_female_min   : 19,
-//         height_female_max   : 22,
-//         height_male_min     : 19,
-//         height_male_max     : 22,
-//     },
-//     weight    : {
-//         weight_female_min   : 30,
-//         weight_female_max   : 55,
-//         weight_male_min     : 30,
-//         weight_male_max     : 55,
-//     }
-//     },
-//     history       : "Добави историята тук.",
-//     health        : "Добави имената на наследствените заболявания тук.",
-//     score: {
-//     family   : {
-//         affectionate_with_family : 0,
-//         good_with_children       : 3,
-//         good_with_other_dogs     : 3,
-//     },
-//     physical : {
-//         shedding                : 3,
-//         grooming                : 3,
-//         drooling                : 1,
-//         coat_length             : 1,
-//     },
-//     social   : {
-//         openness_to_strangers   : 4,
-//         playfulness             : 5,
-//         protectiveness          : 3,
-//         adaptability            : 0
-//     },
-//     character: {
-//         trainability            : 5,
-//         energy                  : 5,
-//         barking                 : 4,
-//         mental_stimulation_needs: 0
-//     }
-//     }    
-// },
 {
     id        : 'немска овчарка',
     name      : "Немска овчарка",
-    nameEn    : "Coton de Tulear",
+    nameEn    : "Border Collie",
     code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/coton_de_tulear.jpg",
+    image_link: "https://api-ninjas.com/images/dogs/border_collie.jpg",
     general   : {
         country           : "0",
-        life_length_min   : 15,
-        life_length_max   : 19,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 10,
-        height_female_max   : 11,
-        height_male_min     : 10,
-        height_male_max     : 11,
-    },
-    weight    : {
-        weight_female_min   : 8,
-        weight_female_max   : 13,
-        weight_male_min     : 9,
-        weight_male_max     : 15,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 4,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 1,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Curly-Coated Retriever",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/curly-coated_retriever.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 12,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 25,
-        height_female_max   : 27,
-        height_male_min     : 25,
-        height_male_max     : 27,
-    },
-    weight    : {
-        weight_female_min   : 60,
-        weight_female_max   : 95,
-        weight_male_min     : 60,
-        weight_male_max     : 95,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 1,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 4,
-        protectiveness          : 4,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Dalmatian",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/dalmatian.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 11,
-        life_length_max   : 13,
+        life_length_min   : 12,
+        life_length_max   : 15,
         coat_length_word  : 0,
         walk_time         : 0,
         owner_experience  : 0
@@ -8622,15 +13655,15 @@ const breedCollection = [
     size      : "medium",
     height    : {
         height_female_min   : 19,
-        height_female_max   : 24,
+        height_female_max   : 22,
         height_male_min     : 19,
-        height_male_max     : 24,
+        height_male_max     : 22,
     },
     weight    : {
-        weight_female_min   : 45,
-        weight_female_max   : 70,
-        weight_male_min     : 45,
-        weight_male_max     : 70,
+        weight_female_min   : 30,
+        weight_female_max   : 55,
+        weight_male_min     : 30,
+        weight_male_max     : 55,
     }
     },
     history       : "Добави историята тук.",
@@ -8642,21 +13675,21 @@ const breedCollection = [
         good_with_other_dogs     : 3,
     },
     physical : {
-        shedding                : 4,
-        grooming                : 2,
-        drooling                : 2,
+        shedding                : 3,
+        grooming                : 3,
+        drooling                : 1,
         coat_length             : 1,
     },
     social   : {
         openness_to_strangers   : 4,
-        playfulness             : 4,
-        protectiveness          : 4,
+        playfulness             : 5,
+        protectiveness          : 3,
         adaptability            : 0
     },
     character: {
-        trainability            : 4,
-        energy                  : 4,
-        barking                 : 3,
+        trainability            : 5,
+        energy                  : 5,
+        barking                 : 4,
         mental_stimulation_needs: 0
     }
     }    
@@ -8835,120 +13868,6 @@ const breedCollection = [
 {
     id        : 'немска овчарка',
     name      : "Немска овчарка",
-    nameEn    : "Drentsche Patrijshond",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/drentsche_patrijshond.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 11,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 21,
-        height_female_max   : 25,
-        height_male_min     : 21,
-        height_male_max     : 25,
-    },
-    weight    : {
-        weight_female_min   : 48,
-        weight_female_max   : 73,
-        weight_male_min     : 48,
-        weight_male_max     : 73,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 5,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Drever",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/drever.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 15,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 12,
-        height_female_max   : 15,
-        height_male_min     : 12,
-        height_male_max     : 15,
-    },
-    weight    : {
-        weight_female_min   : 35,
-        weight_female_max   : 40,
-        weight_male_min     : 35,
-        weight_male_max     : 40,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 1,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 4,
-        barking                 : 4,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
     nameEn    : "English Cocker Spaniel",
     code      : "0",
     image_link: "https://api-ninjas.com/images/dogs/english_cocker_spaniel.jpg",
@@ -8998,177 +13917,6 @@ const breedCollection = [
     character: {
         trainability            : 4,
         energy                  : 3,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "English Foxhound",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/english_foxhound.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 13,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 24,
-        height_female_max   : 24,
-        height_male_min     : 24,
-        height_male_max     : 24,
-    },
-    weight    : {
-        weight_female_min   : 60,
-        weight_female_max   : 75,
-        weight_male_min     : 60,
-        weight_male_max     : 75,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 1,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 4,
-        barking                 : 5,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "English Setter",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/english_setter.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 12,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 25,
-        height_female_max   : 27,
-        height_male_min     : 25,
-        height_male_max     : 27,
-    },
-    weight    : {
-        weight_female_min   : 45,
-        weight_female_max   : 55,
-        weight_male_min     : 65,
-        weight_male_max     : 80,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 4,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 3,
-        drooling                : 3,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "English Springer Spaniel",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/english_springer_spaniel.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 20,
-        height_female_max   : 20,
-        height_male_min     : 20,
-        height_male_max     : 20,
-    },
-    weight    : {
-        weight_female_min   : 40,
-        weight_female_max   : 40,
-        weight_male_min     : 50,
-        weight_male_max     : 50,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 3,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 4,
         barking                 : 3,
         mental_stimulation_needs: 0
     }
@@ -9227,291 +13975,6 @@ const breedCollection = [
         trainability            : 3,
         energy                  : 3,
         barking                 : 2,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Eurasier",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/eurasier.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 16,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 19,
-        height_female_max   : 24,
-        height_male_min     : 19,
-        height_male_max     : 24,
-    },
-    weight    : {
-        weight_female_min   : 40,
-        weight_female_max   : 70,
-        weight_male_min     : 40,
-        weight_male_max     : 70,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 4,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 3,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 2,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Field Spaniel",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/field_spaniel.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 13,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 18,
-        height_female_max   : 18,
-        height_male_min     : 18,
-        height_male_max     : 18,
-    },
-    weight    : {
-        weight_female_min   : 35,
-        weight_female_max   : 50,
-        weight_male_min     : 35,
-        weight_male_max     : 50,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 3,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Finnish Lapphund",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/finnish_lapphund.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 18,
-        height_female_max   : 21,
-        height_male_min     : 18,
-        height_male_max     : 21,
-    },
-    weight    : {
-        weight_female_min   : 33,
-        weight_female_max   : 53,
-        weight_male_min     : 33,
-        weight_male_max     : 53,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 4,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 4,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 5,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Finnish Spitz",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/finnish_spitz.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 13,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 17.5,
-        height_female_max   : 20,
-        height_male_min     : 17.5,
-        height_male_max     : 20,
-    },
-    weight    : {
-        weight_female_min   : 20,
-        weight_female_max   : 28,
-        weight_male_min     : 25,
-        weight_male_max     : 33,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 5,
-        barking                 : 5,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Flat-Coated Retriever",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/flat-coated_retriever.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 8,
-        life_length_max   : 10,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 23,
-        height_female_max   : 24.5,
-        height_male_min     : 23,
-        height_male_max     : 24.5,
-    },
-    weight    : {
-        weight_female_min   : 60,
-        weight_female_max   : 70,
-        weight_male_min     : 60,
-        weight_male_max     : 70,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 5,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 5,
-        barking                 : 3,
         mental_stimulation_needs: 0
     }
     }    
@@ -9633,63 +14096,6 @@ const breedCollection = [
 {
     id        : 'немска овчарка',
     name      : "Немска овчарка",
-    nameEn    : "German Longhaired Pointer",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/german_longhaired_pointer.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 22,
-        height_female_max   : 28,
-        height_male_min     : 22,
-        height_male_max     : 28,
-    },
-    weight    : {
-        weight_female_min   : 55,
-        weight_female_max   : 80,
-        weight_male_min     : 55,
-        weight_male_max     : 80,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 1,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
     nameEn    : "German Shepherd Dog",
     code      : "0",
     image_link: "https://api-ninjas.com/images/dogs/german_shepherd_dog.jpg",
@@ -9740,576 +14146,6 @@ const breedCollection = [
         trainability            : 5,
         energy                  : 5,
         barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "German Shorthaired Pointer",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/german_shorthaired_pointer.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 12,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 23,
-        height_female_max   : 25,
-        height_male_min     : 23,
-        height_male_max     : 25,
-    },
-    weight    : {
-        weight_female_min   : 45,
-        weight_female_max   : 60,
-        weight_male_min     : 55,
-        weight_male_max     : 70,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 4,
-        protectiveness          : 4,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 5,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "German Spitz",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/german_spitz.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 13,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 12,
-        height_female_max   : 15,
-        height_male_min     : 12,
-        height_male_max     : 15,
-    },
-    weight    : {
-        weight_female_min   : 24,
-        weight_female_max   : 26,
-        weight_male_min     : 24,
-        weight_male_max     : 26,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 3,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 3,
-        barking                 : 5,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "German Wirehaired Pointer",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/german_wirehaired_pointer.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 14,
-        life_length_max   : 16,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 24,
-        height_female_max   : 26,
-        height_male_min     : 24,
-        height_male_max     : 26,
-    },
-    weight    : {
-        weight_female_min   : 50,
-        weight_female_max   : 70,
-        weight_male_min     : 50,
-        weight_male_max     : 70,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 5,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Golden Retriever",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/golden_retriever.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 12,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 23,
-        height_female_max   : 24,
-        height_male_min     : 23,
-        height_male_max     : 24,
-    },
-    weight    : {
-        weight_female_min   : 55,
-        weight_female_max   : 65,
-        weight_male_min     : 65,
-        weight_male_max     : 75,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 4,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 3,
-        barking                 : 1,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Gordon Setter",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/gordon_setter.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 13,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 24,
-        height_female_max   : 27,
-        height_male_min     : 24,
-        height_male_max     : 27,
-    },
-    weight    : {
-        weight_female_min   : 45,
-        weight_female_max   : 70,
-        weight_male_min     : 55,
-        weight_male_max     : 80,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 4,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 4,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 5,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Grand Basset Griffon Vendéen",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/grand_basset_griffon_vendéen.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 13,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 15.5,
-        height_female_max   : 18,
-        height_male_min     : 15.5,
-        height_male_max     : 18,
-    },
-    weight    : {
-        weight_female_min   : 40,
-        weight_female_max   : 45,
-        weight_male_min     : 40,
-        weight_male_max     : 45,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 5,
-        barking                 : 4,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Greyhound",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/greyhound.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 13,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 28,
-        height_female_max   : 30,
-        height_male_min     : 28,
-        height_male_max     : 30,
-    },
-    weight    : {
-        weight_female_min   : 60,
-        weight_female_max   : 65,
-        weight_male_min     : 65,
-        weight_male_max     : 70,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 1,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Italian Greyhound",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/italian_greyhound.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 14,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 13,
-        height_female_max   : 15,
-        height_male_min     : 13,
-        height_male_max     : 15,
-    },
-    weight    : {
-        weight_female_min   : 7,
-        weight_female_max   : 14,
-        weight_male_min     : 7,
-        weight_male_max     : 14,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 1,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Hamiltonstovare",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/hamiltonstovare.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 14,
-        life_length_max   : 17,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 19,
-        height_female_max   : 24,
-        height_male_min     : 19,
-        height_male_max     : 24,
-    },
-    weight    : {
-        weight_female_min   : 40,
-        weight_female_max   : 75,
-        weight_male_min     : 40,
-        weight_male_max     : 75,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 4,
-        protectiveness          : 4,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Hanoverian Scenthound",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/hanoverian_scenthound.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 19,
-        height_female_max   : 21,
-        height_male_min     : 19,
-        height_male_max     : 21,
-    },
-    weight    : {
-        weight_female_min   : 79,
-        weight_female_max   : 99,
-        weight_male_min     : 79,
-        weight_male_max     : 99,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 2,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 4,
-        barking                 : 4,
         mental_stimulation_needs: 0
     }
     }    
@@ -10374,462 +14210,6 @@ const breedCollection = [
 {
     id        : 'немска овчарка',
     name      : "Немска овчарка",
-    nameEn    : "Havanese",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/havanese.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 14,
-        life_length_max   : 16,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 8.5,
-        height_female_max   : 11.5,
-        height_male_min     : 8.5,
-        height_male_max     : 11.5,
-    },
-    weight    : {
-        weight_female_min   : 7,
-        weight_female_max   : 13,
-        weight_male_min     : 7,
-        weight_male_max     : 13,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 3,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 5,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 4,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Hokkaido",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/hokkaido.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 18,
-        height_female_max   : 20,
-        height_male_min     : 18,
-        height_male_max     : 20,
-    },
-    weight    : {
-        weight_female_min   : 44,
-        weight_female_max   : 66,
-        weight_male_min     : 44,
-        weight_male_max     : 66,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 5,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Ibizan Hound",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/ibizan_hound.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 11,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 23.5,
-        height_female_max   : 27.5,
-        height_male_min     : 23.5,
-        height_male_max     : 27.5,
-    },
-    weight    : {
-        weight_female_min   : 45,
-        weight_female_max   : 45,
-        weight_male_min     : 50,
-        weight_male_max     : 50,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 1,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 5,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Icelandic Sheepdog",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/icelandic_sheepdog.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 18,
-        height_female_max   : 18,
-        height_male_min     : 18,
-        height_male_max     : 18,
-    },
-    weight    : {
-        weight_female_min   : 25,
-        weight_female_max   : 25,
-        weight_male_min     : 30,
-        weight_male_max     : 30,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 4,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 4,
-        barking                 : 4,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Irish Red and White Setter",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/irish_red_and_white_setter.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 11,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 24.5,
-        height_female_max   : 26,
-        height_male_min     : 24.5,
-        height_male_max     : 26,
-    },
-    weight    : {
-        weight_female_min   : 35,
-        weight_female_max   : 50,
-        weight_male_min     : 42,
-        weight_male_max     : 60,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 5,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Irish Setter",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/irish_setter.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 27,
-        height_female_max   : 27,
-        height_male_min     : 27,
-        height_male_max     : 27,
-    },
-    weight    : {
-        weight_female_min   : 60,
-        weight_female_max   : 60,
-        weight_male_min     : 70,
-        weight_male_max     : 70,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 3,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 5,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 5,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Irish Water Spaniel",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/irish_water_spaniel.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 13,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 22,
-        height_female_max   : 24,
-        height_male_min     : 22,
-        height_male_max     : 24,
-    },
-    weight    : {
-        weight_female_min   : 45,
-        weight_female_max   : 58,
-        weight_male_min     : 55,
-        weight_male_max     : 68,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 1,
-        grooming                : 3,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 5,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 3,
-        barking                 : 1,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Irish Wolfhound",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/irish_wolfhound.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 6,
-        life_length_max   : 8,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 32,
-        height_female_max   : 34,
-        height_male_min     : 32,
-        height_male_max     : 34,
-    },
-    weight    : {
-        weight_female_min   : 105,
-        weight_female_max   : 105,
-        weight_male_min     : 120,
-        weight_male_max     : 120,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 5,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 3,
-        barking                 : 1,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
     nameEn    : "Italian Greyhound",
     code      : "0",
     image_link: "https://api-ninjas.com/images/dogs/italian_greyhound.jpg",
@@ -10874,291 +14254,6 @@ const breedCollection = [
         openness_to_strangers   : 5,
         playfulness             : 4,
         protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Japanese Chin",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/japanese_chin.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 12,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 8,
-        height_female_max   : 11,
-        height_male_min     : 8,
-        height_male_max     : 11,
-    },
-    weight    : {
-        weight_female_min   : 7,
-        weight_female_max   : 11,
-        weight_male_min     : 7,
-        weight_male_max     : 11,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 3,
-        barking                 : 2,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Japanese Spitz",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/japanese_spitz.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 12,
-        height_female_max   : 15,
-        height_male_min     : 12,
-        height_male_max     : 15,
-    },
-    weight    : {
-        weight_female_min   : 10,
-        weight_female_max   : 25,
-        weight_male_min     : 10,
-        weight_male_max     : 25,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 3,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 3,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Jindo",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/jindo.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 14,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 18,
-        height_female_max   : 22,
-        height_male_min     : 18,
-        height_male_max     : 22,
-    },
-    weight    : {
-        weight_female_min   : 30,
-        weight_female_max   : 50,
-        weight_male_min     : 30,
-        weight_male_max     : 50,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 5,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Kai Ken",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/kai_ken.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 15.5,
-        height_female_max   : 19.5,
-        height_male_min     : 15.5,
-        height_male_max     : 19.5,
-    },
-    weight    : {
-        weight_female_min   : 20,
-        weight_female_max   : 40,
-        weight_male_min     : 20,
-        weight_male_max     : 40,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 5,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Karelian Bear Dog",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/karelian_bear_dog.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 11,
-        life_length_max   : 13,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 19,
-        height_female_max   : 23.5,
-        height_male_min     : 19,
-        height_male_max     : 23.5,
-    },
-    weight    : {
-        weight_female_min   : 44,
-        weight_female_max   : 49,
-        weight_male_min     : 44,
-        weight_male_max     : 49,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 1,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 3,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 5,
         adaptability            : 0
     },
     character: {
@@ -11229,234 +14324,6 @@ const breedCollection = [
 {
     id        : 'немска овчарка',
     name      : "Немска овчарка",
-    nameEn    : "Kishu Ken",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/kishu_ken.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 17,
-        height_female_max   : 22,
-        height_male_min     : 17,
-        height_male_max     : 22,
-    },
-    weight    : {
-        weight_female_min   : 30,
-        weight_female_max   : 60,
-        weight_male_min     : 30,
-        weight_male_max     : 60,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 1,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 3,
-        barking                 : 1,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Kromfohrlander",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/kromfohrlander.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 13,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 15,
-        height_female_max   : 18,
-        height_male_min     : 15,
-        height_male_max     : 18,
-    },
-    weight    : {
-        weight_female_min   : 20,
-        weight_female_max   : 35,
-        weight_male_min     : 20,
-        weight_male_max     : 35,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 4,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 1,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Labrador Retriever",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/labrador_retriever.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 12,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 22.5,
-        height_female_max   : 24.5,
-        height_male_min     : 22.5,
-        height_male_max     : 24.5,
-    },
-    weight    : {
-        weight_female_min   : 55,
-        weight_female_max   : 70,
-        weight_male_min     : 65,
-        weight_male_max     : 80,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 4,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 5,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 5,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Lagotto Romagnolo",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/lagotto_romagnolo.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 15,
-        life_length_max   : 17,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 17,
-        height_female_max   : 19,
-        height_male_min     : 17,
-        height_male_max     : 19,
-    },
-    weight    : {
-        weight_female_min   : 24,
-        weight_female_max   : 31,
-        weight_male_min     : 28.5,
-        weight_male_max     : 35,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 1,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 4,
-        barking                 : 2,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
     nameEn    : "Lancashire Heeler",
     code      : "0",
     image_link: "https://api-ninjas.com/images/dogs/lancashire_heeler.jpg",
@@ -11507,234 +14374,6 @@ const breedCollection = [
         trainability            : 4,
         energy                  : 4,
         barking                 : 4,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Lapponian Herder",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/lapponian_herder.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 18,
-        height_female_max   : 20,
-        height_male_min     : 18,
-        height_male_max     : 20,
-    },
-    weight    : {
-        weight_female_min   : 70,
-        weight_female_max   : 70,
-        weight_male_min     : 70,
-        weight_male_max     : 70,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 4,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 4,
-        barking                 : 4,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Lhasa Apso",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/lhasa_apso.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 10,
-        height_female_max   : 11,
-        height_male_min     : 10,
-        height_male_max     : 11,
-    },
-    weight    : {
-        weight_female_min   : 12,
-        weight_female_max   : 18,
-        weight_male_min     : 12,
-        weight_male_max     : 18,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 1,
-        grooming                : 3,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 5,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 3,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Löwchen",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/löwchen.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 13,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 12,
-        height_female_max   : 14,
-        height_male_min     : 12,
-        height_male_max     : 14,
-    },
-    weight    : {
-        weight_female_min   : 15,
-        weight_female_max   : 15,
-        weight_male_min     : 15,
-        weight_male_max     : 15,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 2,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 4,
-        protectiveness          : 4,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Maltese",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/maltese.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 7,
-        height_female_max   : 9,
-        height_male_min     : 7,
-        height_male_max     : 9,
-    },
-    weight    : {
-        weight_female_min   : 6.6,
-        weight_female_max   : 8.8,
-        weight_male_min     : 6.6,
-        weight_male_max     : 8.8,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 1,
-        grooming                : 4,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 4,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 3,
-        barking                 : 3,
         mental_stimulation_needs: 0
     }
     }    
@@ -12141,405 +14780,6 @@ const breedCollection = [
 {
     id        : 'немска овчарка',
     name      : "Немска овчарка",
-    nameEn    : "Nederlandse Kooikerhondje",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/nederlandse_kooikerhondje.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 25,
-        height_female_max   : 25,
-        height_male_min     : 26,
-        height_male_max     : 26,
-    },
-    weight    : {
-        weight_female_min   : 20,
-        weight_female_max   : 30,
-        weight_male_min     : 20,
-        weight_male_max     : 30,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Norrbottenspets",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/norrbottenspets.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 14,
-        life_length_max   : 17,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 16.5,
-        height_female_max   : 18,
-        height_male_min     : 16.5,
-        height_male_max     : 18,
-    },
-    weight    : {
-        weight_female_min   : 20,
-        weight_female_max   : 30,
-        weight_male_min     : 20,
-        weight_male_max     : 30,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Norwegian Buhund",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/norwegian_buhund.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 17,
-        height_female_max   : 18.5,
-        height_male_min     : 17,
-        height_male_max     : 18.5,
-    },
-    weight    : {
-        weight_female_min   : 26,
-        weight_female_max   : 35,
-        weight_male_min     : 31,
-        weight_male_max     : 40,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 4,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 4,
-        barking                 : 4,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Norwegian Elkhound",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/norwegian_elkhound.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 20.5,
-        height_female_max   : 20.5,
-        height_male_min     : 20.5,
-        height_male_max     : 20.5,
-    },
-    weight    : {
-        weight_female_min   : 48,
-        weight_female_max   : 48,
-        weight_male_min     : 55,
-        weight_male_max     : 55,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 4,
-        protectiveness          : 5,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 4,
-        barking                 : 4,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Norwegian Lundehund",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/norwegian_lundehund.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 13,
-        height_female_max   : 15,
-        height_male_min     : 13,
-        height_male_max     : 15,
-    },
-    weight    : {
-        weight_female_min   : 20,
-        weight_female_max   : 30,
-        weight_male_min     : 20,
-        weight_male_max     : 30,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 3,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Nova Scotia Duck Tolling Retriever",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/nova_scotia_duck_tolling_retriever.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 18,
-        height_female_max   : 21,
-        height_male_min     : 18,
-        height_male_max     : 21,
-    },
-    weight    : {
-        weight_female_min   : 35,
-        weight_female_max   : 50,
-        weight_male_min     : 35,
-        weight_male_max     : 50,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 5,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 5,
-        barking                 : 2,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Otterhound",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/otterhound.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 13,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 27,
-        height_female_max   : 27,
-        height_male_min     : 27,
-        height_male_max     : 27,
-    },
-    weight    : {
-        weight_female_min   : 80,
-        weight_female_max   : 80,
-        weight_male_min     : 115,
-        weight_male_max     : 115,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 2,
-        drooling                : 3,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 5,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
     nameEn    : "Papillon",
     code      : "0",
     image_link: "https://api-ninjas.com/images/dogs/papillon.jpg",
@@ -12597,63 +14837,6 @@ const breedCollection = [
 {
     id        : 'немска овчарка',
     name      : "Немска овчарка",
-    nameEn    : "Pekingese",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/pekingese.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 6,
-        height_female_max   : 9,
-        height_male_min     : 6,
-        height_male_max     : 9,
-    },
-    weight    : {
-        weight_female_min   : 7,
-        weight_female_max   : 14,
-        weight_male_min     : 7,
-        weight_male_max     : 14,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 3,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 4,
-        protectiveness          : 4,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 3,
-        barking                 : 1,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
     nameEn    : "Perro de Presa Canario",
     code      : "0",
     image_link: "https://api-ninjas.com/images/dogs/perro_de_presa_canario.jpg",
@@ -12703,177 +14886,6 @@ const breedCollection = [
     character: {
         trainability            : 3,
         energy                  : 2,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Peruvian Inca Orchid",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/peruvian_inca_orchid.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 20,
-        height_female_max   : 26,
-        height_male_min     : 20,
-        height_male_max     : 26,
-    },
-    weight    : {
-        weight_female_min   : 26,
-        weight_female_max   : 55,
-        weight_male_min     : 26,
-        weight_male_max     : 55,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 1,
-        grooming                : 1,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Petit Basset Griffon Vendéen",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/petit_basset_griffon_vendéen.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 14,
-        life_length_max   : 16,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 13,
-        height_female_max   : 15,
-        height_male_min     : 13,
-        height_male_max     : 15,
-    },
-    weight    : {
-        weight_female_min   : 25,
-        weight_female_max   : 40,
-        weight_male_min     : 25,
-        weight_male_max     : 40,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 4,
-        protectiveness          : 4,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 4,
-        barking                 : 5,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Pharaoh Hound",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/pharaoh_hound.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 23,
-        height_female_max   : 25,
-        height_male_min     : 23,
-        height_male_max     : 25,
-    },
-    weight    : {
-        weight_female_min   : 45,
-        weight_female_max   : 55,
-        weight_male_min     : 45,
-        weight_male_max     : 55,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 4,
         barking                 : 3,
         mental_stimulation_needs: 0
     }
@@ -13110,120 +15122,6 @@ const breedCollection = [
 {
     id        : 'немска овчарка',
     name      : "Немска овчарка",
-    nameEn    : "Portuguese Pointer",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/portuguese_pointer.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 14,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 20.5,
-        height_female_max   : 22,
-        height_male_min     : 20.5,
-        height_male_max     : 22,
-    },
-    weight    : {
-        weight_female_min   : 35,
-        weight_female_max   : 59,
-        weight_male_min     : 35,
-        weight_male_max     : 59,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 1,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 5,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Pudelpointer",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/pudelpointer.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 14,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 22,
-        height_female_max   : 26,
-        height_male_min     : 22,
-        height_male_max     : 26,
-    },
-    weight    : {
-        weight_female_min   : 45,
-        weight_female_max   : 70,
-        weight_male_min     : 45,
-        weight_male_max     : 70,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 1,
-        drooling                : 3,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
     nameEn    : "Slovakian Wirehaired Pointer",
     code      : "0",
     image_link: "https://api-ninjas.com/images/dogs/slovakian_wirehaired_pointer.jpg",
@@ -13339,177 +15237,6 @@ const breedCollection = [
 {
     id        : 'немска овчарка',
     name      : "Немска овчарка",
-    nameEn    : "Poodle (Miniature)",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/poodle_(miniature).jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 18,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 10,
-        height_female_max   : 15,
-        height_male_min     : 10,
-        height_male_max     : 15,
-    },
-    weight    : {
-        weight_female_min   : 10,
-        weight_female_max   : 15,
-        weight_male_min     : 10,
-        weight_male_max     : 15,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 1,
-        grooming                : 4,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 5,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 4,
-        barking                 : 4,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Poodle (Standard)",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/poodle_(standard).jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 18,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 15,
-        height_female_max   : 17,
-        height_male_min     : 15,
-        height_male_max     : 17,
-    },
-    weight    : {
-        weight_female_min   : 40,
-        weight_female_max   : 50,
-        weight_male_min     : 60,
-        weight_male_max     : 70,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 1,
-        grooming                : 4,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 5,
-        protectiveness          : 5,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 4,
-        barking                 : 4,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Poodle (Toy)",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/poodle_(toy).jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 18,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 8,
-        height_female_max   : 10,
-        height_male_min     : 8,
-        height_male_max     : 10,
-    },
-    weight    : {
-        weight_female_min   : 4,
-        weight_female_max   : 6,
-        weight_male_min     : 4,
-        weight_male_max     : 6,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 1,
-        grooming                : 4,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 5,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 4,
-        barking                 : 4,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
     nameEn    : "Porcelaine",
     code      : "0",
     image_link: "https://api-ninjas.com/images/dogs/porcelaine.jpg",
@@ -13560,120 +15287,6 @@ const breedCollection = [
         trainability            : 5,
         energy                  : 4,
         barking                 : 2,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Portuguese Podengo",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/portuguese_podengo.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 22,
-        height_female_max   : 28,
-        height_male_min     : 22,
-        height_male_max     : 28,
-    },
-    weight    : {
-        weight_female_min   : 44,
-        weight_female_max   : 66,
-        weight_male_min     : 44,
-        weight_male_max     : 66,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Portuguese Podengo Pequeno",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/portuguese_podengo_pequeno.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 8,
-        height_female_max   : 12,
-        height_male_min     : 8,
-        height_male_max     : 12,
-    },
-    weight    : {
-        weight_female_min   : 9,
-        weight_female_max   : 13,
-        weight_male_min     : 9,
-        weight_male_max     : 13,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 4,
-        barking                 : 3,
         mental_stimulation_needs: 0
     }
     }    
@@ -13795,63 +15408,6 @@ const breedCollection = [
 {
     id        : 'немска овчарка',
     name      : "Немска овчарка",
-    nameEn    : "Portuguese Water Dog",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/portuguese_water_dog.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 11,
-        life_length_max   : 13,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 20,
-        height_female_max   : 23,
-        height_male_min     : 20,
-        height_male_max     : 23,
-    },
-    weight    : {
-        weight_female_min   : 35,
-        weight_female_max   : 50,
-        weight_male_min     : 42,
-        weight_male_max     : 60,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 4,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 5,
-        protectiveness          : 4,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 5,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
     nameEn    : "Pudelpointer",
     code      : "0",
     image_link: "https://api-ninjas.com/images/dogs/pudelpointer.jpg",
@@ -13902,63 +15458,6 @@ const breedCollection = [
         trainability            : 5,
         energy                  : 4,
         barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Pug",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/pug.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 13,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 10,
-        height_female_max   : 13,
-        height_male_min     : 10,
-        height_male_max     : 13,
-    },
-    weight    : {
-        weight_female_min   : 14,
-        weight_female_max   : 18,
-        weight_male_min     : 14,
-        weight_male_max     : 18,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 4,
-        grooming                : 2,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 5,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 1,
         mental_stimulation_needs: 0
     }
     }    
@@ -14194,120 +15693,6 @@ const breedCollection = [
 {
     id        : 'немска овчарка',
     name      : "Немска овчарка",
-    nameEn    : "Rhodesian Ridgeback",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/rhodesian_ridgeback.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 12,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 25,
-        height_female_max   : 27,
-        height_male_min     : 25,
-        height_male_max     : 27,
-    },
-    weight    : {
-        weight_female_min   : 70,
-        weight_female_max   : 70,
-        weight_male_min     : 85,
-        weight_male_max     : 85,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 5,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 2,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Russian Toy",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/russian_toy.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 8,
-        height_female_max   : 11,
-        height_male_min     : 8,
-        height_male_max     : 11,
-    },
-    weight    : {
-        weight_female_min   : 3.3,
-        weight_female_max   : 6.6,
-        weight_male_min     : 3.3,
-        weight_male_max     : 6.6,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 4,
-        protectiveness          : 4,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 4,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
     nameEn    : "Russian Tsvetnaya Bolonka",
     code      : "0",
     image_link: "https://api-ninjas.com/images/dogs/russian_tsvetnaya_bolonka.jpg",
@@ -14358,120 +15743,6 @@ const breedCollection = [
         trainability            : 4,
         energy                  : 3,
         barking                 : 4,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Saluki",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/saluki.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 17,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 23,
-        height_female_max   : 28,
-        height_male_min     : 23,
-        height_male_max     : 28,
-    },
-    weight    : {
-        weight_female_min   : 40,
-        weight_female_max   : 65,
-        weight_male_min     : 40,
-        weight_male_max     : 65,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 1,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 1,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Samoyed",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/samoyed.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 21,
-        height_female_max   : 23.5,
-        height_male_min     : 21,
-        height_male_max     : 23.5,
-    },
-    weight    : {
-        weight_female_min   : 35,
-        weight_female_max   : 50,
-        weight_male_min     : 45,
-        weight_male_max     : 65,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 3,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 5,
-        protectiveness          : 4,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 4,
-        barking                 : 5,
         mental_stimulation_needs: 0
     }
     }    
@@ -14536,63 +15807,6 @@ const breedCollection = [
 {
     id        : 'немска овчарка',
     name      : "Немска овчарка",
-    nameEn    : "Scottish Deerhound",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/scottish_deerhound.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 8,
-        life_length_max   : 11,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 30,
-        height_female_max   : 32,
-        height_male_min     : 30,
-        height_male_max     : 32,
-    },
-    weight    : {
-        weight_female_min   : 75,
-        weight_female_max   : 95,
-        weight_male_min     : 85,
-        weight_male_max     : 110,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 1,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 3,
-        barking                 : 1,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
     nameEn    : "Segugio Italiano",
     code      : "0",
     image_link: "https://api-ninjas.com/images/dogs/segugio_italiano.jpg",
@@ -14643,234 +15857,6 @@ const breedCollection = [
         trainability            : 3,
         energy                  : 4,
         barking                 : 4,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Shiba Inu",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/shiba_inu.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 13,
-        life_length_max   : 16,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 14.5,
-        height_female_max   : 16.5,
-        height_male_min     : 14.5,
-        height_male_max     : 16.5,
-    },
-    weight    : {
-        weight_female_min   : 17,
-        weight_female_max   : 17,
-        weight_male_min     : 23,
-        weight_male_max     : 23,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 5,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 2,
-        energy                  : 3,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Shih Tzu",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/shih_tzu.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 18,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 9,
-        height_female_max   : 10.5,
-        height_male_min     : 9,
-        height_male_max     : 10.5,
-    },
-    weight    : {
-        weight_female_min   : 9,
-        weight_female_max   : 16,
-        weight_male_min     : 9,
-        weight_male_max     : 16,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 1,
-        grooming                : 4,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Shikoku",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/shikoku.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 12,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 17,
-        height_female_max   : 22,
-        height_male_min     : 17,
-        height_male_max     : 22,
-    },
-    weight    : {
-        weight_female_min   : 35,
-        weight_female_max   : 55,
-        weight_male_min     : 35,
-        weight_male_max     : 55,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 3,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 3,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Siberian Husky",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/siberian_husky.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 21,
-        height_female_max   : 23.5,
-        height_male_min     : 21,
-        height_male_max     : 23.5,
-    },
-    weight    : {
-        weight_female_min   : 35,
-        weight_female_max   : 50,
-        weight_male_min     : 45,
-        weight_male_max     : 60,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 4,
-        grooming                : 2,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 5,
-        protectiveness          : 1,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 5,
-        barking                 : 5,
         mental_stimulation_needs: 0
     }
     }    
@@ -14990,13 +15976,13 @@ const breedCollection = [
     }    
 },
 {
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
+    id        : 'слоуги',
+    name      : "Слоуги",
     nameEn    : "Sloughi",
     code      : "0",
     image_link: "https://api-ninjas.com/images/dogs/sloughi.jpg",
     general   : {
-        country           : "0",
+        country           : "Мароко",
         life_length_min   : 10,
         life_length_max   : 15,
         coat_length_word  : 0,
@@ -15163,405 +16149,6 @@ const breedCollection = [
 {
     id        : 'немска овчарка',
     name      : "Немска овчарка",
-    nameEn    : "Slovensky Kopov",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/slovensky_kopov.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 13,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 16,
-        height_female_max   : 20,
-        height_male_min     : 16,
-        height_male_max     : 20,
-    },
-    weight    : {
-        weight_female_min   : 33,
-        weight_female_max   : 44,
-        weight_male_min     : 33,
-        weight_male_max     : 44,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 1,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Small Munsterlander",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/small_munsterlander.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 1214,
-        life_length_max   : 1214,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 20.5,
-        height_female_max   : 21,
-        height_male_min     : 20.5,
-        height_male_max     : 21,
-    },
-    weight    : {
-        weight_female_min   : 40,
-        weight_female_max   : 60,
-        weight_male_min     : 40,
-        weight_male_max     : 60,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 4,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 1,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 4,
-        barking                 : 1,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Spanish Water Dog",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/spanish_water_dog.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 17.5,
-        height_female_max   : 19.75,
-        height_male_min     : 17.5,
-        height_male_max     : 19.75,
-    },
-    weight    : {
-        weight_female_min   : 31,
-        weight_female_max   : 40,
-        weight_male_min     : 40,
-        weight_male_max     : 49,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 4,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 1,
-        grooming                : 4,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Spinone Italiano",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/spinone_italiano.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 12,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 23,
-        height_female_max   : 27,
-        height_male_min     : 23,
-        height_male_max     : 27,
-    },
-    weight    : {
-        weight_female_min   : 64,
-        weight_female_max   : 75,
-        weight_male_min     : 75,
-        weight_male_max     : 86,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 3,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 2,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Stabyhoun",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/stabyhoun.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 13,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 19,
-        height_female_max   : 21,
-        height_male_min     : 19,
-        height_male_max     : 21,
-    },
-    weight    : {
-        weight_female_min   : 40,
-        weight_female_max   : 60,
-        weight_male_min     : 40,
-        weight_male_max     : 60,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 1,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Sussex Spaniel",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/sussex_spaniel.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 13,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 13,
-        height_female_max   : 15,
-        height_male_min     : 13,
-        height_male_max     : 15,
-    },
-    weight    : {
-        weight_female_min   : 35,
-        weight_female_max   : 45,
-        weight_male_min     : 35,
-        weight_male_max     : 45,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 3,
-        drooling                : 3,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Swedish Lapphund",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/swedish_lapphund.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 16,
-        height_female_max   : 20,
-        height_male_min     : 16,
-        height_male_max     : 20,
-    },
-    weight    : {
-        weight_female_min   : 30,
-        weight_female_max   : 45,
-        weight_male_min     : 30,
-        weight_male_max     : 45,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 4,
-        protectiveness          : 4,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 4,
-        barking                 : 4,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
     nameEn    : "Swedish Vallhund",
     code      : "0",
     image_link: "https://api-ninjas.com/images/dogs/swedish_vallhund.jpg",
@@ -15611,63 +16198,6 @@ const breedCollection = [
     character: {
         trainability            : 4,
         energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Taiwan Dog",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/taiwan_dog.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 9,
-        life_length_max   : 13,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 17,
-        height_female_max   : 20,
-        height_male_min     : 17,
-        height_male_max     : 20,
-    },
-    weight    : {
-        weight_female_min   : 26,
-        weight_female_max   : 40,
-        weight_male_min     : 26,
-        weight_male_max     : 40,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 5,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 5,
         barking                 : 3,
         mental_stimulation_needs: 0
     }
@@ -15733,177 +16263,6 @@ const breedCollection = [
 {
     id        : 'немска овчарка',
     name      : "Немска овчарка",
-    nameEn    : "Thai Ridgeback",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/thai_ridgeback.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 13,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 20,
-        height_female_max   : 24,
-        height_male_min     : 20,
-        height_male_max     : 24,
-    },
-    weight    : {
-        weight_female_min   : 35,
-        weight_female_max   : 75,
-        weight_male_min     : 35,
-        weight_male_max     : 75,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 1,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 4,
-        protectiveness          : 5,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Tibetan Spaniel",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/tibetan_spaniel.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 10,
-        height_female_max   : 10,
-        height_male_min     : 10,
-        height_male_max     : 10,
-    },
-    weight    : {
-        weight_female_min   : 9,
-        weight_female_max   : 15,
-        weight_male_min     : 9,
-        weight_male_max     : 15,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 4,
-        protectiveness          : 4,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 3,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Tibetan Terrier",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/tibetan_terrier.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 15,
-        life_length_max   : 16,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 14,
-        height_female_max   : 17,
-        height_male_min     : 14,
-        height_male_max     : 17,
-    },
-    weight    : {
-        weight_female_min   : 18,
-        weight_female_max   : 31,
-        weight_male_min     : 18,
-        weight_male_max     : 31,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 3,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 4,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
     nameEn    : "Tosa",
     code      : "0",
     image_link: "https://api-ninjas.com/images/dogs/tosa.jpg",
@@ -15954,63 +16313,6 @@ const breedCollection = [
         trainability            : 3,
         energy                  : 3,
         barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Transylvanian Hound",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/transylvanian_hound.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 22,
-        height_female_max   : 26,
-        height_male_min     : 22,
-        height_male_max     : 26,
-    },
-    weight    : {
-        weight_female_min   : 66,
-        weight_female_max   : 77,
-        weight_male_min     : 66,
-        weight_male_max     : 77,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 3,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 5,
-        protectiveness          : 5,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 5,
-        barking                 : 4,
         mental_stimulation_needs: 0
     }
     }    
@@ -16132,291 +16434,6 @@ const breedCollection = [
 {
     id        : 'немска овчарка',
     name      : "Немска овчарка",
-    nameEn    : "Vizsla",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/vizsla.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 22,
-        height_female_max   : 24,
-        height_male_min     : 22,
-        height_male_max     : 24,
-    },
-    weight    : {
-        weight_female_min   : 44,
-        weight_female_max   : 55,
-        weight_male_min     : 55,
-        weight_male_max     : 60,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 4,
-        playfulness             : 5,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 5,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Wirehaired Vizsla",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/wirehaired_vizsla.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 23,
-        height_female_max   : 25,
-        height_male_min     : 23,
-        height_male_max     : 25,
-    },
-    weight    : {
-        weight_female_min   : 45,
-        weight_female_max   : 55,
-        weight_male_min     : 55,
-        weight_male_max     : 65,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 1,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 5,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 5,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Weimaraner",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/weimaraner.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 10,
-        life_length_max   : 13,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 25,
-        height_female_max   : 27,
-        height_male_min     : 25,
-        height_male_max     : 27,
-    },
-    weight    : {
-        weight_female_min   : 55,
-        weight_female_max   : 75,
-        weight_male_min     : 70,
-        weight_male_max     : 90,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 5,
-        protectiveness          : 5,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 5,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Welsh Springer Spaniel",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/welsh_springer_spaniel.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 18,
-        height_female_max   : 19,
-        height_male_min     : 18,
-        height_male_max     : 19,
-    },
-    weight    : {
-        weight_female_min   : 35,
-        weight_female_max   : 50,
-        weight_male_min     : 40,
-        weight_male_max     : 55,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 4,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 2,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 1,
-        playfulness             : 3,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 4,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Whippet",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/whippet.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 15,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 19,
-        height_female_max   : 22,
-        height_male_min     : 19,
-        height_male_max     : 22,
-    },
-    weight    : {
-        weight_female_min   : 25,
-        weight_female_max   : 40,
-        weight_male_min     : 25,
-        weight_male_max     : 40,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 1,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 3,
-        energy                  : 4,
-        barking                 : 1,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
     nameEn    : "Wirehaired Pointing Griffon",
     code      : "0",
     image_link: "https://api-ninjas.com/images/dogs/wirehaired_pointing_griffon.jpg",
@@ -16460,63 +16477,6 @@ const breedCollection = [
     social   : {
         openness_to_strangers   : 5,
         playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 5,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Wirehaired Vizsla",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/wirehaired_vizsla.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 14,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 23,
-        height_female_max   : 25,
-        height_male_min     : 23,
-        height_male_max     : 25,
-    },
-    weight    : {
-        weight_female_min   : 45,
-        weight_female_max   : 55,
-        weight_male_min     : 55,
-        weight_male_max     : 65,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 1,
-        drooling                : 2,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 5,
-        playfulness             : 5,
         protectiveness          : 3,
         adaptability            : 0
     },
@@ -16580,63 +16540,6 @@ const breedCollection = [
     character: {
         trainability            : 5,
         energy                  : 5,
-        barking                 : 3,
-        mental_stimulation_needs: 0
-    }
-    }    
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Xoloitzcuintli",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/xoloitzcuintli.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 13,
-        life_length_max   : 18,
-        coat_length_word  : 0,
-        walk_time         : 0,
-        owner_experience  : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min   : 19,
-        height_female_max   : 25,
-        height_male_min     : 19,
-        height_male_max     : 25,
-    },
-    weight    : {
-        weight_female_min   : 28,
-        weight_female_max   : 60,
-        weight_male_min     : 28,
-        weight_male_max     : 60,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 1,
-        grooming                : 1,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 4,
-        protectiveness          : 3,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 4,
         barking                 : 3,
         mental_stimulation_needs: 0
     }
@@ -16819,63 +16722,6 @@ const breedCollection = [
         trainability            : 3,
         energy                  : 4,
         barking                 : 0,
-        mental_stimulation_needs: 0
-    }
-    }
-},
-{
-    id        : 'немска овчарка',
-    name      : "Немска овчарка",
-    nameEn    : "Volpino Italiano",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/volpino_italiano.jpg",
-    general   : {
-        country          : "0",
-        life_length_min  : 10,
-        life_length_max  : 16,
-        coat_length_word : "0",
-        walk_time        : 0,
-        owner_experience : 0
-    },
-    size      : {
-    size      : "medium",
-    height    : {
-        height_female_min    : 10.5,
-        height_female_max    : 12,
-        height_male_min      : 10.5,
-        height_male_max      : 12
-    },
-    weight    : {
-        weight_female_min    : 8,
-        weight_female_max    : 12,
-        weight_male_min      : 16,
-        weight_male_max      : 10
-    },
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 0,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5
-    },
-    physical : {
-        shedding                : 2,
-        grooming                : 0,
-        drooling                : 0,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 0,
-        playfulness             : 0,
-        protectiveness          : 0,
-        adaptability            : 0
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 4,
-        barking                 : 2,
         mental_stimulation_needs: 0
     }
     }
