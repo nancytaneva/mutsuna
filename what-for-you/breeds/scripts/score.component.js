@@ -32,7 +32,9 @@ window.$scoreComponent = (function () {
      * @returns 
      */
     const generateBar = (name, number, marginClass) => {
-    
+        
+        const translatedName = translateDictionary[name] || name;
+
         const template = [];
         for(let i = 1; i <= 5; i++) {
             const classId = (i <= number) 
@@ -46,7 +48,7 @@ window.$scoreComponent = (function () {
     
         return `
             <div class="breedTrait ${marginClass}">
-            <div class="breed-trait__name">${name}</div>
+            <div class="breed-trait__name">${translatedName}</div>
                 <div class="breed-trait-score__score-wrap">
                 ${barDiv}
             </div>

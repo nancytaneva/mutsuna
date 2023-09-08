@@ -11,14 +11,14 @@ document.getElementById("searchBreed").addEventListener('search', () => {
 
 function populateDropdown(result) {
     
-    const searchBreadValue  = searchBreedInput?.value?.toLowerCase();
+    const searchBreedValue  = searchBreedInput?.value?.toLowerCase();
     
-    if(searchBreadValue.length < 3) {
+    if(searchBreedValue.length < 3) {
         return breedDropdown.innerHTML = "";
     }
   
     const menuCollection = breedCollection.filter((element) => {
-      return element.id.includes(searchBreadValue);
+      return element.id.includes(searchBreedValue);
     })
   
     const collection = [];

@@ -26,7 +26,6 @@
     position: absolute;
     border: 2px solid #249ea0;
     width: 100%;
-    padding: 10px;
     background: #fff;
     font-size: 20px;
     line-height: 2rem;
@@ -36,6 +35,7 @@
 
 #breedSelector--dropdown div {
     color: var(--background-color-footer);
+    padding: 6px;
 }
 
 #breedDropdown {

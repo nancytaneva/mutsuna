@@ -11289,8 +11289,8 @@ const breedCollection = [
     }    
 },
 {
-    id        : 'уелски спрингерспаниел',
-    name      : "Уелски спрингерспаниел",
+    id        : 'уелски спрингер шпаньол',
+    name      : "Уелски спрингер шпаньол",
     nameEn    : "Welsh Springer Spaniel",
     code      : "0",
     image_link: "https://api-ninjas.com/images/dogs/welsh_springer_spaniel.jpg",
