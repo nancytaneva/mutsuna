@@ -13,7 +13,7 @@ function populateDropdown(result) {
     
     const searchBreedValue  = searchBreedInput?.value?.toLowerCase();
     
-    if(searchBreedValue.length < 3) {
+    if(searchBreedValue.length < 2) {
         return breedDropdown.innerHTML = "";
     }
   

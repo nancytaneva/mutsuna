@@ -3,7 +3,7 @@ const breedCollection = [
     id        : 'австралийско келпи',
     name      : "Австралийско келпи",
     nameEn    : "Australian kelpie",
-    code      : "1151",
+    code      : "293",
     image_link: "0",
     general   : {
         country          : "Австралия",
@@ -57,10 +57,10 @@ const breedCollection = [
     }
 },
 {
-    id        : 'белгийска овчарка - грюнендал',
+    id        : 'белгийска овчарка грюнендал',
     name      : "Белгийска овчарка - Грюнендал",
     nameEn    : "Belgian Shepherd Dog",
-    code      : "1232-1",
+    code      : "15001",
     image_link: "https://api-ninjas.com/images/dogs/belgian_sheepdog.jpg",
     general   : {
         country          : "Белгия",
@@ -114,10 +114,10 @@ const breedCollection = [
     }
 },
 {
-    id        : 'белгийска овчарка - лакеноа',
+    id        : 'белгийска овчарка лакеноа',
     name      : "Белгийска овчарка - Лакеноа",
     nameEn    : "Belgian Shepherd Dog",
-    code      : "1232-2",
+    code      : "15002",
     image_link: "https://api-ninjas.com/images/dogs/belgian_laekenois.jpg",
     general   : {
         country          : "Белгия",
@@ -171,10 +171,10 @@ const breedCollection = [
     }
 },
 {
-    id        : 'белгийска овчарка - малиноа',
+    id        : 'белгийска овчарка малиноа',
     name      : "Белгийска овчарка - Малиноа",
     nameEn    : "Belgian Shepherd Dog",
-    code      : "1232-3",
+    code      : "15003",
     image_link: "https://api-ninjas.com/images/dogs/belgian_malinois.jpg",
     general   : {
         country          : "Белгия",
@@ -228,10 +228,10 @@ const breedCollection = [
     }
 },
 {
-    id        : 'белгийска овчарка - тервюрен',
+    id        : 'белгийска овчарка тервюрен',
     name      : "Белгийска овчарка - Тервюрен",
     nameEn    : "Belgian Shepherd Dog",
-    code      : "1232-4",
+    code      : "15004",
     image_link: "https://api-ninjas.com/images/dogs/belgian_tervuren.jpg",
     general   : {
         country          : "Белгия",
@@ -288,7 +288,7 @@ const breedCollection = [
     id        : 'шиперке',
     name      : "Шиперке",
     nameEn    : "Schipperke",
-    code      : "0",
+    code      : "83",
     image_link: "https://api-ninjas.com/images/dogs/schipperke.jpg",
     general   : {
         country           : "Белгия",
@@ -345,7 +345,7 @@ const breedCollection = [
     id        : 'хърватска овчарка',
     name      : "Хърватска овчарка",
     nameEn    : "Croatian Shepherd Dog",
-    code      : "1131",
+    code      : "277",
     image_link: "https://api-ninjas.com/images/dogs/croatian_sheepdog.jpg",
     general   : {
         country           : "Хърватска",
@@ -402,7 +402,7 @@ const breedCollection = [
     id        : 'босерон',
     name      : "Босерон",
     nameEn    : "Beauceron",
-    code      : "0",
+    code      : "44",
     image_link: "https://api-ninjas.com/images/dogs/beauceron.jpg",
     general   : {
         country           : "Франция",
@@ -459,8 +459,8 @@ const breedCollection = [
     id        : 'Бриар',
     name      : "Бриар",
     nameEn    : "Briard",
-    code      : "1142",
-    image_link: "https://api-ninjas.com/images/dogs/affenpinscher.jpg",
+    code      : "113",
+    image_link: "0",
     general   : {
         country          : "Франция",
         life_length_min  : 12,
@@ -516,7 +516,7 @@ const breedCollection = [
     id        : 'пиренейска овчарка',
     name      : "Пиренейска овчарка",
     nameEn    : "Pyrenean Sheepdog",
-    code      : "1143",
+    code      : "141",
     image_link: "https://api-ninjas.com/images/dogs/pyrenean_shepherd.jpg",
     general   : {
         country           : "Франция",
@@ -573,7 +573,7 @@ const breedCollection = [
     id        : 'пикардийска овчарка',
     name      : "Пикардийска овчарка",
     nameEn    : "Berger Picard",
-    code      : "1144",
+    code      : "176",
     image_link: "https://api-ninjas.com/images/dogs/berger_picard.jpg",
     general   : {
         country           : "Франция",
@@ -630,8 +630,8 @@ const breedCollection = [
     id        : 'немска овчарка',
     name      : "Немска овчарка",
     nameEn    : "German Shepherd Dog",
-    code      : "1151",
-    image_link: "https://api-ninjas.com/images/dogs/affenpinscher.jpg",
+    code      : "166",
+    image_link: "0",
     general   : {
         country          : "Германия",
         life_length_min  : 13,
@@ -687,7 +687,7 @@ const breedCollection = [
     id        : 'брадато коли',
     name      : "Брадато коли",
     nameEn    : "Bearded Collie",
-    code      : "1161",
+    code      : "271",
     image_link: "https://api-ninjas.com/images/dogs/bearded_collie.jpg",
     general   : {
         country           : "Великобритания",
@@ -744,7 +744,7 @@ const breedCollection = [
     id        : 'бордър коли',
     name      : "Бордър коли",
     nameEn    : "Border Collie",
-    code      : "1162",
+    code      : "297",
     image_link: "https://api-ninjas.com/images/dogs/border_collie.jpg",
     general   : {
         country           : "Великобритания",
@@ -801,7 +801,7 @@ const breedCollection = [
     id        : 'дългокосместо коли',
     name      : "Дългокосместо коли",
     nameEn    : "Rough Collie",
-    code      : "1163",
+    code      : "156",
     image_link: "https://api-ninjas.com/images/dogs/collie.jpg",
     general   : {
         country           : "Великобритания",
@@ -858,7 +858,7 @@ const breedCollection = [
     id        : 'късокосместо коли',
     name      : "Късокосместо коли",
     nameEn    : "Smooth Collie",
-    code      : "1163",
+    code      : "296",
     image_link: "https://api-ninjas.com/images/dogs/collie.jpg",
     general   : {
         country           : "Великобритания",
@@ -912,67 +912,10 @@ const breedCollection = [
     }    
 },
 {
-    id        : 'шетландска овчарка',
-    name      : "Шетландска овчарка",
-    nameEn    : "Shetland Sheepdog",
-    code      : "1165",
-    image_link: "https://api-ninjas.com/images/dogs/shetland_sheepdog.jpg",
-    general   : {
-        country           : "0",
-        life_length_min   : 12,
-        life_length_max   : 13,
-        coat_length_word  : "long",
-        walk_time         : 2,
-        owner_experience  : 2
-    },
-    size      : {
-    size      : "small",
-    height    : {
-        height_female_min   : 33,
-        height_female_max   : 40,
-        height_male_min     : 33,
-        height_male_max     : 40,
-    },
-    weight    : {
-        weight_female_min   : 5.5,
-        weight_female_max   : 11,
-        weight_male_min     : 5.5,
-        weight_male_max     : 11,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 5,
-        good_with_children       : 5,
-        good_with_other_dogs     : 5,
-    },
-    physical : {
-        shedding                : 3,
-        grooming                : 3,
-        drooling                : 1,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 2,
-        playfulness             : 5,
-        protectiveness          : 5,
-        adaptability            : 5
-    },
-    character: {
-        trainability            : 5,
-        energy                  : 4,
-        barking                 : 5,
-        mental_stimulation_needs: 4
-    }
-    }    
-},
-{
     id        : 'староанглийска овчарка',
     name      : "Староанглийска овчарка",
     nameEn    : "Old English Sheepdog",
-    code      : "1166",
+    code      : "16",
     image_link: "https://api-ninjas.com/images/dogs/old_english_sheepdog.jpg",
     general   : {
         country           : "Великобритания",
@@ -1026,10 +969,67 @@ const breedCollection = [
     }    
 },
 {
+    id        : 'шетландска овчарка',
+    name      : "Шетландска овчарка",
+    nameEn    : "Shetland Sheepdog",
+    code      : "88",
+    image_link: "https://api-ninjas.com/images/dogs/shetland_sheepdog.jpg",
+    general   : {
+        country           : "0",
+        life_length_min   : 12,
+        life_length_max   : 13,
+        coat_length_word  : "long",
+        walk_time         : 2,
+        owner_experience  : 2
+    },
+    size      : {
+    size      : "small",
+    height    : {
+        height_female_min   : 33,
+        height_female_max   : 40,
+        height_male_min     : 33,
+        height_male_max     : 40,
+    },
+    weight    : {
+        weight_female_min   : 5.5,
+        weight_female_max   : 11,
+        weight_male_min     : 5.5,
+        weight_male_max     : 11,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 5,
+        good_with_children       : 5,
+        good_with_other_dogs     : 5,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 3,
+        drooling                : 1,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 2,
+        playfulness             : 5,
+        protectiveness          : 5,
+        adaptability            : 5
+    },
+    character: {
+        trainability            : 5,
+        energy                  : 4,
+        barking                 : 5,
+        mental_stimulation_needs: 4
+    }
+    }    
+},
+{
     id        : 'комондор',
     name      : "Комондор",
     nameEn    : "Komondor",
-    code      : "1171",
+    code      : "53",
     image_link: "https://api-ninjas.com/images/dogs/komondor.jpg",
     general   : {
         country           : "Унгария",
@@ -1086,7 +1086,7 @@ const breedCollection = [
     id        : 'кувас',
     name      : "Кувас",
     nameEn    : "Kuvasz",
-    code      : "1172",
+    code      : "54",
     image_link: "https://api-ninjas.com/images/dogs/kuvasz.jpg",
     general   : {
         country           : "Унгария",
@@ -1143,7 +1143,7 @@ const breedCollection = [
     id        : 'муди',
     name      : "Муди",
     nameEn    : "Mudi",
-    code      : "1173",
+    code      : "238",
     image_link: "https://api-ninjas.com/images/dogs/mudi.jpg",
     general   : {
         country           : "Унгария",
@@ -1200,7 +1200,7 @@ const breedCollection = [
     id        : 'пули',
     name      : "Пули",
     nameEn    : "Puli",
-    code      : "1174",
+    code      : "55",
     image_link: "https://api-ninjas.com/images/dogs/puli.jpg",
     general   : {
         country           : "Унгария",
@@ -1257,7 +1257,7 @@ const breedCollection = [
     id        : 'пуми',
     name      : "Пуми",
     nameEn    : "Pumi",
-    code      : "1175",
+    code      : "56",
     image_link: "https://api-ninjas.com/images/dogs/pumi.jpg",
     general   : {
         country           : "Унгария",
@@ -1314,7 +1314,7 @@ const breedCollection = [
     id        : 'бергамско пастирско куче',
     name      : "Бергамско пастирско куче",
     nameEn    : "Bergamasco Sheepdog",
-    code      : "1181",
+    code      : "194",
     image_link: "https://api-ninjas.com/images/dogs/bergamasco_sheepdog.jpg",
     general   : {
         country           : "Италия",
@@ -1371,7 +1371,7 @@ const breedCollection = [
     id        : 'полска низинна овчарка',
     name      : "Полска низинна овчарка",
     nameEn    : "Polish Lowland Sheepdog",
-    code      : "0",
+    code      : "201",
     image_link: "https://api-ninjas.com/images/dogs/polish_lowland_sheepdog.jpg",
     general   : {
         country           : "Полша",
@@ -1428,7 +1428,7 @@ const breedCollection = [
     id        : 'планинско куче от айрес',
     name      : "Планинско куче от Айрес",
     nameEn    : "Portuguese Sheepdog",
-    code      : "0",
+    code      : "93",
     image_link: "https://api-ninjas.com/images/dogs/portuguese_sheepdog.jpg",
     general   : {
         country           : "Португалия",
@@ -1485,10 +1485,10 @@ const breedCollection = [
     id        : 'миорит',
     name      : "Миорит",
     nameEn    : "Romanian Mioritic Shepherd Dog",
-    code      : "11112",
+    code      : "349",
     image_link: "https://api-ninjas.com/images/dogs/romanian_mioritic_shepherd_dog.jpg",
     general   : {
-        country           : "0",
+        country           : "Румъния",
         life_length_min   : 12,
         life_length_max   : 14,
         coat_length_word  : "medium",
@@ -1542,7 +1542,7 @@ const breedCollection = [
     id        : 'чехословашки вълчак',
     name      : "Чехословашки вълчак",
     nameEn    : "Czechoslovakian Vlcak",
-    code      : "11131",
+    code      : "332",
     image_link: "https://api-ninjas.com/images/dogs/czechoslovakian_vlcak.jpg",
     general   : {
         country           : "Чехословакия",
@@ -1599,7 +1599,7 @@ const breedCollection = [
     id        : 'словашки чувач',
     name      : "Словашки чувач",
     nameEn    : "Slovensky Cuvac",
-    code      : "0",
+    code      : "142",
     image_link: "https://api-ninjas.com/images/dogs/slovensky_cuvac.jpg",
     general   : {
         country           : "Словакия",
@@ -1656,7 +1656,7 @@ const breedCollection = [
     id        : 'шапендоа',
     name      : "Шапендоа",
     nameEn    : "Schapendoes",
-    code      : "11161",
+    code      : "313",
     image_link: "https://api-ninjas.com/images/dogs/schapendoes.jpg",
     general   : {
         country           : "Холандия",
@@ -1713,7 +1713,7 @@ const breedCollection = [
     id        : 'холандска овчарка',
     name      : "Холандска овчарка",
     nameEn    : "Dutch Shepherd",
-    code      : "11162",
+    code      : "223",
     image_link: "https://api-ninjas.com/images/dogs/dutch_shepherd.jpg",
     general   : {
         country           : "Холандия",
@@ -1770,7 +1770,7 @@ const breedCollection = [
     id        : 'австралийска овчарка',
     name      : "Австралийска овчарка",
     nameEn    : "Australian Shepherd",
-    code      : "11171",
+    code      : "342",
     image_link: "https://api-ninjas.com/images/dogs/australian_shepherd.jpg",
     general   : {
         country           : "САЩ",
@@ -1827,7 +1827,7 @@ const breedCollection = [
     id        : 'фландърско бувие',
     name      : "Фландърско бувие",
     nameEn    : "Bouvier des Flandres",
-    code      : "0",
+    code      : "191",
     image_link: "https://api-ninjas.com/images/dogs/bouvier_des_flandres.jpg",
     general   : {
         country           : "Белгия",
@@ -1884,7 +1884,7 @@ const breedCollection = [
     id        : 'уелско корги кардиган',
     name      : "Уелско корги кардиган",
     nameEn    : "Cardigan Welsh Corgi",
-    code      : "1231",
+    code      : "38",
     image_link: "https://api-ninjas.com/images/dogs/cardigan_welsh_corgi.jpg",
     general   : {
         country           : "Великобритания",
@@ -1941,7 +1941,7 @@ const breedCollection = [
     id        : 'уелско корги пембрук',
     name      : "Уелско корги пембрук",
     nameEn    : "Pembroke Welsh Corgi",
-    code      : "1232",
+    code      : "39",
     image_link: "https://api-ninjas.com/images/dogs/pembroke_welsh_corgi.jpg",
     general   : {
         country           : "Великобритания",
@@ -1998,7 +1998,7 @@ const breedCollection = [
     id        : 'датско-шведски пастир',
     name      : "Датско-шведски пастир",
     nameEn    : "Danish-Swedish Farmdog",
-    code      : "0",
+    code      : "356",
     image_link: "https://api-ninjas.com/images/dogs/danish-swedish_farmdog.jpg",
     general   : {
         country           : "Дания",
@@ -2055,7 +2055,7 @@ const breedCollection = [
     id        : 'афенпинчер',
     name      : "Афенпинчер",
     nameEn    : "Affenpinscher",
-    code      : "2131",
+    code      : "186",
     image_link: "https://api-ninjas.com/images/dogs/affenpinscher.jpg",
     general   : {
         country           : "Германия",
@@ -2112,7 +2112,7 @@ const breedCollection = [
     id        : 'доберман',
     name      : "Доберман",
     nameEn    : "Dobermann",
-    code      : "2132",
+    code      : "143",
     image_link: "https://api-ninjas.com/images/dogs/doberman_pinscher.jpg",
     general   : {
         country           : "Германия",
@@ -2169,7 +2169,7 @@ const breedCollection = [
     id        : 'немски пинчер',
     name      : "Немски пинчер",
     nameEn    : "German Pinscher",
-    code      : "2133",
+    code      : "184",
     image_link: "https://api-ninjas.com/images/dogs/german_pinscher.jpg",
     general   : {
         country           : "Германия",
@@ -2226,7 +2226,7 @@ const breedCollection = [
     id        : 'мини пинчер',
     name      : "Мини пинчер",
     nameEn    : "Miniature Pinscher",
-    code      : "2134",
+    code      : "185",
     image_link: "https://api-ninjas.com/images/dogs/miniature_pinscher.jpg",
     general   : {
         country           : "Германия",
@@ -2283,7 +2283,7 @@ const breedCollection = [
     id        : 'ризеншнауцер',
     name      : "Ризеншнауцер",
     nameEn    : "Giant Schnauzer",
-    code      : "2135",
+    code      : "181",
     image_link: "https://api-ninjas.com/images/dogs/giant_schnauzer.jpg",
     general   : {
         country           : "Германия",
@@ -2340,7 +2340,7 @@ const breedCollection = [
     id        : 'миниатюрен шнауцер',
     name      : "Миниатюрен шнауцер",
     nameEn    : "Miniature Schnauzer",
-    code      : "2136",
+    code      : "183",
     image_link: "https://api-ninjas.com/images/dogs/miniature_schnauzer.jpg",
     general   : {
         country           : "Германия",
@@ -2397,7 +2397,7 @@ const breedCollection = [
     id        : 'шнауцер',
     name      : "Шнауцер",
     nameEn    : "Standard Schnauzer",
-    code      : "2137",
+    code      : "182",
     image_link: "https://api-ninjas.com/images/dogs/standard_schnauzer.jpg",
     general   : {
         country           : "Германия",
@@ -2453,8 +2453,8 @@ const breedCollection = [
 {
     id        : 'черен руски териер',
     name      : "Черен руски териер",
-    nameEn    : "Black Russian Terrier",
-    code      : "0",
+    nameEn    : "Russian Black Terrier",
+    code      : "327",
     image_link: "https://api-ninjas.com/images/dogs/black_russian_terrier.jpg",
     general   : {
         country           : "2151",
@@ -2511,7 +2511,7 @@ const breedCollection = [
     id        : 'дого аржентино',
     name      : "Дого Аржентино",
     nameEn    : "Dogo Argentino",
-    code      : "2221",
+    code      : "292",
     image_link: "https://api-ninjas.com/images/dogs/dogo_argentino.jpg",
     general   : {
         country           : "Аржентина",
@@ -2568,7 +2568,7 @@ const breedCollection = [
     id        : 'шар пей',
     name      : "Шар пей",
     nameEn    : "Chinese Shar-Pei",
-    code      : "2231",
+    code      : "309",
     image_link: "https://api-ninjas.com/images/dogs/chinese_shar-pei.jpg",
     general   : {
         country           : "Китай",
@@ -2622,67 +2622,10 @@ const breedCollection = [
     }    
 },
 {
-    id        : 'дог от бордо',
-    name      : "Дог от Бордо",
-    nameEn    : "Dogue de Bordeaux",
-    code      : "0",
-    image_link: "https://api-ninjas.com/images/dogs/dogue_de_bordeaux.jpg",
-    general   : {
-        country           : "Франция",
-        life_length_min   : 5,
-        life_length_max   : 8,
-        coat_length_word  : "short",
-        walk_time         : 1,
-        owner_experience  : 3
-    },
-    size      : {
-    size      : "giant",
-    height    : {
-        height_female_min   : 58,
-        height_female_max   : 66,
-        height_male_min     : 60,
-        height_male_max     : 68,
-    },
-    weight    : {
-        weight_female_min   : 54,
-        weight_female_max   : 63,
-        weight_male_min     : 54,
-        weight_male_max     : 63,
-    }
-    },
-    history       : "Добави историята тук.",
-    health        : "Добави имената на наследствените заболявания тук.",
-    score: {
-    family   : {
-        affectionate_with_family : 5,
-        good_with_children       : 3,
-        good_with_other_dogs     : 3,
-    },
-    physical : {
-        shedding                : 4,
-        grooming                : 1,
-        drooling                : 5,
-        coat_length             : 1,
-    },
-    social   : {
-        openness_to_strangers   : 3,
-        playfulness             : 3,
-        protectiveness          : 5,
-        adaptability            : 4
-    },
-    character: {
-        trainability            : 4,
-        energy                  : 3,
-        barking                 : 3,
-        mental_stimulation_needs: 4
-    }
-    }    
-},
-{
     id        : 'мастиф брохолмер',
     name      : "Мастиф Брохолмер",
     nameEn    : "Broholmer",
-    code      : "0",
+    code      : "315",
     image_link: "https://api-ninjas.com/images/dogs/broholmer.jpg",
     general   : {
         country           : "Дания",
@@ -2736,10 +2679,67 @@ const breedCollection = [
     }    
 },
 {
+    id        : 'дог от бордо',
+    name      : "Дог от Бордо",
+    nameEn    : "Dogue de Bordeaux",
+    code      : "116",
+    image_link: "https://api-ninjas.com/images/dogs/dogue_de_bordeaux.jpg",
+    general   : {
+        country           : "Франция",
+        life_length_min   : 5,
+        life_length_max   : 8,
+        coat_length_word  : "short",
+        walk_time         : 1,
+        owner_experience  : 3
+    },
+    size      : {
+    size      : "giant",
+    height    : {
+        height_female_min   : 58,
+        height_female_max   : 66,
+        height_male_min     : 60,
+        height_male_max     : 68,
+    },
+    weight    : {
+        weight_female_min   : 54,
+        weight_female_max   : 63,
+        weight_male_min     : 54,
+        weight_male_max     : 63,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 5,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 4,
+        grooming                : 1,
+        drooling                : 5,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 3,
+        playfulness             : 3,
+        protectiveness          : 5,
+        adaptability            : 4
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 3,
+        barking                 : 3,
+        mental_stimulation_needs: 4
+    }
+    }    
+},
+{
     id        : 'боксер',
     name      : "Боксер",
     nameEn    : "Boxer",
-    code      : "0",
+    code      : "144",
     image_link: "https://api-ninjas.com/images/dogs/boxer.jpg",
     general   : {
         country           : "Германия",
@@ -2796,7 +2796,7 @@ const breedCollection = [
     id        : 'немски дог',
     name      : "Немски дог",
     nameEn    : "Great Dane",
-    code      : "0",
+    code      : "235",
     image_link: "https://api-ninjas.com/images/dogs/great_dane.jpg",
     general   : {
         country           : "Гремания",
@@ -2853,7 +2853,7 @@ const breedCollection = [
     id        : 'ротвайлер',
     name      : "Ротвайлер",
     nameEn    : "Rottweiler",
-    code      : "0",
+    code      : "147",
     image_link: "https://api-ninjas.com/images/dogs/rottweiler.jpg",
     general   : {
         country           : "Германия",
@@ -2910,7 +2910,7 @@ const breedCollection = [
     id        : 'английски булдог',
     name      : "Английски булдог",
     nameEn    : "Bulldog",
-    code      : "0",
+    code      : "149",
     image_link: "https://api-ninjas.com/images/dogs/bulldog.jpg",
     general   : {
         country           : "Великобритания",
@@ -2967,7 +2967,7 @@ const breedCollection = [
     id        : 'булмастиф',
     name      : "Булмастиф",
     nameEn    : "Bullmastiff",
-    code      : "0",
+    code      : "157",
     image_link: "https://api-ninjas.com/images/dogs/bullmastiff.jpg",
     general   : {
         country           : "Великобритания",
@@ -3021,10 +3021,67 @@ const breedCollection = [
     }    
 },
 {
+        id        : 'английски мастиф',
+        name      : "Английски мастиф",
+        nameEn    : "Mastiff",
+        code      : "264",
+        image_link: "https://api-ninjas.com/images/dogs/mastiff.jpg",
+        general   : {
+            country           : "Великобритания",
+            life_length_min   : 6,
+            life_length_max   : 10,
+            coat_length_word  : "short",
+            walk_time         : 3,
+            owner_experience  : 2
+        },
+        size      : {
+        size      : "large",
+        height    : {
+            height_female_min   : 71,
+            height_female_max   : 91,
+            height_male_min     : 71,
+            height_male_max     : 91,
+        },
+        weight    : {
+            weight_female_min   : 54,
+            weight_female_max   : 77,
+            weight_male_min     : 72,
+            weight_male_max     : 104,
+        }
+        },
+        history       : "Добави историята тук.",
+        health        : "Добави имената на наследствените заболявания тук.",
+        score: {
+        family   : {
+            affectionate_with_family : 5,
+            good_with_children       : 5,
+            good_with_other_dogs     : 3,
+        },
+        physical : {
+            shedding                : 3,
+            grooming                : 1,
+            drooling                : 4,
+            coat_length             : 1,
+        },
+        social   : {
+            openness_to_strangers   : 3,
+            playfulness             : 3,
+            protectiveness          : 5,
+            adaptability            : 4
+        },
+        character: {
+            trainability            : 3,
+            energy                  : 3,
+            barking                 : 1,
+            mental_stimulation_needs: 3
+        }
+        }    
+    },
+{
     id        : 'кане корсо италиано',
     name      : "Кане Корсо Италиано",
-    nameEn    : "Cane Corso",
-    code      : "0",
+    nameEn    : "Italian Cane Corso",
+    code      : "343",
     image_link: "https://api-ninjas.com/images/dogs/cane_corso.jpg",
     general   : {
         country           : "Италия",
@@ -3081,7 +3138,7 @@ const breedCollection = [
     id        : 'неаполитански мастиф',
     name      : "Неаполитански мастиф",
     nameEn    : "Neapolitan Mastiff",
-    code      : "0",
+    code      : "197",
     image_link: "https://api-ninjas.com/images/dogs/neapolitan_mastiff.jpg",
     general   : {
         country           : "Италия",
@@ -3138,7 +3195,7 @@ const breedCollection = [
     id        : 'тоса',
     name      : "Тоса",
     nameEn    : "Tosa",
-    code      : "0",
+    code      : "260",
     image_link: "https://api-ninjas.com/images/dogs/tosa.jpg",
     general   : {
         country           : "Япония",
@@ -3194,8 +3251,8 @@ const breedCollection = [
 {
     id        : 'перо де преса канарио',
     name      : "Перо де преса канарио",
-    nameEn    : "Perro de Presa Canario",
-    code      : "0",
+    nameEn    : "Presa Canario",
+    code      : "346",
     image_link: "https://api-ninjas.com/images/dogs/perro_de_presa_canario.jpg",
     general   : {
         country           : "Испания",
@@ -3252,7 +3309,7 @@ const breedCollection = [
     id        : 'торняк',
     name      : "Торняк",
     nameEn    : "Tornjak",
-    code      : "0",
+    code      : "355",
     image_link: "https://api-ninjas.com/images/dogs/tornjak.jpg",
     general   : {
         country           : "Босна и Херцеговина",
@@ -3309,7 +3366,7 @@ const breedCollection = [
     id        : 'нюфаундленд',
     name      : "Нюфаундленд",
     nameEn    : "Newfoundland",
-    code      : "0",
+    code      : "50",
     image_link: "https://api-ninjas.com/images/dogs/newfoundland.jpg",
     general   : {
         country           : "Канада",
@@ -3365,8 +3422,8 @@ const breedCollection = [
 {
     id        : 'пиренейско планинско куче',
     name      : "Пиренейско планинско куче",
-    nameEn    : "Great Pyrenees",
-    code      : "0",
+    nameEn    : "Pyrenean Mountain Dog",
+    code      : "137",
     image_link: "https://api-ninjas.com/images/dogs/great_pyrenees.jpg",
     general   : {
         country           : "Франция",
@@ -3423,7 +3480,7 @@ const breedCollection = [
     id        : 'ховаварт',
     name      : "Ховаварт",
     nameEn    : "Hovawart",
-    code      : "0",
+    code      : "190",
     image_link: "https://api-ninjas.com/images/dogs/hovawart.jpg",
     general   : {
         country           : "Германия",
@@ -3480,7 +3537,7 @@ const breedCollection = [
     id        : 'леонбергер',
     name      : "Леонбергер",
     nameEn    : "Leonberger",
-    code      : "0",
+    code      : "145",
     image_link: "https://api-ninjas.com/images/dogs/leonberger.jpg",
     general   : {
         country           : "Германия",
@@ -3537,7 +3594,7 @@ const breedCollection = [
     id        : 'ещрелско планинско куче',
     name      : "Ещрелско планинско куче",
     nameEn    : "Estrela Mountain Dog",
-    code      : "0",
+    code      : "173",
     image_link: "https://api-ninjas.com/images/dogs/estrela_mountain_dog.jpg",
     general   : {
         country           : "Португалия",
@@ -3594,7 +3651,7 @@ const breedCollection = [
     id        : 'рафейро де алентехо',
     name      : "Рафейро де Алентехо",
     nameEn    : "Rafeiro do Alentejo",
-    code      : "0",
+    code      : "96",
     image_link: "https://api-ninjas.com/images/dogs/rafeiro_do_alentejo.jpg",
     general   : {
         country           : "Португалия",
@@ -3651,7 +3708,7 @@ const breedCollection = [
     id        : 'кавказка овчарка',
     name      : "Кавказка овчарка",
     nameEn    : "Caucasian Shepherd Dog",
-    code      : "0",
+    code      : "328",
     image_link: "https://api-ninjas.com/images/dogs/caucasian_shepherd_dog.jpg",
     general   : {
         country           : "Русия",
@@ -3707,8 +3764,8 @@ const breedCollection = [
 {
     id        : 'средноазиатска овчарка',
     name      : "Средноазиатска овчарка",
-    nameEn    : "Central Asian Shepherd Dog",
-    code      : "0",
+    nameEn    : "Central Asia Shepherd Dog",
+    code      : "335",
     image_link: "https://api-ninjas.com/images/dogs/central_asian_shepherd_dog.jpg",
     general   : {
         country           : "Русия",
@@ -3765,7 +3822,7 @@ const breedCollection = [
     id        : 'пиренейски мастиф',
     name      : "Пиренейски мастиф",
     nameEn    : "Pyrenean Mastiff",
-    code      : "0",
+    code      : "92",
     image_link: "https://api-ninjas.com/images/dogs/pyrenean_mastiff.jpg",
     general   : {
         country           : "Испания",
@@ -3822,7 +3879,7 @@ const breedCollection = [
     id        : 'испански мастиф',
     name      : "Испански мастиф",
     nameEn    : "Spanish Mastiff",
-    code      : "0",
+    code      : "91",
     image_link: "https://api-ninjas.com/images/dogs/spanish_mastiff.jpg",
     general   : {
         country           : "Испания",
@@ -3879,7 +3936,7 @@ const breedCollection = [
     id        : 'санбернар',
     name      : "Санбернар",
     nameEn    : "Saint Bernard",
-    code      : "0",
+    code      : "61",
     image_link: "https://api-ninjas.com/images/dogs/saint_bernard.jpg",
     general   : {
         country           : "Швейцария",
@@ -3936,7 +3993,7 @@ const breedCollection = [
     id        : 'тибетски дог',
     name      : "Тибетски дог",
     nameEn    : "Tibetan Mastiff",
-    code      : "0",
+    code      : "230",
     image_link: "https://api-ninjas.com/images/dogs/tibetan_mastiff.jpg",
     general   : {
         country           : "Тибет",
@@ -3992,8 +4049,8 @@ const breedCollection = [
 {
     id        : 'апенцелер зененхунд',
     name      : "Апенцелер зененхунд",
-    nameEn    : "Appenzeller Sennenhund",
-    code      : "0",
+    nameEn    : "Appenzell Cattle Dog",
+    code      : "46",
     image_link: "https://api-ninjas.com/images/dogs/appenzeller_sennenhund.jpg",
     general   : {
         country           : "Швейцария",
@@ -4050,7 +4107,7 @@ const breedCollection = [
     id        : 'бернски зененхунд',
     name      : "Бернски зененхунд",
     nameEn    : "Bernese Mountain Dog",
-    code      : "0",
+    code      : "45",
     image_link: "https://api-ninjas.com/images/dogs/bernese_mountain_dog.jpg",
     general   : {
         country           : "Швейцария",
@@ -4106,8 +4163,8 @@ const breedCollection = [
 {
     id        : 'ентлебухер зененхунд',
     name      : "Ентлебухер зененхунд",
-    nameEn    : "Entlebucher Mountain Dog",
-    code      : "0",
+    nameEn    : "Entlebuch Cattle Dog",
+    code      : "47",
     image_link: "https://api-ninjas.com/images/dogs/entlebucher_mountain_dog.jpg",
     general   : {
         country           : "Швейцария",
@@ -4164,7 +4221,7 @@ const breedCollection = [
     id        : 'голямо швейцарско планинско куче',
     name      : "Голямо швейцарско планинско куче",
     nameEn    : "Greater Swiss Mountain Dog",
-    code      : "0",
+    code      : "58",
     image_link: "https://api-ninjas.com/images/dogs/greater_swiss_mountain_dog.jpg",
     general   : {
         country           : "Швейцария",
@@ -4221,7 +4278,7 @@ const breedCollection = [
     id        : 'ягдтериер',
     name      : "Ягдтериер",
     nameEn    : "Jagdterrier",
-    code      : "0",
+    code      : "103",
     image_link: "https://api-ninjas.com/images/dogs/jagdterrier.jpg",
     general   : {
         country           : "Германия",
@@ -4278,7 +4335,7 @@ const breedCollection = [
     id        : 'еърдейл териер',
     name      : "Еърдейл териер",
     nameEn    : "Airedale Terrier",
-    code      : "0",
+    code      : "7",
     image_link: "https://api-ninjas.com/images/dogs/airedale_terrier.jpg",
     general   : {
         country           : "Великобритания",
@@ -4335,7 +4392,7 @@ const breedCollection = [
     id        : 'бедлингтон териер',
     name      : "Бедлингтон териер",
     nameEn    : "Bedlington Terrier",
-    code      : "0",
+    code      : "9",
     image_link: "https://api-ninjas.com/images/dogs/bedlington_terrier.jpg",
     general   : {
         country           : "Великобритания",
@@ -4392,7 +4449,7 @@ const breedCollection = [
     id        : 'бордър териер',
     name      : "Бордър териер",
     nameEn    : "Border Terrier",
-    code      : "0",
+    code      : "10",
     image_link: "https://api-ninjas.com/images/dogs/border_terrier.jpg",
     general   : {
         country           : "Великобритания",
@@ -4449,7 +4506,7 @@ const breedCollection = [
     id        : 'гладкокосмест фокстериер',
     name      : "Гладкокосмест фокстериер",
     nameEn    : "Smooth Fox Terrier",
-    code      : "0",
+    code      : "12",
     image_link: "https://api-ninjas.com/images/dogs/smooth_fox_terrier.jpg",
     general   : {
         country           : "Великобритания",
@@ -4506,7 +4563,7 @@ const breedCollection = [
     id        : 'твърдокосмест фокстериер',
     name      : "Твърдокосмест фокстериер",
     nameEn    : "Wire Fox Terrier",
-    code      : "0",
+    code      : "169",
     image_link: "https://api-ninjas.com/images/dogs/wire_fox_terrier.jpg",
     general   : {
         country           : "Великобритания",
@@ -4563,7 +4620,7 @@ const breedCollection = [
     id        : 'лейкланд териер',
     name      : "Лейкланд териер",
     nameEn    : "Lakeland Terrier",
-    code      : "0",
+    code      : "70",
     image_link: "https://api-ninjas.com/images/dogs/lakeland_terrier.jpg",
     general   : {
         country           : "Великобритания",
@@ -4620,7 +4677,7 @@ const breedCollection = [
     id        : 'манчестър териер',
     name      : "Манчестър териер",
     nameEn    : "Manchester Terrier",
-    code      : "0",
+    code      : "71",
     image_link: "https://api-ninjas.com/images/dogs/manchester_terrier_(standard).jpg",
     general   : {
         country           : "Великобритания",
@@ -4677,7 +4734,7 @@ const breedCollection = [
     id        : 'парсън ръсел териер',
     name      : "Парсън ръсел териер",
     nameEn    : "Parson Russell Terrier",
-    code      : "0",
+    code      : "339",
     image_link: "https://api-ninjas.com/images/dogs/parson_russell_terrier.jpg",
     general   : {
         country           : "Великобритания",
@@ -4734,7 +4791,7 @@ const breedCollection = [
     id        : 'уелски териер',
     name      : "Уелски териер",
     nameEn    : "Welsh Terrier",
-    code      : "0",
+    code      : "78",
     image_link: "https://api-ninjas.com/images/dogs/welsh_terrier.jpg",
     general   : {
         country           : "Великобритания",
@@ -4791,7 +4848,7 @@ const breedCollection = [
     id        : 'глен оф имаал Териер',
     name      : "Глен оф Имаал Териер",
     nameEn    : "Irish Glen of Imaal Terrier",
-    code      : "0",
+    code      : "302",
     image_link: "https://api-ninjas.com/images/dogs/glen_of_imaal_terrier.jpg",
     general   : {
         country           : "Ирландия",
@@ -4848,7 +4905,7 @@ const breedCollection = [
     id        : 'ирландски мекокосмест пшеничен териер',
     name      : "Ирландски мекокосмест пшеничен териер",
     nameEn    : "Soft Coated Wheaten Terrier",
-    code      : "0",
+    code      : "40",
     image_link: "https://api-ninjas.com/images/dogs/soft_coated_wheaten_terrier.jpg",
     general   : {
         country           : "Ирландия",
@@ -4905,7 +4962,7 @@ const breedCollection = [
     id        : 'ирландски териер',
     name      : "Ирландски териер",
     nameEn    : "Irish Terrier",
-    code      : "0",
+    code      : "139",
     image_link: "https://api-ninjas.com/images/dogs/irish_terrier.jpg",
     general   : {
         country           : "Ирландия",
@@ -4962,7 +5019,7 @@ const breedCollection = [
     id        : 'кери син териер',
     name      : "Кери син териер",
     nameEn    : "Kerry Blue Terrier",
-    code      : "0",
+    code      : "3",
     image_link: "https://api-ninjas.com/images/dogs/kerry_blue_terrier.jpg",
     general   : {
         country           : "Ирландия",
@@ -5019,7 +5076,7 @@ const breedCollection = [
     id        : 'австралийски териер',
     name      : "Австралийски териер",
     nameEn    : "Australian Terrier",
-    code      : "0",
+    code      : "8",
     image_link: "https://api-ninjas.com/images/dogs/australian_terrier.jpg",
     general   : {
         country           : "Австралия",
@@ -5076,7 +5133,7 @@ const breedCollection = [
     id        : 'Чешки териер',
     name      : "Чешки териер",
     nameEn    : "Cesky Terrier",
-    code      : "0",
+    code      : "246",
     image_link: "https://api-ninjas.com/images/dogs/cesky_terrier.jpg",
     general   : {
         country           : "Чешка република",
@@ -5133,7 +5190,7 @@ const breedCollection = [
     id        : 'кеърнтериер',
     name      : "Кеърнтериер",
     nameEn    : "Cairn Terrier",
-    code      : "0",
+    code      : "4",
     image_link: "https://api-ninjas.com/images/dogs/cairn_terrier.jpg",
     general   : {
         country           : "Великобритания",
@@ -5190,7 +5247,7 @@ const breedCollection = [
     id        : 'данди динмонт териер',
     name      : "Данди динмонт териер",
     nameEn    : "Dandie Dinmont Terrier",
-    code      : "0",
+    code      : "168",
     image_link: "https://api-ninjas.com/images/dogs/dandie_dinmont_terrier.jpg",
     general   : {
         country           : "Великобритания",
@@ -5247,7 +5304,7 @@ const breedCollection = [
     id        : 'джак ръсел териер',
     name      : "Джак Ръсел териер",
     nameEn    : "Jack Russell Terrier",
-    code      : "0",
+    code      : "345",
     image_link: "0",
     general   : {
         country           : "Великобритания",
@@ -5304,7 +5361,7 @@ const breedCollection = [
     id        : 'норфолкски териер',
     name      : "Норфолкски териер",
     nameEn    : "Norfolk Terrier",
-    code      : "0",
+    code      : "272",
     image_link: "https://api-ninjas.com/images/dogs/norfolk_terrier.jpg",
     general   : {
         country           : "Великобритания",
@@ -5361,7 +5418,7 @@ const breedCollection = [
     id        : 'норички териер',
     name      : "Норички териер",
     nameEn    : "Norwich Terrier",
-    code      : "0",
+    code      : "72",
     image_link: "https://api-ninjas.com/images/dogs/norwich_terrier.jpg",
     general   : {
         country           : "Великобритания",
@@ -5418,7 +5475,7 @@ const breedCollection = [
     id        : 'шотландски териер',
     name      : "Шотландски териер",
     nameEn    : "Scottish Terrier",
-    code      : "0",
+    code      : "73",
     image_link: "https://api-ninjas.com/images/dogs/scottish_terrier.jpg",
     general   : {
         country           : "Великобритания",
@@ -5475,7 +5532,7 @@ const breedCollection = [
     id        : 'силихам териер',
     name      : "Силихам териер",
     nameEn    : "Sealyham Terrier",
-    code      : "0",
+    code      : "74",
     image_link: "https://api-ninjas.com/images/dogs/sealyham_terrier.jpg",
     general   : {
         country           : "0",
@@ -5532,7 +5589,7 @@ const breedCollection = [
     id        : 'скай териер',
     name      : "Скай териер",
     nameEn    : "Skye Terrier",
-    code      : "0",
+    code      : "75",
     image_link: "https://api-ninjas.com/images/dogs/skye_terrier.jpg",
     general   : {
         country           : "Великобритания",
@@ -5589,7 +5646,7 @@ const breedCollection = [
     id        : 'западнохайландски бял териер',
     name      : "Западнохайландски бял териер",
     nameEn    : "West Highland White Terrier",
-    code      : "0",
+    code      : "85",
     image_link: "https://api-ninjas.com/images/dogs/west_highland_white_terrier.jpg",
     general   : {
         country           : "Великобритания",
@@ -5646,7 +5703,7 @@ const breedCollection = [
     id        : 'японски териер',
     name      : "Японски териер",
     nameEn    : "Japanese Terrier",
-    code      : "0",
+    code      : "259",
     image_link: "https://api-ninjas.com/images/dogs/japanese_terrier.jpg",
     general   : {
         country          : "Япония",
@@ -5703,7 +5760,7 @@ const breedCollection = [
     id        : 'бултериер',
     name      : "Бултериер",
     nameEn    : "Bull Terrier",
-    code      : "0",
+    code      : "11",
     image_link: "https://api-ninjas.com/images/dogs/bull_terrier.jpg",
     general   : {
         country           : "Великобритания",
@@ -5760,7 +5817,7 @@ const breedCollection = [
     id        : 'миниатюрен бултериер',
     name      : "Миниатюрен бултериер",
     nameEn    : "Miniature Bull Terrier",
-    code      : "0",
+    code      : "359",
     image_link: "https://api-ninjas.com/images/dogs/miniature_bull_terrier.jpg",
     general   : {
         country           : "Великобритания",
@@ -5817,7 +5874,7 @@ const breedCollection = [
     id        : 'стафордширски бултериер',
     name      : "Стафордширски бултериер",
     nameEn    : "Staffordshire Bull Terrier",
-    code      : "0",
+    code      : "76",
     image_link: "https://api-ninjas.com/images/dogs/staffordshire_bull_terrier.jpg",
     general   : {
         country           : "Великобритания",
@@ -5874,7 +5931,7 @@ const breedCollection = [
     id        : 'американски стафордширски териер',
     name      : "Американски стафордширски териер",
     nameEn    : "American Staffordshire Terrier",
-    code      : "0",
+    code      : "286",
     image_link: "https://api-ninjas.com/images/dogs/american_staffordshire_terrier.jpg",
     general   : {
         country           : "САЩ",
@@ -5930,8 +5987,8 @@ const breedCollection = [
 {
     id        : 'австралийски копринен териер',
     name      : "Австралийски копринен териер",
-    nameEn    : "Silky Terrier",
-    code      : "0",
+    nameEn    : "Australian Silky Terrier",
+    code      : "236",
     image_link: "https://api-ninjas.com/images/dogs/silky_terrier.jpg",
     general   : {
         country           : "Австралия",
@@ -5988,7 +6045,7 @@ const breedCollection = [
     id        : 'йоркширски териер',
     name      : "Йоркширски териер",
     nameEn    : "Yorkshire Terrier",
-    code      : "0",
+    code      : "86",
     image_link: "https://api-ninjas.com/images/dogs/yorkshire_terrier.jpg",
     general   : {
         country           : "Великобритания",
@@ -6045,7 +6102,7 @@ const breedCollection = [
     id        : 'дакел',
     name      : "Дакел",
     nameEn    : "Dachshund",
-    code      : "0",
+    code      : "148",
     image_link: "https://api-ninjas.com/images/dogs/dachshund.jpg",
     general   : {
         country           : "Германия",
@@ -6105,7 +6162,7 @@ const breedCollection = [
     id        : 'самоед',
     name      : "Самоед",
     nameEn    : "Samoyed",
-    code      : "0",
+    code      : "212",
     image_link: "https://api-ninjas.com/images/dogs/samoyed.jpg",
     general   : {
         country           : "Русия",
@@ -6162,7 +6219,7 @@ const breedCollection = [
     id        : 'аляски маламут',
     name      : "Аляски маламут",
     nameEn    : "Alaskan Malamute",
-    code      : "0",
+    code      : "243",
     image_link: "https://api-ninjas.com/images/dogs/alaskan_malamute.jpg",
     general   : {
         country           : "САЩ",
@@ -6219,7 +6276,7 @@ const breedCollection = [
     id        : 'сибирско хъски',
     name      : "Сибирско хъски",
     nameEn    : "Siberian Husky",
-    code      : "0",
+    code      : "270",
     image_link: "https://api-ninjas.com/images/dogs/siberian_husky.jpg",
     general   : {
         country           : "САЩ",
@@ -6276,7 +6333,7 @@ const breedCollection = [
     id        : 'финландски шпиц',
     name      : "Финландски шпиц",
     nameEn    : "Finnish Spitz",
-    code      : "0",
+    code      : "49",
     image_link: "https://api-ninjas.com/images/dogs/finnish_spitz.jpg",
     general   : {
         country           : "Финландия",
@@ -6332,11 +6389,68 @@ const breedCollection = [
 {
     id        : 'норвежки черен елкхунд',
     name      : "Норвежки черен елкхунд",
-    nameEn    : "Norwegian Elkhound",
-    code      : "0",
+    nameEn    : "Norwegian Elkhound Black",
+    code      : "268",
     image_link: "https://api-ninjas.com/images/dogs/norwegian_elkhound.jpg",
     general   : {
-        country           : "0",
+        country           : "Норвегия",
+        life_length_min   : 12,
+        life_length_max   : 15,
+        coat_length_word  : 0,
+        walk_time         : 0,
+        owner_experience  : 0
+    },
+    size      : {
+    size      : "medium",
+    height    : {
+        height_female_min   : 20.5,
+        height_female_max   : 20.5,
+        height_male_min     : 20.5,
+        height_male_max     : 20.5,
+    },
+    weight    : {
+        weight_female_min   : 48,
+        weight_female_max   : 48,
+        weight_male_min     : 55,
+        weight_male_max     : 55,
+    }
+    },
+    history       : "Добави историята тук.",
+    health        : "Добави имената на наследствените заболявания тук.",
+    score: {
+    family   : {
+        affectionate_with_family : 0,
+        good_with_children       : 3,
+        good_with_other_dogs     : 3,
+    },
+    physical : {
+        shedding                : 3,
+        grooming                : 2,
+        drooling                : 2,
+        coat_length             : 1,
+    },
+    social   : {
+        openness_to_strangers   : 4,
+        playfulness             : 4,
+        protectiveness          : 5,
+        adaptability            : 0
+    },
+    character: {
+        trainability            : 4,
+        energy                  : 4,
+        barking                 : 4,
+        mental_stimulation_needs: 0
+    }
+    }    
+},
+{
+    id        : 'норвежки сив елкхунд',
+    name      : "Норвежки сив елкхунд",
+    nameEn    : "Norwegian Elkhound Grey",
+    code      : "242",
+    image_link: "https://api-ninjas.com/images/dogs/norwegian_elkhound.jpg",
+    general   : {
+        country           : "Норвегия",
         life_length_min   : 12,
         life_length_max   : 15,
         coat_length_word  : 0,
@@ -6390,7 +6504,7 @@ const breedCollection = [
     id        : 'норвежки лундехунд',
     name      : "Норвежки лундехунд",
     nameEn    : "Norwegian Lundehund",
-    code      : "0",
+    code      : "265",
     image_link: "https://api-ninjas.com/images/dogs/norwegian_lundehund.jpg",
     general   : {
         country           : "Норвегия",
@@ -6447,7 +6561,7 @@ const breedCollection = [
     id        : 'норботенспетс',
     name      : "Норботенспетс",
     nameEn    : "Norrbottenspets",
-    code      : "0",
+    code      : "276",
     image_link: "https://api-ninjas.com/images/dogs/norrbottenspets.jpg",
     general   : {
         country           : "Швеция",
@@ -6504,7 +6618,7 @@ const breedCollection = [
     id        : 'финландски лапхунд',
     name      : "Финландски лапхунд",
     nameEn    : "Finnish Lapphund",
-    code      : "0",
+    code      : "135",
     image_link: "https://api-ninjas.com/images/dogs/finnish_lapphund.jpg",
     general   : {
         country           : "Финландия",
@@ -6561,7 +6675,7 @@ const breedCollection = [
     id        : 'лапландско пастирско куче',
     name      : "Лапландско пастирско куче",
     nameEn    : "Lapponian Herder",
-    code      : "0",
+    code      : "284",
     image_link: "https://api-ninjas.com/images/dogs/lapponian_herder.jpg",
     general   : {
         country           : "Финландия",
@@ -6618,7 +6732,7 @@ const breedCollection = [
     id        : 'исландска овчарка',
     name      : "Исландска овчарка",
     nameEn    : "Icelandic Sheepdog",
-    code      : "0",
+    code      : "289",
     image_link: "https://api-ninjas.com/images/dogs/icelandic_sheepdog.jpg",
     general   : {
         country           : "0",
@@ -6675,7 +6789,7 @@ const breedCollection = [
     id        : 'норвежки бухунд',
     name      : "Норвежки бухунд",
     nameEn    : "Norwegian Buhund",
-    code      : "0",
+    code      : "237",
     image_link: "https://api-ninjas.com/images/dogs/norwegian_buhund.jpg",
     general   : {
         country           : "Норвегия",
@@ -6732,7 +6846,7 @@ const breedCollection = [
     id        : 'шведски лапхунд',
     name      : "Шведски лапхунд",
     nameEn    : "Swedish Lapphund",
-    code      : "0",
+    code      : "135",
     image_link: "https://api-ninjas.com/images/dogs/swedish_lapphund.jpg",
     general   : {
         country           : "Швеция",
@@ -6786,10 +6900,10 @@ const breedCollection = [
     }    
 },
 {
-    id        : 'Вълчи шпиц немски шпиц',
+    id        : 'вълчи шпиц немски шпиц',
     name      : "Вълчи шпиц - немски шпиц",
     nameEn    : "Keeshond, German Spitz",
-    code      : "0",
+    code      : "970001",
     image_link: "https://api-ninjas.com/images/dogs/keeshond.jpg",
     general   : {
         country           : "Германия",
@@ -6846,7 +6960,7 @@ const breedCollection = [
     id        : 'немски шпиц',
     name      : "Немски шпиц",
     nameEn    : "German Spitz",
-    code      : "0",
+    code      : "970003",
     image_link: "https://api-ninjas.com/images/dogs/german_spitz.jpg",
     general   : {
         country           : "Германия",
@@ -6903,7 +7017,7 @@ const breedCollection = [
     id        : 'померан немски шпиц',
     name      : "Померан - немски шпиц",
     nameEn    : "Pomeranian",
-    code      : "0",
+    code      : "970004",
     image_link: "https://api-ninjas.com/images/dogs/pomeranian.jpg",
     general   : {
         country           : "Германия",
@@ -6960,7 +7074,7 @@ const breedCollection = [
     id        : 'волпино италиано',
     name      : "Волпино италиано",
     nameEn    : "Volpino Italiano",
-    code      : "0",
+    code      : "970005",
     image_link: "https://api-ninjas.com/images/dogs/volpino_italiano.jpg",
     general   : {
         country          : "Италия",
@@ -7017,7 +7131,7 @@ const breedCollection = [
     id        : 'чау-чау',
     name      : "Чау-чау",
     nameEn    : "Chow Chow",
-    code      : "0",
+    code      : "205",
     image_link: "https://api-ninjas.com/images/dogs/chow_chow.jpg",
     general   : {
         country           : "Китай",
@@ -7074,7 +7188,7 @@ const breedCollection = [
     id        : 'евразиер',
     name      : "Евразиер",
     nameEn    : "Eurasier",
-    code      : "0",
+    code      : "291",
     image_link: "https://api-ninjas.com/images/dogs/eurasier.jpg",
     general   : {
         country           : "Германия",
@@ -7131,7 +7245,7 @@ const breedCollection = [
     id        : 'акита ину',
     name      : "Акита ину",
     nameEn    : "Akita",
-    code      : "0",
+    code      : "255",
     image_link: "https://api-ninjas.com/images/dogs/akita.jpg",
     general   : {
         country           : "Япония",
@@ -7188,7 +7302,7 @@ const breedCollection = [
     id        : 'айну',
     name      : "Айну",
     nameEn    : "Hokkaido",
-    code      : "0",
+    code      : "261",
     image_link: "https://api-ninjas.com/images/dogs/hokkaido.jpg",
     general   : {
         country           : "Япония",
@@ -7245,7 +7359,7 @@ const breedCollection = [
     id        : 'японски шпиц',
     name      : "Японски шпиц",
     nameEn    : "Japanese Spitz",
-    code      : "0",
+    code      : "262",
     image_link: "https://api-ninjas.com/images/dogs/japanese_spitz.jpg",
     general   : {
         country           : "Япония",
@@ -7301,8 +7415,8 @@ const breedCollection = [
 {
     id        : 'кай кен',
     name      : "Кай Кен",
-    nameEn    : "Kai Ken",
-    code      : "0",
+    nameEn    : "Kai",
+    code      : "317",
     image_link: "https://api-ninjas.com/images/dogs/kai_ken.jpg",
     general   : {
         country           : "Япония",
@@ -7359,7 +7473,7 @@ const breedCollection = [
     id        : 'кюшу',
     name      : "Кюшу",
     nameEn    : "Kishu",
-    code      : "0",
+    code      : "318",
     image_link: "https://api-ninjas.com/images/dogs/kishu_ken.jpg",
     general   : {
         country           : "0",
@@ -7416,7 +7530,7 @@ const breedCollection = [
     id        : 'шиба',
     name      : "шиба",
     nameEn    : "Shiba",
-    code      : "0",
+    code      : "257",
     image_link: "https://api-ninjas.com/images/dogs/shiba_inu.jpg",
     general   : {
         country           : "Япония",
@@ -7473,7 +7587,7 @@ const breedCollection = [
     id        : 'шикоку',
     name      : "Шикоку",
     nameEn    : "Shikoku",
-    code      : "0",
+    code      : "319",
     image_link: "https://api-ninjas.com/images/dogs/shikoku.jpg",
     general   : {
         country           : "Япония",
@@ -7530,7 +7644,7 @@ const breedCollection = [
     id        : 'корейско джиндо',
     name      : "Корейско джиндо",
     nameEn    : "Jindo",
-    code      : "0",
+    code      : "334",
     image_link: "https://api-ninjas.com/images/dogs/jindo.jpg",
     general   : {
         country           : "Корея",
@@ -7587,7 +7701,7 @@ const breedCollection = [
     id        : 'Басенджи',
     name      : "Басенджи",
     nameEn    : "Basenji",
-    code      : "0",
+    code      : "43",
     image_link: "https://api-ninjas.com/images/dogs/basenji.jpg",
     general   : {
         country           : "Централна Африка",
@@ -7644,7 +7758,7 @@ const breedCollection = [
     id        : 'ханаанско куче',
     name      : "Ханаанско куче",
     nameEn    : "Canaan Dog",
-    code      : "0",
+    code      : "273",
     image_link: "https://api-ninjas.com/images/dogs/canaan_dog.jpg",
     general   : {
         country           : "Израел",
@@ -7701,7 +7815,7 @@ const breedCollection = [
     id        : 'фараоново куче',
     name      : "Фараоново куче",
     nameEn    : "Pharaoh Hound",
-    code      : "0",
+    code      : "248",
     image_link: "https://api-ninjas.com/images/dogs/pharaoh_hound.jpg",
     general   : {
         country           : "Малта",
@@ -7758,7 +7872,7 @@ const breedCollection = [
     id        : 'мексиканско голо куче',
     name      : "Мексиканско голо куче",
     nameEn    : "Xoloitzcuintli",
-    code      : "0",
+    code      : "234",
     image_link: "https://api-ninjas.com/images/dogs/xoloitzcuintli.jpg",
     general   : {
         country           : "Мексико",
@@ -7814,8 +7928,8 @@ const breedCollection = [
 {
     id        : 'перуанско безкосместо куче',
     name      : "Перуанско безкосместо куче",
-    nameEn    : "Peruvian Inca Orchid",
-    code      : "0",
+    nameEn    : "Peruvian Nairless Dog",
+    code      : "310",
     image_link: "https://api-ninjas.com/images/dogs/peruvian_inca_orchid.jpg",
     general   : {
         country           : "Перу",
@@ -7872,7 +7986,7 @@ const breedCollection = [
     id        : 'сицилианска хрътка',
     name      : "Сицилианска хрътка",
     nameEn    : "Cirneco dell’Etna",
-    code      : "0",
+    code      : "199",
     image_link: "https://api-ninjas.com/images/dogs/cirneco_dell’etna.jpg",
     general   : {
         country           : "Италия",
@@ -7929,7 +8043,7 @@ const breedCollection = [
     id        : 'португалско поденго',
     name      : "Португалско поденго",
     nameEn    : "Portuguese Podengo",
-    code      : "0",
+    code      : "94",
     image_link: "https://api-ninjas.com/images/dogs/portuguese_podengo.jpg",
     general   : {
         country           : "Португалия",
@@ -7986,7 +8100,7 @@ const breedCollection = [
     id        : 'хрътка от ибиса',
     name      : "Хрътка от Ибиса",
     nameEn    : "Ibizan Hound",
-    code      : "0",
+    code      : "89",
     image_link: "https://api-ninjas.com/images/dogs/ibizan_hound.jpg",
     general   : {
         country           : "Испания",
@@ -8043,7 +8157,7 @@ const breedCollection = [
     id        : '0',
     name      : "0",
     nameEn    : "Taiwan Dog",
-    code      : "0",
+    code      : "348",
     image_link: "https://api-ninjas.com/images/dogs/taiwan_dog.jpg",
     general   : {
         country           : "0",
@@ -8100,7 +8214,7 @@ const breedCollection = [
     id        : 'тайландски риджбек',
     name      : "Тайландски риджбек",
     nameEn    : "Thai Ridgeback",
-    code      : "0",
+    code      : "338",
     image_link: "https://api-ninjas.com/images/dogs/thai_ridgeback.jpg",
     general   : {
         country           : "Тайланд",
@@ -8157,7 +8271,7 @@ const breedCollection = [
     id        : 'блъдхаунд',
     name      : "Блъдхаунд",
     nameEn    : "Bloodhound",
-    code      : "0",
+    code      : "84",
     image_link: "https://api-ninjas.com/images/dogs/bloodhound.jpg",
     general   : {
         country           : "Белгия",
@@ -8214,7 +8328,7 @@ const breedCollection = [
     id        : 'английски фоксхаунд',
     name      : "Английски фоксхаунд",
     nameEn    : "English Foxhound",
-    code      : "0",
+    code      : "159",
     image_link: "https://api-ninjas.com/images/dogs/english_foxhound.jpg",
     general   : {
         country           : "Великобритания",
@@ -8271,7 +8385,7 @@ const breedCollection = [
     id        : 'отерхунд',
     name      : "Отерхунд",
     nameEn    : "Otterhound",
-    code      : "0",
+    code      : "294",
     image_link: "https://api-ninjas.com/images/dogs/otterhound.jpg",
     general   : {
         country           : "Великобритания",
@@ -8328,7 +8442,7 @@ const breedCollection = [
     id        : 'американски фоксхаунд',
     name      : "Американски фоксхаунд",
     nameEn    : "American Foxhound",
-    code      : "0",
+    code      : "303",
     image_link: "https://api-ninjas.com/images/dogs/american_foxhound.jpg",
     general   : {
         country           : "САЩ",
@@ -8385,7 +8499,7 @@ const breedCollection = [
     id        : 'черно-кафяв кунхаунд',
     name      : "Черно-кафяв кунхаунд",
     nameEn    : "Black and Tan Coonhound",
-    code      : "0",
+    code      : "300",
     image_link: "https://api-ninjas.com/images/dogs/black_and_tan_coonhound.jpg",
     general   : {
         country           : "САЩ",
@@ -8442,7 +8556,7 @@ const breedCollection = [
     id        : '0',
     name      : "0",
     nameEn    : "Porcelaine",
-    code      : "0",
+    code      : "30",
     image_link: "https://api-ninjas.com/images/dogs/porcelaine.jpg",
     general   : {
         country           : "Франция",
@@ -8499,7 +8613,7 @@ const breedCollection = [
     id        : '0',
     name      : "0",
     nameEn    : "Harrier",
-    code      : "0",
+    code      : "295",
     image_link: "https://api-ninjas.com/images/dogs/harrier.jpg",
     general   : {
         country           : "Великобритания",
@@ -8556,7 +8670,7 @@ const breedCollection = [
     id        : 'унгарска хрътка',
     name      : "Унгарска хрътка",
     nameEn    : "Transylvanian Hound",
-    code      : "0",
+    code      : "241",
     image_link: "https://api-ninjas.com/images/dogs/transylvanian_hound.jpg",
     general   : {
         country           : "Унгария",
@@ -8613,7 +8727,7 @@ const breedCollection = [
     id        : 'словашки копов',
     name      : "Словашки копов",
     nameEn    : "Slovensky Kopov",
-    code      : "0",
+    code      : "244",
     image_link: "https://api-ninjas.com/images/dogs/slovensky_kopov.jpg",
     general   : {
         country           : "Словакия",
@@ -8670,7 +8784,7 @@ const breedCollection = [
     id        : 'хамилтоново гонче',
     name      : "Хамилтоново гонче",
     nameEn    : "Hamiltonstovare",
-    code      : "0",
+    code      : "132",
     image_link: "https://api-ninjas.com/images/dogs/hamiltonstovare.jpg",
     general   : {
         country           : "Швеция",
@@ -8727,7 +8841,7 @@ const breedCollection = [
     id        : 'бретански басет',
     name      : "Бретански басет",
     nameEn    : "Basset Fauve de Bretagne",
-    code      : "0",
+    code      : "36",
     image_link: "https://api-ninjas.com/images/dogs/basset_fauve_de_bretagne.jpg",
     general   : {
         country           : "Франция",
@@ -8784,7 +8898,7 @@ const breedCollection = [
     id        : 'голям вендейски басетгрифон',
     name      : "Голям вендейски басетгрифон",
     nameEn    : "Grand Basset Griffon Vendéen",
-    code      : "0",
+    code      : "33",
     image_link: "https://api-ninjas.com/images/dogs/grand_basset_griffon_vendéen.jpg",
     general   : {
         country           : "Франция",
@@ -8841,7 +8955,7 @@ const breedCollection = [
     id        : 'малък вендейски басетгрифон',
     name      : "Малък вендейски басетгрифон",
     nameEn    : "Petit Basset Griffon Vendéen",
-    code      : "0",
+    code      : "67",
     image_link: "https://api-ninjas.com/images/dogs/petit_basset_griffon_vendéen.jpg",
     general   : {
         country           : "Франция",
@@ -8898,7 +9012,7 @@ const breedCollection = [
     id        : 'басет',
     name      : "Басет",
     nameEn    : "Basset Hound",
-    code      : "0",
+    code      : "163",
     image_link: "https://api-ninjas.com/images/dogs/basset_hound.jpg",
     general   : {
         country           : "Великобритания",
@@ -8955,7 +9069,7 @@ const breedCollection = [
     id        : 'бигъл',
     name      : "Бигъл",
     nameEn    : "Beagle",
-    code      : "0",
+    code      : "161",
     image_link: "https://api-ninjas.com/images/dogs/beagle.jpg",
     general   : {
         country           : "Великобритания",
@@ -9012,7 +9126,7 @@ const breedCollection = [
     id        : 'древер',
     name      : "Древер",
     nameEn    : "Drever",
-    code      : "0",
+    code      : "130",
     image_link: "https://api-ninjas.com/images/dogs/drever.jpg",
     general   : {
         country           : "Швеция",
@@ -9068,8 +9182,8 @@ const breedCollection = [
 {
     id        : 'баварска планинска хрътка',
     name      : "Баварска планинска хрътка",
-    nameEn    : "Bavarian Mountain Hound",
-    code      : "0",
+    nameEn    : "Bavarian Mountain Scent Hound",
+    code      : "217",
     image_link: "https://api-ninjas.com/images/dogs/bavarian_mountain_scent_hound.jpg",
     general   : {
         country           : "Германия",
@@ -9125,8 +9239,8 @@ const breedCollection = [
 {
     id        : 'хановерски кръвоследник',
     name      : "Хановерски кръвоследник",
-    nameEn    : "Hanoverian Scenthound",
-    code      : "0",
+    nameEn    : "Hanoverian Scent Hound",
+    code      : "213",
     image_link: "https://api-ninjas.com/images/dogs/hanoverian_scenthound.jpg",
     general   : {
         country           : "Германия",
@@ -9183,7 +9297,7 @@ const breedCollection = [
     id        : 'далматинец',
     name      : "Далматинец",
     nameEn    : "Dalmatian",
-    code      : "0",
+    code      : "153",
     image_link: "https://api-ninjas.com/images/dogs/dalmatian.jpg",
     general   : {
         country           : "Хърватска",
@@ -9240,7 +9354,7 @@ const breedCollection = [
     id        : 'родезийски риджбек',
     name      : "Родезийски риджбек",
     nameEn    : "Rhodesian Ridgeback",
-    code      : "0",
+    code      : "146",
     image_link: "https://api-ninjas.com/images/dogs/rhodesian_ridgeback.jpg",
     general   : {
         country           : "Южна Африка",
@@ -9297,7 +9411,7 @@ const breedCollection = [
     id        : '0',
     name      : "0",
     nameEn    : "Braque du Bourbonnais",
-    code      : "0",
+    code      : "179",
     image_link: "https://api-ninjas.com/images/dogs/braque_du_bourbonnais.jpg",
     general   : {
         country           : "Франция",
@@ -9354,7 +9468,7 @@ const breedCollection = [
     id        : '0',
     name      : "0",
     nameEn    : "Braque Francais Pyrenean",
-    code      : "0",
+    code      : "133",
     image_link: "https://api-ninjas.com/images/dogs/braque_francais_pyrenean.jpg",
     general   : {
         country           : "0",
@@ -9411,7 +9525,7 @@ const breedCollection = [
     id        : 'курцхаар',
     name      : "Курцхаар",
     nameEn    : "German Shorthaired Pointer",
-    code      : "0",
+    code      : "119",
     image_link: "https://api-ninjas.com/images/dogs/german_shorthaired_pointer.jpg",
     general   : {
         country           : "Германия",
@@ -9468,7 +9582,7 @@ const breedCollection = [
     id        : 'дратхаар',
     name      : "Дратхаар",
     nameEn    : "German Wirehaired Pointer",
-    code      : "0",
+    code      : "98",
     image_link: "https://api-ninjas.com/images/dogs/german_wirehaired_pointer.jpg",
     general   : {
         country           : "Германия",
@@ -9525,7 +9639,7 @@ const breedCollection = [
     id        : 'пуделпойнтер',
     name      : "Пуделпойнтер",
     nameEn    : "Pudelpointer",
-    code      : "0",
+    code      : "216",
     image_link: "https://api-ninjas.com/images/dogs/pudelpointer.jpg",
     general   : {
         country           : "Германия",
@@ -9582,7 +9696,7 @@ const breedCollection = [
     id        : 'ваймаранер',
     name      : "Ваймаранер",
     nameEn    : "Weimaraner",
-    code      : "0",
+    code      : "99",
     image_link: "https://api-ninjas.com/images/dogs/weimaraner.jpg",
     general   : {
         country           : "Германия",
@@ -9639,7 +9753,7 @@ const breedCollection = [
     id        : 'унгарска визла',
     name      : "Унгарска визла",
     nameEn    : "Vizsla",
-    code      : "0",
+    code      : "57",
     image_link: "https://api-ninjas.com/images/dogs/vizsla.jpg",
     general   : {
         country           : "Унгария",
@@ -9696,7 +9810,7 @@ const breedCollection = [
     id        : 'твърдокосместа визла',
     name      : "Твърдокосместа визла",
     nameEn    : "Wirehaired Vizsla",
-    code      : "0",
+    code      : "239",
     image_link: "https://api-ninjas.com/images/dogs/wirehaired_vizsla.jpg",
     general   : {
         country           : "Унгария",
@@ -9753,7 +9867,7 @@ const breedCollection = [
     id        : 'италиански брак',
     name      : "Италиански брак",
     nameEn    : "Bracco Italiano",
-    code      : "0",
+    code      : "202",
     image_link: "https://api-ninjas.com/images/dogs/bracco_italiano.jpg",
     general   : {
         country           : "Италия",
@@ -9810,7 +9924,7 @@ const breedCollection = [
     id        : 'португалски пойнтер',
     name      : "Португалски пойнтер",
     nameEn    : "Portuguese Pointer",
-    code      : "0",
+    code      : "187",
     image_link: "https://api-ninjas.com/images/dogs/portuguese_pointer.jpg",
     general   : {
         country           : "Португалия",
@@ -9867,7 +9981,7 @@ const breedCollection = [
     id        : 'словашки грубокосмест пойнтер',
     name      : "Словашки грубокосмест пойнтер",
     nameEn    : "Slovakian Wirehaired Pointer",
-    code      : "0",
+    code      : "320",
     image_link: "https://api-ninjas.com/images/dogs/slovakian_wirehaired_pointer.jpg",
     general   : {
         country           : "Словакия",
@@ -9924,7 +10038,7 @@ const breedCollection = [
     id        : 'епаньол бретон',
     name      : "Епаньол бретон",
     nameEn    : "Brittany",
-    code      : "0",
+    code      : "95",
     image_link: "https://api-ninjas.com/images/dogs/brittany.jpg",
     general   : {
         country           : "Франция",
@@ -9981,7 +10095,7 @@ const breedCollection = [
 //     id        : '0',
 //     name      : "0",
 //     nameEn    : "French Spaniel",
-//     code      : "0",
+//     code      : "175",
 //     image_link: "https://api-ninjas.com/images/dogs/french_spaniel.jpg",
 //     general   : {
 //         country           : "Франция",
@@ -10038,7 +10152,7 @@ const breedCollection = [
     id        : 'немски дългокосмест пойнтер',
     name      : "Немски дългокосмест пойнтер",
     nameEn    : "German Longhaired Pointer",
-    code      : "0",
+    code      : "117",
     image_link: "https://api-ninjas.com/images/dogs/german_longhaired_pointer.jpg",
     general   : {
         country           : "Германия",
@@ -10095,7 +10209,7 @@ const breedCollection = [
     id        : 'малък мюнстерлендер',
     name      : "Малък мюнстерлендер",
     nameEn    : "Small Munsterlander",
-    code      : "0",
+    code      : "102",
     image_link: "https://api-ninjas.com/images/dogs/small_munsterlander.jpg",
     general   : {
         country           : "Германия",
@@ -10152,7 +10266,7 @@ const breedCollection = [
     id        : 'холандски птичар',
     name      : "Холандски птичар",
     nameEn    : "Drentsche Patrijshond",
-    code      : "0",
+    code      : "224",
     image_link: "https://api-ninjas.com/images/dogs/drentsche_patrijshond.jpg",
     general   : {
         country           : "Холандия",
@@ -10209,7 +10323,7 @@ const breedCollection = [
     id        : 'стабихоун',
     name      : "Стабихоун",
     nameEn    : "Stabyhoun",
-    code      : "0",
+    code      : "222",
     image_link: "https://api-ninjas.com/images/dogs/stabyhoun.jpg",
     general   : {
         country           : "Холандия",
@@ -10265,8 +10379,8 @@ const breedCollection = [
 {
     id        : 'грифон на корталс',
     name      : "Грифон на Корталс",
-    nameEn    : "Wirehaired Pointing Griffon",
-    code      : "0",
+    nameEn    : "Wirehaired Pointing Griffon Korthals",
+    code      : "107",
     image_link: "https://api-ninjas.com/images/dogs/wirehaired_pointing_griffon.jpg",
     general   : {
         country           : "Франция",
@@ -10323,7 +10437,7 @@ const breedCollection = [
     id        : 'спиноне италиано',
     name      : "Спиноне италиано",
     nameEn    : "Spinone Italiano",
-    code      : "0",
+    code      : "165",
     image_link: "https://api-ninjas.com/images/dogs/spinone_italiano.jpg",
     general   : {
         country           : "Италия",
@@ -10380,7 +10494,7 @@ const breedCollection = [
     id        : 'английски сетер',
     name      : "Английски сетер",
     nameEn    : "English Setter",
-    code      : "0",
+    code      : "2",
     image_link: "https://api-ninjas.com/images/dogs/english_setter.jpg",
     general   : {
         country           : "Великобритания",
@@ -10437,7 +10551,7 @@ const breedCollection = [
     id        : 'шотландски сетер',
     name      : "Шотландски сетер",
     nameEn    : "Gordon Setter",
-    code      : "0",
+    code      : "6",
     image_link: "https://api-ninjas.com/images/dogs/gordon_setter.jpg",
     general   : {
         country           : "Великобритания",
@@ -10494,7 +10608,7 @@ const breedCollection = [
     id        : 'ирландски червено-бял сетер',
     name      : "Ирландски червено-бял сетер",
     nameEn    : "Irish Red and White Setter",
-    code      : "0",
+    code      : "330",
     image_link: "https://api-ninjas.com/images/dogs/irish_red_and_white_setter.jpg",
     general   : {
         country           : "Ирландия",
@@ -10550,8 +10664,8 @@ const breedCollection = [
 {
     id        : 'ирландски сетер',
     name      : "Ирландски сетер",
-    nameEn    : "Irish Setter",
-    code      : "0",
+    nameEn    : "Irish Red Setter",
+    code      : "120",
     image_link: "https://api-ninjas.com/images/dogs/irish_setter.jpg",
     general   : {
         country           : "Ирландия",
@@ -10608,7 +10722,7 @@ const breedCollection = [
     id        : 'новошотландски ретривър',
     name      : "Новошотландски ретривър",
     nameEn    : "Nova Scotia Duck Tolling Retriever",
-    code      : "0",
+    code      : "312",
     image_link: "https://api-ninjas.com/images/dogs/nova_scotia_duck_tolling_retriever.jpg",
     general   : {
         country           : "Канада",
@@ -10665,7 +10779,7 @@ const breedCollection = [
     id        : 'къдравокосмест ретривър',
     name      : "Къдравокосмест ретривър",
     nameEn    : "Curly-Coated Retriever",
-    code      : "0",
+    code      : "110",
     image_link: "https://api-ninjas.com/images/dogs/curly-coated_retriever.jpg",
     general   : {
         country           : "Великобритания",
@@ -10721,8 +10835,8 @@ const breedCollection = [
 {
     id        : 'гладкокосмест ретривър',
     name      : "Гладкокосмест ретривър",
-    nameEn    : "Flat-Coated Retriever",
-    code      : "0",
+    nameEn    : "Flat Coated Retriever",
+    code      : "121",
     image_link: "https://api-ninjas.com/images/dogs/flat-coated_retriever.jpg",
     general   : {
         country           : "Великобритания",
@@ -10779,7 +10893,7 @@ const breedCollection = [
     id        : 'голдън ретрийвър',
     name      : "Голдън ретрийвър",
     nameEn    : "Golden Retriever",
-    code      : "0",
+    code      : "111",
     image_link: "https://api-ninjas.com/images/dogs/golden_retriever.jpg",
     general   : {
         country           : "Великобритания",
@@ -10836,7 +10950,7 @@ const breedCollection = [
     id        : 'лабрадор ретривър',
     name      : "Лабрадор ретривър",
     nameEn    : "Labrador Retriever",
-    code      : "0",
+    code      : "122",
     image_link: "https://api-ninjas.com/images/dogs/labrador_retriever.jpg",
     general   : {
         country           : "Великобритания",
@@ -10893,7 +11007,7 @@ const breedCollection = [
     id        : 'чесапийк бей ретривър',
     name      : "Чесапийк бей ретривър",
     nameEn    : "Chesapeake Bay Retriever",
-    code      : "0",
+    code      : "263",
     image_link: "https://api-ninjas.com/images/dogs/chesapeake_bay_retriever.jpg",
     general   : {
         country           : "САЩ",
@@ -10950,7 +11064,7 @@ const breedCollection = [
     id        : 'немски шпаньол',
     name      : "Немски шпаньол",
     nameEn    : "German Spaniel",
-    code      : "0",
+    code      : "104",
     image_link: "https://api-ninjas.com/images/dogs/deutscher_wachtelhund.jpg",
     general   : {
         country           : "Германия",
@@ -11007,7 +11121,7 @@ const breedCollection = [
     id        : 'кламбър шпаньол',
     name      : "Кламбър шпаньол",
     nameEn    : "Clumber Spaniel",
-    code      : "0",
+    code      : "109",
     image_link: "https://api-ninjas.com/images/dogs/clumber_spaniel.jpg",
     general   : {
         country           : "Великобритания",
@@ -11064,7 +11178,7 @@ const breedCollection = [
     id        : 'английски кокер шпаньол',
     name      : "Английски кокер шпаньол",
     nameEn    : "English Cocker Spaniel",
-    code      : "0",
+    code      : "5",
     image_link: "https://api-ninjas.com/images/dogs/english_cocker_spaniel.jpg",
     general   : {
         country           : "Великобритания",
@@ -11121,7 +11235,7 @@ const breedCollection = [
     id        : 'английски спрингер шпаньол',
     name      : "Английски спрингер шпаньол",
     nameEn    : "English Springer Spaniel",
-    code      : "0",
+    code      : "125",
     image_link: "https://api-ninjas.com/images/dogs/english_springer_spaniel.jpg",
     general   : {
         country           : "0",
@@ -11178,7 +11292,7 @@ const breedCollection = [
     id        : 'фийлд спаньол',
     name      : "Фийлд спаньол",
     nameEn    : "Field Spaniel",
-    code      : "0",
+    code      : "123",
     image_link: "https://api-ninjas.com/images/dogs/field_spaniel.jpg",
     general   : {
         country           : "Великобритания",
@@ -11235,7 +11349,7 @@ const breedCollection = [
     id        : 'съсекс шпаньол',
     name      : "Съсекс шпаньол",
     nameEn    : "Sussex Spaniel",
-    code      : "0",
+    code      : "127",
     image_link: "https://api-ninjas.com/images/dogs/sussex_spaniel.jpg",
     general   : {
         country           : "0",
@@ -11292,7 +11406,7 @@ const breedCollection = [
     id        : 'уелски спрингер шпаньол',
     name      : "Уелски спрингер шпаньол",
     nameEn    : "Welsh Springer Spaniel",
-    code      : "0",
+    code      : "126",
     image_link: "https://api-ninjas.com/images/dogs/welsh_springer_spaniel.jpg",
     general   : {
         country           : "Великобритания",
@@ -11349,7 +11463,7 @@ const breedCollection = [
     id        : 'койкер',
     name      : "Койкер",
     nameEn    : "Nederlandse Kooikerhondje",
-    code      : "0",
+    code      : "314",
     image_link: "https://api-ninjas.com/images/dogs/nederlandse_kooikerhondje.jpg",
     general   : {
         country           : "Холандия",
@@ -11406,7 +11520,7 @@ const breedCollection = [
     id        : 'американски кокер шпаньол',
     name      : "Американски кокер шпаньол",
     nameEn    : "Cocker Spaniel",
-    code      : "0",
+    code      : "167",
     image_link: "https://api-ninjas.com/images/dogs/cocker_spaniel.jpg",
     general   : {
         country           : "САЩ",
@@ -11463,7 +11577,7 @@ const breedCollection = [
     id        : 'барбет',
     name      : "Барбет",
     nameEn    : "Barbet",
-    code      : "0",
+    code      : "105",
     image_link: "https://api-ninjas.com/images/dogs/barbet.jpg",
     general   : {
         country           : "Франция",
@@ -11520,7 +11634,7 @@ const breedCollection = [
     id        : 'ирландски воден шпаньол',
     name      : "Ирландски воден шпаньол",
     nameEn    : "Irish Water Spaniel",
-    code      : "0",
+    code      : "124",
     image_link: "https://api-ninjas.com/images/dogs/irish_water_spaniel.jpg",
     general   : {
         country           : "Ирландия",
@@ -11577,7 +11691,7 @@ const breedCollection = [
     id        : 'лагото романьоло',
     name      : "Лагото романьоло",
     nameEn    : "Lagotto Romagnolo",
-    code      : "0",
+    code      : "298",
     image_link: "https://api-ninjas.com/images/dogs/lagotto_romagnolo.jpg",
     general   : {
         country           : "Италия",
@@ -11634,7 +11748,7 @@ const breedCollection = [
     id        : 'португалско водно куче',
     name      : "Португалско водно куче",
     nameEn    : "Portuguese Water Dog",
-    code      : "0",
+    code      : "37",
     image_link: "https://api-ninjas.com/images/dogs/portuguese_water_dog.jpg",
     general   : {
         country           : "0",
@@ -11691,7 +11805,7 @@ const breedCollection = [
     id        : 'испанско водно куче',
     name      : "Испанско водно куче",
     nameEn    : "Spanish Water Dog",
-    code      : "0",
+    code      : "336",
     image_link: "https://api-ninjas.com/images/dogs/spanish_water_dog.jpg",
     general   : {
         country           : "Испания",
@@ -11748,7 +11862,7 @@ const breedCollection = [
     id        : 'фризийско водно куче',
     name      : "Фризийско водно куче",
     nameEn    : "Frisian water dog",
-    code      : "0",
+    code      : "221",
     image_link: "https://api-ninjas.com/images/dogs/wetterhoun.jpg",
     general   : {
         country          : "Холандия",
@@ -11805,7 +11919,7 @@ const breedCollection = [
     id        : 'американски воден шпаньол',
     name      : "Американски воден шпаньол",
     nameEn    : "American Water Spaniel",
-    code      : "0",
+    code      : "301",
     image_link: "https://api-ninjas.com/images/dogs/american_water_spaniel.jpg",
     general   : {
         country           : "САЩ",
@@ -11862,7 +11976,7 @@ const breedCollection = [
     id        : 'френска болонка',
     name      : "Френска болонка",
     nameEn    : "Bichon Frise",
-    code      : "0",
+    code      : "215",
     image_link: "https://api-ninjas.com/images/dogs/bichon_frise.jpg",
     general   : {
         country           : "Франция",
@@ -11919,7 +12033,7 @@ const breedCollection = [
     id        : 'малтийска болонка',
     name      : "Малтийска болонка",
     nameEn    : "Maltese",
-    code      : "0",
+    code      : "65",
     image_link: "https://api-ninjas.com/images/dogs/maltese.jpg",
     general   : {
         country           : "Средиземноморските страни",
@@ -11976,7 +12090,7 @@ const breedCollection = [
     id        : 'хаванска болонка',
     name      : "Хаванска болонка",
     nameEn    : "Havanese",
-    code      : "0",
+    code      : "250",
     image_link: "https://api-ninjas.com/images/dogs/havanese.jpg",
     general   : {
         country           : "Куба",
@@ -12033,7 +12147,7 @@ const breedCollection = [
     id        : 'болонка',
     name      : "Болонка",
     nameEn    : "Bolognese",
-    code      : "0",
+    code      : "196",
     image_link: "https://api-ninjas.com/images/dogs/bolognese.jpg",
     general   : {
         country           : "Италия",
@@ -12089,7 +12203,7 @@ const breedCollection = [
     id        : 'котон де тулеар',
     name      : "Котон де Тулеар",
     nameEn    : "Coton de Tulear",
-    code      : "0",
+    code      : "283",
     image_link: "https://api-ninjas.com/images/dogs/coton_de_tulear.jpg",
     general   : {
         country           : "Мадагаскар",
@@ -12145,8 +12259,8 @@ const breedCollection = [
 {
     id        : 'лъвско куче',
     name      : "Лъвско куче",
-    nameEn    : "Löwchen",
-    code      : "0",
+    nameEn    : "Little Lion Dog",
+    code      : "233",
     image_link: "https://api-ninjas.com/images/dogs/löwchen.jpg",
     general   : {
         country           : "Франция",
@@ -12203,7 +12317,7 @@ const breedCollection = [
     id        : 'Пудел - стандартен',
     name      : "Пудел - стандартен",
     nameEn    : "Poodle (Standard)",
-    code      : "0",
+    code      : "1720001",
     image_link: "https://api-ninjas.com/images/dogs/poodle_(standard).jpg",
     general   : {
         country           : "Франция",
@@ -12260,7 +12374,7 @@ const breedCollection = [
     id        : 'Пудел - миниатюрен',
     name      : "Пудел - миниатюрен",
     nameEn    : "Poodle (Miniature)",
-    code      : "0",
+    code      : "1720002",
     image_link: "https://api-ninjas.com/images/dogs/poodle_(miniature).jpg",
     general   : {
         country           : "Франция",
@@ -12317,7 +12431,7 @@ const breedCollection = [
     id        : 'Пудел - играчка',
     name      : "Пудел - играчка",
     nameEn    : "Poodle (Toy)",
-    code      : "0",
+    code      : "1720003",
     image_link: "https://api-ninjas.com/images/dogs/poodle_(toy).jpg",
     general   : {
         country           : "Франция",
@@ -12374,7 +12488,7 @@ const breedCollection = [
     id        : 'брюкселски грифон',
     name      : "Брюкселски грифон",
     nameEn    : "Brussels Griffon",
-    code      : "0",
+    code      : "80",
     image_link: "https://api-ninjas.com/images/dogs/brussels_griffon.jpg",
     general   : {
         country           : "Белгия",
@@ -12431,7 +12545,7 @@ const breedCollection = [
     id        : 'китайско голо качулато куче',
     name      : "Китайско голо качулато куче",
     nameEn    : "Chinese Crested",
-    code      : "0",
+    code      : "288",
     image_link: "https://api-ninjas.com/images/dogs/chinese_crested.jpg",
     general   : {
         country           : "Китай",
@@ -12488,7 +12602,7 @@ const breedCollection = [
     id        : 'лхаса апсо',
     name      : "Лхаса апсо",
     nameEn    : "Lhasa Apso",
-    code      : "0",
+    code      : "227",
     image_link: "https://api-ninjas.com/images/dogs/lhasa_apso.jpg",
     general   : {
         country           : "Тибет",
@@ -12545,7 +12659,7 @@ const breedCollection = [
     id        : 'ши цу',
     name      : "Ши цу",
     nameEn    : "Shih Tzu",
-    code      : "0",
+    code      : "208",
     image_link: "https://api-ninjas.com/images/dogs/shih_tzu.jpg",
     general   : {
         country           : "Тибет",
@@ -12602,7 +12716,7 @@ const breedCollection = [
     id        : 'тибетски шпаньол',
     name      : "Тибетски шпаньол",
     nameEn    : "Tibetan Spaniel",
-    code      : "0",
+    code      : "231",
     image_link: "https://api-ninjas.com/images/dogs/tibetan_spaniel.jpg",
     general   : {
         country           : "Тибет",
@@ -12659,7 +12773,7 @@ const breedCollection = [
     id        : 'тибетски териер',
     name      : "Тибетски териер",
     nameEn    : "Tibetan Terrier",
-    code      : "0",
+    code      : "209",
     image_link: "https://api-ninjas.com/images/dogs/tibetan_terrier.jpg",
     general   : {
         country           : "Тибет",
@@ -12716,7 +12830,7 @@ const breedCollection = [
     id        : 'чихуахуа',
     name      : "Чихуахуа",
     nameEn    : "Chihuahua",
-    code      : "0",
+    code      : "218",
     image_link: "https://api-ninjas.com/images/dogs/chihuahua.jpg",
     general   : {
         country           : "Мексико",
@@ -12773,7 +12887,7 @@ const breedCollection = [
     id        : 'кавалер кинг чарлз шпаньол',
     name      : "Кавалер Кинг Чарлз шпаньол",
     nameEn    : "Cavalier King Charles Spaniel",
-    code      : "0",
+    code      : "136",
     image_link: "https://api-ninjas.com/images/dogs/cavalier_king_charles_spaniel.jpg",
     general   : {
         country           : "Великобритания",
@@ -12830,7 +12944,7 @@ const breedCollection = [
     id        : 'пекинез',
     name      : "Пекинез",
     nameEn    : "Pekingese",
-    code      : "0",
+    code      : "207",
     image_link: "https://api-ninjas.com/images/dogs/pekingese.jpg",
     general   : {
         country           : "Китай",
@@ -12887,7 +13001,7 @@ const breedCollection = [
     id        : 'японски хин',
     name      : "Японски хин",
     nameEn    : "Japanese Chin",
-    code      : "0",
+    code      : "206",
     image_link: "https://api-ninjas.com/images/dogs/japanese_chin.jpg",
     general   : {
         country           : "Япония",
@@ -12944,7 +13058,7 @@ const breedCollection = [
     id        : 'папийон',
     name      : "Папийон",
     nameEn    : "Papillon",
-    code      : "0",
+    code      : "770001",
     image_link: "https://api-ninjas.com/images/dogs/papillon.jpg",
     general   : {
         country           : "Белгия",
@@ -13001,7 +13115,7 @@ const breedCollection = [
     id        : 'руски той териер',
     name      : "Руски той териер",
     nameEn    : "Russian Toy",
-    code      : "0",
+    code      : "352",
     image_link: "https://api-ninjas.com/images/dogs/russian_toy.jpg",
     general   : {
         country           : "Русия",
@@ -13058,7 +13172,7 @@ const breedCollection = [
     id        : 'кромфорлендер',
     name      : "Кромфорлендер",
     nameEn    : "Kromfohrlander",
-    code      : "0",
+    code      : "192",
     image_link: "https://api-ninjas.com/images/dogs/kromfohrlander.jpg",
     general   : {
         country           : "Германия",
@@ -13115,7 +13229,7 @@ const breedCollection = [
     id        : 'мопс',
     name      : "Мопс",
     nameEn    : "Pug",
-    code      : "0",
+    code      : "253",
     image_link: "https://api-ninjas.com/images/dogs/pug.jpg",
     general   : {
         country           : "Китай",
@@ -13172,7 +13286,7 @@ const breedCollection = [
     id        : 'френски булдог',
     name      : "Френски булдог",
     nameEn    : "French Bulldog",
-    code      : "0",
+    code      : "101",
     image_link: "https://api-ninjas.com/images/dogs/french_bulldog.jpg",
     general   : {
         country           : "Франция",
@@ -13229,7 +13343,7 @@ const breedCollection = [
     id        : 'бостън териер',
     name      : "Бостън териер",
     nameEn    : "Boston Terrier",
-    code      : "0",
+    code      : "140",
     image_link: "https://api-ninjas.com/images/dogs/boston_terrier.jpg",
     general   : {
         country           : "САЩ",
@@ -13285,7 +13399,7 @@ const breedCollection = [
     id        : 'афганска хрътка',
     name      : "Афганска хрътка",
     nameEn    : "Afghan Hound",
-    code      : "10111",
+    code      : "228",
     image_link: "https://api-ninjas.com/images/dogs/afghan_hound.jpg",
     general   : {
         country           : "Афганистан",
@@ -13342,7 +13456,7 @@ const breedCollection = [
     id        : 'салуки',
     name      : "Салуки",
     nameEn    : "Saluki",
-    code      : "0",
+    code      : "269",
     image_link: "https://api-ninjas.com/images/dogs/saluki.jpg",
     general   : {
         country           : "Среден Изток",
@@ -13399,7 +13513,7 @@ const breedCollection = [
     id        : 'борзая',
     name      : "Борзая",
     nameEn    : "Borzoi",
-    code      : "0",
+    code      : "193",
     image_link: "https://api-ninjas.com/images/dogs/borzoi.jpg",
     general   : {
         country           : "Русия",
@@ -13455,8 +13569,8 @@ const breedCollection = [
 {
     id        : 'шотландска еленова хрътка',
     name      : "Шотландска еленова хрътка",
-    nameEn    : "Scottish Deerhound",
-    code      : "0",
+    nameEn    : "Deerhound",
+    code      : "164",
     image_link: "https://api-ninjas.com/images/dogs/scottish_deerhound.jpg",
     general   : {
         country           : "Великобритания",
@@ -13513,7 +13627,7 @@ const breedCollection = [
     id        : 'ирландски вълкодав',
     name      : "Ирландски вълкодав",
     nameEn    : "Irish Wolfhound",
-    code      : "0",
+    code      : "160",
     image_link: "https://api-ninjas.com/images/dogs/irish_wolfhound.jpg",
     general   : {
         country           : "Ирландия",
@@ -13570,7 +13684,7 @@ const breedCollection = [
     id        : 'грейхаунд',
     name      : "Грейхаунд",
     nameEn    : "Greyhound",
-    code      : "0",
+    code      : "158",
     image_link: "https://api-ninjas.com/images/dogs/greyhound.jpg",
     general   : {
         country           : "Великобритания",
@@ -13627,7 +13741,7 @@ const breedCollection = [
     id        : 'уипет',
     name      : "Уипет",
     nameEn    : "Whippet",
-    code      : "0",
+    code      : "162",
     image_link: "https://api-ninjas.com/images/dogs/whippet.jpg",
     general   : {
         country           : "Великобритания",
@@ -13684,7 +13798,7 @@ const breedCollection = [
     id        : 'италиански грейхаунд',
     name      : "Италиански грейхаунд",
     nameEn    : "Italian Greyhound",
-    code      : "0",
+    code      : "200",
     image_link: "https://api-ninjas.com/images/dogs/italian_greyhound.jpg",
     general   : {
         country           : "Италия",
@@ -13741,7 +13855,7 @@ const breedCollection = [
     id        : 'азавак',
     name      : "Азавак",
     nameEn    : "Azawakh",
-    code      : "0",
+    code      : "307",
     image_link: "https://api-ninjas.com/images/dogs/azawakh.jpg",
     general   : {
         country           : "Мали",
@@ -13798,7 +13912,7 @@ const breedCollection = [
     id        : 'слоуги',
     name      : "Слоуги",
     nameEn    : "Sloughi",
-    code      : "0",
+    code      : "188",
     image_link: "https://api-ninjas.com/images/dogs/sloughi.jpg",
     general   : {
         country           : "Мароко",
@@ -14824,63 +14938,7 @@ const breedCollection = [
 //     }
 //     }    
 // },
-// {
-//     id        : 'породноиме',
-//     name      : "породноиме",
-//     nameEn    : "Mastiff",
-//     code      : "0",
-//     image_link: "https://api-ninjas.com/images/dogs/mastiff.jpg",
-//     general   : {
-//         country           : "0",
-//         life_length_min   : 6,
-//         life_length_max   : 10,
-//         coat_length_word  : 0,
-//         walk_time         : 0,
-//         owner_experience  : 0
-//     },
-//     size      : {
-//     size      : "medium",
-//     height    : {
-//         height_female_min   : 28,
-//         height_female_max   : 36,
-//         height_male_min     : 28,
-//         height_male_max     : 36,
-//     },
-//     weight    : {
-//         weight_female_min   : 120,
-//         weight_female_max   : 170,
-//         weight_male_min     : 160,
-//         weight_male_max     : 230,
-//     }
-//     },
-//     history       : "Добави историята тук.",
-//     health        : "Добави имената на наследствените заболявания тук.",
-//     score: {
-//     family   : {
-//         affectionate_with_family : 0,
-//         good_with_children       : 5,
-//         good_with_other_dogs     : 3,
-//     },
-//     physical : {
-//         shedding                : 3,
-//         grooming                : 1,
-//         drooling                : 4,
-//         coat_length             : 1,
-//     },
-//     social   : {
-//         openness_to_strangers   : 3,
-//         playfulness             : 3,
-//         protectiveness          : 5,
-//         adaptability            : 0
-//     },
-//     character: {
-//         trainability            : 3,
-//         energy                  : 3,
-//         barking                 : 1,
-//         mental_stimulation_needs: 0
-//     }
-//     }    
-// },
+// 
 // {
 //     id        : 'породноиме',
 //     name      : "породноиме",
