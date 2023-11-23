@@ -1,0 +1,27 @@
+.rabies-box {
+    display: block;
+    margin-top: 36px;
+    text-align: -webkit-center;
+    margin: 85px;
+}
+
+.rabies-text {
+    background: #249ea066;
+    width: 245px;
+    padding: 4px;
+    border: solid 1px #249ea0;
+}
+
+#current-date, #validation-date {
+    background: white;
+    width: 245px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-left: solid 1px #249ea0;
+    border-right: solid 1px #249ea0;
+}
+
+#validation-date {
+    border-bottom: solid 1px #249ea0;
+}
