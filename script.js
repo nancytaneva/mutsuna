@@ -1,7 +1,7 @@
-document.addEventListener('copy', function (event) {
-    event.preventDefault();
-    alert('При ИЗПОЛЗВАНЕ на текст от този сайт трябва да се спомене ИЗТОЧНИКА, в този случай: MUTSUNA.org ( Виж: "Политика на поверителност").');
-  });
+// document.addEventListener('copy', function (event) {
+//     event.preventDefault();
+//     alert('При ИЗПОЛЗВАНЕ на текст от този сайт трябва да се спомене ИЗТОЧНИКА, в този случай: MUTSUNA.org ( Виж: "Политика на поверителност").');
+//   });
 
 
 
