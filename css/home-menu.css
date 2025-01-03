@@ -147,7 +147,7 @@
 }
 
 .home-menu.active li {
-    transform: rotate(calc(180deg / 7 * var(--i))) translateX(-45px);
+    transform: rotate(calc(180deg / 6 * var(--i))) translateX(-45px);
 }
 .home-menu li a {
     display: flex;
@@ -159,7 +159,7 @@
     border: 4px solid var(--clr);
     border-radius: 50%;
     font-size: 1.5em;
-    transform: rotate(calc((180deg / -7 * var(--i)) - 90deg));
+    transform: rotate(calc((180deg / -6 * var(--i)) - 90deg));
     transition: 1s;
     background: var(--background-color);
 }
@@ -201,21 +201,22 @@
 
 .tooltip {
     visibility: hidden;
-    width: 132px;
+    width: 112px;
     height: 46px;
     background-color: var(--background-color-home-menu);
     color: var(--text-color);
     text-align: center;
     /* border-radius: 6px; */
-    padding: 5px;
+    padding: 8px 0px;
     position: absolute;
     z-index: 1;
     opacity: 0;
     transition: opacity 0.3s, visibility 0.3s;
-    rotate: calc((180deg / -7 * var(--i)) - 90deg);
-    transform: translate(68px, -4px);
+    rotate: calc((180deg / -6 * var(--i)) - 90deg);
+    transform: translate(48px, -4px);
     margin: -55px -69px;
     border: 2px solid #444;
+    font-size: 13px;
 }
 
 .home-menu.active .tooltip {
@@ -278,7 +279,7 @@
 }
 
 .home-menu--dog.active li {
-    transform: rotate(calc(180deg / 7 * var(--i))) translateX(-45px);
+    transform: rotate(calc(180deg / 6 * var(--i))) translateX(-45px);
 }
 .home-menu--dog li a {
     display: flex;
@@ -290,7 +291,7 @@
     border: 4px solid var(--clr);
     border-radius: 50%;
     font-size: 1.5em;
-    transform: rotate(calc((180deg / -7 * var(--i)) - 280deg));
+    transform: rotate(calc((180deg / -6 * var(--i)) - 280deg));
     transition: 1s;
     background: var(--background-color);
 }
@@ -334,7 +335,7 @@
 .tooltip--dog {
     visibility: hidden;
     width: 104px;
-    height: 38px;
+    height: 42px;
     background-color: var(--background-color-home-menu);
     color: var(--text-color);
     text-align: center;
@@ -344,9 +345,11 @@
     z-index: 1;
     opacity: 0;
     transition: opacity 0.3s, visibility 0.3s;
-    rotate: calc((180deg / -7 * var(--i)) - 280deg);
-    transform: translate(77px, -4px);
-    margin: -47px -14px;
+    rotate: calc((180deg / -6 * var(--i)) - 280deg);
+    /* transform: translate(77px, -4px);
+    margin: -47px -14px; */
+    transform: translate(-93px, 6px);
+    margin: -60px -20px;
     font-size: 13px;
     border: 2px solid #444;
 }
