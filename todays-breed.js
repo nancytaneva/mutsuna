@@ -16,7 +16,9 @@ function updateTodaysBreed() {
     // Update the background image
     const dogBoxElement = todaysBreedElement.querySelector('.todays-breed-box-dog');
     dogBoxElement.style.background = `url(${randomBreed.image_link})`; // Set the background image
-
+    dogBoxElement.style.backgroundSize = 'cover'; // Set background-size to cover
+    dogBoxElement.style.backgroundPosition = 'center'; // Set background-position to center
+    
     // Update the href attribute of the anchor tag (if needed)
     const anchorElement = todaysBreedElement.querySelector('a');
     anchorElement.href = ''; // Set the URL to the breed's page

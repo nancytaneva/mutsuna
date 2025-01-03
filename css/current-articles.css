@@ -62,7 +62,7 @@
 
 
 
-  @media (max-width: 1482px) {
+  @media (max-width: 1100px) {
 
     .current-articles, .animal-news {
       display: flex;
@@ -121,11 +121,10 @@
 
 
 .todays-breed {
-  background: radial-gradient(#249ea0, #022627);
   width: fit-content;
   margin: auto;
   padding: 40px;
-  border-radius: 22% 20% 30% 20% / 35% 30% 30% 35%;
+  background-image: linear-gradient(110deg, var(--header-border-color) 60%, var(--text-color-light-orange) 60%);
 }
 
 .todays-breed-wrapper {
@@ -145,34 +144,36 @@
   font-size: 60px;
   text-align: center;
   color: #dedede;
-  padding: 29px;
   font-weight: 800;
+  background-color: var(--text-color-dark-blue);
 }
 
 .todays-breed-box-cat {
-  margin: 50px;
+  margin: 25px;
   background: url(./img/article-baner.png);
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
-  height: 350px;
-  width: 350px;
+  height: 250px;
+  width: 250px;
   box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
   animation: animateTodaysBreedCat 5s ease-in-out infinite;
   transition: all 1s ease-in-out;
+  filter: brightness(0.5);
 }
 
 .todays-breed-box-dog {
-  margin: 50px;
+  margin: 25px;
   background: url(./img/article-baner.png);
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
-  height: 350px;
-  width: 350px;
+  height: 250px;
+  width: 250px;
   box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
   animation: animateTodaysBreedDog 5s ease-in-out infinite;
   transition: all 1s ease-in-out;
+  filter: brightness(0.5);
 }
 
 @keyframes animateTodaysBreedCat {
@@ -189,21 +190,23 @@
 
 .todays-breed-name-dog, .todays-breed-name-cat {
     font-size: 24px;
-    color: #dedede;
-    padding: 29px;
-    font-weight: 300;
+    padding: 10px;
+    margin: 16px;
     text-align: center;
     text-decoration-line: underline;
     text-underline-position: under;
+    color: var(--header-border-color);
+    font-weight: 800;
+    background-color: var(--text-color-light);
 }
 
 
-@media (max-width: 1482px) {
+@media (max-width: 1100px) {
   
 .todays-breed {
     padding: 0;
     border-radius: 0;
-    width: 100%;
+    width: 95%;
 }
 
 
@@ -213,7 +216,7 @@
 
   .todays-breed-text {
     font-size: 2rem;
-    padding: 0;
+    padding: 12px;
   }
 
   .todays-breed-outside-box {

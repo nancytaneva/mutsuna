@@ -125,7 +125,7 @@
     --text-color-dark-blue: #005f60;
     --text-color-royal-blue: #009db5;
 
-    --text-color-light-orange:#faab36;
+    --text-color-light-orange:#b55d00;
     --text-color-very-light-blue: #005f60;
 
     --box-shadow-wsava-calendar: #0000006b;
@@ -297,7 +297,8 @@
 
 #header-navigation ul li a {
     color: inherit;
-    text-decoration: none 
+    text-decoration: none;
+    text-align: -webkit-center;
 }
 
 #header-navigation li:hover {
@@ -335,6 +336,7 @@
     display: flex;
     align-items: stretch;
     padding: 0px;
+    text-wrap-style: balance;
 }
 
 .menu-item {
@@ -403,7 +405,7 @@
 }
 
 #search-input {
-    width: 80px;
+    width: 184px;
     height: 24px;
     padding: 0px 6px;
     border: 1px solid var(--background-color-scroll-indicator);
@@ -412,12 +414,13 @@
 
 #search-tool {
     padding: 0px 20px 0px 20px;
+    margin-left: auto;
 }
 
 .button-search {
     position: absolute;
     top: 34px;
-    right: 131px;
+    right: 107px;
     height: 14.2px;
     opacity: 0.5;
 }
@@ -459,7 +462,7 @@
 .scroll-indicator-container-mobile {
     display: block;
     position: fixed;
-    width: 1483.2px;
+    width: calc(100% - 37px);
     height: 7px;
     background: var(--background-color-scroll-indicator);
     margin-left: 18px;
@@ -1005,11 +1008,19 @@ h2 {
 
 
 
+  @media (max-width: 1482px) {
+    #search-input {
+        width: 120px;
+    }
+    
+    #header-navigation li {
+        padding: 1px 10px;
+    }
+}
 
 
 
-
-@media (max-width: 1482px) {
+@media (max-width: 1100px) {
 
     * {
         /* overflow-x: hidden;  премахнах го заради кучешкия калкулатор за години */
