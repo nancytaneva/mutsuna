@@ -5,6 +5,8 @@
 //
 
 
+//Get current year for Mutsuna:
+document.getElementById("current-year").innerHTML = new Date().getFullYear();
 
 
   // DARK MODE
