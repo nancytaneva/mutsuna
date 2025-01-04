@@ -201,19 +201,19 @@
 
 .tooltip {
     visibility: hidden;
-    width: 112px;
+    width: 132px;
     height: 46px;
     background-color: var(--background-color-home-menu);
     color: var(--text-color);
     text-align: center;
     /* border-radius: 6px; */
-    padding: 8px 0px;
+    padding: 5px;
     position: absolute;
     z-index: 1;
     opacity: 0;
     transition: opacity 0.3s, visibility 0.3s;
     rotate: calc((180deg / -6 * var(--i)) - 90deg);
-    transform: translate(48px, -4px);
+    transform: translate(68px, -4px);
     margin: -55px -69px;
     border: 2px solid #444;
     font-size: 13px;
@@ -348,7 +348,7 @@
     rotate: calc((180deg / -6 * var(--i)) - 280deg);
     /* transform: translate(77px, -4px);
     margin: -47px -14px; */
-    transform: translate(-93px, 6px);
+    transform: translate(77px, -4px);
     margin: -60px -20px;
     font-size: 13px;
     border: 2px solid #444;
@@ -375,6 +375,16 @@
 
     .home--cat, .home--dog {
         display: block;
+    }
+
+    .tooltip {
+        width: 112px;
+        padding: 8px 0px;
+        transform: translate(48px, -4px);
+    }
+    
+    .tooltip--dog {
+        transform: translate(-93px, 6px);
     }
 
 }
