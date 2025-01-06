@@ -140,7 +140,7 @@ window.$scoreComponent = (function () {
         lifeLengthDiv.classList.add("card");
         lifeLengthDiv.innerHTML = `
                 <p class="card-title">Живот:</p>
-                <p class="card-text">${breedInfo.general.life_length_max}-${breedInfo.general.life_length_min} г.</p>
+                <p class="card-text">${breedInfo.general.life_length_min}-${breedInfo.general.life_length_max} г.</p>
             </div>
         `;
     

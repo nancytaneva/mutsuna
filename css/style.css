@@ -356,7 +356,7 @@
     list-style: none;
     top: 75px;
     left: 18px;
-    width: 1482.5px;
+    width: calc(100% - 37px);
     color: var(--text-color);
     background-color: var(--header-color);
     border-top: 7px solid var(--header-border-color);
@@ -824,6 +824,8 @@ h2 {
                     width: fit-content;
                     margin: auto;
                  }
+
+.left-text      {text-align: -webkit-left;}
 
 .no-dec {
     text-decoration: none;
