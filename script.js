@@ -249,7 +249,9 @@ buttonDogs.addEventListener('click', () => {
 
 
 
-window.onscroll = function() {myFunctionMobile()};
+window.onscroll = function() {
+  myFunctionMobile()
+};
 
 function myFunctionMobile() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
@@ -299,11 +301,6 @@ function blurImage(element) {
   var blurredImage = element.previousElementSibling; // Get the blurred image
   blurredImage.style.display = 'inline-block'; // Display the blurred image
 }
-
-
-
-
-
 
 
 
@@ -372,14 +369,6 @@ document.getElementById('shareMessengerBtn').addEventListener('click', function(
     // Handle the response if needed
   });
 });
-
-
-
-
-
-
-
-
 
 
 // SCROLL TO TOP

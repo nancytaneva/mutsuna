@@ -7,22 +7,26 @@
     <title>Муцуна | Селектор на породи кучета</title>
     <link rel="icon" href="../../css/img/mutsuna-logo-round-nose-DARK.png">
     <link rel="stylesheet" href="../../css/animations.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="../../css/style.css" />
     <link rel="stylesheet" href="./breed-score.css" />
     <link rel="stylesheet" href="./dog-breeds.css" />
     <link rel="stylesheet" href="./dog-breed-selector.css" />
-     <!-- ICONS CDN FONTAWESOME -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <!-- ION MOON ICONS IN SELECTOR -->
-     <link rel="stylesheet" id="ionicons-css-css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css?ver=4.9.8" type="text/css" media="all">
+    <!-- ICONS CDN FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ION MOON ICONS IN SELECTOR -->
+    <link rel="stylesheet" id="ionicons-css-css"
+        href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css?ver=4.9.8" type="text/css"
+        media="all">
 </head>
 
 <body>
     <!-- HEADER -->
     <header class="header-section">
         <div id="header-container">
-                 <!-- HEADER LOGO -->
+            <!-- HEADER LOGO -->
             <div id="header-sidebranding">
                 <a href="../../index.html" class="no-dec">
                     <img src="../../css/img/mutsuna-logo-NEW.png" class="site-logo">
@@ -38,7 +42,7 @@
                     </div>
                 </a>
                 <a href="../../index.html" class="no-dec" id="a-mobile-site-logo">
-                    <img src="../../css/img/mutsuna-logo-REAL.png"  class="mobile-site-logo">
+                    <img src="../../css/img/mutsuna-logo-REAL.png" class="mobile-site-logo">
                 </a>
             </div>
 
@@ -556,7 +560,29 @@
                       </button> 
                 </div>
 
-           
+            <div id="dark-mode-toggle" class="dark-mode-btn">
+                <div class="dark-mode--indicator">
+                    <div class="dark-mode--icon-container">
+                        <i class="dark-mode--icon fa-solid"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile-burger">
+                <button class="menu1"
+                    onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+                    aria-label="Main Menu">
+                    <svg width="100" height="100" style="width: 35px; height: 25px;" viewBox="15 15 75 75">
+                        <path class="line line1"
+                            d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                        <path class="line line2" d="M 20,50 H 80" />
+                        <path class="line line3"
+                            d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                    </svg>
+                </button>
+            </div>
+
+
         </div>
 
         <!-- MOBILE NAVIGATION -->
@@ -580,10 +606,12 @@
             <!-- ЗА КОТКИ -->
             <div id="mobile-navigation--cats">
                 <button class="MENUBUTTON">
-                    <a href="../../adjustment/cat/adjustment.html" class="no-dec MENUBUTTON-text">Приспособяване в новия дом</a>
+                    <a href="../../adjustment/cat/adjustment.html" class="no-dec MENUBUTTON-text">Приспособяване в новия
+                        дом</a>
                 </button>
                 <button class="MENUBUTTON">
-                    <a href="../../how-take-care/cat/how-take-care.html" class="no-dec MENUBUTTON-text">Как да се грижа за котка?</a>
+                    <a href="../../how-take-care/cat/how-take-care.html" class="no-dec MENUBUTTON-text">Как да се грижа
+                        за котка?</a>
                 </button>
                 <button class="MENUBUTTON">
                     <a href="../../growth/cat/growth.html" class="no-dec MENUBUTTON-text">Растеж и развитие</a>
@@ -610,10 +638,12 @@
             <!-- ЗА КУЧЕТА -->
             <div id="mobile-navigation--dogs">
                 <button class="MENUBUTTON">
-                    <a href="../../adjustment/dog/adjustment.html" class="no-dec MENUBUTTON-text">Приспособяване в новия дом</a>
+                    <a href="../../adjustment/dog/adjustment.html" class="no-dec MENUBUTTON-text">Приспособяване в новия
+                        дом</a>
                 </button>
                 <button class="MENUBUTTON">
-                    <a href="../../how-take-care/dog/how-take-care.html" class="no-dec MENUBUTTON-text">Как да се грижа за котка?</a>
+                    <a href="../../how-take-care/dog/how-take-care.html" class="no-dec MENUBUTTON-text">Как да се грижа
+                        за котка?</a>
                 </button>
                 <button class="MENUBUTTON">
                     <a href="../../growth/dog/growth.html" class="no-dec MENUBUTTON-text">Растеж и развитие</a>
@@ -635,35 +665,35 @@
                 </button>
             </a>
         </div>
-        
+
         <div id="breadcrumb">
             <a class="breadcrumb-link no-dec" href="../../index.html">Начало</a>
-                <span class="breadcrumb-link">  /  </span>
+            <span class="breadcrumb-link"> / </span>
             <a class="breadcrumb-link no-dec" href="../../what-for-you.html">Кое е за теб?</a>
-                <span class="breadcrumb-link">  /  </span>
+            <span class="breadcrumb-link"> / </span>
             <a class="breadcrumb-link no-dec" href="./dog-breed-selector.html">Селектор на породи кучета</a>
         </div>
 
         <div class="overlay-desktop"></div>
-        
+
         <div class="scroll-indicator-container-mobile-background">
             <div class="scroll-indicator-container-mobile">
                 <div id="myBarMobile" class="scroll-indicator-mobile"></div>
             </div>
         </div>
-    
+
     </header>
 
 
-     <section id="content-section">
+    <section id="content-section">
         <section id="article-review">
             <div>
-                <a href="dog/growth.html"><button id="dog-btn-clicked">Куче</button></a> 
-                или 
+                <a href="dog/growth.html"><button id="dog-btn-clicked">Куче</button></a>
+                или
                 <a href="./growth.html"><button id="cat-btn">Коте</button></a>
             </div>
-        </section> 
-    
+        </section>
+
         <section id="main-content">
             <div id="content" class="content">
                 <div id="overlay"></div>
@@ -672,92 +702,131 @@
 
                     <div class="dog-breed-selector">
 
-                        <div class="landing">
+                        <div id="quizz-intro" class="landing">
                             <div class="landing-img">
                                 <img src="../../css/img/home/dog-sit.png">
                             </div>
                             <div class="landing-text">
                                 <div>Какво куче да си взема?</div>
-                                <p>Мечтаеш за куче в твоя дом, но не можеш да решиш кое е подходящо за теб? Отговори на този Селектор за породи кучета и разбери кое ще пасне на твоя начин на живот. Започни сега и разбери кой е твоят бъдещ другар.</p>
-                                <button>Започни сега</button>
+                                <p>Мечтаеш за куче в твоя дом, но не можеш да решиш кое е подходящо за теб? Отговори на
+                                    този Селектор за породи кучета и разбери кое ще пасне на твоя начин на живот.
+                                    Започни сега и разбери кой е твоят бъдещ другар.</p>
+                                <button onclick="processStartTest()">Започни сега</button>
                             </div>
                         </div>
 
-                        <div class="tool-progress" style="opacity: 1; display: block;">
-                            <ul style="width: 100%;">
-                                <li data-step="0" data-increment="0" style="left: 0%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
-                                <li data-step="1" data-increment="11" style="left: 11%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
-                                <li data-step="2" data-increment="22" style="left: 22%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
-                                <li data-step="3" data-increment="33" style="left: 33%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
-                                <li data-step="4" data-increment="44" style="left: 44%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
-                                <li data-step="5" data-increment="56" style="left: 56%; transform: scale(1); opacity: 1;" class="active"><span></span></li>
-                                <li data-step="6" data-increment="67" style="left: 67%; transform: scale(1); opacity: 1;"><span></span></li>
-                                <li data-step="7" data-increment="78" style="left: 78%; transform: scale(1); opacity: 1;"><span></span></li>
-                                <li data-step="8" data-increment="89" style="left: 89%; transform: scale(1); opacity: 1;"><span></span></li>
-                                <li class="tool-current-step active" style="left: 56%; transform: scale(1); opacity: 1;"><span></span></li>
-                            </ul>
-                            <div class="tool-progress-bar" style="width: 56%;"></div>
+                        <div id="quizz-process" class="tool-progress" style="opacity: 1; display: none;">
                         </div>
 
 
-                        <div class="steps-container" style="display: block;">
+                        <div id="quizz-container" class="steps-container" style=" display: none;">
 
-                            <div class="step active" data-step="0" data-step-type="checkbox">
+                            <form id="ttt" name="ttt">
+                                <div class="step active" data-step="0" data-step-type="checkbox">
+                                    <div class="step-inner">
+                                        <div class="image" style="transform: translateY(0px); opacity: 1;">
+                                            <img src="../../css/img/home/dog-sit.png">
+                                        </div>
+
+                                        <div class="text">
+                                            <h4 id="placeholder--question" style="transform: translateY(0px); opacity: 1;">
+                                            </h4>
+                                            <div id="placeholder--answers" class="filters">
+                                            </div>
+                                            <div class="navigation">
+
+                                                <div 
+                                                    onclick="processPrevQuestion()" 
+                                                    class="next nav-item" 
+                                                    style="transform: translateY(0px); opacity: 1;">
+                                                    <a href="#">Предишен въпрос</a>
+                                                </div>
+                                                <div 
+                                                    onclick="processNextQuestion()" 
+                                                    class="next nav-item" 
+                                                    style="transform: translateY(0px); opacity: 1;">
+                                                    <a href="#">Следващ въпрос</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+
+
+                            <!-- <div class="step active" data-step="0" data-step-type="checkbox">
                                 <div class="step-inner">
                                     <div class="image" style="transform: translateY(0px); opacity: 1;">
                                         <img src="../../css/img/home/dog-sit.png">
                                     </div>
                                     <div class="text">
-                                        <h4 style="transform: translateY(0px); opacity: 1;">Колко голямо искаш да е твоето куче?</h4>
+                                        <h4 style="transform: translateY(0px); opacity: 1;">Колко голямо искаш да е
+                                            твоето куче?</h4>
                                         <div class="description"></div>
                                         <div class="filters">
-                                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>малка порода (до 10 кг)<span></span></p>
-                                                                <input type="checkbox" name="step-0" value="small/medium">
-                                                                <span class="checkmark"></span>
-                                                            </label>
-                                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>средноголяма порода (10-25 кг)<span></span></p>
-                                                                <input type="checkbox" name="step-0" value="small/medium">
-                                                                <span class="checkmark"></span>
-                                                            </label>
-                                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>голяма порода (25-45 кг)<span></span></p>
-                                                                <input type="checkbox" name="step-0" value="large">
-                                                                <span class="checkmark"></span>
-                                                            </label>
-                                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>гигантска порода (над 45 кг)<span></span></p>
-                                                                <input type="checkbox" name="step-0" value="giant">
-                                                                <span class="checkmark"></span>
-                                                            </label>
+                                            <label class="checkbox-container"
+                                                style="transform: translateY(0px); opacity: 1;">
+                                                <p>малка порода (до 10 кг)<span></span></p>
+                                                <input type="checkbox" name="step-0" value="small/medium">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="checkbox-container"
+                                                style="transform: translateY(0px); opacity: 1;">
+                                                <p>средноголяма порода (10-25 кг)<span></span></p>
+                                                <input type="checkbox" name="step-0" value="small/medium">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="checkbox-container"
+                                                style="transform: translateY(0px); opacity: 1;">
+                                                <p>голяма порода (25-45 кг)<span></span></p>
+                                                <input type="checkbox" name="step-0" value="large">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="checkbox-container"
+                                                style="transform: translateY(0px); opacity: 1;">
+                                                <p>гигантска порода (над 45 кг)<span></span></p>
+                                                <input type="checkbox" name="step-0" value="giant">
+                                                <span class="checkmark"></span>
+                                            </label>
                                         </div>
                                         <div class="navigation">
-                                            <div class="next nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Нямам предпочитания</a>
+                                            <div class="next nav-item" style="transform: translateY(0px); opacity: 1;">
+                                                <a href="#">Нямам предпочитания</a>
                                             </div>
-                                            <div class="next nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Следващ въпрос</a>
+                                            <div onclick="processNextQuestion()" class="next nav-item" style="transform: translateY(0px); opacity: 1;">
+                                                <a href="#">Следващ въпрос</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="step active" data-step="1" data-step-type="radio">
+                            <div class="step" data-step="1" data-step-type="radio">
                                 <div class="step-inner">
                                     <div class="image" style="transform: translateY(0px); opacity: 1;">
                                         <img src="../../css/img/home/dog-sit.png">
                                     </div>
-                                        <div class="text">
-                                            <h4 style="transform: translateY(0px); opacity: 1;">Ще ти пречат ли лигите на кучето?</h4>
-                                            <div class="description"></div>
-                                            <div class="filters">
-                                                            <button class="filter" data-filter="2" style="transform: translateY(0px); opacity: 1;">
-                                                            <p>Не, нямам проблем с тях<span></span></p>
-                                                            </button>
-                                                            <button class="filter" data-filter="1" style="transform: translateY(0px); opacity: 1;">
-                                                            <p>Да, предпочитам куче с малко лиги<span></span></p>
-                                                            </button>
-                                            </div>
-                                            <div class="navigation">
-                                                <div class="previous nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен въпрос</a></div>
-                                            </div>
+                                    <div class="text">
+                                        <h4 style="transform: translateY(0px); opacity: 1;">Ще ти пречат ли лигите на
+                                            кучето?</h4>
+                                        <div class="description"></div>
+                                        <div class="filters">
+                                            <button class="filter" data-filter="2"
+                                                style="transform: translateY(0px); opacity: 1;">
+                                                <p>Не, нямам проблем с тях<span></span></p>
+                                            </button>
+                                            <button class="filter" data-filter="1"
+                                                style="transform: translateY(0px); opacity: 1;">
+                                                <p>Да, предпочитам куче с малко лиги<span></span></p>
+                                            </button>
                                         </div>
+                                        <div class="navigation">
+                                            <div class="previous nav-item"
+                                                style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен
+                                                    въпрос</a></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
@@ -767,30 +836,42 @@
                                         <img src="../../css/img/home/dog-sit.png">
                                     </div>
                                     <div class="text">
-                                        
-                                        <h4 style="transform: translateY(0px); opacity: 1;">Каква дължина искаш да е козината на твоето куче?</h4>
+
+                                        <h4 style="transform: translateY(0px); opacity: 1;">Каква дължина искаш да е
+                                            козината на твоето куче?</h4>
                                         <div class="description"></div>
                                         <div class="filters">
-                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>Къса<span></span></p>
+                                            <label class="checkbox-container"
+                                                style="transform: translateY(0px); opacity: 1;">
+                                                <p>Къса<span></span></p>
                                                 <input type="checkbox" name="step-0" value="veryEnergetic">
                                                 <span class="checkmark"></span>
                                             </label>
-                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>Средно дълга<span></span></p>
+                                            <label class="checkbox-container"
+                                                style="transform: translateY(0px); opacity: 1;">
+                                                <p>Средно дълга<span></span></p>
                                                 <input type="checkbox" name="step-0" value="energetic">
                                                 <span class="checkmark"></span>
                                             </label>
-                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>Дълга<span></span></p>
+                                            <label class="checkbox-container"
+                                                style="transform: translateY(0px); opacity: 1;">
+                                                <p>Дълга<span></span></p>
                                                 <input type="checkbox" name="step-0" value="calm">
                                                 <span class="checkmark"></span>
                                             </label>
-                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>Нямам предпочитания<span></span></p>
+                                            <label class="checkbox-container"
+                                                style="transform: translateY(0px); opacity: 1;">
+                                                <p>Нямам предпочитания<span></span></p>
                                                 <input type="checkbox" name="step-0" value="N/A">
                                                 <span class="checkmark"></span>
                                             </label>
                                         </div>
                                         <div class="navigation">
-                                            <div class="previous nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен въпрос</a></div>
-                                            <div class="next nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Следващ въпрос</a>
+                                            <div class="previous nav-item"
+                                                style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен
+                                                    въпрос</a></div>
+                                            <div class="next nav-item" style="transform: translateY(0px); opacity: 1;">
+                                                <a href="#">Следващ въпрос</a>
                                             </div>
                                         </div>
                                     </div>
@@ -802,30 +883,38 @@
                                     <div class="image" style="transform: translateY(0px); opacity: 1;">
                                         <img src="../../css/img/home/dog-sit.png">
                                     </div>
-                                        <div class="text">
-                                            <h4 style="transform: translateY(0px); opacity: 1;">Колко време можеш да отделиш за ресане и къпане на кучето?</h4>
-                                            <div class="description"></div>
-                                            <div class="filters">
-                                                <button class="filter" data-filter="5" style="transform: translateY(0px); opacity: 1;">
+                                    <div class="text">
+                                        <h4 style="transform: translateY(0px); opacity: 1;">Колко време можеш да отделиш
+                                            за ресане и къпане на кучето?</h4>
+                                        <div class="description"></div>
+                                        <div class="filters">
+                                            <button class="filter" data-filter="5"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Няма значение за мен<span></span></p>
-                                                </button>
-                                                <button class="filter" data-filter="4" style="transform: translateY(0px); opacity: 1;">
+                                            </button>
+                                            <button class="filter" data-filter="4"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Веднъж дневно<span></span></p>
-                                                </button>
-                                                <button class="filter" data-filter="3" style="transform: translateY(0px); opacity: 1;">
+                                            </button>
+                                            <button class="filter" data-filter="3"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Не повече от 2-3 пъти седмично<span></span></p>
-                                                </button>
-                                                <button class="filter" data-filter="2" style="transform: translateY(0px); opacity: 1;">
+                                            </button>
+                                            <button class="filter" data-filter="2"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Не повече от веднъж седмично<span></span></p>
-                                                </button>
-                                                <button class="filter" data-filter="1" style="transform: translateY(0px); opacity: 1;">
+                                            </button>
+                                            <button class="filter" data-filter="1"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>От време на време<span></span></p>
-                                                </button>
-                                            </div>
-                                            <div class="navigation">
-                                                <div class="previous nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен въпрос</a></div>
-                                            </div>
+                                            </button>
                                         </div>
+                                        <div class="navigation">
+                                            <div class="previous nav-item"
+                                                style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен
+                                                    въпрос</a></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
@@ -834,24 +923,30 @@
                                     <div class="image" style="transform: translateY(0px); opacity: 1;">
                                         <img src="../../css/img/home/dog-sit.png">
                                     </div>
-                                        <div class="text">
-                                            <h4 style="transform: translateY(0px); opacity: 1;">До какво количество паднала козина ще се чувстваш комфортно?</h4>
-                                            <div class="description"></div>
-                                            <div class="filters">
-                                                <button class="filter" data-filter="3" style="transform: translateY(0px); opacity: 1;">
+                                    <div class="text">
+                                        <h4 style="transform: translateY(0px); opacity: 1;">До какво количество паднала
+                                            козина ще се чувстваш комфортно?</h4>
+                                        <div class="description"></div>
+                                        <div class="filters">
+                                            <button class="filter" data-filter="3"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Няма значение за мен<span></span></p>
-                                                </button>
-                                                <button class="filter" data-filter="2" style="transform: translateY(0px); opacity: 1;">
+                                            </button>
+                                            <button class="filter" data-filter="2"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Искам куче, от което не пада козина<span></span></p>
-                                                </button>
-                                                <button class="filter" data-filter="1" style="transform: translateY(0px); opacity: 1;">
+                                            </button>
+                                            <button class="filter" data-filter="1"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>От време на време е напълно приемливо<span></span></p>
-                                                </button>
-                                            </div>
-                                            <div class="navigation">
-                                                <div class="previous nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен въпрос</a></div>
-                                            </div>
+                                            </button>
                                         </div>
+                                        <div class="navigation">
+                                            <div class="previous nav-item"
+                                                style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен
+                                                    въпрос</a></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
@@ -861,64 +956,88 @@
                                         <img src="../../css/img/home/dog-sit.png">
                                     </div>
                                     <div class="text">
-                                        <h4 style="transform: translateY(0px); opacity: 1;">Колко енергично искаш да е твоето куче?</h4>
+                                        <h4 style="transform: translateY(0px); opacity: 1;">Колко енергично искаш да е
+                                            твоето куче?</h4>
                                         <div class="description"></div>
                                         <div class="filters">
-                                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>Много енергично (над 1 час дневни упражнения)<span></span></p>
-                                                                <input type="checkbox" name="step-0" value="veryEnergetic">
-                                                                <span class="checkmark"></span>
-                                                            </label>
-                                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>Енергично (30 мин – 1 час)<span></span></p>
-                                                                <input type="checkbox" name="step-0" value="energetic">
-                                                                <span class="checkmark"></span>
-                                                            </label>
-                                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>Спокойно (20-30 мин дневни упражнения)<span></span></p>
-                                                                <input type="checkbox" name="step-0" value="calm">
-                                                                <span class="checkmark"></span>
-                                                            </label>
-                                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>Нямам предпочитания<span></span></p>
-                                                                <input type="checkbox" name="step-0" value="N/A">
-                                                                <span class="checkmark"></span>
-                                                            </label>
+                                            <label class="checkbox-container"
+                                                style="transform: translateY(0px); opacity: 1;">
+                                                <p>Много енергично (над 1 час дневни упражнения)<span></span></p>
+                                                <input type="checkbox" name="step-0" value="veryEnergetic">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="checkbox-container"
+                                                style="transform: translateY(0px); opacity: 1;">
+                                                <p>Енергично (30 мин – 1 час)<span></span></p>
+                                                <input type="checkbox" name="step-0" value="energetic">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="checkbox-container"
+                                                style="transform: translateY(0px); opacity: 1;">
+                                                <p>Спокойно (20-30 мин дневни упражнения)<span></span></p>
+                                                <input type="checkbox" name="step-0" value="calm">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="checkbox-container"
+                                                style="transform: translateY(0px); opacity: 1;">
+                                                <p>Нямам предпочитания<span></span></p>
+                                                <input type="checkbox" name="step-0" value="N/A">
+                                                <span class="checkmark"></span>
+                                            </label>
                                         </div>
                                         <div class="navigation">
-                                            <div class="previous nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен въпрос</a></div>
-                                            <div class="next nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Следващ въпрос</a>
+                                            <div class="previous nav-item"
+                                                style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен
+                                                    въпрос</a></div>
+                                            <div class="next nav-item" style="transform: translateY(0px); opacity: 1;">
+                                                <a href="#">Следващ въпрос</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="step active" data-step="6" data-step-type="checkbox">
                                 <div class="step-inner">
                                     <div class="image" style="transform: translateY(0px); opacity: 1;">
                                         <img src="../../css/img/home/dog-sit.png">
                                     </div>
                                     <div class="text">
-                                        <h4 style="transform: translateY(0px); opacity: 1;">Колко време на ден би искал да отделиш за разходка с кучето си?</h4>
+                                        <h4 style="transform: translateY(0px); opacity: 1;">Колко време на ден би искал
+                                            да отделиш за разходка с кучето си?</h4>
                                         <div class="description"></div>
                                         <div class="filters">
-                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>До един час на ден<span></span></p>
+                                            <label class="checkbox-container"
+                                                style="transform: translateY(0px); opacity: 1;">
+                                                <p>До един час на ден<span></span></p>
                                                 <input type="checkbox" name="step-0" value="veryEnergetic">
                                                 <span class="checkmark"></span>
                                             </label>
-                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>Един-два часа на ден<span></span></p>
+                                            <label class="checkbox-container"
+                                                style="transform: translateY(0px); opacity: 1;">
+                                                <p>Един-два часа на ден<span></span></p>
                                                 <input type="checkbox" name="step-0" value="energetic">
                                                 <span class="checkmark"></span>
                                             </label>
-                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>Повече от два часа на ден<span></span></p>
+                                            <label class="checkbox-container"
+                                                style="transform: translateY(0px); opacity: 1;">
+                                                <p>Повече от два часа на ден<span></span></p>
                                                 <input type="checkbox" name="step-0" value="calm">
                                                 <span class="checkmark"></span>
                                             </label>
-                                            <label class="checkbox-container" style="transform: translateY(0px); opacity: 1;"><p>Нямам предпочитания<span></span></p>
+                                            <label class="checkbox-container"
+                                                style="transform: translateY(0px); opacity: 1;">
+                                                <p>Нямам предпочитания<span></span></p>
                                                 <input type="checkbox" name="step-0" value="N/A">
                                                 <span class="checkmark"></span>
                                             </label>
                                         </div>
                                         <div class="navigation">
-                                            <div class="previous nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен въпрос</a></div>
-                                            <div class="next nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Следващ въпрос</a>
+                                            <div class="previous nav-item"
+                                                style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен
+                                                    въпрос</a></div>
+                                            <div class="next nav-item" style="transform: translateY(0px); opacity: 1;">
+                                                <a href="#">Следващ въпрос</a>
                                             </div>
                                         </div>
                                     </div>
@@ -930,21 +1049,26 @@
                                     <div class="image" style="transform: translateY(0px); opacity: 1;">
                                         <img src="../../css/img/home/dog-sit.png">
                                     </div>
-                                        <div class="text">
-                                            <h4 style="transform: translateY(0px); opacity: 1;">Колко лай ще може да издържиш?</h4>
-                                            <div class="description"></div>
-                                            <div class="filters">
-                                                <button class="filter" data-filter="2" style="transform: translateY(0px); opacity: 1;">
+                                    <div class="text">
+                                        <h4 style="transform: translateY(0px); opacity: 1;">Колко лай ще може да
+                                            издържиш?</h4>
+                                        <div class="description"></div>
+                                        <div class="filters">
+                                            <button class="filter" data-filter="2"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Нямам проблем с шума<span></span></p>
-                                                </button>
-                                                <button class="filter" data-filter="1" style="transform: translateY(0px); opacity: 1;">
+                                            </button>
+                                            <button class="filter" data-filter="1"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Предпочитам куче, което лае само при нужда<span></span></p>
-                                                </button>
-                                            </div>
-                                            <div class="navigation">
-                                                <div class="previous nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен въпрос</a></div>
-                                            </div>
+                                            </button>
                                         </div>
+                                        <div class="navigation">
+                                            <div class="previous nav-item"
+                                                style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен
+                                                    въпрос</a></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
@@ -953,27 +1077,35 @@
                                     <div class="image" style="transform: translateY(0px); opacity: 1;">
                                         <img src="../../css/img/home/dog-sit.png">
                                     </div>
-                                        <div class="text">
-                                            <h4 style="transform: translateY(0px); opacity: 1;">Търсиш ли си куче пазач?</h4>
-                                            <div class="description"></div>
-                                            <div class="filters">
-                                                <button class="filter" data-filter="2" style="transform: translateY(0px); opacity: 1;">
+                                    <div class="text">
+                                        <h4 style="transform: translateY(0px); opacity: 1;">Търсиш ли си куче пазач?
+                                        </h4>
+                                        <div class="description"></div>
+                                        <div class="filters">
+                                            <button class="filter" data-filter="2"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Да<span></span></p>
-                                                </button>
-                                                <button class="filter" data-filter="2" style="transform: translateY(0px); opacity: 1;">
+                                            </button>
+                                            <button class="filter" data-filter="2"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Искам само да лае и да предупреждава при нужда<span></span></p>
-                                                </button>
-                                                <button class="filter" data-filter="2" style="transform: translateY(0px); opacity: 1;">
-                                                <p> Не, искам да се държи с непознати като със семейство<span></span></p>
-                                                </button>
-                                                <button class="filter" data-filter="1" style="transform: translateY(0px); opacity: 1;">
+                                            </button>
+                                            <button class="filter" data-filter="2"
+                                                style="transform: translateY(0px); opacity: 1;">
+                                                <p> Не, искам да се държи с непознати като със семейство<span></span>
+                                                </p>
+                                            </button>
+                                            <button class="filter" data-filter="1"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Нямам предпочитания<span></span></p>
-                                                </button>
-                                            </div>
-                                            <div class="navigation">
-                                                <div class="previous nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен въпрос</a></div>
-                                            </div>
+                                            </button>
                                         </div>
+                                        <div class="navigation">
+                                            <div class="previous nav-item"
+                                                style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен
+                                                    въпрос</a></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
@@ -982,21 +1114,25 @@
                                     <div class="image" style="transform: translateY(0px); opacity: 1;">
                                         <img src="../../css/img/home/dog-sit.png">
                                     </div>
-                                        <div class="text">
-                                            <h4 style="transform: translateY(0px); opacity: 1;">Имаш ли други кучета?</h4>
-                                            <div class="description"></div>
-                                            <div class="filters">
-                                                <button class="filter" data-filter="2" style="transform: translateY(0px); opacity: 1;">
+                                    <div class="text">
+                                        <h4 style="transform: translateY(0px); opacity: 1;">Имаш ли други кучета?</h4>
+                                        <div class="description"></div>
+                                        <div class="filters">
+                                            <button class="filter" data-filter="2"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Да, и кучето трябва да се разбира с тях<span></span></p>
-                                                </button>
-                                                <button class="filter" data-filter="1" style="transform: translateY(0px); opacity: 1;">
+                                            </button>
+                                            <button class="filter" data-filter="1"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Не, нямам<span></span></p>
-                                                </button>
-                                            </div>
-                                            <div class="navigation">
-                                                <div class="previous nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен въпрос</a></div>
-                                            </div>
+                                            </button>
                                         </div>
+                                        <div class="navigation">
+                                            <div class="previous nav-item"
+                                                style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен
+                                                    въпрос</a></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
@@ -1005,126 +1141,154 @@
                                     <div class="image" style="transform: translateY(0px); opacity: 1;">
                                         <img src="../../css/img/home/dog-sit.png">
                                     </div>
-                                        <div class="text">
-                                            <h4 style="transform: translateY(0px); opacity: 1;">Искаш ли кучето да е подходящо за деца?</h4>
-                                            <div class="description"></div>
-                                            <div class="filters">
-                                                <button class="filter" data-filter="2" style="transform: translateY(0px); opacity: 1;">
+                                    <div class="text">
+                                        <h4 style="transform: translateY(0px); opacity: 1;">Искаш ли кучето да е
+                                            подходящо за деца?</h4>
+                                        <div class="description"></div>
+                                        <div class="filters">
+                                            <button class="filter" data-filter="2"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Да, искам кучето да е безопасно за тях<span></span></p>
-                                                </button>
-                                                <button class="filter" data-filter="1" style="transform: translateY(0px); opacity: 1;">
+                                            </button>
+                                            <button class="filter" data-filter="1"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Не, нямам предпочитания<span></span></p>
-                                                </button>
-                                            </div>
-                                            <div class="navigation">
-                                                <div class="previous nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен въпрос</a></div>
-                                            </div>
+                                            </button>
                                         </div>
+                                        <div class="navigation">
+                                            <div class="previous nav-item"
+                                                style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен
+                                                    въпрос</a></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            
-                            
+
+
                             <div class="step active" data-step="10" data-step-type="radio">
                                 <div class="step-inner">
                                     <div class="image" style="transform: translateY(0px); opacity: 1;">
                                         <img src="../../css/img/home/dog-sit.png">
                                     </div>
-                                        <div class="text">
-                                            <h4 style="transform: translateY(0px); opacity: 1;">Имаш ли двор, до който кучето ще има достъп?</h4>
-                                            <div class="description"></div>
-                                            <div class="filters">
-                                                <button class="filter" data-filter="3" style="transform: translateY(0px); opacity: 1;">
+                                    <div class="text">
+                                        <h4 style="transform: translateY(0px); opacity: 1;">Имаш ли двор, до който
+                                            кучето ще има достъп?</h4>
+                                        <div class="description"></div>
+                                        <div class="filters">
+                                            <button class="filter" data-filter="3"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Не, нямам<span></span></p>
-                                                </button>
-                                                <button class="filter" data-filter="2" style="transform: translateY(0px); opacity: 1;">
+                                            </button>
+                                            <button class="filter" data-filter="2"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Да, малък двор<span></span></p>
-                                                </button>
-                                                <button class="filter" data-filter="1" style="transform: translateY(0px); opacity: 1;">
+                                            </button>
+                                            <button class="filter" data-filter="1"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Да, имам голям двор<span></span></p>
-                                                </button>
-                                            </div>
-                                            <div class="navigation">
-                                                <div class="previous nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен въпрос</a></div>
-                                            </div>
+                                            </button>
                                         </div>
+                                        <div class="navigation">
+                                            <div class="previous nav-item"
+                                                style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен
+                                                    въпрос</a></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            
+
                             <div class="step active" data-step="11" data-step-type="radio">
                                 <div class="step-inner">
                                     <div class="image" style="transform: translateY(0px); opacity: 1;">
                                         <img src="../../css/img/home/dog-sit.png">
                                     </div>
-                                        <div class="text">
-                                            <h4 style="transform: translateY(0px); opacity: 1;">Какъв е твоят дом?</h4>
-                                            <div class="description"></div>
-                                            <div class="filters">
-                                                <button class="filter" data-filter="2" style="transform: translateY(0px); opacity: 1;">
+                                    <div class="text">
+                                        <h4 style="transform: translateY(0px); opacity: 1;">Какъв е твоят дом?</h4>
+                                        <div class="description"></div>
+                                        <div class="filters">
+                                            <button class="filter" data-filter="2"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Живея в апартамент<span></span></p>
-                                                </button>
-                                                <button class="filter" data-filter="1" style="transform: translateY(0px); opacity: 1;">
+                                            </button>
+                                            <button class="filter" data-filter="1"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Живея в къща<span></span></p>
-                                                </button>
-                                            </div>
-                                            <div class="navigation">
-                                                <div class="previous nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен въпрос</a></div>
-                                            </div>
+                                            </button>
                                         </div>
+                                        <div class="navigation">
+                                            <div class="previous nav-item"
+                                                style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен
+                                                    въпрос</a></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            
+
                             <div class="step active" data-step="12" data-step-type="radio">
                                 <div class="step-inner">
                                     <div class="image" style="transform: translateY(0px); opacity: 1;">
                                         <img src="../../css/img/home/dog-sit.png">
                                     </div>
-                                        <div class="text">
-                                            <h4 style="transform: translateY(0px); opacity: 1;">Грижил ли си се някога за куче?</h4>
-                                            <div class="description"></div>
-                                            <div class="filters">
-                                                <button class="filter" data-filter="3" style="transform: translateY(0px); opacity: 1;">
+                                    <div class="text">
+                                        <h4 style="transform: translateY(0px); opacity: 1;">Грижил ли си се някога за
+                                            куче?</h4>
+                                        <div class="description"></div>
+                                        <div class="filters">
+                                            <button class="filter" data-filter="3"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Не, това ще е първото ми куче<span></span></p>
-                                                </button>
-                                                <button class="filter" data-filter="2" style="transform: translateY(0px); opacity: 1;">
+                                            </button>
+                                            <button class="filter" data-filter="2"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Да, имам някакъв опит<span></span></p>
-                                                </button>
-                                                <button class="filter" data-filter="1" style="transform: translateY(0px); opacity: 1;">
+                                            </button>
+                                            <button class="filter" data-filter="1"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Да, имам много опит<span></span></p>
-                                                </button>
-                                            </div>
-                                            <div class="navigation">
-                                                <div class="previous nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен въпрос</a></div>
-                                            </div>
+                                            </button>
                                         </div>
+                                        <div class="navigation">
+                                            <div class="previous nav-item"
+                                                style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен
+                                                    въпрос</a></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            
+
                             <div class="step active" data-step="13" data-step-type="radio">
                                 <div class="step-inner">
                                     <div class="image" style="transform: translateY(0px); opacity: 1;">
                                         <img src="../../css/img/home/dog-sit.png">
                                     </div>
-                                        <div class="text">
-                                            <h4 style="transform: translateY(0px); opacity: 1;">Колко податливо на дресиране искаш твоето куче да бъде?</h4>
-                                            <div class="description"></div>
-                                            <div class="filters">
-                                                <button class="filter" data-filter="2" style="transform: translateY(0px); opacity: 1;">
+                                    <div class="text">
+                                        <h4 style="transform: translateY(0px); opacity: 1;">Колко податливо на дресиране
+                                            искаш твоето куче да бъде?</h4>
+                                        <div class="description"></div>
+                                        <div class="filters">
+                                            <button class="filter" data-filter="2"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Нямам предпочитания<span></span></p>
-                                                </button>
-                                                <button class="filter" data-filter="1" style="transform: translateY(0px); opacity: 1;">
+                                            </button>
+                                            <button class="filter" data-filter="1"
+                                                style="transform: translateY(0px); opacity: 1;">
                                                 <p>Определено искам куче, податливо на дресиране<span></span></p>
-                                                </button>
-                                            </div>
-                                            <div class="navigation">
-                                                <div class="previous nav-item" style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен въпрос</a></div>
-                                            </div>
+                                            </button>
                                         </div>
+                                        <div class="navigation">
+                                            <div class="previous nav-item"
+                                                style="transform: translateY(0px); opacity: 1;"><a href="#">Предишен
+                                                    въпрос</a></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            
-                            
 
-                            <div class="qualities-order">
+                             -->
+
+
+
+                            <!-- <div class="qualities-order">
                                 <h4>Подреди по важност за теб характеристиките на твоето куче:</h4>
                                 <div class="quality">
                                     <div class="quality-number">1</div>
@@ -1164,26 +1328,23 @@
 
                             <div class="show-result">
                                 <div class="show-result-btn">Покажи резултата</div>
-                            </div>
+                            </div> -->
 
-                            
+
                         </div>
                     </div>
                 </div>
 
 
-
-
-
-
                 <div id="share-with-others">
-                    <div class="share-with-others-text">Помогни на повече стопани да се грижат правилно за своите мили любимци:</div>
+                    <div class="share-with-others-text">Помогни на повече стопани да се грижат правилно за своите мили
+                        любимци:</div>
                     <div class="share-panel">
                         <div id="postFacebookBtn" class="share-box">
                             <img src="../../css/img/Facebook_f_logo.png" class="share-icon">
                             <div class="share-text">Сподели във Фейсбук</div>
                         </div>
-                        
+
                         <div id="shareMessengerBtn" class="share-box">
                             <img src="../../css/img/Facebook_Messenger_logo.png" class="share-icon">
                             <div class="share-text">Сподели в Месинджър</div>
@@ -1193,7 +1354,7 @@
                             <img src="../../css/img/email-logo.png" class="share-icon">
                             <div class="share-text">Изпрати по имейл</div>
                         </div>
-                        
+
                         <div id="sendByEmail" onclick="printContent()" class="share-box">
                             <img src="../../css/img/print-logo.png" class="share-icon">
                             <div class="share-text">Принтирай</div>
@@ -1202,16 +1363,16 @@
                     </div>
                     <img src="../../css/img/share-baner.png" style="height: 110px;">
                 </div>
-                
+
             </div>
 
         </section>
-    
+
     </section>
 
     <footer class="footer">
         <div class="footer-container">
-            
+
             <div id="footer-mission">
                 <div class="fs24 pb16">Муцуна.орг</div>
                 <div>
@@ -1222,13 +1383,15 @@
                     <span class="dark-orange"> задължения</span>
                     <span>!". Хората си осиновяват домашни любимци, за да се радват на</span>
                     <span class="very-light-blue"> взаимно щастие и любов</span>
-                    <span>, но понякога положителните емоции са засенчени от неприятните такива, породени от незнанието</span>
+                    <span>, но понякога положителните емоции са засенчени от неприятните такива, породени от
+                        незнанието</span>
                     <span class="very-light-blue"> как да се грижим за нашия любимец</span>
-                    <span>. Този сайт е с цел да ви въведе в света на домашните любимци бързо и практично. А самото приложение – да ви облекчи в следенето на медицинските грижи на вашия четирикрак приятел.</span>
-                    
+                    <span>. Този сайт е с цел да ви въведе в света на домашните любимци бързо и практично. А самото
+                        приложение – да ви облекчи в следенето на медицинските грижи на вашия четирикрак приятел.</span>
+
                 </div>
             </div>
-            
+
             <div id="footer-row">
                 <div class="footer-box">
                     <a href="../../index.html" class="no-dec">
@@ -1260,19 +1423,11 @@
 
             </div>
 
-            <!-- <div class="subscribe">
-                <button class="subscribe-btn">Абонирай се</button>
-                <div id="emailInputContainer" style="display: none;">
-                    <input type="email" id="emailInput" placeholder="Enter your email">
-                    <button id="submitEmailButton">Submit</button> 
-                </div>
-                <div class="fs12">и стани по-информиран и по-добър стопанин</div>
-            </div> -->
-            
+
             <div class="center-text fs12">
                 © Mutsuna <span id="current-year"></span>. Всички права запазени.
             </div>
-        
+
             <div class="footer-terms-of-use center-text fs12 pb24">
                 Условия за ползване
             </div>
@@ -1290,14 +1445,339 @@
     </button>
 
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
-    
-    <script
-        src="https://code.jquery.com/jquery-3.7.0.slim.js"
-        integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c="
-        crossorigin="anonymous"></script>
 
-        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-        <script src="./dog-breeds.js"></script>
-        <script src="../../script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.slim.js"
+        integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- <script src="./dog-breeds.js"></script> -->
+    <script src="../../script.js"></script>
+    <script src="./scripts/breed.collection.js"></script>
+
+    <script>
+
+        
+        let index = 0;
+
+        const questionCollection = [
+            {
+                question    : 'Колко голямо искаш да е твоето куче?',
+                category    : "size.size",
+                answers     : [
+                    {   text: 'малка порода (до 10 кг)'         , value: ['small'   ]   },
+                    {   text: 'средноголяма порода (10-25 кг)'  , value: ['medium'  ]   },
+                    {   text: 'голяма порода (25-45 кг)'        , value: ['large'   ]   },
+                    {   text: 'гигантска порода (над 45 кг)'    , value: ['giant'   ]   }
+                ]
+            },
+            {
+                question    : 'Ще ти пречат ли лигите на кучето?',
+                category    : "physical.drooling",
+                answers     : [
+                    {   text: 'Не, нямам проблем с тях'             , value: [1, 2, 3, 4, 5]    },
+                    {   text: 'Да, предпочитам куче с малко лиги'   , value: [1, 2]             }
+                ]
+            },
+            {
+                question    : 'Каква дължина искаш да е козината на твоето куче?',
+                category    : "physical.coat_length",
+                answers     : [
+                    {   text: 'Къса'                    , value: '1'    },
+                    {   text: 'Средно дълга'            , value: '2'    },
+                    {   text: 'Дълга'                   , value: '2'    },
+                    {   text: 'Нямам предпочитания'     , value: '2'    }
+                ]
+            },
+            {
+                question    : 'Колко време можеш да отделиш за ресане и къпане на кучето?',
+                category    : "physical.grooming",
+                answers     : [
+                    {   text: 'Веднъж дневно'                   , value: [1, 2]    },
+                    {   text: 'Не повече от 2-3 пъти седмично'  , value: [1, 2]    },
+                    {   text: 'Не повече от веднъж седмично'    , value: [1, 2]    },
+                    {   text: 'От време на време'               , value: [1, 2]    }
+                ]
+            },
+            {
+                question    : 'До какво количество паднала козина ще се чувстваш комфортно?',
+                category    : "physical.shedding",
+                answers     : [
+                    {   text: 'Няма значение за мен'                    , value: '1'    },
+                    {   text: 'Искам куче, от което не пада козина'     , value: '2'    },
+                    {   text: 'От време на време е напълно приемливо'   , value: '2'    },
+                ]
+            },
+            {
+                question    : 'Колко енергично искаш да е твоето куче?',
+                category    : "character.energy",
+                answers     : [
+                    {   text: 'Много енергично (над 1 час дневни упражнения)'   , value: '1'    },
+                    {   text: 'Енергично (30 мин – 1 час)'                      , value: '2'    },
+                    {   text: 'Спокойно (20-30 мин дневни упражнения)'          , value: '2'    },
+                    {   text: 'Нямам предпочитания'                             , value: '2'    }
+                ]
+            },
+            {
+                question    : 'Колко време на ден би искал да отделиш за разходка с кучето си?',
+                // category    : "???",
+                answers     : [
+                    {   text: 'До един час на ден'          , value: '1'    },
+                    {   text: 'Един-два часа на ден'        , value: '2'    },
+                    {   text: 'Повече от два часа на ден'   , value: '2'    },
+                    {   text: 'Нямам предпочитания'         , value: '2'    }
+                ]
+            },
+            {
+                question    : 'Колко лай ще може да издържиш?',
+                category    : "character.barking",
+                answers     : [
+                    {   text: 'Нямам проблем с шума'                        , value: '1'    },
+                    {   text: 'Предпочитам куче, което лае само при нужда'  , value: '2'    },
+                ]
+            },
+            {
+                question    : 'Търсиш ли си куче пазач?',
+                category    : "character.protectiveness",
+                answers     : [
+                    {   text: 'Да'                    , value: '1'    },
+                    {   text: 'Искам само да лае и да предупреждава при нужда'      , value: '2'    },
+                    {   text: 'Не, искам да се държи с непознати като със семейство', value: '2'    },
+                    {   text: 'Нямам предпочитания'                                 , value: '2'    }
+                ]
+            },
+            {
+                question    : 'Имаш ли други кучета?',
+                category    : "family.good_with_other_dogs",
+                answers     : [
+                    {   text: 'Да'  , value: '1'    },
+                    {   text: 'Не'  , value: '2'    },
+                ]
+            },
+            {
+                question    : 'Искаш ли кучето да е подходящо за деца?',
+                category    : "family.good_with_children",
+                answers     : [
+                    {   text: 'Да, искам кучето да е безопасно за тях'  , value: '1'    },
+                    {   text: 'Не, нямам предпочитания'                 , value: '2'    },
+                ]
+            },
+            {
+                question    : 'Имаш ли двор, до който кучето ще има достъп?',
+                // category    : "???",
+                answers     : [
+                    {   text: 'Не, нямам'           , value: '1'    },
+                    {   text: 'Да, малък двор'      , value: '2'    },
+                    {   text: 'Да, имам голям двор' , value: '2'    },
+                ]
+            },
+            {
+                question    : 'Какъв е твоят дом?',
+                // category    : "???",
+                answers     : [
+                    {   text: 'Живея в апартамент'  , value: '1'    },
+                    {   text: 'Живея в къща'        , value: '2'    }
+                ]
+            },
+            {
+                question    : 'Грижил ли си се някога за куче?',
+                // category    : "???",
+                answers     : [
+                    {   text: 'Не, това ще е първото ми куче'   , value: '1'    },
+                    {   text: 'Да, имам някакъв опит'           , value: '2'    },
+                    {   text: 'Да, имам много опит'             , value: '2'    },
+                ]
+            },
+            {
+                question    : 'Колко податливо на дресиране искаш твоето куче да бъде?',
+                // category    : "character.trainability",
+                answers     : [
+                    {   text: 'Определено искам куче, податливо на дресиране'   , value: '1'    },
+                    {   text: 'Нямам предпочитания'                             , value: '2'    }
+                ]
+            }
+        ];
+
+
+        // 
+        const placeholderQuestion       = document.getElementById("placeholder--question");
+        const placeholderAnswers        = document.getElementById("placeholder--answers");
+
+        const quizzIntro                = document.getElementById("quizz-intro")
+        const quizzProcess              = document.getElementById("quizz-process");
+        const quizzContainer            = document.getElementById("quizz-container");
+
+        const answerPointCollection     = {};
+
+
+        function renderProgress() {
+
+            // get progress step
+            const progressStep = 100 / questionCollection.length;
+            const progressTemplate = [];
+            for(let i = 0; i < questionCollection.length; i++) {
+
+                const className = (i <= index) ? 'class="active"' : '';
+
+                progressTemplate.push(`
+                    <li ${className} style="left: ${(progressStep * (i))}%;"></li>
+                `);
+            }
+
+            quizzProcess.innerHTML = `<ul>${progressTemplate.join('')}</ul>`;
+        }
+
+
+    
+        function buildQuestionCollection() {
+            
+            const answerCollection   = questionCollection[index]?.answers;
+            const checkboxTemplate   = [];
+
+            for(let i = 0; i < answerCollection.length; i++) {
+
+                checkboxTemplate.push(`
+                    <label 
+                        onclick = "processQuizzStep(${index}, ${i})"
+                        class   = "checkbox-container" 
+                        style   = "transform: translateY(0px); opacity: 1;">
+                        <p>${answerCollection[i].text}</p>
+                        <input type="checkbox" name="step-${index}">                     
+                        <span class="checkmark"></span>
+                    </label>
+                `)
+            }
+
+            return checkboxTemplate.join('');
+        }
+
+        function processQuizzStep(stepId, stepIdPosition, type = "checkboxes") {
+
+            const value                     = questionCollection[stepId].answers[stepIdPosition].value;
+            const category                  = questionCollection[stepId].category;
+            answerPointCollection[category] = value;
+        }
+
+        function render() {
+
+            // render progress bar
+            renderProgress();
+
+            // change question title
+            placeholderQuestion.innerHTML   = questionCollection[index]?.question;
+
+            // build checkbox question
+            placeholderAnswers.innerHTML    = buildQuestionCollection();
+        }
+
+
+        function processStartTest() {
+
+            quizzIntro.style.display        = "none";
+            quizzProcess.style.display      = "block";
+            quizzContainer.style.display    = "block";
+        }
+
+        function processNextQuestion() {
+
+            if(index == questionCollection.length - 1) {
+                console.log(answerPointCollection);
+                return;
+            }
+
+            index++;
+            render()
+        }
+
+        function processPrevQuestion() {
+
+            index--;
+            render()
+        }
+
+
+        function filterByReference(dogBreeds, reference) {
+
+            function matchesReference(obj, ref) {
+
+                console.log("================================")
+                console.log(obj)
+                console.log(ref)
+                console.log("================================")
+
+                for (let key in ref) {
+
+                    console.log(key);
+
+
+                    // if (typeof ref[key] === "object" && ref[key] !== null) {
+
+                    //     if (!obj[key] || !matchesReference(obj[key], ref[key])) {
+                    //         return false;
+                    //     }
+                    // } else {
+                    //     if (obj[key] !== ref[key]) {
+                    //         return false;
+                    //     }
+                    // }
+                }
+                return true;
+            }
+
+            return dogBreeds.filter(breed => matchesReference(breed, reference));
+        }
+
+        // Example usage
+        const dogBreeds = [
+            {
+                id      : 'австралийско келпи',
+                name    : "Австралийско келпи",
+                size    : {
+                    size    : "medium",
+                    height  : { 
+                        height_female_min   : 43, 
+                        height_female_max   : 48 
+                    }
+                },
+                character : {
+                    trainability : 5
+                }
+            },
+            {
+                id      : 'немска овчарка',
+                name    : "Немска овчарка",
+                size    : {
+                    size    : "large",
+                    height  : { 
+                        height_female_min   : 55,
+                        height_female_max   : 60
+                    }
+                },
+                character : {
+                    trainability : 1
+                }
+            }
+        ];
+
+        const reference = {
+            size: {
+                size: ["small"]
+            },
+            character : {
+                trainability : [1, 2, 3]
+            }
+        };
+
+        const matchingBreeds = filterByReference(dogBreeds, reference);
+        console.log("@@@@@@@@@@@@@@@@@@");
+        console.log("@@@@@@@@@@@@@@@@@@");
+        console.log(matchingBreeds);
+        console.log("@@@@@@@@@@@@@@@@@@");
+        console.log("@@@@@@@@@@@@@@@@@@");
+
+
+        render();
+        
+
+    </script>
 </body>
 </html>
