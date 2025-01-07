@@ -13058,7 +13058,7 @@ const breedCollection = [
     id        : 'папийон',
     name      : "Папийон",
     nameEn    : "Papillon",
-    code      : "770001",
+    code      : "77_001",
     image_link: "https://api-ninjas.com/images/dogs/papillon.jpg",
     general   : {
         country           : "Белгия",
