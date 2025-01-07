@@ -259,6 +259,7 @@
 .breed-library-box {
     height: 250px;
     width: 250px;
+    opacity: 0.9;
     border-top: 4px solid var(--background-color-h1);
     border-bottom: 4px solid var(--background-color-h1);
     cursor: pointer;
@@ -285,6 +286,10 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.breed-library-box:hover {
+    opacity: 1;
 }
 
 .breed-library-box:hover p {

@@ -21,7 +21,7 @@ function updateTodaysBreed() {
     
     // Update the href attribute of the anchor tag (if needed)
     const anchorElement = todaysBreedElement.querySelector('a');
-    anchorElement.href = ''; // Set the URL to the breed's page
+    anchorElement.href = 'what-for-you/breeds/dog-breeds.html'; // Set the URL to the breed's page
 
     // You can also update the background image or other styles here
 
