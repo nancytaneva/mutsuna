@@ -11519,7 +11519,7 @@ const breedCollection = [
 {
     id        : 'американски кокер шпаньол',
     name      : "Американски кокер шпаньол",
-    nameEn    : "Cocker Spaniel",
+    nameEn    : "American Cocker Spaniel",
     code      : "167",
     image_link: "https://api-ninjas.com/images/dogs/cocker_spaniel.jpg",
     general   : {
@@ -12317,7 +12317,7 @@ const breedCollection = [
     id        : 'Пудел - стандартен',
     name      : "Пудел - стандартен",
     nameEn    : "Poodle (Standard)",
-    code      : "1720001",
+    code      : "172_001",
     image_link: "https://api-ninjas.com/images/dogs/poodle_(standard).jpg",
     general   : {
         country           : "Франция",
@@ -12374,7 +12374,7 @@ const breedCollection = [
     id        : 'Пудел - миниатюрен',
     name      : "Пудел - миниатюрен",
     nameEn    : "Poodle (Miniature)",
-    code      : "1720002",
+    code      : "172_002",
     image_link: "https://api-ninjas.com/images/dogs/poodle_(miniature).jpg",
     general   : {
         country           : "Франция",
@@ -12431,7 +12431,7 @@ const breedCollection = [
     id        : 'Пудел - играчка',
     name      : "Пудел - играчка",
     nameEn    : "Poodle (Toy)",
-    code      : "1720003",
+    code      : "172_003",
     image_link: "https://api-ninjas.com/images/dogs/poodle_(toy).jpg",
     general   : {
         country           : "Франция",
