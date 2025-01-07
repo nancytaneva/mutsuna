@@ -1,5 +1,5 @@
 
-/* Търсачка на породите кучета */
+
 #breedSelector {
     /* display: flex;
     justify-content: center;
@@ -65,101 +65,90 @@
   }
 
 
-  /* ХАРАКТЕРИСТИКА НА ИЗБРАНАТА ПОРОДА КУЧЕ */
 
-#swiper-wrapper {
-    display: block;
+#breed-wrapper {
+    opacity: 0;
+    animation: fadeIn 3s ease-in-out forwards;
+    margin-top: 24px;
 }
 
-.breed-intro {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.swiper {
+    max-width: 600px;
+    height: 300px;
 }
 
-#breed-front-img {
-    margin: 20px;
-}
-
-.breed-img {
-    max-width: 500px;
-    max-height: 500px;
-}
-
-#dog-breed-intro {
-    display: flex;
-}
-
-#dog-breed-intro img {
-    width: 50%;
+.swiper-slide img {
+    width: 100%;
     object-fit: contain;
-    padding: 18px;
 }
 
+/* .swiper::before {
+    content: "";
+    position: absolute;
+    width: 596px;
+    height: 296px;
+    border: 2px solid #00ff00;
+    background-color: #00ffff21;
+    left: -10px;
+    top: -10px;
+} */
 
+.breed-overview-box {
+   text-align: -webkit-center;
+}
 
+.breed-overview {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 600px;
+    padding: 30px;
+    /* background-color: #f781045c;
+    box-shadow: 0 5px 14px rgb(255 152 0 / 34%);
+    border: 3px solid rgb(196 196 196 / 15%); */
+    background: radial-gradient(#249ea0 -129%, #022627 95%);
+    /* box-shadow: 0 0 black; */
+    border: 0;
+}
 
-  /* Характеристика схема */
-@media (max-width: 780px) {
-    #breed-front-img {
-        margin: 0px;
-    }
+.card {
+    flex: 0 0 100%;
+}
 
-    .breed-img {
-        width: 100%;
-    }
-
-    #dog-breed-intro {
-        display: block;
-    }
-
-    .w50 {
-        width: 100%;
-    }
-
-    .breed-intro {
-        display: block;
-    }
-
-    #dog-breed-intro img {
-        width: 100%;
-        padding: 10px;
-    }
-
-    #breed-front-img {
-        border-bottom: 7px solid var(--header-border-color);
-    }
-
-    #breedInfo {
-        border-bottom: 7px solid var(--header-border-color);
-    }
-
-    .card {
-        flex: 0 0 100%;
-    }
+.card-title {
+    width: 113px;
+    padding-right: 24px;
+    float: none;
+    text-align: -webkit-left;
+    font-weight: 800;
+    font-size: 1.2rem;
+    /* color: #252525; */
+    color: #e7e7e7;
     
-    .card-title {
-        width: 113px;
-        padding-right: 24px;
-        float: none;
-        text-align: -webkit-left;
-        font-weight: 800;
-        font-size: 1.2rem;
-    }
-    
-    .card-text {
-        width: calc(100% - 113px);
-        padding-bottom: 10px;
-        text-align: -webkit-left;
-        font-size: 1.2rem;
-        
-    }
-    
-    .card-text span {
-        padding: 0px 20px 0 0;
-        white-space: nowrap;
-    }
+}
 
+.card-text {
+    width: calc(100% - 113px);
+    padding-bottom: 10px;
+    text-align: -webkit-left;
+    font-size: 1.2rem;
+    /* color: #252525; */
+    color: #ffffffb3;
+    
+}
+
+.card-text span {
+    padding: 0px 20px 0 0;
+    white-space: nowrap;
+    color: #ffffffb3;
+    
+}
+
+.fa-solid, .fas {
+    color: #ff9e37;
+}
+
+@media (max-width: 483px) {
     .card-title {
         width: 93px;
     }
@@ -169,7 +158,11 @@
     }    
 }
 
-  
+
+
+
+
+
 .breed-back-outer-box {
     display: flex;
     flex-wrap: wrap;
@@ -247,7 +240,38 @@
 
 
 
-  /* Библиотека на породите кучета */
+@media (min-width: 1100px) {
+
+    
+    #breed-wrapper {
+        opacity: 0;
+        animation: fadeIn 3s ease-in-out forwards;
+        margin-top: 24px;
+    }
+
+    .swiper {
+        height: 500px;
+    }
+    .breed-overview-box {
+    text-align: -webkit-center;
+    height: 500px;
+    }
+
+    .breed-overview {
+        background: none;
+    }
+
+    .card-title, .card-text, .card-text span {
+        color: var(--text-color);
+    }
+
+    .card-title {
+        float: left;
+    }
+
+}
+
+
 
 .breedLibrary {
     display: flex;

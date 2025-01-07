@@ -83,6 +83,8 @@ window.$scoreComponent = (function () {
             
             placeholder.innerHTML = barTemplate.join('');
         }
+
+
     }
     
     
@@ -157,6 +159,22 @@ window.$scoreComponent = (function () {
         breedInfoDiv.appendChild(weigthDiv);
         breedInfoDiv.appendChild(lifeLengthDiv);
         breedInfoDiv.appendChild(countryDiv);
+
+        document.getElementById('breed-heading').innerHTML = `
+        <div class="heading">${breedInfo.name}</div>
+        <div class="choose-pet-text">(${breedInfo.nameEn})</div>
+        `;
+
+        document.getElementById('swiper-wrapper').innerHTML = `
+        <div class=""><img src='./img/dog/${breedInfo.code}/1.png' class="breed-img"></div>
+        `;
+
+        document.getElementById('breed-name-background').innerHTML = `
+        <p>${breedInfo.name}</p>`;
+
+        document.getElementById('breedInfoParagraph').innerHTML = `
+        <div class="contain p20"><span class="bold">${breedInfo.name}</span> (${breedInfo.nameEn}) e порода, която произлиза от ${breedInfo.general.country}. На височина женските кучета достигат ${breedInfo.size.height.height_female_min}-${breedInfo.size.height.height_female_max} см, а мъжките - ${breedInfo.size.height.height_male_min}-${breedInfo.size.height.height_male_max} см. Теглото между двата пола също варира: при женските е ${breedInfo.size.weight.weight_female_min}-${breedInfo.size.weight.weight_female_max} кг, а при мъжките - ${breedInfo.size.weight.weight_male_min}-${breedInfo.size.weight.weight_male_max} кг. По-долу можете да видите характеристиките на тази невероятна порода, които са събрани кратко и прецизно.
+        </div>`
     }
 
     function render(breedObject) {

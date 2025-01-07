@@ -1,10 +1,30 @@
-console.log('breed.library.js loaded');
 // Function to simulate `findImageBreed`
 const findImageBreed = (code) => `img/dog/${code}/1.png`;
 
+//Function to scroll to the breed
+function scrollToBreed() {
+    // Scroll the breed-wrapper into view
+    const breedWrapper = document.getElementById("breed-wrapper");
+
+    // Calculate the offset for scrolling to the target section
+    const offset = -headerHeight;
+  
+    // Scroll to the target section, applying the offset
+    window.scroll({
+      top: breedWrapper.getBoundingClientRect().top + window.scrollY + offset,
+      behavior: 'smooth'
+    });
+}
+
 // Function to handle card selection
-function onSelectCard(element) {
-  alert(`You selected: ${element.name}`);
+function onSelectCard(codeReference) {
+  document.getElementById("breed-wrapper").style.display="block";
+  
+  const objectReference = breedCollection.find((element) => element.code == codeReference.code);
+
+  $scoreComponent.render(objectReference);
+
+  scrollToBreed()
 }
 
 // Render data to HTML
@@ -42,3 +62,6 @@ breedCollection.forEach((element) => {
   // Append card to the grid
   grid.appendChild(card);
 });
+
+
+
