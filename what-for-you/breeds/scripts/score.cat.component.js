@@ -42,8 +42,14 @@ window.$scoreCatComponent = (function () {
         `;
 
         document.getElementById('breedInfoParagraph').innerHTML = `
-        <div class="contain p20">${breedInfo.intro}</div>`
+        <div class="contain p8">${breedInfo.intro}</div>
+        <div class="contain p8"><strong>Заболявания, често срещани при породата:</strong></div>
+        <ul class="contain p8 ml40">
+            ${breedInfo.health.map(disease => `<li>${disease}</li>`).join('')}
+        </ul>
+        `
     }
+
 
     function render(breedObject) {
 
