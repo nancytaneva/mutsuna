@@ -6,8 +6,9 @@ function getRandomBreed() {
 
 // Function to update the todays-breed div
 function updateTodaysBreed() {
-    const todaysBreedElement = document.getElementById('todays-breed');
-    const randomBreed = getRandomBreed();
+    const todaysBreedElement    = document.getElementById('todays-breed');
+    const todaysDogBreed        = document.getElementById('todaysDogBreed');
+    const randomBreed           = getRandomBreed();
 
     // Update the content of the div with the random breed's name
     todaysBreedElement.querySelector('.todays-breed-name-dog').textContent = randomBreed.name;
@@ -20,7 +21,7 @@ function updateTodaysBreed() {
     dogBoxElement.style.backgroundPosition = 'center'; // Set background-position to center
     
     // Update the href attribute of the anchor tag (if needed)
-    const anchorElement = todaysBreedElement.querySelector('a');
+    const anchorElement = todaysDogBreed.querySelector('a');
     anchorElement.href = 'what-for-you/breeds/dog-breeds.html'; // Set the URL to the breed's page
 
     // You can also update the background image or other styles here
@@ -45,8 +46,9 @@ function getRandomCatBreed() {
 
 // Function to update the todays-breed div
 function updateTodaysCatBreed() {
-    const todaysBreedElement = document.getElementById('todays-breed');
-    const randomBreed = getRandomCatBreed();
+    const todaysBreedElement    = document.getElementById('todays-breed');
+    const todaysCatBreed        = document.getElementById('todaysCatBreed');
+    const randomBreed           = getRandomCatBreed();
 
     // Update the content of the div with the random breed's name
     todaysBreedElement.querySelector('.todays-breed-name-cat').textContent = randomBreed.name;
@@ -59,7 +61,7 @@ function updateTodaysCatBreed() {
     catBoxElement.style.backgroundPosition = 'center'; // Set background-position to center
     
     // Update the href attribute of the anchor tag (if needed)
-    const anchorElement = todaysBreedElement.querySelector('a');
+    const anchorElement = todaysCatBreed.querySelector('a');
     anchorElement.href = 'what-for-you/breeds/cat-breeds.html'; // Set the URL to the breed's page
 
     // You can also update the background image or other styles here
