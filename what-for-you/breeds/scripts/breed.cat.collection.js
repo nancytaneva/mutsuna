@@ -6,7 +6,7 @@ const breedCatCollection = [
       code          : "1",
       image_link    : "0",
       country       : "САЩ",
-      intro         : "Екзотичните късокосмести котки са често описвани като Exotic Shorthairs are often described as the \"lazy man's Persian\" due to their similar appearance but with a short, plush coat that requires less grooming. They are affectionate, gentle, and enjoy lounging, making them excellent lap cats. These cats are playful yet calm, adapting well to various household environments. Their expressive eyes and sweet demeanor endear them to many cat enthusiasts.",
+      intro         : "Екзотичните късокосмести котки са често описвани като „персийската котка за мързеливи хора“ заради сходния им външен вид, но с къса козина, която изисква по-малко поддръжка в сравнение с техните родственици - персийските котки. Те са привързани, нежни и обичат да си почиват, което ги прави отлични домашни любимци за скута. Тези котки са игриви, но спокойни и се адаптират добре към различни домашни условия. Техните изразителни очи и мило поведение ги правят любими на много любители на котки.",
       health        : ["Бъбречна поликистоза", "Хипертрофична кардиомиопатия", "Брахицефален синдром"]
     },
     {
@@ -16,7 +16,7 @@ const breedCatCollection = [
       code          : "2",
       image_link    : "",
       country       : "Иран (Персия)",
-      intro         : "Persian cats are known for their long, luxurious coats and calm, dignified personalities. They enjoy serene environments and form strong bonds with their owners, often preferring a quiet lap to active play. Regular grooming is essential to maintain their coat's beauty. Their distinctive flat faces and large, expressive eyes make them one of the most recognizable cat breeds.",
+      intro         : "Персийските котки са известни със своите дълги, луксозни козини и спокойни, достойни характери. Те обичат тихите и спокойни среди и създават силни връзки със своите стопани, предпочитайки по-скоро уюта на скута, отколкото активната игра. Редовното разресване е от съществено значение за поддържане красотата на тяхната козина. С техните характерни плоски муцунки и големи, изразителни очи, те са една от най-разпознаваемите породи котки.",
       health        : ["Бъбречна поликистоза", "Хипертрофична кардиомиопатия", "Прогресивна атрофия на ретината"]
     },
     {
@@ -26,7 +26,7 @@ const breedCatCollection = [
       code          : "3",
       image_link    : "",
       country       : "САЩ",
-      intro         : "Ragdolls are large, affectionate cats known for their tendency to go limp when held, hence the name \"Ragdoll.\" They are gentle, sociable, and enjoy following their owners around the house. Their striking blue eyes and semi-long, silky coats add to their charm. Ragdolls are also known for their dog-like behavior, often greeting their owners at the door.",
+      intro         : "Рагдолите са едри и лесно привързващи се котки, известни със склонността си да се отпускат напълно, когато бъдат вдигнати – оттук идва и името „Ragdoll“ (парцалена кукла). Те са нежни, социални и обичат да следват стопаните си из дома. Техните поразителни сини очи и полу-дълга копринена козина допълват тяхното очарование. Рагдолите са известни и с кучеподобното си поведение, често посрещайки стопаните си на входната врата.",
       health        : ["Хипертрофична кардиомиопатия", "Камъни в пикочния мехур"]
     },
     {
@@ -36,7 +36,7 @@ const breedCatCollection = [
       code          : "4",
       image_link    : "",
       country       : "Франция",
-      intro         : "Sacred Birmans, or Birmans, are affectionate and gentle cats with striking blue eyes and white \"gloves\" on their paws. They are social and enjoy the company of their human companions, often seeking out attention and affection. Their semi-long, silky coats require regular grooming to prevent matting. Birmans are also known for their playful yet calm demeanor, making them excellent family pets.",
+      intro         : "Свещените бирмански котки, или бирманите, са привързани и нежни животни с поразителни сини очи и бели „ръкавици“ на лапите си. Те са социални и обичат компанията на своите човешки приятели, често търсейки внимание и обич. Полу-дългата им копринена козина изисква редовно разресване, за да се предотврати сплъстяване. Бирманите са известни със своето игриво, но спокойно поведение, което ги прави отлични домашни любимци за семейства.",
       health        : ["Вродена хипотрихоза", "Дермоид на роговицата"]
     },
     {
@@ -46,7 +46,7 @@ const breedCatCollection = [
       code          : "5",
       image_link    : "",
       country       : "Турция",
-      intro         : "Turkish Vans are energetic and playful cats, often referred to as \"swimming cats\" due to their love for water. They are intelligent, curious, and enjoy interactive play, making them engaging companions. Their distinctive coloration, typically a white body with colored markings on the head and tail, adds to their unique appearance. Turkish Vans are also known for their strong, muscular bodies and high activity levels.",
+      intro         : "Турските ванове са енергични и игриви котки, често наричани „котки-плувци“ заради любовта им към водата. Те са интелигентни, любопитни и обичат интерактивните игри, което ги прави забавни спътници. Тяхното характерна окраска – обикновено бяло тяло с цветни петна на главата и опашката – допълва уникалния им вид. Турските ванове са известни също със своите силни, мускулести тела и високи нива на активност.",
       health        : ["Хипертрофична кардиомиопатия"]
     },
     {
@@ -56,7 +56,7 @@ const breedCatCollection = [
       code          : "6",
       image_link    : "",
       country       : "САЩ",
-      intro         : "American Curl Longhairs are known for their distinctive curled ears, which give them a unique and endearing appearance. They are affectionate, playful, and friendly cats that thrive on interaction with their owners. They are often described as having a \"dog-like\" personality, following their humans around and enjoying companionship. Their long, flowing coats require regular grooming to maintain their beauty",
+      intro         : "Американските къдрокосмести дългокосмести котки са известни със своите характерно извити уши, които им придават уникален и очарователен вид. Те са привързани, игриви и дружелюбни котки и често са описвани като притежаващи „кучеподобен“ характер – следват своите хора и обичат компанията им. Техните дълги, течащи козини изискват редовно разресване, за да запазят красотата си.",
       health        : ["Хипертрофична кардиомиопатия", "Бъбречна поликистоза"]
     },
     {
@@ -66,7 +66,7 @@ const breedCatCollection = [
       code          : "7",
       image_link    : "",
       country       : "САЩ",
-      intro         : "Like the Longhair variety, American Curl Shorthairs are known for their signature curled ears. They are intelligent, affectionate, and social cats that enjoy being involved in family activities. Their short coat requires less grooming compared to their Longhair counterparts but still benefits from regular brushing. They are easygoing and get along well with other pets.",
+      intro         : "Американските къдрокосмести късокосмести котки, подобно на дългокосместия вариант, са известни със своите характерно извити уши. Те са интелигентни, привързани и социални котки, които обичат да участват в семейните занимания. Късата им козина изисква по-малко грижи в сравнение с тази на дългокосместите, но все пак се препоръчва редовно четкане. Те са спокойни и се разбират добре с други домашни любимци.",
       health        : ["Хипертрофична кардиомиопатия", "Бъбречна поликистоза"]
     },
     {
@@ -76,7 +76,7 @@ const breedCatCollection = [
       code          : "8",
       image_link    : "",
       country       : "САЩ",
-      intro         : "LaPerm Longhairs are known for their curly, soft coats, which can be quite luxurious and require regular grooming. These cats are affectionate, friendly, and energetic. They are social and enjoy being the center of attention but are not overly demanding. LaPerms are intelligent and can be taught tricks or enjoy interactive play. Despite their curls, they are low-shedding cats.",
+      intro         : "Лаперм дългокосместите котки са известни със своите къдрави, меки козини, които са изключително луксозни и изискват редовна поддръжка. Тези котки са привързани, дружелюбни и енергични. Те са социални и обичат да бъдат в центъра на вниманието, но не са прекалено настойчиви. Лапермите са интелигентни и могат да бъдат научени на трикове или да се радват на интерактивни игри. Въпреки къдравата си козина, те губят малко косми.",
       health        : ["Дадената порода няма наследствени заболявания."]
     },
     {
@@ -86,7 +86,7 @@ const breedCatCollection = [
       code          : "9",
       image_link    : "",
       country       : "САЩ",
-      intro         : "LaPerm Shorthairs share the same friendly, affectionate personality as their Longhair counterparts but have shorter, curlier coats that are easier to maintain. They are intelligent, playful, and enjoy the company of their human families. Like the Longhair variety, LaPerm Shorthairs are often described as having \"dog-like\" behavior, being loyal and social.",
+      intro         : "Лаперм късокосместите котки споделят същия дружелюбен и привързан характер като дългокосместия вариант, но имат по-къса и по-къдрава козина, която е по-лесна за поддръжка. Те са интелигентни, игриви и обичат компанията на своите стопани. Както и дългокосместите, лапермите късокосмести често са описвани с „кучеподобно“ поведение – верни и социални.",
       health        : ["Дадената порода няма наследствени заболявания."]
     },
     {
@@ -96,7 +96,7 @@ const breedCatCollection = [
       code          : "10",
       image_link    : "",
       country       : "САЩ",
-      intro         : "Maine Coons are one of the largest domesticated cat breeds, known for their friendly and sociable nature. They are intelligent, playful, and often referred to as \"gentle giants.\" Their tufted ears, bushy tails, and shaggy coats are well-suited for cold climates. Maine Coons are also known for their chirping vocalizations and affectionate behavior towards their families.",
+      intro         : "Мейн кун е една от най-големите домашни породи котки, известна със своя дружелюбен и социален характер. Те са интелигентни, игриви и често наричани „нежни гиганти“. Техните пухкави опашки, характерни кичурчета на ушите и гъсти, рошави козини са идеални за студени климатични условия. Мейн куновете са известни също със своите „чуруликащи“ звуци и привързаното си поведение към семействата си.",
       health        : ["Хипертрофична кардиомиопатия", "Спинална мускулна атрофия", "Дисплазия на тазобедрената става"]
     },
     {
@@ -106,7 +106,7 @@ const breedCatCollection = [
       code          : "11",
       image_link    : "",
       country       : "Русия",
-      intro         : "Neva Masquerade cats are essentially colorpoint Siberian cats, characterized by their striking blue eyes and beautiful coat patterns. They are known for their gentle, affectionate nature and are highly social with their families. They are playful, curious, and love interactive play. Their coats are dense and semi-long, requiring regular grooming to maintain their health and appearance.",
+      intro         : "Невските маскарадни котки са цветни варианти на сибирските котки, характеризиращи се с впечатляващи сини очи и красиви шарки на козината. Те са известни със своята нежна и привързана природа, като са изключително социални със своите стопани. Обичат игри, любопитни са и се наслаждават на интерактивни занимания. Техните гъсти, полу-дълги козини изискват редовно разресване, за да се поддържа здравината и красотата им.",
       health        : ["Хипертрофична кардиомиопатия", ""]
     },
     {
@@ -116,7 +116,7 @@ const breedCatCollection = [
       code          : "12",
       image_link    : "",
       country       : "Норвегия",
-      intro         : "Norwegian Forest Cats are large, sturdy cats with a thick, water-resistant double coat that protects them in cold climates. They are intelligent, independent, and affectionate but often have a calm, laid-back personality. These cats enjoy climbing and exploring, making them great companions for families with ample space. They are good swimmers and have a natural hunting instinct.",
+      intro         : "Норвежката горска котка е голяма и здрава порода с дебела, водоустойчива двойна козина, която я предпазва в студен климат. Те са интелигентни, независими и привързани, но често запазват спокойно и уравновесено поведение. Тези котки обичат да се катерят и изследват, което ги прави отлични спътници за семейства с повече пространство. Те са добри плувци и имат естествен ловен инстинкт.",
       health        : ["Хипертрофична кардиомиопатия", "Дисплазия на тазобедрената става", "Бъбречна поликистоза"]
     },
     {
@@ -126,7 +126,7 @@ const breedCatCollection = [
       code          : "13",
       image_link    : "",
       country       : "Русия",
-      intro         : "Siberian Cats are known for their robust, muscular bodies and thick, luxurious coats. They are affectionate, playful, and highly intelligent, making them excellent companions. Siberians are highly adaptable and get along well with other pets and children. Despite their luxurious fur, they shed less than many other long-haired breeds, making them somewhat low-maintenance.",
+      intro         : "Сибирските котки са известни със здравите си, мускулести тела и гъсти, луксозни козини. Те са привързани, игриви и много интелигентни, което ги прави отлични компаньони. Сибирците са изключително адаптивни и се разбират добре с други домашни любимци и деца. Въпреки луксозната си козина, те губят по-малко косми от много други дългокосмести породи, което ги прави сравнително лесни за поддръжка.",
       health        : ["Хипертрофична кардиомиопатия", "Бъбречна поликистоза"]
     },
     {
@@ -136,8 +136,8 @@ const breedCatCollection = [
       code          : "14",
       image_link    : "",
       country       : "Турция",
-      intro         : "Turkish Angoras are elegant cats with silky, medium-length coats and a graceful demeanor. They are active, intelligent, and enjoy interactive play, often engaging in games of fetch. Their almond-shaped eyes can come in various colors, including blue, green, and amber. Turkish Angoras are also known for their affectionate nature and strong bonds with their human companions.",
-      health        : ["Глухота (най-често при котките със сини очи", "Атаксия"]
+      intro         : "Турските ангорски котки са елегантни животни с копринена, среднодълга козина и грациозна осанка. Те са активни, интелигентни и обичат интерактивни игри, често участват в игра на „донеси“. Бадемовидните им очи могат да бъдат в различни цветове, включително сини, зелени и кехлибарени. Турските ангорски котки са известни също със своята привързаност и силни връзки със своите стопани.",
+      health        : ["Глухота (най-често при котките със сини очи)", "Атаксия"]
     },
     {
       id            : "бенгалска котка",
@@ -146,7 +146,7 @@ const breedCatCollection = [
       code          : "15",
       image_link    : "",
       country       : "САЩ",
-      intro         : "Bengal cats are known for their wild appearance, featuring a sleek, muscular build and distinctive spotted or marbled coats reminiscent of leopards. They are highly active, intelligent, and require ample mental and physical stimulation. Bengals enjoy climbing and exploring, making cat trees and interactive toys essential. Their energetic and playful nature makes them engaging companions for those prepared for their high activity levels.",
+      intro         : "Бенгалските котки се отличават с дивия си вид, включващ стройно, мускулесто тяло и характерни петнисти или мраморни шарки, напомнящи леопарди. Те са изключително активни, интелигентни и се нуждаят от много умствена и физическа стимулация. Бенгалите обичат да се катерят и изследват, което прави катерушки и интерактивни играчки задължителни. Енергичната и игрива природа ги прави интересни спътници за хора, подготвени за техните високи нива на активност.",
       health        : ["Хипертрофична кардиомиопатия", "Прогресивна атрофия на ретината", "flat-chested kitten syndrome"]
     },
     {
@@ -156,7 +156,7 @@ const breedCatCollection = [
       code          : "16",
       image_link    : "",
       country       : "Великобритания",
-      intro         : "British Longhairs are affectionate and calm cats, known for their plush, dense coats and round faces. They enjoy human companionship but are not overly demanding, making them excellent companions for those seeking a balanced pet. Their easygoing nature allows them to adapt well to various household environments. Regular grooming is essential to maintain their luxurious fur.",
+      intro         : "Британските дългокосмести котки са привързани и спокойни, известни със своите пухкави, плътни козини и кръгли лица. Те обичат човешката компания, но не са прекалено настойчиви, което ги прави отлични спътници за хора, търсещи балансиран домашен любимец. Лесният им характер позволява да се адаптират добре към различни домашни условия. Редовното разресване е необходимо, за да се поддържа луксозната им козина.",
       health        : ["Хипертрофична кардиомиопатия", "Бъбречна поликистоза"]
     },
     {
@@ -166,7 +166,7 @@ const breedCatCollection = [
       code          : "17",
       image_link    : "",
       country       : "Великобритания",
-      intro         : "Burmillas are playful and affectionate cats, resulting from a cross between Burmese and Chinchilla Persian breeds. They possess a charming personality, combining the curiosity of the Burmese with the gentle nature of the Chinchilla Persian. Their striking silver coats and expressive eyes make them particularly eye-catching. Burmillas are also known for their friendly disposition and adaptability to various living situations.",
+      intro         : "Бурмилите са игриви и привързани котки, произлезли от кръстоска между бирманска и чинчила персийска порода. Те притежават чаровна личност, съчетаваща любопитството на бирманците с нежността на чинчилите. Характерни са със своите сребристи козини и изразителни очи, които ги правят особено привлекателни. Бурмилите са известни също със своята дружелюбна природа и способността да се адаптират към различни жилищни условия.",
       health        : ["Дадената порода няма наследствени заболявания."]
     },
     {
@@ -176,7 +176,7 @@ const breedCatCollection = [
       code          : "18",
       image_link    : "",
       country       : "Великобритания",
-      intro         : "British Shorthairs are known for their sturdy build, round faces, and dense coats. They are calm, easygoing, and form strong bonds with their human companions. While they enjoy affection, they are not typically \"lap cats\" and appreciate their independence. Their plush coats come in various colors and patterns, with the \"British Blue\" being particularly popular.",
+      intro         : "Британските късокосмести котки са известни със здравото си телосложение, кръглите лица и плътните козини. Те са спокойни, лесни за отглеждане и създават силни връзки със своите стопани. Макар да обичат вниманието, обикновено не са „котки за скута“ и ценят своята независимост. Пухкавите им козини се срещат в различни цветове и шарки, като „британското синьо“ е особено популярно.",
       health        : ["Хипертрофична кардиомиопатия", "Хемофилия Б"]
     },
     {
@@ -186,7 +186,7 @@ const breedCatCollection = [
       code          : "19",
       image_link    : "",
       country       : "Мианмар (Бурма)",
-      intro         : "Burmese cats are affectionate, energetic, and people-oriented, often described as \"dog-like\" in their devotion to their owners. They enjoy interactive play and thrive on human companionship, making them excellent family pets. Their sleek, muscular bodies and expressive eyes add to their appeal. Burmese cats are also known for their vocal nature, often engaging in conversations with their owners.",
+      intro         : "Бирманските котки са привързани, енергични и ориентирани към хората, често описвани като „кучеподобни“ в своята преданост към стопаните си. Те обичат интерактивни игри и процъфтяват в човешка компания, което ги прави отлични домашни любимци за семейства. Техните стройни, мускулести тела и изразителни очи допълват привлекателността им. Бирманците са известни също със своята гласовитост, често „разговаряйки“ със своите стопани.",
       health        : ["Хипокалемия", "Вродени дефекти на черепа"]
     },
     {
@@ -196,7 +196,7 @@ const breedCatCollection = [
       code          : "20",
       image_link    : "",
       country       : "Франция",
-      intro         : "Chartreux cats are known for their quiet, gentle, and sweet-natured personalities. They form strong bonds with their owners and are often described as \"smiling\" due to the shape of their heads and mouths. Their dense, water-resistant blue-gray coats and copper to gold eyes make them particularly striking. Chartreux cats are also known for their hunting skills and playful nature.",
+      intro         : "Шартрьо са котки, известни със своите тихи, нежни и добродушни характери. Те създават силни връзки със своите стопани и често са описвани като „усмихващи се“ заради формата на главите и устата си. Техните плътни, водоустойчиви сиво-сини козини и медни до златисти очи ги правят особено впечатляващи. Шартрьо са известни също със своите ловни умения и игрив характер.",
       health        : ["Луксация на колянното капаче"]
     },
     {
@@ -206,7 +206,7 @@ const breedCatCollection = [
       code          : "21",
       image_link    : "",
       country       : "Остров Ман (по-нататък развит в Канада)",
-      intro         : "The Cymric is a long-haired variety of the Manx cat, known for its taillessness or short tail. They are affectionate, intelligent, and enjoy interactive play, often displaying dog-like behaviors such as fetching. Their strong hind legs give them a distinctive hopping gait. Cymrics are also known for their adaptability and get along well with other pets and children.",
+      intro         : "Кимрикът е дългокосмест вариант на манкската котка, известен със своята липса на опашка или с къса такава. Те са привързани, интелигентни и обичат интерактивни игри, често проявявайки кучеподобни поведения, като „донеси“. Силните им задни крака им придават отличителна подскачаща походка. Цимриците са известни също със своята адаптивност и лесно се разбират с други домашни любимци и деца.",
       health        : ["Синдром на Манкс (сакрокаудална дисгенезия)", "Дистрофия на роговицата"]
     },
     {
@@ -216,7 +216,7 @@ const breedCatCollection = [
       code          : "22",
       image_link    : "",
       country       : "Европа",
-      intro         : "European Shorthairs are versatile and adaptable cats, often resembling the traditional domestic cats of Europe. They are friendly, intelligent, and have a strong hunting instinct. Their appearance varies widely, with a range of colors and patterns. European Shorthairs are also known for their robust health and adaptability to various living environments.",
+      intro         : "Европейските късокосмести котки са универсални и адаптивни, често наподобяващи традиционните домашни котки на Европа. Те са дружелюбни, интелигентни и имат силен ловен инстинкт. Външният им вид е много разнообразен, с богата гама от цветове и шарки. Европейските късокосмести котки са известни също със своето здраве и способността да се адаптират към различни условия на живот.",
       health        : ["Дадената порода няма наследствени заболявания."]
     },
     {
@@ -226,7 +226,7 @@ const breedCatCollection = [
       code          : "23",
       image_link    : "",
       country       : "Русия (Курилски острови)",
-      intro         : "Kurilian Bobtails are known for their distinctive pom-pom tails and strong, muscular bodies. They are intelligent, friendly, and have a love for water, often enjoying playing in it. Their semi-wild appearance contrasts with their gentle and affectionate nature. Kurilian Bobtails are also known for their excellent hunting skills and adaptability to various environments.",
+      intro         : "Курилските бобтейли се отличават със своите характерни опашки, наподобяващи помпони, и силни, мускулести тела. Те са интелигентни, приятелски настроени и обичат водата, често се забавляват да играят в нея. Полудивият им външен вид контрастира с нежната и привързана природа. Курилските бобтейли са известни и с отличните си ловни умения и способността да се адаптират към различни среди.",
       health        : ["Дадената порода няма наследствени заболявания."]
     },
     {
@@ -236,7 +236,7 @@ const breedCatCollection = [
       code          : "24",
       image_link    : "",
       country       : "Тайланд",
-      intro         : "Korats are affectionate and intelligent cats, known for their striking silver-blue coats and luminous green eyes. They form strong bonds with their owners and prefer a stable, quiet environment. Korats are also known for their acute senses and playful nature, making them engaging companions. In Тайланд, they are considered symbols of good luck.",
+      intro         : "Коратите са привързани и интелигентни котки, известни със своите сребристо-сини козини и блестящи зелени очи. Те изграждат силни връзки със своите стопани и предпочитат спокойна и стабилна среда. Коратите са известни също със своите остри сетива и игрив характер, което ги прави забавни спътници. В Тайланд те се смятат за символ на късмет.",
       health        : ["Ганглиозидоза"]
     },
     {
@@ -246,7 +246,7 @@ const breedCatCollection = [
       code          : "25",
       image_link    : "",
       country       : "Остров Ман",
-      intro         : "Manx cats are known for their taillessness or short tails, a result of a natural genetic mutation. They are friendly, playful, and intelligent, often described as \"dog-like\" in their loyalty and interactive behavior. Their strong hind legs give them a unique hopping gait. Manx cats are excellent hunters and enjoy both indoor and outdoor environments.",
+      intro         : "Манкските котки са известни със своята липса на опашка или къси опашки, резултат от естествена генетична мутация. Те са дружелюбни, игриви и интелигентни, често описвани като „кучеподобни“ заради своята лоялност и интерактивно поведение. Силните им задни крака им придават отличителна подскачаща походка. Манкските котки са отлични ловци и се наслаждават както на живот на закрито, така и на открито.",
       health        : ["Синдром на Манкс (сакрокаудална дисгенезия)", "Дистрофия на роговицата"]
     },
     {
@@ -256,7 +256,7 @@ const breedCatCollection = [
       code          : "26",
       image_link    : "",
       country       : "Египет",
-      intro         : "Egyptian Maus are elegant and athletic cats with spotted coats, often described as the fastest domestic cat breed due to their agility. They are loyal, affectionate, and highly intelligent, often forming close bonds with their owners. Their expressive green eyes and natural spotted pattern add to their exotic charm. Egyptian Maus also have a unique \"chirping\" vocalization when happy or excited.",
+      intro         : "Египетските мау са елегантни и атлетични котки с петнисти козини, често описвани като най-бързата домашна порода заради своята пъргавина. Те са лоялни, привързани и изключително интелигентни, често изграждащи близки връзки със своите стопани. Техните изразителни зелени очи и естествено петнистата окраска добавят екзотичен чар. Египетските мау издават уникално „чуруликащо“ мяукане, когато са щастливи или развълнувани.",
       health        : ["Левкодистрофия"]
     },
     {
@@ -266,7 +266,7 @@ const breedCatCollection = [
       code          : "27",
       image_link    : "",
       country       : "САЩ",
-      intro         : "Ocicats are playful, confident, and social cats that resemble wild ocelots but are entirely domesticated. They are active and enjoy interactive play, making them great companions for families. Their spotted coat comes in various colors and patterns, adding to their exotic allure. Ocicats are known for their intelligence and adaptability, thriving in both quiet and busy households.",
+      intro         : "Оцикетите са игриви, уверени и социални котки, които наподобяват дивите оцелоти, но са напълно опитомени. Те са активни и обичат интерактивните игри, което ги прави отлични спътници за семейства. Петнистата им козина се среща в различни цветове и шарки, добавяйки към екзотичния им вид. Оцикът са известни със своята интелигентност и адаптивност, като процъфтяват както в тихи, така и в оживени домове.",
       health        : ["Прогресивна атрофия на ретината", "Хипертрофична кардиомиопатия"]
     },
     {
@@ -276,7 +276,7 @@ const breedCatCollection = [
       code          : "28",
       image_link    : "",
       country       : "Сингапур",
-      intro         : "Singapura cats are one of the smallest cat breeds, known for their big personalities and petite size. They are playful, affectionate, and thrive on human interaction, often seeking attention and cuddles. Their short, ticked coat and large, expressive eyes give them a unique, endearing appearance. Despite their small size, they are highly active and enjoy climbing and exploring.",
+      intro         : "Сингапурските котки са една от най-малките породи котки, известни със своите големи личности и дребен размер. Те са игриви, привързани и процъфтяват в човешка компания, често търсейки внимание и гушкане. Късата им козина с тикообразна окраска и големите, изразителни очи им придават уникален и очарователен вид. Въпреки малкия си размер, те са изключително активни и обичат да се катерят и изследват.",
       health        : ["Пируват-киназно недоимъчна анемия"]
     },
     {
@@ -286,7 +286,7 @@ const breedCatCollection = [
       code          : "29",
       image_link    : "",
       country       : "САЩ",
-      intro         : "Snowshoe cats are affectionate, gentle, and intelligent, known for their striking white paws that resemble \"snowshoes.\" They are social cats that enjoy the company of their human companions and other pets. Snowshoes often have a mix of Siamese-like coloration and distinctive white markings. They are playful and adapt well to family environments but may be shy with strangers.",
+      intro         : "Сноушу са привързани, нежни и интелигентни котки, известни със своите бели лапички, наподобяващи „снегоходки“. Те са социални животни, които обичат компанията на своите стопани и други домашни любимци. Сноушу често имат оцветяване, наподобяващо сиамски котки, с характерни бели маркировки. Те са игриви и се адаптират добре към семейна среда, но може да бъдат плахи към непознати.",
       health        : ["Дадената порода няма наследствени заболявания."]
     },
     {
@@ -296,7 +296,7 @@ const breedCatCollection = [
       code          : "30",
       image_link    : "",
       country       : "Кения",
-      intro         : "Sokokes are rare and unique cats with marbled coats resembling tree bark, a pattern that helps them blend into natural environments. They are active, independent, and intelligent cats that enjoy interactive play. Sokokes are known for their love of climbing and exploring, making cat trees and high perches essential in their homes. They are affectionate with their families but may be reserved with strangers.",
+      intro         : "Кенийските горски котки са редки и уникални котки с мраморни шарки, наподобяващи кора на дърво – модел, който им помага да се сливат с природата. Те са активни, независими и интелигентни котки, които обичат интерактивните игри. Кенийските горски котки са известни със своята любов към катеренето и изследването, което прави катерушки и високи места задължителни в дома им. Те са привързани към семейството си, но може да бъдат резервирани с непознати.",
       health        : ["Дадената порода няма наследствени заболявания."]
     },
     {
@@ -306,7 +306,7 @@ const breedCatCollection = [
       code          : "31",
       image_link    : "",
       country       : "САЩ",
-      intro         : "Selkirk Rex Longhairs are known for their distinctive curly coats, which are thick and plush. They have a gentle, affectionate nature and enjoy being around people. These cats are friendly, social, and love cuddling with their human companions. Despite their long, curly fur, they are relatively low-shedding, making them easier to care for. Selkirk Rex cats are playful and enjoy interactive play, often following their owners around.",
+      intro         : "Селкърк Рекс Дългокосмести са известни със своите характерни къдрави козини, които са гъсти и плюшени. Те са нежни, привързани и обичат да бъдат около хората. Тези котки са дружелюбни, социални и обичат да се гушкат със своите стопани. Въпреки дългата си, къдрава козина, те не линеят много, което улеснява грижите за тях. Селкърк Рекс са игриви и обичат интерактивните игри, често следвайки стопаните си наоколо.",
       health        : ["Хипертрофична кардиомиопатия", "Определени случаи на респираторни заболявания."]
     },
     {
@@ -316,7 +316,7 @@ const breedCatCollection = [
       code          : "32",
       image_link    : "",
       country       : "САЩ",
-      intro         : "Like the Longhair variety, Selkirk Rex Shorthairs have curly coats but with shorter fur. They are affectionate, social, and easygoing, often described as \"dog-like\" in their loyalty. Selkirk Rex cats are known for their calm demeanor, and they tend to be adaptable to various living situations. They enjoy interactive play and are good with children and other pets.",
+      intro         : "Селкърк Рекс Късокосмести, подобно на дългокосместия вариант, имат къдрави козини, но с по-къса дължина. Те са привързани, социални и спокойни, често описвани като „кучеподобни“ заради своята лоялност. Селкърк Рекс са известни със своя уравновесен характер и способността да се адаптират към различни условия. Те обичат интерактивните игри и се разбират добре с деца и други домашни любимци.",
       health        : ["Хипертрофична кардиомиопатия", "Определени случаи на респираторни заболявания."]
     },
     {
@@ -326,7 +326,7 @@ const breedCatCollection = [
       code          : "33",
       image_link    : "",
       country       : "Етиопия",
-      intro         : "Abyssinians are energetic, intelligent, and playful cats that are often described as \"dog-like\" in their loyalty. They are known for their distinct \"ticked\" coat, where each hair is banded with multiple colors. Abyssinians enjoy climbing and exploring, making them highly active and curious pets. Their affectionate yet independent nature makes them ideal for families with active lifestyles.",
+      intro         : "Абисинските котки са енергични, интелигентни и игриви, често описвани като „кучеподобни“ заради своята лоялност. Те са известни с уникалната си „тикована“ козина, при която всяко косъмче е оцветено в няколко нюанса. Абисинските котки обичат да се катерят и изследват, което ги прави изключително активни и любопитни домашни любимци. Тяхната привързана, но независима природа ги прави идеални за семейства с активен начин на живот.",
       health        : ["Хипертрофична кардиомиопатия", "Гингивит"]
     },
     {
@@ -336,7 +336,7 @@ const breedCatCollection = [
       code          : "34",
       image_link    : "",
       country       : "САЩ (създадена от сиамски котки)",
-      intro         : "Balinese cats are known for their graceful appearance, long silky coats, and striking blue eyes. They are intelligent, vocal, and very affectionate, often forming strong bonds with their owners. Balinese cats are highly social and enjoy interactive play, and their playful nature makes them excellent companions for families.",
+      intro         : "Балийските котки са известни с грациозния си външен вид, дългата копринена козина и ярките си сини очи. Те са интелигентни, вокални и много привързани, често изграждащи силни връзки със своите стопани. Балийските котки са силно социални и обичат интерактивните игри, като игривият им характер ги прави отлични спътници за семейства.",
       health        : ["Прогресивна атрофия на ретината", "Хипертрофична кардиомиопатия"]
     },
     {
@@ -346,7 +346,7 @@ const breedCatCollection = [
       code          : "35",
       image_link    : "",
       country       : "Великобритания",
-      intro         : "Cornish Rex cats are known for their soft, wavy coats, which are the result of a natural genetic mutation. They are highly energetic, playful, and affectionate, often forming strong bonds with their human families. Cornish Rex cats are intelligent and enjoy interactive play, making them excellent companions for families with active lifestyles. They are also known for their athleticism and agility.",
+      intro         : "Корниш Рекс котките са известни със своите меки, вълнообразни козини, резултат от естествена генетична мутация. Те са изключително енергични, игриви и привързани, често изграждащи силни връзки със своите човешки семейства. Корниш Рекс са интелигентни и обичат интерактивните игри, което ги прави отлични спътници за семейства с активен начин на живот. Те също са известни със своята атлетичност и ловкост.",
       health        : ["Хипертрофична кардиомиопатия", "Кожни заболявания (поради липсата на козина)"]
     },
     {
@@ -356,7 +356,7 @@ const breedCatCollection = [
       code          : "36",
       image_link    : "",
       country       : "Великобритания",
-      intro         : "Devon Rex cats have large ears, a short, curly coat, and an impish personality. They are highly social, affectionate, and love human interaction, often seeking attention and cuddles. Devon Rex cats are intelligent and enjoy playing with toys and learning new tricks. They are often described as \"dog-like\" due to their loyalty and ability to follow their owners around.",
+      intro         : "Девън Рекс котките имат големи уши, къса къдрава козина и закачлив характер. Те са силно социални, привързани и обичат човешкото внимание, често търсейки внимание и гушкане. Девън Рекс са интелигентни и обичат да играят с играчки и да учат нови трикове. Често са описвани като „кучеподобни“ заради лоялността си и способността да следват своите стопани.",
       health        : ["Хипертрофична кардиомиопатия", ""]
     },
     {
@@ -366,7 +366,7 @@ const breedCatCollection = [
       code          : "37",
       image_link    : "",
       country       : "Русия",
-      intro         : "Donskoy cats are a hairless breed with wrinkled skin, often described as having a \"bat-like\" appearance. They are highly affectionate, energetic, and social, often forming strong bonds with their owners. Donskoy cats are curious, intelligent, and enjoy being the center of attention. Despite their lack of fur, they require regular bathing to keep their skin clean and healthy.",
+      intro         : "Донските сфинксове са порода без козина, с набръчкана кожа, често описвани с външен вид, наподобяващ прилеп. Те са силно привързани, енергични и социални, често изграждащи силни връзки със своите стопани. Донските сфинксове са любопитни, интелигентни и обичат да бъдат в центъра на вниманието. Въпреки липсата на козина, те изискват редовно къпане, за да поддържат кожата си чиста и здрава.",
       health        : ["Дадената порода няма наследствени заболявания.", ""]
     },
     {
@@ -376,7 +376,7 @@ const breedCatCollection = [
       code          : "38",
       image_link    : "",
       country       : "Германия",
-      intro         : "German Rex cats are known for their soft, curly coats that give them a distinctive appearance. They are affectionate, playful, and highly social, often seeking attention from their human companions. German Rex cats are intelligent and enjoy interactive play, making them excellent pets for families. They are also adaptable to various living situations and get along well with other pets.",
+      intro         : "Германските Рекс котки са известни със своите меки, къдрави козини, които им придават характерен външен вид. Те са привързани, игриви и силно социални, често търсещи внимание от своите човешки спътници. Германските Рекс са интелигентни и обичат интерактивните игри, което ги прави отлични домашни любимци за семейства. Те също така се адаптират добре към различни условия и се разбират добре с други животни.",
       health        : ["Хипертрофична кардиомиопатия", ""]
     },
     {
@@ -386,7 +386,7 @@ const breedCatCollection = [
       code          : "39",
       image_link    : "",
       country       : "Япония",
-      intro         : "Japanese Bobtails are distinct for their short, \"bobbed\" tails, often curled or kinked. They are active, playful, and affectionate cats known for their intelligence and vocal nature. These cats are often associated with Japanese folklore, symbolizing good fortune. Japanese Bobtails are highly adaptable, enjoying both solo play and human companionship.",
+      intro         : "Японските Бобтейли се отличават със своите къси, „бобести“ опашки, които често са извити или нагънати. Те са активни, игриви и привързани котки, известни със своята интелигентност и вокална природа. Тези котки често се свързват с японския фолклор, символизирайки добър късмет. Японските Бобтейли са силно адаптивни и обичат както самостоятелните игри, така и човешката компания.",
       health        : ["Дадената порода няма наследствени заболявания."]
     },
     {
@@ -396,7 +396,7 @@ const breedCatCollection = [
       code          : "40",
       image_link    : "",
       country       : "Великобритания",
-      intro         : "Oriental Longhairs are similar to the Oriental Shorthair but have a longer coat. They are energetic, intelligent, and curious cats that thrive on human interaction. Oriental Longhairs are often described as \"chatty\" due to their vocal nature. Their sleek, elegant appearance and playful personality make them popular among cat lovers.",
+      intro         : "Ориенталските Дългокосмести са подобни на Ориенталските Късокосмести, но имат по-дълга козина. Те са енергични, интелигентни и любопитни котки, които процъфтяват от човешко взаимодействие. Ориенталските Дългокосмести често са описвани като „приказливи“ заради своята вокална природа. Техният елегантен външен вид и игрив характер ги правят популярни сред любителите на котки.",
       health        : ["Дадената порода няма наследствени заболявания."]
     },
     {
@@ -406,17 +406,17 @@ const breedCatCollection = [
       code          : "41",
       image_link    : "",
       country       : "Великобритания",
-      intro         : "Oriental Shorthairs are intelligent, social, and highly energetic cats. They are known for their sleek, elegant bodies and wide range of coat colors and patterns. These cats are often compared to Siamese cats for their vocal personalities and strong desire for attention. They are highly affectionate and love interactive play.",
+      intro         : "Ориенталските Късокосмести са интелигентни, социални и изключително енергични котки. Те са известни със своите елегантни тела и широка гама от цветове и шарки на козината. Тези котки често се сравняват със сиамските заради своята вокална личност и силно желание за внимание. Те са много привързани и обожават интерактивните игри.",
       health        : ["Прогресивна атрофия на ретината", "Хипертрофична кардиомиопатия"]
     },
     {
-      id            : "оетерболд",
+      id            : "петерболд",
       name          : "Петерболд",
       nameEn        : "Peterbald",
       code          : "42",
       image_link    : "",
       country       : "Русия",
-      intro         : "Peterbald cats are known for their unique hairless or semi-hairless appearance, though some have short coats. They are friendly, social, and affectionate cats, often described as \"dog-like\" in their loyalty. Peterbalds are playful, intelligent, and enjoy being the center of attention. Their hairlessness makes them an appealing choice for those who prefer low-maintenance grooming.",
+      intro         : "Петерболд котките са известни със своя уникален външен вид – безкосмести или полу-безкосмести, въпреки че някои имат къса козина. Те са дружелюбни, социални и привързани котки, често описвани като „кучеподобни“ заради лоялността си. Петерболдите са игриви, интелигентни и обичат да бъдат в центъра на вниманието. Липсата на козина ги прави привлекателен избор за хора, предпочитащи лесна поддръжка.",
       health        : ["Дадената порода няма наследствени заболявания."]
     },
     {
@@ -426,7 +426,7 @@ const breedCatCollection = [
       code          : "43",
       image_link    : "",
       country       : "Русия",
-      intro         : "Russian Blues are elegant, quiet, and reserved cats known for their stunning silver-blue coats and vivid green eyes. They are intelligent and can be somewhat shy around strangers, but they are very affectionate with their owners. Russian Blues are also known for their loyalty and make excellent indoor companions due to their calm nature.",
+      intro         : "Руските сини котки са елегантни, тихи и сдържани, известни със своите впечатляващи сребристо-сини козини и ярки зелени очи. Те са интелигентни и могат да бъдат леко срамежливи с непознати, но са много привързани към своите стопани. Руските сини са известни със своята лоялност и са отлични вътрешни спътници, благодарение на спокойния си характер.",
       health        : ["Хипертрофична кардиомиопатия", "Определени случаи на респираторни заболявания."]
     },
     {
@@ -436,7 +436,7 @@ const breedCatCollection = [
       code          : "44",
       image_link    : "",
       country       : "Тайланд",
-      intro         : "Siamese cats are highly vocal, social, and affectionate cats that thrive on attention and companionship. Known for their striking blue almond-shaped eyes, slender bodies, and sleek coat, Siamese cats are intelligent and curious. They form strong bonds with their owners and are known to \"talk\" to them, often demanding attention and affection.",
+      intro         : "Сиамските котки са силно вокални, социални и привързани, като процъфтяват от внимание и компания. Известни със своите поразителни сини бадемовидни очи, стройни тела и елегантна козина, сиамските котки са интелигентни и любопитни. Те изграждат силни връзки със своите стопани и са известни с „разговорите“ си с тях, често изисквайки внимание и обич.",
       health        : ["Прогресивна атрофия на ретината", "Хипертрофична кардиомиопатия"]
     },
     {
@@ -446,7 +446,7 @@ const breedCatCollection = [
       code          : "45",
       image_link    : "",
       country       : "САЩ (създадена от абисински котки)",
-      intro         : "Somali cats are playful, intelligent, and affectionate. They are often described as having the personality of a dog due to their energetic nature and love of interacting with humans. Their beautiful \"ticked\" coats give them a wild appearance, but they are known for being friendly and social. Somalis are highly curious and enjoy climbing and exploring their environment.",
+      intro         : "Сомалийските котки са игриви, интелигентни и привързани. Те често са описвани като котки с кучешки характер заради енергичната си природа и любовта си към взаимодействието с хората. Красивата им „тикована“ козина им придава див вид, но те са известни със своя дружелюбен и социален характер. Сомалийските котки са изключително любопитни и обичат да се катерят и изследват заобикалящата ги среда.",
       health        : ["Прогресивна атрофия на ретината", "Бъбречна амилоидоза"]
     },
     {
@@ -456,7 +456,7 @@ const breedCatCollection = [
       code          : "46",
       image_link    : "",
       country       : "Канада",
-      intro         : "Sphynx cats are famous for their hairless appearance, though they are not truly hypoallergenic. They are affectionate, social, and very playful, often seeking warmth and attention from their human companions. Due to their lack of a coat, they need regular bathing to keep their skin clean and healthy. Sphynx cats are known for being curious, energetic, and loving.",
+      intro         : "Сфинксовите котки са известни със своя безкосмест външен вид, въпреки че не са напълно хипоалергенни. Те са привързани, социални и много игриви, често търсейки топлина и внимание от своите човешки спътници. Поради липсата на козина, те се нуждаят от редовно къпане, за да поддържат кожата си чиста и здрава. Сфинксовете са известни със своята любознателност, енергия и любвеобилност.",
       health        : ["Хипертрофична кардиомиопатия", "Кожни заболявания (поради липсата на козина)", "Различни видове алергии"]
     },
     {
@@ -466,7 +466,7 @@ const breedCatCollection = [
       code          : "47",
       image_link    : "",
       country       : "Тайланд",
-      intro         : "Thai cats are the ancestors of the Siamese and have similar vocal, social, and affectionate personalities. They are known for their striking blue eyes, elegant bodies, and affectionate nature. Thai cats are highly vocal and enjoy the company of people, forming close bonds with their families. They are very playful and enjoy interactive activities.",
+      intro         : "Тайските котки са предшествениците на сиамските и имат сходни вокални, социални и привързани характеристики. Те са известни със своите поразителни сини очи, елегантни тела и привързан характер. Тайските котки са много вокални и обичат компанията на хората, като изграждат близки връзки със своите семейства. Те са много игриви и обичат интерактивните занимания.",
       health        : ["Прогресивна атрофия на ретината", "Хипертрофична кардиомиопатия)"]
     }
   ]
