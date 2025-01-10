@@ -85,12 +85,12 @@ function load(){
 
   //if the dark mode was never activated
   if(!darkmode){
-    store(false);
+    store(true);
     darkModeIcon.classList.add('fa-sun');
-  } else if( darkmode == 'true'){ //if the dark mode is activated
+  } else if( darkmode == 'false'){ //if the dark mode is activated
     body.classList.add('darkmode');
     darkModeIcon.classList.add('fa-moon');
-  } else if(darkmode == 'false'){ //if the dark mode exists but is disabled
+  } else if(darkmode == 'true'){ //if the dark mode exists but is disabled
     darkModeIcon.classList.add('fa-sun');
   }
 }
