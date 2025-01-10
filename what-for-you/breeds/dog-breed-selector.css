@@ -3,9 +3,11 @@
     font-family: "icomoon";
     src: url(../css/fonts/IcoMoon-Free.ttf);
 } */
-#article-review {
+ 
+/* #article-review {
     display: none;
-}
+} */
+
 .dog-breed-selector {
     background: var(--header-border-color);
     /* height: 470px;

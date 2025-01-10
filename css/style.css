@@ -883,6 +883,8 @@ h2 {
     color: inherit;
 }
 
+.nowrap     {text-wrap-mode: nowrap;}
+
 .imgh500       {height: 500px;}
 .imgw500       {width: 500px;}
 .img300x500    {max-width: 500px;
