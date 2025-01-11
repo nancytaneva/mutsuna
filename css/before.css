@@ -14,3 +14,7 @@
 td, th {
     font-size: 1.1rem;
 }
+
+.img-holder p {
+    color:var(--text-color)
+}
