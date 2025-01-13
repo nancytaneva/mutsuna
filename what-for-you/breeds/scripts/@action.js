@@ -10,4 +10,6 @@ function processOpenBread(codeId) {
     const objectReference = breedCollection.find((element) => element.code == codeId);
   
     $scoreComponent.render(objectReference);
+
+    scrollToBreed()
 }

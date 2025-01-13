@@ -1,0 +1,20 @@
+.before {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 55px;
+}
+
+.tdnowrap {
+    text-wrap-mode: nowrap;
+    width: 20%;
+}
+
+td, th {
+    font-size: 1.1rem;
+}
+
+.img-holder p {
+    color:var(--text-color)
+}

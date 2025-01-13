@@ -22,30 +22,21 @@ document.getElementById("current-year").innerHTML = new Date().getFullYear();
 const enableDarkMode = () => {
   // add the class DarkMode to the body
   document.body.classList.add("darkMode");
+  siteUrlImg.classList.add("darkenLogo");
   // update darkMode  in the LocalStorage
   localStorage.setItem("darkMode", "enabled");
-}
-
-const enableDarkenLogo = () => {
-  siteUrlImg.classList.add("darkenLogo");
-  localStorage.setItem("darkenLogo", "enabled");
-}
-
-const disableDarkenLogo = () => {
-  siteUrlImg.classList.remove("darkenLogo");
-  localStorage.setItem("darkenLogo", null);
 }
 
 const disableDarkMode = () => {
   // 1. add the class DarkMode to the body
   document.body.classList.remove("darkMode");
+  siteUrlImg.classList.remove("darkenLogo");
   // 2. update darkMode  in the LocalStorage
   localStorage.setItem("darkMode", null);
 }
 
 if (darkMode === "enabled") {
   enableDarkMode();
-  enableDarkenLogo();
 }
 
  darkModeToggle.addEventListener("click", () => {
@@ -54,12 +45,10 @@ if (darkMode === "enabled") {
 
     if (darkMode!== "enabled") {
       enableDarkMode();
-      enableDarkenLogo();
       console.log(darkMode);
     }
     else {
       disableDarkMode();
-      disableDarkenLogo();
       console.log(darkMode);
     }
  });
@@ -85,12 +74,12 @@ function load(){
 
   //if the dark mode was never activated
   if(!darkmode){
-    store(false);
+    store(true);
     darkModeIcon.classList.add('fa-sun');
-  } else if( darkmode == 'true'){ //if the dark mode is activated
+  } else if( darkmode == 'false'){ //if the dark mode is activated
     body.classList.add('darkmode');
     darkModeIcon.classList.add('fa-moon');
-  } else if(darkmode == 'false'){ //if the dark mode exists but is disabled
+  } else if(darkmode == 'true'){ //if the dark mode exists but is disabled
     darkModeIcon.classList.add('fa-sun');
   }
 }

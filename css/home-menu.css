@@ -387,4 +387,7 @@
         transform: translate(-93px, 6px);
     }
 
+    .choose-pet-text {
+        padding-top: 6px;
+    }
 }

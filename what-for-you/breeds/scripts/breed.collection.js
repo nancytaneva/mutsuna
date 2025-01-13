@@ -60,7 +60,7 @@ const breedCollection = [
     id        : 'белгийска овчарка грюнендал',
     name      : "Белгийска овчарка - Грюнендал",
     nameEn    : "Belgian Shepherd Dog",
-    code      : "15001",
+    code      : "15_001",
     image_link: "https://api-ninjas.com/images/dogs/belgian_sheepdog.jpg",
     general   : {
         country          : "Белгия",
@@ -117,7 +117,7 @@ const breedCollection = [
     id        : 'белгийска овчарка лакеноа',
     name      : "Белгийска овчарка - Лакеноа",
     nameEn    : "Belgian Shepherd Dog",
-    code      : "15002",
+    code      : "15_002",
     image_link: "https://api-ninjas.com/images/dogs/belgian_laekenois.jpg",
     general   : {
         country          : "Белгия",
@@ -174,7 +174,7 @@ const breedCollection = [
     id        : 'белгийска овчарка малиноа',
     name      : "Белгийска овчарка - Малиноа",
     nameEn    : "Belgian Shepherd Dog",
-    code      : "15003",
+    code      : "15_003",
     image_link: "https://api-ninjas.com/images/dogs/belgian_malinois.jpg",
     general   : {
         country          : "Белгия",
@@ -231,7 +231,7 @@ const breedCollection = [
     id        : 'белгийска овчарка тервюрен',
     name      : "Белгийска овчарка - Тервюрен",
     nameEn    : "Belgian Shepherd Dog",
-    code      : "15004",
+    code      : "15_004",
     image_link: "https://api-ninjas.com/images/dogs/belgian_tervuren.jpg",
     general   : {
         country          : "Белгия",
@@ -6618,7 +6618,7 @@ const breedCollection = [
     id        : 'финландски лапхунд',
     name      : "Финландски лапхунд",
     nameEn    : "Finnish Lapphund",
-    code      : "135",
+    code      : "189",
     image_link: "https://api-ninjas.com/images/dogs/finnish_lapphund.jpg",
     general   : {
         country           : "Финландия",
@@ -6903,7 +6903,7 @@ const breedCollection = [
     id        : 'вълчи шпиц немски шпиц',
     name      : "Вълчи шпиц - немски шпиц",
     nameEn    : "Keeshond, German Spitz",
-    code      : "970001",
+    code      : "97_001",
     image_link: "https://api-ninjas.com/images/dogs/keeshond.jpg",
     general   : {
         country           : "Германия",
@@ -6960,7 +6960,7 @@ const breedCollection = [
     id        : 'немски шпиц',
     name      : "Немски шпиц",
     nameEn    : "German Spitz",
-    code      : "970003",
+    code      : "97_003",
     image_link: "https://api-ninjas.com/images/dogs/german_spitz.jpg",
     general   : {
         country           : "Германия",
@@ -7017,7 +7017,7 @@ const breedCollection = [
     id        : 'померан немски шпиц',
     name      : "Померан - немски шпиц",
     nameEn    : "Pomeranian",
-    code      : "970004",
+    code      : "97_004",
     image_link: "https://api-ninjas.com/images/dogs/pomeranian.jpg",
     general   : {
         country           : "Германия",
@@ -7074,7 +7074,7 @@ const breedCollection = [
     id        : 'волпино италиано',
     name      : "Волпино италиано",
     nameEn    : "Volpino Italiano",
-    code      : "970005",
+    code      : "97_005",
     image_link: "https://api-ninjas.com/images/dogs/volpino_italiano.jpg",
     general   : {
         country          : "Италия",
@@ -7928,7 +7928,7 @@ const breedCollection = [
 {
     id        : 'перуанско безкосместо куче',
     name      : "Перуанско безкосместо куче",
-    nameEn    : "Peruvian Nairless Dog",
+    nameEn    : "Peruvian Hairless Dog",
     code      : "310",
     image_link: "https://api-ninjas.com/images/dogs/peruvian_inca_orchid.jpg",
     general   : {
@@ -11519,7 +11519,7 @@ const breedCollection = [
 {
     id        : 'американски кокер шпаньол',
     name      : "Американски кокер шпаньол",
-    nameEn    : "Cocker Spaniel",
+    nameEn    : "American Cocker Spaniel",
     code      : "167",
     image_link: "https://api-ninjas.com/images/dogs/cocker_spaniel.jpg",
     general   : {
@@ -12317,7 +12317,7 @@ const breedCollection = [
     id        : 'Пудел - стандартен',
     name      : "Пудел - стандартен",
     nameEn    : "Poodle (Standard)",
-    code      : "1720001",
+    code      : "172_001",
     image_link: "https://api-ninjas.com/images/dogs/poodle_(standard).jpg",
     general   : {
         country           : "Франция",
@@ -12374,7 +12374,7 @@ const breedCollection = [
     id        : 'Пудел - миниатюрен',
     name      : "Пудел - миниатюрен",
     nameEn    : "Poodle (Miniature)",
-    code      : "1720002",
+    code      : "172_002",
     image_link: "https://api-ninjas.com/images/dogs/poodle_(miniature).jpg",
     general   : {
         country           : "Франция",
@@ -12431,7 +12431,7 @@ const breedCollection = [
     id        : 'Пудел - играчка',
     name      : "Пудел - играчка",
     nameEn    : "Poodle (Toy)",
-    code      : "1720003",
+    code      : "172_003",
     image_link: "https://api-ninjas.com/images/dogs/poodle_(toy).jpg",
     general   : {
         country           : "Франция",
@@ -13058,7 +13058,7 @@ const breedCollection = [
     id        : 'папийон',
     name      : "Папийон",
     nameEn    : "Papillon",
-    code      : "770001",
+    code      : "77_001",
     image_link: "https://api-ninjas.com/images/dogs/papillon.jpg",
     general   : {
         country           : "Белгия",

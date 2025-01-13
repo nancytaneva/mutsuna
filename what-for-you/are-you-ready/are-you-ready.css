@@ -8,9 +8,10 @@
     display: none;
 }
 
-#article-review {
+/* #article-review {
     display: none;
-}
+} */
+
 .dog-breed-selector {
     background: var(--header-border-color);
     /* height: 470px;
