@@ -1145,7 +1145,7 @@
             },
             {
                 question    : 'Ще ти пречат ли лигите на кучето?',
-                category    : "physical.drooling",
+                category    : "score.physical.drooling",
                 answers     : [
                     {   text: 'Не, нямам проблем с тях'             , value: [1, 2, 3, 4, 5]    },
                     {   text: 'Да, предпочитам куче с малко лиги'   , value: [1, 2]             }
@@ -1153,122 +1153,151 @@
             },
             {
                 question    : 'Каква дължина искаш да е козината на твоето куче?',
-                category    : "physical.coat_length",
+                category    : "score.physical.coat_length",
                 answers     : [
-                    {   text: 'Къса'                    , value: '1'    },
-                    {   text: 'Средно дълга'            , value: '2'    },
-                    {   text: 'Дълга'                   , value: '2'    },
-                    {   text: 'Нямам предпочитания'     , value: '2'    }
+                    {   text: 'Къса'                    , value: [1, 2, 3, 4, 5]    },
+                    {   text: 'Средно дълга'            , value: [1, 2, 3, 4, 5]    },
+                    {   text: 'Дълга'                   , value: [1, 2, 3, 4, 5]    },
+                    {   text: 'Нямам предпочитания'     , value: [1, 2, 3, 4, 5]    }
                 ]
             },
             {
                 question    : 'Колко време можеш да отделиш за ресане и къпане на кучето?',
-                category    : "physical.grooming",
+                category    : "score.physical.grooming",
                 answers     : [
-                    {   text: 'Веднъж дневно'                   , value: [1, 2]    },
-                    {   text: 'Не повече от 2-3 пъти седмично'  , value: [1, 2]    },
-                    {   text: 'Не повече от веднъж седмично'    , value: [1, 2]    },
-                    {   text: 'От време на време'               , value: [1, 2]    }
+                    {   text: 'Веднъж дневно'                   , value: [1, 2, 3, 4, 5]    },
+                    {   text: 'Не повече от 2-3 пъти седмично'  , value: [1, 2, 3, 4, 5]    },
+                    {   text: 'Не повече от веднъж седмично'    , value: [1, 2, 3, 4, 5]    },
+                    {   text: 'От време на време'               , value: [1, 2, 3, 4, 5]    }
                 ]
             },
             {
                 question    : 'До какво количество паднала козина ще се чувстваш комфортно?',
-                category    : "physical.shedding",
+                category    : "score.physical.shedding",
                 answers     : [
-                    {   text: 'Няма значение за мен'                    , value: '1'    },
-                    {   text: 'Искам куче, от което не пада козина'     , value: '2'    },
-                    {   text: 'От време на време е напълно приемливо'   , value: '2'    },
+                    {   text: 'Няма значение за мен'                    , value: [1, 2, 3, 4, 5]    },
+                    {   text: 'Искам куче, от което не пада козина'     , value: [1, 2, 3, 4, 5]    },
+                    {   text: 'От време на време е напълно приемливо'   , value: [1, 2, 3, 4, 5]    },
                 ]
             },
             {
                 question    : 'Колко енергично искаш да е твоето куче?',
-                category    : "character.energy",
+                category    : "score.character.energy",
                 answers     : [
-                    {   text: 'Много енергично (над 1 час дневни упражнения)'   , value: '1'    },
-                    {   text: 'Енергично (30 мин – 1 час)'                      , value: '2'    },
-                    {   text: 'Спокойно (20-30 мин дневни упражнения)'          , value: '2'    },
-                    {   text: 'Нямам предпочитания'                             , value: '2'    }
+                    {   text: 'Много енергично (над 1 час дневни упражнения)'   , value: [1, 2, 3, 4, 5]    },
+                    {   text: 'Енергично (30 мин – 1 час)'                      , value: [1, 2, 3, 4, 5]    },
+                    {   text: 'Спокойно (20-30 мин дневни упражнения)'          , value: [1, 2, 3, 4, 5]    },
+                    {   text: 'Нямам предпочитания'                             , value: [1, 2, 3, 4, 5]    }
                 ]
             },
             {
                 question    : 'Колко време на ден би искал да отделиш за разходка с кучето си?',
-                // category    : "???",
+                category    : "general.walk_time",
                 answers     : [
-                    {   text: 'До един час на ден'          , value: '1'    },
-                    {   text: 'Един-два часа на ден'        , value: '2'    },
-                    {   text: 'Повече от два часа на ден'   , value: '2'    },
-                    {   text: 'Нямам предпочитания'         , value: '2'    }
+                    {   text: 'До един час на ден'          , value: [1, 2, 3, 4, 5]    },
+                    {   text: 'Един-два часа на ден'        , value: [1, 2, 3, 4, 5]    },
+                    {   text: 'Повече от два часа на ден'   , value: [1, 2, 3, 4, 5]    },
+                    {   text: 'Нямам предпочитания'         , value: [1, 2, 3, 4, 5]    }
                 ]
             },
             {
                 question    : 'Колко лай ще може да издържиш?',
-                category    : "character.barking",
+                category    : "score.character.barking",
                 answers     : [
-                    {   text: 'Нямам проблем с шума'                        , value: '1'    },
-                    {   text: 'Предпочитам куче, което лае само при нужда'  , value: '2'    },
+                    {   text: 'Нямам проблем с шума'                        , value: [1, 2, 3, 4, 5]    },
+                    {   text: 'Предпочитам куче, което лае само при нужда'  , value: [1, 2, 3, 4, 5]    },
                 ]
             },
             {
                 question    : 'Търсиш ли си куче пазач?',
-                category    : "character.protectiveness",
+                category    : "score.character.protectiveness",
                 answers     : [
-                    {   text: 'Да'                    , value: '1'    },
-                    {   text: 'Искам само да лае и да предупреждава при нужда'      , value: '2'    },
-                    {   text: 'Не, искам да се държи с непознати като със семейство', value: '2'    },
-                    {   text: 'Нямам предпочитания'                                 , value: '2'    }
+                    {   text: 'Да'                                                  , value: [5]                },
+                    {   text: 'Искам само да лае и да предупреждава при нужда'      , value: [1, 2, 3, 4]       },
+                    {   text: 'Не, искам да се държи с непознати като със семейство', value: [1, 2, 3]          },
+                    {   text: 'Нямам предпочитания'                                 , value: [1, 2, 3, 4, 5]    }
                 ]
             },
             {
                 question    : 'Имаш ли други кучета?',
-                category    : "family.good_with_other_dogs",
+                category    : "score.family.good_with_other_dogs",
                 answers     : [
-                    {   text: 'Да'  , value: '1'    },
-                    {   text: 'Не'  , value: '2'    },
+                    {   text: 'Да'  , value: [3,4,5]            },
+                    {   text: 'Не'  , value: [1, 2, 3, 4, 5]    },
                 ]
             },
             {
                 question    : 'Искаш ли кучето да е подходящо за деца?',
-                category    : "family.good_with_children",
+                category    : "score.family.good_with_children",
                 answers     : [
-                    {   text: 'Да, искам кучето да е безопасно за тях'  , value: '1'    },
-                    {   text: 'Не, нямам предпочитания'                 , value: '2'    },
+                    {   text: 'Да, искам кучето да е безопасно за тях'  , value: [4,5]          },
+                    {   text: 'Не, нямам предпочитания'                 , value: [1,2,3,4,5]    },
                 ]
             },
             {
                 question    : 'Имаш ли двор, до който кучето ще има достъп?',
-                // category    : "???",
+                category    : "size.size",
                 answers     : [
-                    {   text: 'Не, нямам'           , value: '1'    },
-                    {   text: 'Да, малък двор'      , value: '2'    },
-                    {   text: 'Да, имам голям двор' , value: '2'    },
+                    {   text: 'Не, нямам'           , value: ['small']        },
+                    {   text: 'Да, малък двор'      , value: ['medium']       },
+                    {   text: 'Да, имам голям двор' , value: ['large']        },
                 ]
             },
             {
                 question    : 'Какъв е твоят дом?',
-                // category    : "???",
+                category    : "size.size",
                 answers     : [
-                    {   text: 'Живея в апартамент'  , value: '1'    },
-                    {   text: 'Живея в къща'        , value: '2'    }
+                    {   text: 'Живея в апартамент'  , value: ['small']              },
+                    {   text: 'Живея в къща'        , value: ['medium', "large"]    }
                 ]
             },
             {
                 question    : 'Грижил ли си се някога за куче?',
-                // category    : "???",
+                category    : "general.owner_experience",
                 answers     : [
-                    {   text: 'Не, това ще е първото ми куче'   , value: '1'    },
-                    {   text: 'Да, имам някакъв опит'           , value: '2'    },
-                    {   text: 'Да, имам много опит'             , value: '2'    },
+                    {   text: 'Не, това ще е първото ми куче'   , value: [1, 2]              },
+                    {   text: 'Да, имам някакъв опит'           , value: [1, 2, 3]           },
+                    {   text: 'Да, имам много опит'             , value: [1, 2, 3, 4, 5]     },
                 ]
             },
             {
                 question    : 'Колко податливо на дресиране искаш твоето куче да бъде?',
-                // category    : "character.trainability",
+                category    : "score.character.trainability",
                 answers     : [
-                    {   text: 'Определено искам куче, податливо на дресиране'   , value: '1'    },
-                    {   text: 'Нямам предпочитания'                             , value: '2'    }
+                    {   text: 'Определено искам куче, податливо на дресиране'   , value: [3,4,5]    },
+                    {   text: 'Нямам предпочитания'                             , value: [1,2,3,4,5] }
                 ]
             }
         ];
+
+
+        function transformObject(input) {
+            const result = {};
+
+            for (const key in input) {
+                const value = input[key];
+                const keyParts = key.split('.');
+                let currentLevel = result;
+
+                // Traverse or create nested objects
+                keyParts.forEach((part, index) => {
+                    if (!currentLevel[part]) {
+                        currentLevel[part] = {};
+                    }
+                    if (index === keyParts.length - 1) {
+                        // Assign the value at the deepest level
+                        currentLevel[part] = value;
+                    } else {
+                        // Move to the next level
+                        currentLevel = currentLevel[part];
+                    }
+                });
+            }
+
+            return result;
+        }
+
+
 
 
         // 
@@ -1353,7 +1382,27 @@
         function processNextQuestion() {
 
             if(index == questionCollection.length - 1) {
-                console.log(answerPointCollection);
+
+                // console.log("@#######");
+                // console.log(transformObject(answerPointCollection));
+                // console.log("@#######");
+
+                console.log("@##############");
+                console.log("@##############");
+                console.log("@##############");
+                console.log(breedCollection);
+
+                const reference = transformObject(answerPointCollection);
+                const matchingBreeds = filterByReference(breedCollection, reference);
+                console.log("@@@@@@@@@@@@@@@@@@");
+                console.log("@@@@@@@@@@@@@@@@@@");
+                console.log(reference);
+                console.log(matchingBreeds);
+                console.log("@@@@@@@@@@@@@@@@@@");
+                console.log("@@@@@@@@@@@@@@@@@@");
+
+
+
                 return;
             }
 
@@ -1367,89 +1416,76 @@
             render()
         }
 
+        function filterByReference(collection, reference) {
 
-        function filterByReference(dogBreeds, reference) {
-
-            function matchesReference(obj, ref) {
-
-                console.log("================================")
-                console.log(obj)
-                console.log(ref)
-                console.log("================================")
-
-                for (let key in ref) {
-
-                    console.log(key);
-
-
-                    // if (typeof ref[key] === "object" && ref[key] !== null) {
-
-                    //     if (!obj[key] || !matchesReference(obj[key], ref[key])) {
-                    //         return false;
-                    //     }
-                    // } else {
-                    //     if (obj[key] !== ref[key]) {
-                    //         return false;
-                    //     }
-                    // }
+            function matchesReference(item, ref) {
+                for (const key in ref) {
+                    if (typeof ref[key] === "object" && !Array.isArray(ref[key])) {
+                        // Recursively check nested objects
+                        if (!matchesReference(item[key] || {}, ref[key])) {
+                            return false;
+                        }
+                    } else if (Array.isArray(ref[key])) {
+                        // Check if the item contains any of the reference array values
+                        if (!ref[key].includes(item[key])) {
+                            return false;
+                        }
+                    }
                 }
                 return true;
             }
 
-            return dogBreeds.filter(breed => matchesReference(breed, reference));
+            return collection.filter(item => matchesReference(item, reference));
         }
 
         // Example usage
-        const dogBreeds = [
-            {
-                id      : 'австралийско келпи',
-                name    : "Австралийско келпи",
-                size    : {
-                    size    : "medium",
-                    height  : { 
-                        height_female_min   : 43, 
-                        height_female_max   : 48 
-                    }
-                },
-                character : {
-                    trainability : 5
-                }
-            },
-            {
-                id      : 'немска овчарка',
-                name    : "Немска овчарка",
-                size    : {
-                    size    : "large",
-                    height  : { 
-                        height_female_min   : 55,
-                        height_female_max   : 60
-                    }
-                },
-                character : {
-                    trainability : 1
-                }
-            }
-        ];
+        // const dogBreeds = [
+        //     {
+        //         id      : 'австралийско келпи',
+        //         name    : "Австралийско келпи",
+        //         size    : {
+        //             size    : "small",
+        //             height  : { 
+        //                 height_female_min   : 43, 
+        //                 height_female_max   : 48 
+        //             }
+        //         },
+        //         character : {
+        //             trainability : 5
+        //         }
+        //     },
+        //     {
+        //         id      : 'немска овчарка',
+        //         name    : "Немска овчарка",
+        //         size    : {
+        //             size    : "small",
+        //             height  : { 
+        //                 height_female_min   : 55,
+        //                 height_female_max   : 60
+        //             }
+        //         },
+        //         character : {
+        //             trainability : 1
+        //         }
+        //     }
+        // ];
 
-        const reference = {
-            size: {
-                size: ["small"]
-            },
-            character : {
-                trainability : [1, 2, 3]
-            }
-        };
-
-        const matchingBreeds = filterByReference(dogBreeds, reference);
-        console.log("@@@@@@@@@@@@@@@@@@");
-        console.log("@@@@@@@@@@@@@@@@@@");
-        console.log(matchingBreeds);
-        console.log("@@@@@@@@@@@@@@@@@@");
-        console.log("@@@@@@@@@@@@@@@@@@");
-
+        // const reference = {
+        //     size: {
+        //         size: ["small"]
+        //     },
+        //     character : {
+        //         trainability : [1, 2, 3]
+        //     }
+        // };
 
         render();
         
+
+
+
+
+
 
     </script>
 </body>
