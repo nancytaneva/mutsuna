@@ -758,6 +758,9 @@ h2 {
 
 .footer-icon-text, .footer-terms-of-use {
     transition: color .2s;
+}
+
+.footer-terms-of-use a {
     text-decoration-line: none;
     color: inherit;
 }
