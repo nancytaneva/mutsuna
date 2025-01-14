@@ -413,6 +413,24 @@ scrollToSectionBtn.addEventListener('click', scrollToSection);
 
 
 
+
+// ARROW
+
+const arrowPointingDown = document.getElementById('arrow-pointing-down');
+
+function arrowDisappear() {
+    // Show or hide the arrow based on the user's scroll position
+    if (window.pageYOffset > 1500) {
+      arrowPointingDown.style.display = "none";
+    } else {
+      arrowPointingDown.style.display = "block";
+    }
+}
+// Add a scroll event listener to show/hide the arrow as the user scrolls
+window.addEventListener('scroll', arrowDisappear);
+
+
+
 // DISABLE VIEW SOURSE
 
       //   // Disable Ctrl + U

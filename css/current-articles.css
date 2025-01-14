@@ -29,14 +29,27 @@
 
   .current-article-cat::before {
     content: "котка";
-    background-color: var(--header-border-color);
+    background-color: var(--background-color-dark-orange);
     position: absolute;
     color: var(--text-color-footer);
     font-weight: 900;
     opacity: 1;
     z-index: 10;
     padding: 8px;
-    margin-left: 186px;
+    /* margin-left: 187px; */
+  }
+
+  .top-article {
+    position: absolute;
+    margin: 10px;
+    width: 250px;
+    cursor: pointer;
+    transition: 0.5s;
+    overflow: hidden;
+    border-top: 5px solid var(--header-border-color);
+    position-area: top left;
+    top: 126px;
+    left: 18px;
   }
 
 
@@ -58,9 +71,9 @@
     width: 100%;
     padding: 7px 18px 27px 18px;
     background-color: var(--header-color);
-    text-align: justify;
+    /* text-align: justify; */
     word-break: break-word;
-    height: 89px;
+    height: 109px;
   }
 
   .current-article-title h4, .animal-new-title h4 {
@@ -73,6 +86,7 @@
   .current-article-title p, .animal-new-title p {
     font-size: 13px;
     margin-left: 7px;
+    padding-top: 8px;
     color: var(--text-color);
     font-weight: 700;
   }
@@ -135,6 +149,11 @@
       text-decoration-line: none;
       margin-bottom: 8px;
     }
+
+    
+    .top-article {
+      display: none;
+    }
   }
   
 
@@ -149,7 +168,7 @@
 .todays-breed {
   width: fit-content;
   margin: auto;
-  padding: 40px;
+  padding: 20px;
   background-image: linear-gradient(110deg, var(--header-border-color) 60%, var(--text-color-light-orange) 60%);
 }
 
@@ -167,7 +186,7 @@
 }
 
 .todays-breed-text {
-  font-size: 60px;
+  font-size: 48px;
   text-align: center;
   color: #dedede;
   font-weight: 800;
@@ -175,13 +194,13 @@
 }
 
 .todays-breed-box-cat {
-  margin: 25px;
+  margin: 16px;
   background: url(./img/article-baner.png);
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
   animation: animateTodaysBreedCat 5s ease-in-out infinite;
   transition: all 1s ease-in-out;
@@ -189,13 +208,13 @@
 }
 
 .todays-breed-box-dog {
-  margin: 25px;
+  margin: 16px;
   background: url(./img/article-baner.png);
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
   animation: animateTodaysBreedDog 5s ease-in-out infinite;
   transition: all 1s ease-in-out;
@@ -215,9 +234,9 @@
 }
 
 .todays-breed-name-dog, .todays-breed-name-cat {
-    font-size: 24px;
-    padding: 10px;
-    margin: 16px;
+    font-size: 20px;
+    padding: 8px;
+    margin: 12px;
     text-align: center;
     text-decoration-line: underline;
     text-underline-position: under;
@@ -250,7 +269,7 @@
 
   .todays-breed-box-cat, .todays-breed-box-dog {
     width: 100%;
-    height: 250px;
+    height: 200px;
     margin: 0;
   }
 
@@ -272,7 +291,7 @@
 .todays-article {
   width: fit-content;
   margin: auto;
-  padding: 40px;
+  padding: 20px;
   background-image: linear-gradient(110deg, var(--text-color-light-orange) 60%, var(--header-border-color) 60%);
 }
 
@@ -290,7 +309,7 @@
 }
 
 .todays-article-text {
-  font-size: 60px;
+  font-size: 48px;
   text-align: center;
   color: #dedede;
   font-weight: 800;
@@ -298,13 +317,13 @@
 }
 
 .todays-article-box-cat {
-  margin: 25px;
+  margin: 16px;
   background: url(./img/article-baner.png);
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
   animation: animateTodaysBreedCat 5s ease-in-out infinite;
   transition: all 1s ease-in-out;
@@ -312,13 +331,13 @@
 }
 
 .todays-article-box-dog {
-  margin: 25px;
+  margin: 16px;
   background: url(./img/article-baner.png);
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
   animation: animateTodaysBreedDog 5s ease-in-out infinite;
   transition: all 1s ease-in-out;
@@ -338,9 +357,9 @@
 }
 
 .todays-article-name-dog, .todays-article-name-cat {
-    font-size: 24px;
-    padding: 10px;
-    margin: 16px;
+    font-size: 20px;
+    padding: 8px;
+    margin: 12px;
     text-align: center;
     text-decoration-line: underline;
     text-underline-position: under;
@@ -381,4 +400,16 @@
     padding: 20px;
   }
 
+}
+
+
+
+/* ARROW POINTING DOWN */
+
+#arrow-pointing-down {
+  position: fixed; 
+  z-index: 100; 
+  bottom: 0px; 
+  position-area: bottom center; 
+  opacity: 0.8;
 }
