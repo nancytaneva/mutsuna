@@ -140,9 +140,11 @@
 
   
 
+/* TODAYS BREED */
 
-
-
+#todaysDogBreed, #todaysCatBreed {
+  text-align: -webkit-center;
+}
 
 .todays-breed {
   width: fit-content;
@@ -253,6 +255,129 @@
   }
 
   .todays-breed-name {
+    padding: 20px;
+  }
+
+}
+
+
+
+
+/* TODAYS ARTICLES */
+
+#todaysDogArticle, #todaysCatArticle {
+  text-align: -webkit-center;
+}
+
+.todays-article {
+  width: fit-content;
+  margin: auto;
+  padding: 40px;
+  background-image: linear-gradient(110deg, var(--text-color-light-orange) 60%, var(--header-border-color) 60%);
+}
+
+.todays-article-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+}
+
+.todays-article-outside-box a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.todays-article-text {
+  font-size: 60px;
+  text-align: center;
+  color: #dedede;
+  font-weight: 800;
+  background-color: var(--text-color-dark-blue);
+}
+
+.todays-article-box-cat {
+  margin: 25px;
+  background: url(./img/article-baner.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 250px;
+  width: 250px;
+  box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
+  animation: animateTodaysBreedCat 5s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+  filter: brightness(0.5);
+}
+
+.todays-article-box-dog {
+  margin: 25px;
+  background: url(./img/article-baner.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 250px;
+  width: 250px;
+  box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
+  animation: animateTodaysBreedDog 5s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+  filter: brightness(0.5);
+}
+
+@keyframes animateTodaysBreedCat {
+  0%    {border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;}
+  50%   {border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;}
+  100%  {border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;}
+}
+
+@keyframes animateTodaysBreedDog {
+  0%    {border-radius: 70% 40% 30% 60% /30% 60% 50% 60% ;}
+  50%   {border-radius: 30% 70% 60% 40% /70% 40% 60% 30% ;}
+  100%  {border-radius: 70% 40% 30% 60% /30% 60% 50% 60% ;}
+}
+
+.todays-article-name-dog, .todays-article-name-cat {
+    font-size: 24px;
+    padding: 10px;
+    margin: 16px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-underline-position: under;
+    color: var(--header-border-color);
+    font-weight: 800;
+    background-color: var(--text-color-light);
+}
+
+@media (max-width: 1100px) {
+  
+.todays-article {
+    padding: 0;
+    border-radius: 0;
+    width: 95%;
+}
+
+
+  .todays-article-wrapper {
+    flex-direction: column;
+  }
+
+  .todays-article-text {
+    font-size: 2rem;
+    padding: 12px;
+  }
+
+  .todays-article-outside-box {
+    padding: 30px;
+  }
+
+  .todays-article-box-cat, .todays-article-box-dog {
+    width: 100%;
+    height: 250px;
+    margin: 0;
+  }
+
+  .todays-article-name {
     padding: 20px;
   }
 

@@ -744,6 +744,10 @@
                 </div>
             </div>
 
+            <div style="position: fixed; z-index: 100; bottom: 0px; position-area: bottom center; opacity: 0.8;">
+                <img src="./css/img/index/arrow-point.gif" style="height: 100px; rotate: 180deg; filter: hue-rotate(-70deg);">
+            </div>
+
             <h2 class="center-content">Актуални статии</h2>
             <div class="current-articles">
                 <div class="current-article current-article-dog">
@@ -893,7 +897,35 @@
 
                     
                 </div>
+
+                <div class="todays-article" id="todays-article">
+                    <div class="todays-article-text">Статии за деня</div>
+                    <div class="todays-article-wrapper">
+    
+                        <div id="todaysDogArticle">
+                            <a href="">
+                                <div class="todays-article-outside-box">
+                                    <div class="fs48 fw900">КУЧЕ:</div>
+                                    <div class="todays-article-name-dog"></div>
+                                </div>
+                            </a>
+                        </div>
+    
+    
+                        <div id="todaysCatArticle">
+                            <a href="">
+                                <div class="todays-article-outside-box">
+                                    <div class="fs48 fw900">КОТЕ:</div>
+                                    <div class="todays-article-name-cat"></div>
+                                </div>
+                            </a>
+                        </div>
+    
+                        
+                    </div>
+                </div>
             </div>
+
 
 
             <div id="share-with-others">
@@ -1017,6 +1049,7 @@
     <script src="./what-for-you/breeds/scripts/breed.collection.js"></script>
     <script src="./what-for-you/breeds/scripts/breed.cat.collection.js"></script>
     <script src="./todays-breed.js"></script>
+    <script src="./todays-article.js"></script>
     <script src="animations.js"></script>
     <script src="rabies-validation-date.js"></script>
     <script src="script.js"></script>
