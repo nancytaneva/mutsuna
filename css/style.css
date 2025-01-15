@@ -760,6 +760,11 @@ h2 {
     transition: color .2s;
 }
 
+.footer-terms-of-use a {
+    text-decoration-line: none;
+    color: inherit;
+}
+
 .footer-box:hover .footer-icon-text {
     color: #f78104;
     cursor: pointer;
@@ -812,6 +817,7 @@ h2 {
 .bold                   {font-weight: bold;}
 .underline              {text-decoration: underline;}
 .tshadow                {text-shadow: 0px 0px 10px #000000;}
+.fw700                  {font-weight: 800;}
 .fw800                  {font-weight: 800;}
 .fw900                  {font-weight: 900;}
 .link-underline:hover   {text-decoration:underline;}
@@ -822,6 +828,7 @@ h2 {
 .fs24       {font-size: 24px;}
 .fs27       {font-size: 27px;}
 .fs36       {font-size: 36px;}
+.fs48       {font-size: 48px;}
 
 .lw24       {line-height: 24px;}
 
@@ -1617,4 +1624,12 @@ h2 {
         display: none!important;
     }
     
+  }
+
+
+  .terms {
+    background: var(--background-color-content-mobile);
+    padding: 36px;
+    margin: 82px 18px;
+    text-align: justify;
   }
