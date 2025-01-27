@@ -1,0 +1,35 @@
+
+
+audio::-webkit-media-controls-panel {
+    background-color: var(--background-color-h1);
+  }
+  
+  audio::-webkit-media-controls-current-time-display {
+    color: var(--text-color-h1);
+  }
+
+  audio::-webkit-media-controls-play-button {
+    background-color: #B1D4E0;
+    border-radius: 50%;
+  }
+  
+  audio::-webkit-media-controls-play-button:hover {
+    background-color: rgba(177,212,224, .7);
+  }
+
+  .audio {
+    display: flex;
+    align-items: center;
+  }
+
+  .audio audio, .audio p {
+    margin: 10px;
+  }
+  
+  .audio p {
+    width: 100%;
+  }
+
+  /* audio {
+    width: 100%;
+  } */
