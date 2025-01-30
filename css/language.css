@@ -33,3 +33,21 @@ audio::-webkit-media-controls-panel {
   /* audio {
     width: 100%;
   } */
+
+  /* ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  li {
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+  
+  li:before {
+    content: "🐾🐈";
+    padding-right: 5px;
+  } */
+
+  ul  {  list-style-type: "🐾‍";}
