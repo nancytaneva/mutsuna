@@ -417,6 +417,7 @@
 #search-tool {
     padding: 0px 20px 0px 20px;
     margin-left: auto;
+    opacity: 0;
 }
 
 .button-search {
@@ -652,6 +653,10 @@ h2 {
     text-align: -webkit-center;
 }
 
+
+.imgs-holder {
+    display: flex;
+}
 
 .img-holder {
     width: fit-content;
@@ -1491,6 +1496,12 @@ h2 {
     #article-content--cats, #article-content--dogs {
         padding: 0px;
     }
+
+    
+    .imgs-holder {
+        display: block;
+     }
+
 
     .img-holder img {
         width: 100%;
