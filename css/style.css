@@ -1074,7 +1074,10 @@ h2 {
 
 
 
-
+  .warning {
+    padding: 12px!important;
+    background-color: #e05a0545;
+  }
 
 
 
