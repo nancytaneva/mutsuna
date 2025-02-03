@@ -682,7 +682,8 @@ h2 {
 .other-article {
     display: flex;
     justify-content: space-around;
-    margin: 12px
+    margin: 12px;
+    margin-top: 36px;
 }
 
 .other-article-prev, .other-article-next {
@@ -1531,6 +1532,7 @@ h2 {
     .other-article-prev, .other-article-next {
         min-height: 100px;
         font-size: 16px;
+        margin: 5px;
     }
 
 
